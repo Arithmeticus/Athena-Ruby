@@ -1,0 +1,219 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Athena Ruby Test</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        
+        <style type="text/css">
+
+body {
+  margin: 50px;
+  font-size: 24px;
+}
+
+@font-face {
+  font-family: Athena Ruby;
+  src: url(fonts/AthenaRuby_b017.ttf);
+}
+
+div {
+  font-family: Athena Ruby;
+}
+
+div + div {
+  margin-top: 1em;
+}
+
+p { margin: 0; padding: 0; line-height: 1.1em; }
+
+.cv01 { 
+  -moz-font-feature-settings: "cv01=1";
+  -moz-font-feature-settings: "cv01" 1;
+  -webkit-font-feature-settings: "cv01" 1;
+  -ms-font-feature-settings: "cv01" 1;
+  -o-font-feature-settings: "cv01" 1;
+  font-feature-settings: "cv01" 1;
+}
+
+.cv01a { 
+  -moz-font-feature-settings: "cv01=2";
+  -moz-font-feature-settings: "cv01" 2;
+  -webkit-font-feature-settings: "cv01" 2;
+  -ms-font-feature-settings: "cv01" 2;
+  -o-font-feature-settings: "cv01" 2;
+  font-feature-settings: "cv01" 2;
+}
+
+.cv01b { 
+  -moz-font-feature-settings: "cv01=3";
+  -moz-font-feature-settings: "cv01" 3;
+  -webkit-font-feature-settings: "cv01" 3;
+  -ms-font-feature-settings: "cv01" 3;
+  -o-font-feature-settings: "cv01" 3;
+  font-feature-settings: "cv01" 3;
+}
+
+.cv01c { 
+  -moz-font-feature-settings: "cv01=4";
+  -moz-font-feature-settings: "cv01" 4;
+  -webkit-font-feature-settings: "cv01" 4;
+  -ms-font-feature-settings: "cv01" 4;
+  -o-font-feature-settings: "cv01" 4;
+  font-feature-settings: "cv01" 4;
+}
+
+.cv01d { 
+  -moz-font-feature-settings: "cv01=5";
+  -moz-font-feature-settings: "cv01" 5;
+  -webkit-font-feature-settings: "cv01" 5;
+  -ms-font-feature-settings: "cv01" 5;
+  -o-font-feature-settings: "cv01" 5;
+  font-feature-settings: "cv01" 5;
+}
+
+.cv02 { 
+  -moz-font-feature-settings: "cv02=1";
+  -moz-font-feature-settings: "cv02" 1;
+  -webkit-font-feature-settings: "cv02" 1;
+  -ms-font-feature-settings: "cv02" 1;
+  -o-font-feature-settings: "cv02" 1;
+  font-feature-settings: "cv02" 1;
+}
+
+.cv02a { 
+  -moz-font-feature-settings: "cv02=2";
+  -moz-font-feature-settings: "cv02" 2;
+  -webkit-font-feature-settings: "cv02" 2;
+  -ms-font-feature-settings: "cv02" 2;
+  -o-font-feature-settings: "cv02" 2;
+  font-feature-settings: "cv02" 2;
+}
+
+.cv02b { 
+  -moz-font-feature-settings: "cv02=3";
+  -moz-font-feature-settings: "cv02" 3;
+  -webkit-font-feature-settings: "cv02" 3;
+  -ms-font-feature-settings: "cv02" 3;
+  -o-font-feature-settings: "cv02" 3;
+  font-feature-settings: "cv02" 3;
+}
+
+.cv02c { 
+  -moz-font-feature-settings: "cv02=4";
+  -moz-font-feature-settings: "cv02" 4;
+  -webkit-font-feature-settings: "cv02" 4;
+  -ms-font-feature-settings: "cv02" 4;
+  -o-font-feature-settings: "cv02" 4;
+  font-feature-settings: "cv02" 4;
+}
+
+.cv02d { 
+  -moz-font-feature-settings: "cv02=5";
+  -moz-font-feature-settings: "cv02" 5;
+  -webkit-font-feature-settings: "cv02" 5;
+  -ms-font-feature-settings: "cv02" 5;
+  -o-font-feature-settings: "cv02" 5;
+  font-feature-settings: "cv02" 5;
+}
+
+.cv27 { 
+  -moz-font-feature-settings: "cv27=1";
+  -moz-font-feature-settings: "cv27" 1;
+  -webkit-font-feature-settings: "cv27" 1;
+  -ms-font-feature-settings: "cv27" 1;
+  -o-font-feature-settings: "cv27" 1;
+  font-feature-settings: "cv27" 1;
+}
+
+.cv27a { 
+  -moz-font-feature-settings: "cv27=2";
+  -moz-font-feature-settings: "cv27" 2;
+  -webkit-font-feature-settings: "cv27" 2;
+  -ms-font-feature-settings: "cv27" 2;
+  -o-font-feature-settings: "cv27" 2;
+  font-feature-settings: "cv27" 2;
+}
+
+.cv27b { 
+  -moz-font-feature-settings: "cv27=3";
+  -moz-font-feature-settings: "cv27" 3;
+  -webkit-font-feature-settings: "cv27" 3;
+  -ms-font-feature-settings: "cv27" 3;
+  -o-font-feature-settings: "cv27" 3;
+  font-feature-settings: "cv27" 3;
+}
+
+.cv27c { 
+  -moz-font-feature-settings: "cv27=4";
+  -moz-font-feature-settings: "cv27" 4;
+  -webkit-font-feature-settings: "cv27" 4;
+  -ms-font-feature-settings: "cv27" 4;
+  -o-font-feature-settings: "cv27" 4;
+  font-feature-settings: "cv27" 4;
+}
+
+.cv27d { 
+  -moz-font-feature-settings: "cv27=5";
+  -moz-font-feature-settings: "cv27" 5;
+  -webkit-font-feature-settings: "cv27" 5;
+  -ms-font-feature-settings: "cv27" 5;
+  -o-font-feature-settings: "cv27" 5;
+  font-feature-settings: "cv27" 5;
+}
+
+/*
+.cv01a { -moz-font-feature-settings: "cv01" 2; }
+.cv01b { -moz-font-feature-settings: "cv01" 3; }
+.cv01c { -moz-font-feature-settings: "cv01" 4; }
+.cv01d { -moz-font-feature-settings: "cv01" 5; }
+
+.cv02 { -moz-font-feature-settings: "cv02" 1; }
+.cv02a { -moz-font-feature-settings: "cv02" 2; }
+.cv02b { -moz-font-feature-settings: "cv02" 3; }
+.cv02c { -moz-font-feature-settings: "cv02" 4; }
+.cv02d { -moz-font-feature-settings: "cv02" 5; }
+
+.cv27 { -moz-font-feature-settings: "cv27" 1; }
+.cv27a { -moz-font-feature-settings: "cv27" 2; }
+.cv27b { -moz-font-feature-settings: "cv27" 3; }
+.cv27c { -moz-font-feature-settings: "cv27" 4; }
+.cv27d { -moz-font-feature-settings: "cv27" 5; }
+*/
+.red { color: red; }
+.blue { color: blue; }
+.orange { color: orange; }
+
+</style>
+        
+    </head>
+    <body>
+        
+        <div>
+            <p class="default">ABCDEFGHIJKLMNOPQRSTUVWXYZ ΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩ</p>
+            <p class="cv01">ABCDEFGHIJKLMNOPQRSTUVWXYZ <span class="red">Α</span>ΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩ</p>
+            <p class="cv01a">ABCDEFGHIJKLMNOPQRSTUVWXYZ <span class="red">Α</span>ΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩ</p>
+            <p class="cv01b">ABCDEFGHIJKLMNOPQRSTUVWXYZ <span class="red">Α</span>ΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩ</p>
+            <p class="cv01c">ABCDEFGHIJKLMNOPQRSTUVWXYZ <span class="red">Α</span>ΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩ</p>
+            <p class="cv01d">ABCDEFGHIJKLMNOPQRSTUVWXYZ <span class="red">Α</span>ΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩ</p>
+        </div>
+        <div>
+            <p class="default">ABCDEFGHIJKLMNOPQRSTUVWXYZ ΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩ</p>
+            <p class="cv02">ABCDEFGHIJKLMNOPQRSTUVWXYZ Α<span class="red">Β</span>ΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩ</p>
+            <p class="cv02a">ABCDEFGHIJKLMNOPQRSTUVWXYZ Α<span class="red">Β</span>ΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩ</p>
+            <p class="cv02b">ABCDEFGHIJKLMNOPQRSTUVWXYZ Α<span class="red">Β</span>ΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩ</p>
+            <p class="cv02c">ABCDEFGHIJKLMNOPQRSTUVWXYZ Α<span class="red">Β</span>ΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩ</p>
+            <p class="cv02d">ABCDEFGHIJKLMNOPQRSTUVWXYZ Α<span class="red">Β</span>ΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩ</p>
+        </div>
+        
+        <div>
+            <p class="default">ABCDEFGHIJKLMNOPQRSTUVWXYZ ΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩ</p>
+            <p class="cv27"><span class="red">A</span>BCDEFGHIJKLMNOPQRSTUVWXYZ ΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩ</p>
+            <p class="cv27a"><span class="red">A</span>BCDEFGHIJKLMNOPQRSTUVWXYZ ΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩ</p>
+            <p class="cv27b"><span class="red">A</span>BCDEFGHIJKLMNOPQRSTUVWXYZ ΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩ</p>
+            <p class="cv27c"><span class="red">A</span>BCDEFGHIJKLMNOPQRSTUVWXYZ ΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩ</p>
+            <p class="cv27d"><span class="red">A</span>BCDEFGHIJKLMNOPQRSTUVWXYZ ΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩ</p>
+        </div>
+        
+        
+    </body>
+</html>

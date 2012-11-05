@@ -1,0 +1,189 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Byzantine Coin Sample</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <script type="text/javascript" src="http://use.typekit.com/qgl0tdo.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    
+    <style type="text/css">
+
+body {
+  margin: 100px;
+  font-family: "minion-pro-1", "minion-pro-2", serif;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Athena Ruby;
+  src: url(fonts/athenaruby_b017-webfont.woff) format("woff");
+}
+
+p { 
+  margin: 1em 0;
+  padding: 0;
+}
+
+#coin-31-2-img { 
+  float: right;
+  padding-left: 15px;
+}
+
+.coin {
+  width: 800px;
+  margin: auto;
+}
+
+.coin h4 {
+  font-family: "myriad-pro-1", "myriad-pro-2";
+  font-weight: bold;
+  padding-top: 5em;
+  /* font-variant-numeric: oldstyle-nums; */
+  -moz-font-feature-settings: "onum=1";
+  -moz-font-feature-settings: "onum" 1;
+  -webkit-font-feature-settings: "onum" 1;
+  -ms-font-feature-settings: "onum" 1;
+  -o-font-feature-settings: "onum" 1;
+  font-feature-settings: "onum" 1;
+}
+
+.coin h4 span.romannum {
+  /* font-variant-caps: all-small-caps; */
+  -moz-font-feature-settings: "c2sc=1,smcp=1";
+  -moz-font-feature-settings: "c2sc" 1, "smcp" 1;
+  -webkit-font-feature-settings: "c2sc" 1, "smcp" 1;
+  -ms-font-feature-settings: "c2sc" 1, "smcp" 1;
+  -o-font-feature-settings: "c2sc" 1, "smcp" 1;
+  font-feature-settings: "c2sc" 1, "smcp" 1;
+}
+
+.cointext {
+  font-family: Athena Ruby, "minion-pro-1", "minion-pro-2", serif;
+}
+
+
+.faces p {
+  margin-top: 1em;
+  margin-left: 3em;
+}
+
+.faces p + p {
+
+}
+
+.faces .facename {
+  display: inline-block;
+  text-indent: -3em;
+  font-style: italic;
+}
+
+.faces .cointext {
+  display: block;
+}
+
+.desc {
+  /* font-variant-numeric: oldstyle-nums; */
+  -moz-font-feature-settings: "onum=1";
+  -moz-font-feature-settings: "onum" 1;
+  -webkit-font-feature-settings: "onum" 1;
+  -ms-font-feature-settings: "onum" 1;
+  -o-font-feature-settings: "onum" 1;
+  font-feature-settings: "onum" 1;
+}
+
+.desc span.dim {
+  /* font-variant-caps: all-small-caps; */
+  -moz-font-feature-settings: "c2sc=1,smcp=1";
+  -moz-font-feature-settings: "c2sc" 1, "smcp" 1;
+  -webkit-font-feature-settings: "c2sc" 1, "smcp" 1;
+  -ms-font-feature-settings: "c2sc" 1, "smcp" 1;
+  -o-font-feature-settings: "c2sc" 1, "smcp" 1;
+  font-feature-settings: "c2sc" 1, "smcp" 1;
+}
+
+/* Use proposed syntax from http://lists.w3.org/Archives/Public/www-style/2010Nov/0200.html */
+
+@font-feature-values Athena Ruby {
+  character-variant {
+    leo-B 28 1;
+    leo-M 38 3;
+    leo-alt-N 39 1;
+    leo-N 39 2;
+    leo-T 44 1;
+    leo-U 45 2;
+    leo-alt-U 45 4;
+  }
+}
+
+#coin-31-2 .cointext {
+  /* font-variant-ligatures: additional-ligatures; */
+  /* font-variant-alternates: character-variant(leo-B, leo-M, leo-N, leo-T, leo-U); */
+  -moz-font-feature-settings: "calt=1, dlig=0,cv28=1,cv38=3,cv39=2,cv44=1,cv45=2";
+  -moz-font-feature-settings: "calt" 1, "dlig" 0, "cv28" 1, "cv38" 3, "cv39" 2, "cv44" 1, "cv45" 2;
+  -webkit-font-feature-settings: "dlig" 0, "cv28" 1, "cv38" 3, "cv39" 2, "cv44" 1, "cv45" 2;
+  -ms-font-feature-settings: "calt" 1, "dlig" 0, "cv28" 1, "cv38" 3, "cv39" 2, "cv44" 1, "cv45" 2;
+  -o-font-feature-settings: "calt" 1, "dlig" 0, "cv28" 1, "cv38" 3, "cv39" 2, "cv44" 1, "cv45" 2;
+  font-feature-settings: "calt" 1, "dlig" 0, "cv28" 1, "cv38" 3, "cv39" 2, "cv44" 1, "cv45" 2;
+}
+
+span.alt-N { 
+  /* font-variant-alternates: character-variant(leo-alt-N); */
+  -moz-font-feature-settings: "cv39=1";
+  -moz-font-feature-settings: "cv39" 1;
+  -webkit-font-feature-settings: "cv39" 1;
+  -ms-font-feature-settings: "cv39" 1;
+  -o-font-feature-settings: "cv39" 1;
+  font-feature-settings: "cv39" 1;
+}
+
+span.alt-U {
+  /* font-variant-alternates: character-variant(leo-alt-U); */
+  -moz-font-feature-settings: "cv45=4";
+  -moz-font-feature-settings: "cv45" 4;
+  -webkit-font-feature-settings: "cv45" 4;
+  -ms-font-feature-settings: "cv45" 4;
+  -o-font-feature-settings: "cv45" 4;
+  font-feature-settings: "cv45" 4;
+}
+
+</style>
+    
+    <script type="text/javascript">
+
+</script>
+    
+  </head>
+  <body>
+    
+    <div class="coin" id="coin-31-2">
+      <img id="coin-31-2-img" src="coin-31-2.png" />
+      <h4>31.2   Leo <span class="romannum">III</span> and Constantine <span class="romannum">V</span> (720–41)</h4>
+      
+      <p class="desc"><span class="dim">DO</span> 55.1.4278.— <span class="dim">D.</span> 33 mm; field 27 mm. <span class="dim">W.</span> 27.88 g. One-quarter missing.</p> 
+      
+      <div class="faces">
+        <p><span class="facename">Obv.</span>Cross potent on four steps. Circular inscription. Wreath border. 
+          <span class="cointext">ENO....UP̅R̅STU<span class="alt-U">U̅U̅</span>ΚΑΙTỤẠG̣IUPNS</span>
+          En o[nom(ati) t]u p(at)r(os) (καὶ) tu y(io)u (καὶ) tu agiu pn(eumato)s. 
+        </p>
+        
+        <p><span class="facename">Rev.</span>Inscription of six lines. Wreath border. 
+          <span class="cointext">LEON|ΚΑΙCONSTA|NTI<span class="alt-N">N</span>OS..|STOIBAṢ.|LIṢROM|AIO<span class="alt-N">N</span></span> 
+          Leon (καὶ) Constantinos [pi]stoi bas[i]lis Romaion.
+        </p>
+      </div>
+      
+      <p class="explanation">As on the seal above, the upper section of the
+        vertical shaft of the cross on the obverse is appreciably shorter than
+        the lower one; the letters of the inscription on the reverse appear
+        compressed. On the obverse <span class="cointext">PATROS</span> is
+        abbreviated <span class="cointext">PR</span> and <span
+          class="cointext">PNEUMATOS</span> is abbreviated <span
+            class="cointext">PNS</span>.
+      </p>
+      
+    </div>
+    
+  </body>
+</html>

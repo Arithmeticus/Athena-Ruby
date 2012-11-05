@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Conversion tool for Dumbarton Oaks legacy fonts</title>
+        <link rel="stylesheet" type="text/css" href="ss/default.css" />
+        <link rel="shortcut icon" href="favicon.ico" />
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/converter.js"></script>
+        <!-- Google analytics -->
+        <script type="text/javascript">
+            
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-26428902-1']);
+            _gaq.push(['_trackPageview']);
+            
+            (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+            
+        </script>
+    </head>
+    <body>
+        <h1>Conversion tool for Dumbarton Oaks legacy fonts</h1>
+        <p> Beware ambiguous Latin and Greek letters. If you've typed an N in Athena it will convert
+            to a Greek nu, but you may have intended a Latin N. Converter beware. </p>
+        <p contenteditable="true" class="athena" id="oldtext">SORu Ob TuRe O&#x00D2;&#x005C; ATHeNA
+            Hebe...</p>
+        <!-- Clicking on the paragraph below invokes converter.js -->
+        <p class="athenarubyweb" id="convertedtext" onclick="stroke()">...then click here.</p>
+        <hr />
+        <p id="feedback0">Testing feedback below this point</p>
+        <p id="feedback1"></p>
+        <p id="feedback2"></p>
+        <p id="feedback3"></p>
+        <p id="feedback4"></p>
+        <p id="feedback5"></p>
+        <p id="feedback6"></p>
+        <p id="feedback7"></p>
+        <p id="feedback8"></p>
+        <p id="feedback9"></p>
+    </body>
+</html>
