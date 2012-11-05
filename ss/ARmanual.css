@@ -1,0 +1,92 @@
+/* Style sheet for Athena Ruby manual */
+
+/* Text formats */
+p, h1, h2, h3, ol, ul, li{
+    font-size:large;
+}
+.mac {
+    font-style : italic;
+    margin-left : 30px;
+    color : #2F4F4F;
+}
+.pc {
+    font-style : italic;
+    margin-left : 30px;
+    color : #556B2F;
+}
+.mac:before {
+    content : "Mac   ";
+    font-weight : bold;
+}
+.pc:before {
+    content : "PC   ";
+    font-weight : bold;
+}
+.instr {
+    font-family : monospace;
+}
+.question {
+    font-style : italic;
+    font-weight : bold;
+}
+.question:before {
+    content : "Q. ";
+}
+.answer:before {
+    content : "A. ";
+}
+.answer {
+    margin : 0px 15px;
+}
+blockquote, .term, .title {
+    font-style : italic;
+}
+.alert > strong {
+    color : red;
+}
+.notice {
+    line-height : 50%;
+    font-size : small;
+    padding : 10px 20px;
+    background-color : #F5F5DC;
+}
+.pending {
+    color : orange;
+}
+h3 {
+    text-indent : 2em;
+}
+
+/* float the license */
+a[rel = "license"] > img {
+    float : right;
+    padding : 15px;
+}
+
+/* table CSS */
+table {
+    border-collapse : collapse;
+    border : 1px solid #eee;
+    margin : 2em 0;
+}
+table * {
+    vertical-align : text-top;
+    padding : .5em;
+}
+thead {
+    text-align : center;
+    font-weight : bold;
+    background-color : #ddd;
+}
+td:first-child {
+    font-style : italic;
+}
+td {
+    padding : 5px;
+}
+tr:nth-child(even) {
+    background : #DCDCDC;
+}
+tr:last-child td {
+    border-bottom : 1px solid black;
+}
