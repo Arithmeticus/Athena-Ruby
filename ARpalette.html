@@ -21,18 +21,18 @@
                 font-size:10px;
             }
             *[class ^= "ar"]{
-                font-size:16px;
+                font-size:20px;
                 color:black;
             }
             p[id $= "letters"] .ar-u{
-                font-size:24px;
+                font-size:20px;
                 color:blue;
             }
             #tempinsert{color:red}
         </style>
         <script type="text/javascript" src="js/jquery.js"></script>
         <!-- Google analytics -->
-        <script type="text/javascript">
+        <!--<script type="text/javascript">
             
             var _gaq = _gaq || [];
             _gaq.push(['_setAccount', 'UA-26428902-1']);
@@ -44,7 +44,7 @@
             var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
             })();
             
-        </script>
+        </script>-->
     </head>
     <body>
         <script type="text/javascript">
@@ -53,7 +53,7 @@ $(document).ready(function() {
         var x = $(this).text().replace(/\s/g,"");
         $("#resultpua").append(x);
         $("#feedback1").append(x.charCodeAt(0).toString(16));
-        $(this).css({"font-size":"24px","color":"blue"});
+        $(this).css({"font-size":"20px","color":"blue"});
     });
     $("span[class^='ar']").hover(function() {
         var x = $(this).text().replace(/\s/g,"");
@@ -72,15 +72,15 @@ $(document).ready(function() {
         <h1>Athena Ruby Palette</h1>
         <p><em>Written February 2013 by Joel Kalvesmaki for Dumbarton Oaks, Trustees of Harvard
                 University.</em></p>
-        <p id="result" class="athenarubyweb" contenteditable="true"><span id="resultpua"></span></p>
+        <div><span id="result-placeholder">&#x2009;</span><span id="result" class="athenarubyweb" contenteditable="true"><span id="resultpua"></span></span></div>
         <p><em>Uses Private Use Area, not Unicode, for variant characters. Suitable for pasting in word processors, but you
         must have Athena Ruby already installed, and you may need to reformat the pasted text.</em></p>
-        <!--<div class="punc-mod" style="float:right"><span id="space">&#x00A0;</span>
+        <div class="punc-mod" style="float:right"><span id="space">&#x00A0;</span>
             <span id="backspace">&#x2408;</span>
             <span id="clear">&#x2717;</span>
             <span class="ar-u">zwnj&#x200C;</span>
             <span class="ar-u">zwj&#x200D;</span>
-        </div>-->
+        </div>
         <p id="grc-punctuation" class="athenarubyweb">
             <span class="ar-u">&#x00A0;&#x002C;</span>
             <span class="ar-u">&#x00A0;&#x2E09;</span>
@@ -470,7 +470,8 @@ $(document).ready(function() {
             <span class="ar-p">&#x2002;&#xE516;</span>
             <span class="ar-p">&#x2002;&#xE517;</span>
             <span class="ar-p">&#x2002;&#xE518;</span>
-            <span class="ar-p">&#x2002;&#xE519;</span></p>
+            <span class="ar-p">&#x2002;&#xE519;</span>
+        </p>
         <p id="grc-extended" class="athenarubyweb"><span class="ar-u">&#x1F08;</span>
             <span class="ar-u">&#x1F0C;</span>
             <span class="ar-u">&#x1F0A;</span>
