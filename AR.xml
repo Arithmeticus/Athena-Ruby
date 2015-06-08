@@ -63,11 +63,11 @@
         <postname>Alpha.1</postname>
         <legacyfonts><athena cp="0061">&#x0061;</athena></legacyfonts>
         <description>Broken crossbar.</description>
-        <example ex-type="seal"><pub>DBLS</pub><ref>27</ref><date notBefore="701" notAfter="800">8th
+        <example ex-type="seal"><pub>DBLS</pub><ref>27</ref><date notBefore="0701" notAfter="0800">8th
                 c.</date></example>
-        <example ex-type="seal"><pub>BLS</pub><ref>48</ref><date notBefore="701" notAfter="900"
+        <example ex-type="seal"><pub>BLS</pub><ref>48</ref><date notBefore="0701" notAfter="0900"
                 >8-9th c.</date></example>
-        <example ex-type="seal"><pub>BLS</pub><ref>57</ref><date notBefore="501" notAfter="600">6th
+        <example ex-type="seal"><pub>BLS</pub><ref>57</ref><date notBefore="0501" notAfter="0600">6th
                 c.</date></example>
     </glyph>
     <glyph use-seals="basic" use-coins="unclassified">
@@ -81,13 +81,13 @@
         <legacyfonts><coingreek cp="0041">&#x0041;</coingreek><coininscr cp="0041"
                 >&#x0041;</coininscr></legacyfonts>
         <description>Crossbar climbs from end of left leg to middle of right. </description>
-        <example ex-type="seal"><pub>DBLS</pub><ref>15</ref><date notBefore="601" notAfter="700">7th
+        <example ex-type="seal"><pub>DBLS</pub><ref>15</ref><date notBefore="0601" notAfter="0700">7th
                 c.</date></example>
-        <example ex-type="seal"><pub>DBLS</pub><ref>29</ref><date notBefore="701" notAfter="800">8th
+        <example ex-type="seal"><pub>DBLS</pub><ref>29</ref><date notBefore="0701" notAfter="0800">8th
                 c.</date></example>
-        <example ex-type="seal"><pub>DBLS</pub><ref>44</ref><date notBefore="801" notAfter="900">9th
+        <example ex-type="seal"><pub>DBLS</pub><ref>44</ref><date notBefore="0801" notAfter="0900">9th
                 c.</date></example>
-        <example ex-type="seal"><pub>DBLS</pub><ref>63</ref><date notBefore="901" notAfter="1000"
+        <example ex-type="seal"><pub>DBLS</pub><ref>63</ref><date notBefore="0901" notAfter="1000"
                 >10th c.</date></example>
         <example ex-type="seal"><pub>DBLS</pub><ref>84</ref><date notBefore="1001" notAfter="1100"
                 >11th c.</date></example>
@@ -107,7 +107,7 @@
         <legacyfonts><coininscr cp="002F">&#x002F;</coininscr><grierson cp="00C5"
                 >&#x00C5;</grierson></legacyfonts>
         <description>Mirror image of, and not as common as <postname>Alpha.2</postname>. </description>
-        <example ex-type="seal"><pub>DBLS</pub><ref>24</ref><date notBefore="601" notAfter="700">7th
+        <example ex-type="seal"><pub>DBLS</pub><ref>24</ref><date notBefore="0601" notAfter="0700">7th
                 c.</date></example>
     </glyph>
     <glyph use-seals="unclassified" use-coins="unclassified">
@@ -208,7 +208,7 @@
         <description>As <postname>Alpha.9</postname>, with capping horizontal bar centered and with
             crossbar extending beyond legs. </description>
         <example ex-type="coin"><pub>ABC</pub>
-            <ref>p. 64</ref><date notBefore="650" notAfter="700">late 7th c.</date></example>
+            <ref>p. 64</ref><date notBefore="0650" notAfter="0700">late 7th c.</date></example>
     </glyph>
     <glyph use-seals="unclassified" use-coins="unclassified">
         <index>15</index>
@@ -441,11 +441,11 @@
         <legacyfonts><athena cp="0042">&#x0042;</athena><coininscr cp="0042"
             >&#x0042;</coininscr></legacyfonts>
         <description>Familiar.</description>
-        <example ex-type="seal"><pub>DBLS</pub><ref>22</ref><date notBefore="601" notAfter="700">7th
+        <example ex-type="seal"><pub>DBLS</pub><ref>22</ref><date notBefore="0601" notAfter="0700">7th
                 c.</date></example>
-        <example ex-type="seal"><pub>DBLS</pub><ref>31</ref><date notBefore="701" notAfter="800">8th
+        <example ex-type="seal"><pub>DBLS</pub><ref>31</ref><date notBefore="0701" notAfter="0800">8th
                 c.</date></example>
-        <example ex-type="seal"><pub>DBLS</pub><ref>48</ref><date notBefore="801" notAfter="900">9th
+        <example ex-type="seal"><pub>DBLS</pub><ref>48</ref><date notBefore="0801" notAfter="0900">9th
                 c.</date></example>
         <example ex-type="seal"><pub>DBLS</pub><ref>138</ref><date notBefore="1201" notAfter="1300"
                 >13th c.</date></example>
@@ -464,7 +464,7 @@
         <postname>Beta.1</postname>
         <legacyfonts><athena cp="0062">&#x0062;</athena></legacyfonts>
         <description>Two-legged. </description>
-        <example ex-type="seal"><pub>DBLS</pub><ref>53</ref><date notBefore="801" notAfter="900">9th
+        <example ex-type="seal"><pub>DBLS</pub><ref>53</ref><date notBefore="0801" notAfter="0900">9th
                 c.</date></example>
         <example ex-type="seal"><pub>DBLS</pub><ref>102</ref><date notBefore="1001" notAfter="1100"
                 >11th c.</date></example>
@@ -603,13 +603,13 @@
         <postname>Gamma</postname>
         <legacyfonts><athena cp="0047">&#x0047;</athena></legacyfonts>
         <description>Familiar. </description>
-        <example ex-type="seal"><pub>DBLS</pub><ref>6</ref><date notBefore="501" notAfter="600">6th
+        <example ex-type="seal"><pub>DBLS</pub><ref>6</ref><date notBefore="0501" notAfter="0600">6th
                 c.</date></example>
-        <example ex-type="seal"><pub>DBLS</pub><ref>21</ref><date notBefore="601" notAfter="700">7th
+        <example ex-type="seal"><pub>DBLS</pub><ref>21</ref><date notBefore="0601" notAfter="0700">7th
                 c.</date></example>
-        <example ex-type="seal"><pub>DBLS</pub><ref>27</ref><date notBefore="701" notAfter="800">8th
+        <example ex-type="seal"><pub>DBLS</pub><ref>27</ref><date notBefore="0701" notAfter="0800">8th
                 c.</date></example>
-        <example ex-type="seal"><pub>DBLS</pub><ref>47</ref><date notBefore="801" notAfter="900">9th
+        <example ex-type="seal"><pub>DBLS</pub><ref>47</ref><date notBefore="0801" notAfter="0900">9th
                 c.</date></example>
         <example ex-type="seal"><pub>DBLS</pub><ref>86</ref><date notBefore="1001" notAfter="1100"
                 >11th c.</date></example>
@@ -668,9 +668,9 @@
         <legacyfonts><athena cp="0044">&#x0044;</athena><coininscr cp="0064"
             >&#x0064;</coininscr></legacyfonts>
         <description>Familiar. </description>
-        <example ex-type="seal"><pub>DBLS</pub><ref>6</ref><date notBefore="501" notAfter="600">6th
+        <example ex-type="seal"><pub>DBLS</pub><ref>6</ref><date notBefore="0501" notAfter="0600">6th
                 c.</date></example>
-        <example ex-type="seal"><pub>DBLS</pub><ref>23</ref><date notBefore="601" notAfter="700">7th
+        <example ex-type="seal"><pub>DBLS</pub><ref>23</ref><date notBefore="0601" notAfter="0700">7th
                 c.</date></example>
         <example ex-type="seal"><pub>DBLS</pub><ref>91</ref><date notBefore="1001" notAfter="1100"
                 >11th c.</date></example>
@@ -678,7 +678,7 @@
                 >13th c.</date></example>
         <example ex-type="seal"><pub>DBLS</pub><ref>148</ref><date notBefore="1301" notAfter="1400"
                 >14th c.</date></example>
-        <example ex-type="seal"><pub>CBS</pub><ref>1:39.1</ref><date notBefore="801" notAfter="900"
+        <example ex-type="seal"><pub>CBS</pub><ref>1:39.1</ref><date notBefore="0801" notAfter="0900"
                 >9th c.</date></example>
     </glyph>
     <glyph use-seals="basic" use-coins="unclassified">
@@ -691,9 +691,9 @@
         <postname>Delta.1</postname>
         <legacyfonts><athena cp="0064">&#x0064;</athena></legacyfonts>
         <description>Extended base. </description>
-        <example ex-type="seal"><pub>DBLS</pub><ref>32</ref><date notBefore="701" notAfter="800">8th
+        <example ex-type="seal"><pub>DBLS</pub><ref>32</ref><date notBefore="0701" notAfter="0800">8th
                 c.</date></example>
-        <example ex-type="seal"><pub>DBLS</pub><ref>44</ref><date notBefore="801" notAfter="900">9th
+        <example ex-type="seal"><pub>DBLS</pub><ref>44</ref><date notBefore="0801" notAfter="0900">9th
                 c.</date></example>
         <example ex-type="seal"><pub>DBLS</pub><ref>110</ref><date notBefore="1101" notAfter="1200"
                 >12th c.</date></example>
@@ -793,7 +793,7 @@
         <example ex-type="coin"
                 ><pub>DOC</pub><ref>3.1:187 plus variants at 3.1:375 and pl. xviii nos.
                 1-3 rev.</ref><date
-                notBefore="701" notAfter="900">8-9th c.</date></example>
+                notBefore="0701" notAfter="0900">8-9th c.</date></example>
     </glyph>
     <glyph use-seals="unclassified" use-coins="basic">
         <index>56</index>
@@ -862,15 +862,15 @@
         <postname>Epsilon</postname>
         <legacyfonts><athena cp="0045">&#x0045;</athena></legacyfonts>
         <description>Round, midbar medium length. </description>
-        <example ex-type="seal"><pub>DBLS</pub><ref>6</ref><date notBefore="501" notAfter="600">6th
+        <example ex-type="seal"><pub>DBLS</pub><ref>6</ref><date notBefore="0501" notAfter="0600">6th
                 c.</date></example>
-        <example ex-type="seal"><pub>DBLS</pub><ref>10</ref><date notBefore="601" notAfter="700">7th
+        <example ex-type="seal"><pub>DBLS</pub><ref>10</ref><date notBefore="0601" notAfter="0700">7th
                 c.</date></example>
-        <example ex-type="seal"><pub>DBLS</pub><ref>29</ref><date notBefore="701" notAfter="800">8th
+        <example ex-type="seal"><pub>DBLS</pub><ref>29</ref><date notBefore="0701" notAfter="0800">8th
                 c.</date></example>
-        <example ex-type="seal"><pub>DBLS</pub><ref>44</ref><date notBefore="801" notAfter="900">9th
+        <example ex-type="seal"><pub>DBLS</pub><ref>44</ref><date notBefore="0801" notAfter="0900">9th
                 c.</date></example>
-        <example ex-type="seal"><pub>DBLS</pub><ref>63</ref><date notBefore="901" notAfter="1000"
+        <example ex-type="seal"><pub>DBLS</pub><ref>63</ref><date notBefore="0901" notAfter="1000"
                 >10th c.</date></example>
         <example ex-type="seal"><pub>DBLS</pub><ref>84</ref><date notBefore="1001" notAfter="1100"
                 >11th c.</date></example>
@@ -902,13 +902,13 @@
         <postname>Epsilon.2</postname>
         <legacyfonts><athena cp="00B4">&#x00B4;</athena></legacyfonts>
         <description>Round, midbar long. </description>
-        <example ex-type="seal"><pub>DBLS</pub><ref>26</ref><date notBefore="701" notAfter="800">8th
+        <example ex-type="seal"><pub>DBLS</pub><ref>26</ref><date notBefore="0701" notAfter="0800">8th
                 c.</date></example>
         <example ex-type="seal"><pub>DBLS</pub><ref>146</ref><date notBefore="1301" notAfter="1400"
                 >14th c.</date></example>
-        <example ex-type="seal"><pub>CBS</pub><ref>1:5.2</ref><date notBefore="601" notAfter="700"
+        <example ex-type="seal"><pub>CBS</pub><ref>1:5.2</ref><date notBefore="0601" notAfter="0700"
                 >7th c.</date></example>
-        <example ex-type="seal"><pub>CBS</pub><ref>2:52.4</ref><date notBefore="501" notAfter="900"
+        <example ex-type="seal"><pub>CBS</pub><ref>2:52.4</ref><date notBefore="0501" notAfter="0900"
                 >6-9th c.</date></example>
     </glyph>
     <glyph use-seals="basic" use-coins="unclassified">
@@ -948,7 +948,7 @@
         <legacyfonts>New.</legacyfonts>
         <description>Reversed form of <postname>Epsilon.3</postname>.</description>
         <example ex-type="silver"><pub>Boyd and Mango, Silver</pub><ref>no. S41</ref><date
-                notBefore="501" notAfter="600">6th c.</date></example>
+                notBefore="0501" notAfter="0600">6th c.</date></example>
     </glyph>
     <glyph use-seals="unclassified" use-coins="unclassified">
         <index>67</index>
@@ -962,7 +962,7 @@
         <description>As <postname>Epsilon</postname> but with middle stem in form of
             cross.</description>
         <example ex-type="silver"><pub>Boyd and Mango, Silver</pub><ref>no. S41</ref><date
-                notBefore="501" notAfter="600">6th c.</date></example>
+                notBefore="0501" notAfter="0600">6th c.</date></example>
     </glyph>
     <glyph use-seals="basic" use-coins="unclassified">
         <index>68</index>
@@ -973,11 +973,11 @@
         <postname>Zeta</postname>
         <legacyfonts><athena cp="005A">&#x005A;</athena></legacyfonts>
         <description>Familiar. </description>
-        <example ex-type="seal"><pub>DBLS</pub><ref>27</ref><date notBefore="701" notAfter="800">8th
+        <example ex-type="seal"><pub>DBLS</pub><ref>27</ref><date notBefore="0701" notAfter="0800">8th
                 c.</date></example>
-        <example ex-type="seal"><pub>DBLS</pub><ref>48</ref><date notBefore="801" notAfter="900">9th
+        <example ex-type="seal"><pub>DBLS</pub><ref>48</ref><date notBefore="0801" notAfter="0900">9th
                 c.</date></example>
-        <example ex-type="seal"><pub>DBLS</pub><ref>6</ref><date notBefore="901" notAfter="1000"
+        <example ex-type="seal"><pub>DBLS</pub><ref>6</ref><date notBefore="0901" notAfter="1000"
                 >10th c.</date></example>
         <example ex-type="seal"><pub>DBLS</pub><ref>79</ref><date notBefore="1001" notAfter="1100"
                 >11th c.</date></example>
@@ -1036,15 +1036,15 @@
         <legacyfonts><athena cp="0048">&#x0048;</athena><athena cp="0068"
                 >&#x0068;</athena><coininscr cp="02D9">&#x02D9;</coininscr></legacyfonts>
         <description>Familiar. </description>
-        <example ex-type="seal"><pub>DBLS</pub><ref>6</ref><date notBefore="501" notAfter="600">6th
+        <example ex-type="seal"><pub>DBLS</pub><ref>6</ref><date notBefore="0501" notAfter="0600">6th
                 c.</date></example>
-        <example ex-type="seal"><pub>DBLS</pub><ref>21</ref><date notBefore="601" notAfter="700">7th
+        <example ex-type="seal"><pub>DBLS</pub><ref>21</ref><date notBefore="0601" notAfter="0700">7th
                 c.</date></example>
-        <example ex-type="seal"><pub>DBLS</pub><ref>29</ref><date notBefore="701" notAfter="800">8th
+        <example ex-type="seal"><pub>DBLS</pub><ref>29</ref><date notBefore="0701" notAfter="0800">8th
                 c.</date></example>
-        <example ex-type="seal"><pub>DBLS</pub><ref>47</ref><date notBefore="801" notAfter="900">9th
+        <example ex-type="seal"><pub>DBLS</pub><ref>47</ref><date notBefore="0801" notAfter="0900">9th
                 c.</date></example>
-        <example ex-type="seal"><pub>DBLS</pub><ref>63</ref><date notBefore="901" notAfter="1000"
+        <example ex-type="seal"><pub>DBLS</pub><ref>63</ref><date notBefore="0901" notAfter="1000"
                 >10th c.</date></example>
         <example ex-type="seal"><pub>DBLS</pub><ref>79</ref><date notBefore="1001" notAfter="1100"
                 >11th c.</date></example>
@@ -1077,11 +1077,11 @@
         <legacyfonts><athena cp="0059">&#x0059;</athena><coingreek cp="0059"
                 >&#x0059;</coingreek><coininscr cp="004F">&#x004F;</coininscr></legacyfonts>
         <description>Familiar, but with bar touching sides.</description>
-        <example ex-type="seal"><pub>DBLS</pub><ref>21</ref><date notBefore="601" notAfter="700">7th
+        <example ex-type="seal"><pub>DBLS</pub><ref>21</ref><date notBefore="0601" notAfter="0700">7th
                 c.</date></example>
-        <example ex-type="seal"><pub>DBLS</pub><ref>29</ref><date notBefore="701" notAfter="800">8th
+        <example ex-type="seal"><pub>DBLS</pub><ref>29</ref><date notBefore="0701" notAfter="0800">8th
                 c.</date></example>
-        <example ex-type="seal"><pub>DBLS</pub><ref>46</ref><date notBefore="801" notAfter="900">9th
+        <example ex-type="seal"><pub>DBLS</pub><ref>46</ref><date notBefore="0801" notAfter="0900">9th
                 c.</date></example>
         <example ex-type="seal"><pub>DBLS</pub><ref>84</ref><date notBefore="1001" notAfter="1100"
                 >11th c.</date></example>
@@ -1132,8 +1132,8 @@
         <legacyfonts>New.</legacyfonts>
         <description>As <postname>Theta</postname> but with decorative hatch in the crossbar (forms
             a tiny cross in the center of the loop).</description>
-        <example ex-type="silver"><pub>Boyd and Mango</pub><ref>no. S41</ref><date notBefore="501"
-                notAfter="600">6th c.</date></example>
+        <example ex-type="silver"><pub>Boyd and Mango</pub><ref>no. S41</ref><date notBefore="0501"
+                notAfter="0600">6th c.</date></example>
     </glyph>
     <glyph use-seals="unclassified" use-coins="unclassified">
         <index>78</index>
@@ -1158,15 +1158,15 @@
         <postname>Iota</postname>
         <legacyfonts><athena cp="0049">&#x0049;</athena></legacyfonts>
         <description>Familiar. </description>
-        <example ex-type="seal"><pub>DBLS</pub><ref>6</ref><date notBefore="501" notAfter="600">6th
+        <example ex-type="seal"><pub>DBLS</pub><ref>6</ref><date notBefore="0501" notAfter="0600">6th
                 c.</date></example>
-        <example ex-type="seal"><pub>DBLS</pub><ref>15</ref><date notBefore="601" notAfter="700">7th
+        <example ex-type="seal"><pub>DBLS</pub><ref>15</ref><date notBefore="0601" notAfter="0700">7th
                 c.</date></example>
-        <example ex-type="seal"><pub>DBLS</pub><ref>29</ref><date notBefore="701" notAfter="800">8th
+        <example ex-type="seal"><pub>DBLS</pub><ref>29</ref><date notBefore="0701" notAfter="0800">8th
                 c.</date></example>
-        <example ex-type="seal"><pub>DBLS</pub><ref>45</ref><date notBefore="801" notAfter="900">9th
+        <example ex-type="seal"><pub>DBLS</pub><ref>45</ref><date notBefore="0801" notAfter="0900">9th
                 c.</date></example>
-        <example ex-type="seal"><pub>DBLS</pub><ref>63</ref><date notBefore="901" notAfter="1000"
+        <example ex-type="seal"><pub>DBLS</pub><ref>63</ref><date notBefore="0901" notAfter="1000"
                 >10th c.</date></example>
         <example ex-type="seal"><pub>DBLS</pub><ref>81</ref><date notBefore="1001" notAfter="1100"
                 >11th c.</date></example>
@@ -1199,11 +1199,11 @@
         <legacyfonts><athena cp="004B">&#x004B;</athena><coininscr cp="006B"
                 >&#x006B;</coininscr><coininscr cp="02DA">&#x02DA;</coininscr></legacyfonts>
         <description>Familiar. </description>
-        <example ex-type="seal"><pub>DBLS</pub><ref>14</ref><date notBefore="601" notAfter="700">7th
+        <example ex-type="seal"><pub>DBLS</pub><ref>14</ref><date notBefore="0601" notAfter="0700">7th
                 c.</date></example>
-        <example ex-type="seal"><pub>DBLS</pub><ref>29</ref><date notBefore="701" notAfter="800">8th
+        <example ex-type="seal"><pub>DBLS</pub><ref>29</ref><date notBefore="0701" notAfter="0800">8th
                 c.</date></example>
-        <example ex-type="seal"><pub>DBLS</pub><ref>44</ref><date notBefore="801" notAfter="900">9th
+        <example ex-type="seal"><pub>DBLS</pub><ref>44</ref><date notBefore="0801" notAfter="0900">9th
                 c.</date></example>
     </glyph>
     <glyph use-seals="basic" use-coins="unclassified">
@@ -1258,13 +1258,13 @@
         <legacyfonts><athena cp="004C">&#x004C;</athena><coininscr cp="0065"
             >&#x0065;</coininscr></legacyfonts>
         <description>Familiar.</description>
-        <example ex-type="seal"><pub>DBLS</pub><ref>21</ref><date notBefore="601" notAfter="700">7th
+        <example ex-type="seal"><pub>DBLS</pub><ref>21</ref><date notBefore="0601" notAfter="0700">7th
                 c.</date></example>
-        <example ex-type="seal"><pub>DBLS</pub><ref>30</ref><date notBefore="701" notAfter="800">8th
+        <example ex-type="seal"><pub>DBLS</pub><ref>30</ref><date notBefore="0701" notAfter="0800">8th
                 c.</date></example>
-        <example ex-type="seal"><pub>DBLS</pub><ref>47</ref><date notBefore="801" notAfter="900">9th
+        <example ex-type="seal"><pub>DBLS</pub><ref>47</ref><date notBefore="0801" notAfter="0900">9th
                 c.</date></example>
-        <example ex-type="seal"><pub>DBLS</pub><ref>56</ref><date notBefore="901" notAfter="1000"
+        <example ex-type="seal"><pub>DBLS</pub><ref>56</ref><date notBefore="0901" notAfter="1000"
                 >10th c.</date></example>
         <example ex-type="seal"><pub>DBLS</pub><ref>81</ref><date notBefore="1001" notAfter="1100"
                 >11th c.</date></example>
@@ -1360,13 +1360,13 @@
         <legacyfonts><athena cp="004D">&#x004D;</athena><coininscr cp="003B"
                 >&#x003B;</coininscr><coininscr cp="0071">&#x0071;</coininscr></legacyfonts>
         <description>Familiar. </description>
-        <example ex-type="seal"><pub>DBLS</pub><ref>6</ref><date notBefore="501" notAfter="600">6th
+        <example ex-type="seal"><pub>DBLS</pub><ref>6</ref><date notBefore="0501" notAfter="0600">6th
                 c.</date></example>
-        <example ex-type="seal"><pub>DBLS</pub><ref>21</ref><date notBefore="601" notAfter="700">7th
+        <example ex-type="seal"><pub>DBLS</pub><ref>21</ref><date notBefore="0601" notAfter="0700">7th
                 c.</date></example>
-        <example ex-type="seal"><pub>DBLS</pub><ref>33</ref><date notBefore="701" notAfter="800">8th
+        <example ex-type="seal"><pub>DBLS</pub><ref>33</ref><date notBefore="0701" notAfter="0800">8th
                 c.</date></example>
-        <example ex-type="seal"><pub>DBLS</pub><ref>46</ref><date notBefore="801" notAfter="900">9th
+        <example ex-type="seal"><pub>DBLS</pub><ref>46</ref><date notBefore="0801" notAfter="0900">9th
                 c.</date></example>
         <example ex-type="seal"><pub>DBLS</pub><ref>131</ref><date notBefore="1201" notAfter="1300"
                 >13th c.</date></example>
@@ -1386,7 +1386,7 @@
                 >11th c.</date></example>
         <example ex-type="seal"><pub>DBLS</pub><ref>136</ref><date notBefore="1201" notAfter="1300"
                 >13th c.</date></example>
-        <example ex-type="seal"><pub>CBS</pub><ref>1:18.7d</ref><date notBefore="801" notAfter="900"
+        <example ex-type="seal"><pub>CBS</pub><ref>1:18.7d</ref><date notBefore="0801" notAfter="0900"
                 >9th c.</date></example>
     </glyph>
     <glyph use-seals="basic" use-coins="unclassified">
@@ -1479,13 +1479,13 @@
             >&#x007E;</athena></legacyfonts>
         <description>Familiar. Common throughout all periods, albeit with different crossbar heights
             (no known implications for dating).</description>
-        <example ex-type="seal"><pub>DBLS</pub><ref>15</ref><date notBefore="601" notAfter="700">7th
+        <example ex-type="seal"><pub>DBLS</pub><ref>15</ref><date notBefore="0601" notAfter="0700">7th
                 c.</date></example>
-        <example ex-type="seal"><pub>DBLS</pub><ref>30</ref><date notBefore="701" notAfter="800">8th
+        <example ex-type="seal"><pub>DBLS</pub><ref>30</ref><date notBefore="0701" notAfter="0800">8th
                 c.</date></example>
-        <example ex-type="seal"><pub>DBLS</pub><ref>45</ref><date notBefore="801" notAfter="900">9th
+        <example ex-type="seal"><pub>DBLS</pub><ref>45</ref><date notBefore="0801" notAfter="0900">9th
                 c.</date></example>
-        <example ex-type="seal"><pub>DBLS</pub><ref>56</ref><date notBefore="901" notAfter="1000"
+        <example ex-type="seal"><pub>DBLS</pub><ref>56</ref><date notBefore="0901" notAfter="1000"
                 >10th c.</date></example>
         <example ex-type="seal"><pub>DBLS</pub><ref>83</ref><date notBefore="1001" notAfter="1100"
                 >11th c.</date></example>
@@ -1585,7 +1585,7 @@
         <legacyfonts><athena cp="004A">&#x004A;</athena><coininscr cp="0047"
             >&#x0047;</coininscr></legacyfonts>
         <description>Familiar. </description>
-        <example ex-type="seal"><pub>DBLS</pub><ref>6</ref><date notBefore="501" notAfter="600">6th
+        <example ex-type="seal"><pub>DBLS</pub><ref>6</ref><date notBefore="0501" notAfter="0600">6th
                 c.</date></example>
         <example ex-type="seal"><pub>DBLS</pub><ref>84</ref><date notBefore="1001" notAfter="1100"
                 >11th c.</date></example>
@@ -1606,7 +1606,7 @@
             circle. </description>
         <example ex-type="seal"><pub>DBLS</pub><ref>84</ref><date notBefore="1001" notAfter="1100"
                 >11th c.</date></example>
-        <example ex-type="seal"><pub>SBS</pub><ref>2:74</ref><date notBefore="901" notAfter="1000"
+        <example ex-type="seal"><pub>SBS</pub><ref>2:74</ref><date notBefore="0901" notAfter="1000"
                 >10th c.</date></example>
         <comment><ttnote>New PUA.</ttnote></comment>
     </glyph>
@@ -1636,7 +1636,7 @@
         <postname>Xi.3</postname>
         <legacyfonts><coininscr cp="007A">&#x007A;</coininscr></legacyfonts>
         <description>As <postname>Xi.2</postname>, reversed. </description>
-        <example ex-type="seal"><pub>SBS</pub><ref>4:125</ref><date notBefore="901" notAfter="1100"
+        <example ex-type="seal"><pub>SBS</pub><ref>4:125</ref><date notBefore="0901" notAfter="1100"
                 >10/11th c.</date></example>
         <comment><ttnote>New PUA.</ttnote></comment>
     </glyph>
@@ -1768,15 +1768,15 @@
         <postname>Omicron</postname>
         <legacyfonts><athena cp="004F">&#x004F;</athena></legacyfonts>
         <description>Familiar. </description>
-        <example ex-type="seal"><pub>DBLS</pub><ref>6</ref><date notBefore="501" notAfter="600">6th
+        <example ex-type="seal"><pub>DBLS</pub><ref>6</ref><date notBefore="0501" notAfter="0600">6th
                 c.</date></example>
-        <example ex-type="seal"><pub>DBLS</pub><ref>21</ref><date notBefore="601" notAfter="700">7th
+        <example ex-type="seal"><pub>DBLS</pub><ref>21</ref><date notBefore="0601" notAfter="0700">7th
                 c.</date></example>
-        <example ex-type="seal"><pub>DBLS</pub><ref>29</ref><date notBefore="701" notAfter="800">8th
+        <example ex-type="seal"><pub>DBLS</pub><ref>29</ref><date notBefore="0701" notAfter="0800">8th
                 c.</date></example>
-        <example ex-type="seal"><pub>DBLS</pub><ref>46</ref><date notBefore="801" notAfter="900">9th
+        <example ex-type="seal"><pub>DBLS</pub><ref>46</ref><date notBefore="0801" notAfter="0900">9th
                 c.</date></example>
-        <example ex-type="seal"><pub>DBLS</pub><ref>67</ref><date notBefore="901" notAfter="1000"
+        <example ex-type="seal"><pub>DBLS</pub><ref>67</ref><date notBefore="0901" notAfter="1000"
                 >10th c.</date></example>
         <example ex-type="seal"><pub>DBLS</pub><ref>84</ref><date notBefore="1001" notAfter="1100"
                 >11th c.</date></example>
@@ -1799,13 +1799,13 @@
         <legacyfonts><athena cp="0050">&#x0050;</athena><athena cp="0070"
             >&#x0070;</athena></legacyfonts>
         <description>Crossbar terminates precisely at juncture with each leg. </description>
-        <example ex-type="seal"><pub>DBLS</pub><ref>18</ref><date notBefore="601" notAfter="700">7th
+        <example ex-type="seal"><pub>DBLS</pub><ref>18</ref><date notBefore="0601" notAfter="0700">7th
                 c.</date></example>
-        <example ex-type="seal"><pub>DBLS</pub><ref>37</ref><date notBefore="701" notAfter="800">8th
+        <example ex-type="seal"><pub>DBLS</pub><ref>37</ref><date notBefore="0701" notAfter="0800">8th
                 c.</date></example>
-        <example ex-type="seal"><pub>DBLS</pub><ref>45</ref><date notBefore="801" notAfter="900">9th
+        <example ex-type="seal"><pub>DBLS</pub><ref>45</ref><date notBefore="0801" notAfter="0900">9th
                 c.</date></example>
-        <example ex-type="seal"><pub>DBLS</pub><ref>63</ref><date notBefore="901" notAfter="1000"
+        <example ex-type="seal"><pub>DBLS</pub><ref>63</ref><date notBefore="0901" notAfter="1000"
                 >10th c.</date></example>
         <example ex-type="seal"><pub>DBLS</pub><ref>84</ref><date notBefore="1001" notAfter="1100"
                 >11th c.</date></example>
@@ -1842,13 +1842,13 @@
         <legacyfonts><athena cp="0052">&#x0052;</athena><athena cp="00AE"
             >&#x00AE;</athena></legacyfonts>
         <description>Familiar. </description>
-        <example ex-type="seal"><pub>DBLS</pub><ref>15</ref><date notBefore="601" notAfter="700">7th
+        <example ex-type="seal"><pub>DBLS</pub><ref>15</ref><date notBefore="0601" notAfter="0700">7th
                 c.</date></example>
-        <example ex-type="seal"><pub>DBLS</pub><ref>27</ref><date notBefore="701" notAfter="800">8th
+        <example ex-type="seal"><pub>DBLS</pub><ref>27</ref><date notBefore="0701" notAfter="0800">8th
                 c.</date></example>
-        <example ex-type="seal"><pub>DBLS</pub><ref>46</ref><date notBefore="801" notAfter="900">9th
+        <example ex-type="seal"><pub>DBLS</pub><ref>46</ref><date notBefore="0801" notAfter="0900">9th
                 c.</date></example>
-        <example ex-type="seal"><pub>DBLS</pub><ref>72</ref><date notBefore="901" notAfter="1000"
+        <example ex-type="seal"><pub>DBLS</pub><ref>72</ref><date notBefore="0901" notAfter="1000"
                 >10th c.</date></example>
         <example ex-type="seal"><pub>DBLS</pub><ref>88</ref><date notBefore="1001" notAfter="1100"
                 >11th c.</date></example>
@@ -1870,7 +1870,7 @@
         <postname>Rho.1</postname>
         <legacyfonts>New.</legacyfonts>
         <description>Serif on top. </description>
-        <example ex-type="seal"><pub>DBLS</pub><ref>46</ref><date notBefore="801" notAfter="900">9th
+        <example ex-type="seal"><pub>DBLS</pub><ref>46</ref><date notBefore="0801" notAfter="0900">9th
                 c.</date></example>
         <comment>
             <ttnote>New PUA.</ttnote></comment>
@@ -1900,7 +1900,7 @@
         <legacyfonts>New.</legacyfonts>
         <description>As <postname>Rho</postname>, but bottom half of stem angles
             right.</description>
-        <example ex-type="coin"><pub>DOC</pub><ref>1:381</ref><date notBefore="501" notAfter="600"
+        <example ex-type="coin"><pub>DOC</pub><ref>1:381</ref><date notBefore="0501" notAfter="0600"
                 >6th c.</date></example>
         <comment>
             <ttnote>New PUA.</ttnote></comment>
@@ -1915,11 +1915,11 @@
         <postname>Sigma</postname>
         <legacyfonts><athena cp="0053">&#x0053;</athena></legacyfonts>
         <description>Lunate. </description>
-        <example ex-type="seal"><pub>DBLS</pub><ref>30</ref><date notBefore="701" notAfter="800">8th
+        <example ex-type="seal"><pub>DBLS</pub><ref>30</ref><date notBefore="0701" notAfter="0800">8th
                 c.</date></example>
-        <example ex-type="seal"><pub>DBLS</pub><ref>45</ref><date notBefore="801" notAfter="900">9th
+        <example ex-type="seal"><pub>DBLS</pub><ref>45</ref><date notBefore="0801" notAfter="0900">9th
                 c.</date></example>
-        <example ex-type="seal"><pub>DBLS</pub><ref>63</ref><date notBefore="901" notAfter="1000"
+        <example ex-type="seal"><pub>DBLS</pub><ref>63</ref><date notBefore="0901" notAfter="1000"
                 >10th c.</date></example>
         <example ex-type="seal"><pub>DBLS</pub><ref>84</ref><date notBefore="1001" notAfter="1100"
                 >11th c.</date></example>
@@ -2001,13 +2001,13 @@
         <postname>Tau</postname>
         <legacyfonts><athena cp="0054">&#x0054;</athena></legacyfonts>
         <description>Familiar. </description>
-        <example ex-type="seal"><pub>DBLS</pub><ref>15</ref><date notBefore="601" notAfter="700">7th
+        <example ex-type="seal"><pub>DBLS</pub><ref>15</ref><date notBefore="0601" notAfter="0700">7th
                 c.</date></example>
-        <example ex-type="seal"><pub>DBLS</pub><ref>31</ref><date notBefore="701" notAfter="800">8th
+        <example ex-type="seal"><pub>DBLS</pub><ref>31</ref><date notBefore="0701" notAfter="0800">8th
                 c.</date></example>
-        <example ex-type="seal"><pub>DBLS</pub><ref>46</ref><date notBefore="801" notAfter="900">9th
+        <example ex-type="seal"><pub>DBLS</pub><ref>46</ref><date notBefore="0801" notAfter="0900">9th
                 c.</date></example>
-        <example ex-type="seal"><pub>DBLS</pub><ref>60</ref><date notBefore="901" notAfter="1000"
+        <example ex-type="seal"><pub>DBLS</pub><ref>60</ref><date notBefore="0901" notAfter="1000"
                 >10th c.</date></example>
         <example ex-type="seal"><pub>DBLS</pub><ref>81</ref><date notBefore="1001" notAfter="1100"
                 >11th c.</date></example>
@@ -2027,9 +2027,9 @@
         <postname>Upsilon</postname>
         <legacyfonts><athena cp="0055">&#x0055;</athena></legacyfonts>
         <description>Like <postname>V</postname>. </description>
-        <example ex-type="seal"><pub>DBLS</pub><ref>29</ref><date notBefore="701" notAfter="800">8th
+        <example ex-type="seal"><pub>DBLS</pub><ref>29</ref><date notBefore="0701" notAfter="0800">8th
                 c.</date></example>
-        <example ex-type="seal"><pub>DBLS</pub><ref>63</ref><date notBefore="901" notAfter="1000"
+        <example ex-type="seal"><pub>DBLS</pub><ref>63</ref><date notBefore="0901" notAfter="1000"
                 >10th c.</date></example>
         <example ex-type="seal"><pub>DBLS</pub><ref>86</ref><date notBefore="1001" notAfter="1100"
                 >11th c.</date></example>
@@ -2090,9 +2090,9 @@
         <postname>Phi</postname>
         <legacyfonts><athena cp="0046">&#x0046;</athena></legacyfonts>
         <description>Familiar. </description>
-        <example ex-type="seal"><pub>DBLS</pub><ref>24</ref><date notBefore="601" notAfter="700">7th
+        <example ex-type="seal"><pub>DBLS</pub><ref>24</ref><date notBefore="0601" notAfter="0700">7th
                 c.</date></example>
-        <example ex-type="seal"><pub>DBLS</pub><ref>27</ref><date notBefore="701" notAfter="800">8th
+        <example ex-type="seal"><pub>DBLS</pub><ref>27</ref><date notBefore="0701" notAfter="0800">8th
                 c.</date></example>
         <example ex-type="seal"><pub>DBLS</pub><ref>86</ref><date notBefore="1001" notAfter="1100"
                 >11th c.</date></example>
@@ -2102,9 +2102,9 @@
                 >13th c.</date></example>
         <example ex-type="seal"><pub>DBLS</pub><ref>146</ref><date notBefore="1301" notAfter="1400"
                 >14th c.</date></example>
-        <example ex-type="seal"><pub>CBS</pub><ref>1:37.8</ref><date notBefore="901" notAfter="1000"
+        <example ex-type="seal"><pub>CBS</pub><ref>1:37.8</ref><date notBefore="0901" notAfter="1000"
                 >10th c.</date></example>
-        <example ex-type="seal"><pub>CBS</pub><ref>1:44.5</ref><date notBefore="801" notAfter="900"
+        <example ex-type="seal"><pub>CBS</pub><ref>1:44.5</ref><date notBefore="0801" notAfter="0900"
                 >9th c.</date></example>
         <comment>
             <ttnote>New PUA.</ttnote></comment>
@@ -2119,7 +2119,7 @@
         <postname>Phi.1</postname>
         <legacyfonts><athena cp="0066">&#x0066;</athena></legacyfonts>
         <description>Vertical bar intersecting infinity sign. </description>
-        <example ex-type="seal"><pub>DBLS</pub><ref>53</ref><date notBefore="801" notAfter="900">9th
+        <example ex-type="seal"><pub>DBLS</pub><ref>53</ref><date notBefore="0801" notAfter="0900">9th
                 c.</date></example>
         <comment>
             <ttnote>New PUA.</ttnote></comment>
@@ -2175,11 +2175,11 @@
         <postname>Chi</postname>
         <legacyfonts><athena cp="0058">&#x0058;</athena></legacyfonts>
         <description>Familiar. </description>
-        <example ex-type="seal"><pub>DBLS</pub><ref>23</ref><date notBefore="601" notAfter="700">7th
+        <example ex-type="seal"><pub>DBLS</pub><ref>23</ref><date notBefore="0601" notAfter="0700">7th
                 c.</date></example>
-        <example ex-type="seal"><pub>DBLS</pub><ref>30</ref><date notBefore="701" notAfter="800">8th
+        <example ex-type="seal"><pub>DBLS</pub><ref>30</ref><date notBefore="0701" notAfter="0800">8th
                 c.</date></example>
-        <example ex-type="seal"><pub>DBLS</pub><ref>51</ref><date notBefore="801" notAfter="900">9th
+        <example ex-type="seal"><pub>DBLS</pub><ref>51</ref><date notBefore="0801" notAfter="0900">9th
                 c.</date></example>
         <example ex-type="seal"><pub>DBLS</pub><ref>88</ref><date notBefore="1001" notAfter="1100"
                 >11th c.</date></example>
@@ -2202,7 +2202,7 @@
         <legacyfonts><athena cp="0043">&#x0043;</athena><coininscr cp="0046"
             >&#x0046;</coininscr></legacyfonts>
         <description>Familiar. </description>
-        <example ex-type="seal"><pub>DBLS</pub><ref>31</ref><date notBefore="701" notAfter="800">8th
+        <example ex-type="seal"><pub>DBLS</pub><ref>31</ref><date notBefore="0701" notAfter="0800">8th
                 c.</date></example>
         <example ex-type="seal"><pub>SBS</pub><ref>4:39</ref></example>
         <comment>
@@ -2232,15 +2232,15 @@
         <legacyfonts><athena cp="0056">&#x0056;</athena><coininscr cp="003C"
             >&#x003C;</coininscr></legacyfonts>
         <description>Bottom formed by curves. </description>
-        <example ex-type="seal"><pub>DBLS</pub><ref>23</ref><date notBefore="601" notAfter="700">7th
+        <example ex-type="seal"><pub>DBLS</pub><ref>23</ref><date notBefore="0601" notAfter="0700">7th
                 c.</date></example>
-        <example ex-type="seal"><pub>DBLS</pub><ref>24</ref><date notBefore="601" notAfter="700">7th
+        <example ex-type="seal"><pub>DBLS</pub><ref>24</ref><date notBefore="0601" notAfter="0700">7th
                 c.</date></example>
-        <example ex-type="seal"><pub>DBLS</pub><ref>27</ref><date notBefore="701" notAfter="800">8th
+        <example ex-type="seal"><pub>DBLS</pub><ref>27</ref><date notBefore="0701" notAfter="0800">8th
                 c.</date></example>
-        <example ex-type="seal"><pub>DBLS</pub><ref>45</ref><date notBefore="801" notAfter="900">9th
+        <example ex-type="seal"><pub>DBLS</pub><ref>45</ref><date notBefore="0801" notAfter="0900">9th
                 c.</date></example>
-        <example ex-type="seal"><pub>DBLS</pub><ref>56</ref><date notBefore="901" notAfter="1000"
+        <example ex-type="seal"><pub>DBLS</pub><ref>56</ref><date notBefore="0901" notAfter="1000"
                 >10th c.</date></example>
         <example ex-type="seal"><pub>DBLS</pub><ref>79</ref><date notBefore="1001" notAfter="1100"
                 >11th c.</date></example>
@@ -2325,9 +2325,9 @@
         <legacyfonts>New.</legacyfonts>
         <description>As <postname>Omega.3</postname> but with middle stem as a cross.</description>
         <example ex-type="silver"><pub>Boyd and Mango, Silver</pub><ref>no. S1</ref><date
-                notBefore="501" notAfter="600">6th c.</date></example>
+                notBefore="0501" notAfter="0600">6th c.</date></example>
         <example ex-type="silver"><pub>Boyd and Mango, Silver</pub><ref>no. S41</ref><date
-                notBefore="501" notAfter="600">6th c.</date></example>
+                notBefore="0501" notAfter="0600">6th c.</date></example>
         <comment>
             <ttnote>New PUA.</ttnote></comment>
     </glyph>
@@ -2342,7 +2342,7 @@
         <legacyfonts>New.</legacyfonts>
         <description>Bottom looped such that the middle stem creates a concave loop similar to the
             left and right loops.</description>
-        <example ex-type="seal"><pub>ZV</pub><ref>2913</ref><date notBefore="701" notAfter="800">8th
+        <example ex-type="seal"><pub>ZV</pub><ref>2913</ref><date notBefore="0701" notAfter="0800">8th
                 c.</date></example>
         <example ex-type="coin"><pub>Morrisson, L’Epigraphie</pub><ref>270</ref></example>
         <comment>
@@ -2372,7 +2372,7 @@
         <postname>Stigma.1</postname>
         <legacyfonts>New.</legacyfonts>
         <description>Like <postname>S</postname>. Represents the number 6.</description>
-        <example ex-type="seal"><pub>DBLS</pub><ref>58</ref><date notBefore="901" notAfter="1000"
+        <example ex-type="seal"><pub>DBLS</pub><ref>58</ref><date notBefore="0901" notAfter="1000"
                 >10th c.</date></example>
         <example ex-type="coin"><pub>DOC</pub>2.2:422 no. 5c</example>
         <comment>
@@ -2874,7 +2874,7 @@
         <description>Represents κανδιδᾶτος. </description>
         <example ex-type="seal"><pub>DBLS</pub><ref>83</ref><date notBefore="1001" notAfter="1100"
                 >11th c.</date></example>
-        <example ex-type="seal"><pub>CBS</pub><ref>1:1.24</ref><date notBefore="901" notAfter="1100"
+        <example ex-type="seal"><pub>CBS</pub><ref>1:1.24</ref><date notBefore="0901" notAfter="1100"
                 >10-11th c.</date></example>
         <comment>
             <ttnote>New PUA.</ttnote></comment>
@@ -3279,7 +3279,7 @@
         <legacyfonts>New.</legacyfonts>
         <description>Represents ΙΑ (numeral for 11). As <postname>Alpha.2</postname> with iota fused
             at apex.</description>
-        <example ex-type="coin"><pub>DOC</pub><ref>2.1:106</ref><date notBefore="601" notAfter="700"
+        <example ex-type="coin"><pub>DOC</pub><ref>2.1:106</ref><date notBefore="0601" notAfter="0700"
                 >7th c.</date></example>
         <comment>
             <ttnote>New PUA.</ttnote></comment>
@@ -3302,7 +3302,7 @@
         <legacyfonts>New.</legacyfonts>
         <description>Represents ΙΒ (numeral for 12). <postname>Beta</postname> with iota fused at
             apex.</description>
-        <example ex-type="coin"><pub>DOC</pub><ref>2.1:106</ref><date notBefore="601" notAfter="700"
+        <example ex-type="coin"><pub>DOC</pub><ref>2.1:106</ref><date notBefore="0601" notAfter="0700"
                 >7th c.</date></example>
         <comment>
             <ttnote>New PUA.</ttnote></comment>
@@ -3325,7 +3325,7 @@
         <legacyfonts>New.</legacyfonts>
         <description>Represents ΙΩ (privy mark). Flat omega, similar to that found in the ΨΩ
             ligature below.</description>
-        <example ex-type="coin"><pub>DOC</pub><ref>2.1:106</ref><date notBefore="601" notAfter="700"
+        <example ex-type="coin"><pub>DOC</pub><ref>2.1:106</ref><date notBefore="0601" notAfter="0700"
                 >7th c.</date></example>
         <comment>
             <ttnote>New PUA.</ttnote></comment>
@@ -3351,15 +3351,15 @@
         <prodname>Kappa_Alpha_Iota</prodname>
         <postname>Kappa_Alpha_Iota</postname>
         <description>Represents ΚΑΙ. Like S. </description>
-        <example ex-type="seal"><pub>DBLS</pub><ref>21</ref><date notBefore="601" notAfter="700">7th
+        <example ex-type="seal"><pub>DBLS</pub><ref>21</ref><date notBefore="0601" notAfter="0700">7th
                 c.</date></example>
-        <example ex-type="seal"><pub>DBLS</pub><ref>33</ref><date notBefore="701" notAfter="800">8th
+        <example ex-type="seal"><pub>DBLS</pub><ref>33</ref><date notBefore="0701" notAfter="0800">8th
                 c.</date></example>
-        <example ex-type="seal"><pub>DBLS</pub><ref>42</ref><date notBefore="701" notAfter="800">8th
+        <example ex-type="seal"><pub>DBLS</pub><ref>42</ref><date notBefore="0701" notAfter="0800">8th
                 c.</date></example>
-        <example ex-type="seal"><pub>DBLS</pub><ref>46</ref><date notBefore="801" notAfter="900">9th
+        <example ex-type="seal"><pub>DBLS</pub><ref>46</ref><date notBefore="0801" notAfter="0900">9th
                 c.</date></example>
-        <example ex-type="seal"><pub>SBS</pub><ref>2:81</ref><date notBefore="801" notAfter="900"
+        <example ex-type="seal"><pub>SBS</pub><ref>2:81</ref><date notBefore="0801" notAfter="0900"
                 >9th c.</date></example>
         <comment>
             <ttnote>New PUA.</ttnote></comment>
@@ -3386,7 +3386,7 @@
         <postname>Kappa_Alpha_Iota.1</postname>
         <legacyfonts><athena cp="0023">&#x0023;</athena></legacyfonts>
         <description>As above, but backwards. </description>
-        <example ex-type="seal"><pub>CBS</pub><ref>1:18.12</ref><date notBefore="801"
+        <example ex-type="seal"><pub>CBS</pub><ref>1:18.12</ref><date notBefore="0801"
                 notAfter="1000">9-10th c.</date></example>
         <comment>
             <ttnote>New PUA.</ttnote></comment>
@@ -3525,7 +3525,7 @@
         <example ex-type="coin"
                 ><pub>DOC</pub><ref>2.1:107 and 111, table
                 2</ref><date>left</date><examplenote>Constans II b</examplenote></example>
-        <example ex-type="coin"><pub>ABC</pub><ref>p. 23</ref><date notBefore="650" notAfter="700"
+        <example ex-type="coin"><pub>ABC</pub><ref>p. 23</ref><date notBefore="0650" notAfter="0700"
                 >late 7th c.</date></example>
         <comment><ttnote>New PUA.</ttnote></comment>
     </glyph>
@@ -3845,7 +3845,7 @@
         <postname>Mu_Eta</postname>
         <legacyfonts><coininscr cp="00D3">&#x00D3;</coininscr></legacyfonts>
         <description>Represents ΜΗ. Uses <postname>Mu</postname>. </description>
-        <example ex-type="seal"><pub>DBLS</pub><ref>51</ref><date notBefore="801" notAfter="900">9th
+        <example ex-type="seal"><pub>DBLS</pub><ref>51</ref><date notBefore="0801" notAfter="0900">9th
                 c.</date></example>
         <example ex-type="seal"><pub>DBLS</pub><ref>138</ref><date notBefore="1201" notAfter="1300"
                 >13th c.</date></example>
@@ -3982,7 +3982,7 @@
         <postname>Mu_Mu</postname>
         <legacyfonts>New.</legacyfonts>
         <description>Represents ΜΜ. Uses <postname>Mu</postname>. </description>
-        <example ex-type="seal"><pub>DBLS</pub><ref>27</ref><date notBefore="701" notAfter="800">8th
+        <example ex-type="seal"><pub>DBLS</pub><ref>27</ref><date notBefore="0701" notAfter="0800">8th
                 c.</date></example>
         <example ex-type="seal"><pub>DBLS</pub><ref>146</ref><date notBefore="1301" notAfter="1400"
                 >14th c.</date></example>
@@ -4268,7 +4268,7 @@
         <description>Represents ΝΗ. </description>
         <example ex-type="seal"><pub>DBLS</pub><ref>148</ref><date notBefore="1301" notAfter="1400"
                 >14th c.</date></example>
-        <example ex-type="seal"><pub>CBS</pub><ref>1:5.6</ref><date notBefore="801" notAfter="900"
+        <example ex-type="seal"><pub>CBS</pub><ref>1:5.6</ref><date notBefore="0801" notAfter="0900"
                 >9th c.</date></example>
         <comment>
             <ttnote>New PUA.</ttnote></comment>
@@ -4316,7 +4316,7 @@
         <postname>Nu_Kappa</postname>
         <legacyfonts><grierson cp="FB02">&#xFB02;</grierson></legacyfonts>
         <description>Represents ΝΚ. </description>
-        <example ex-type="seal"><pub>CBS</pub><ref>2:2.13</ref><date notBefore="601" notAfter="800"
+        <example ex-type="seal"><pub>CBS</pub><ref>2:2.13</ref><date notBefore="0601" notAfter="0800"
                 >7-9th c.</date></example>
         <comment>
             <ttnote>New PUA.</ttnote></comment>
@@ -4522,7 +4522,7 @@
         <legacyfonts><coininscr cp="0059">&#x0059;</coininscr></legacyfonts>
         <description>As <postname>Omicron_Alpha</postname>, but with
             <postname>Alpha.2</postname>.</description>
-        <example ex-type="seal"><pub>DBLS</pub><ref>35</ref><date notBefore="701" notAfter="800">8th
+        <example ex-type="seal"><pub>DBLS</pub><ref>35</ref><date notBefore="0701" notAfter="0800">8th
                 c.</date></example>
         <comment>
             <ttnote>New PUA.</ttnote></comment>
@@ -5001,7 +5001,7 @@
         <postname>Rho_Omega.2</postname>
         <legacyfonts><athena8 cp="00F3">&#x00F3;</athena8></legacyfonts>
         <description>As <postname>Rho_Omega.1</postname> but with crossbar. </description>
-        <example ex-type="coin"><pub>ABC</pub><ref>p. 42</ref><date notBefore="750" notAfter="800"
+        <example ex-type="coin"><pub>ABC</pub><ref>p. 42</ref><date notBefore="0750" notAfter="0800"
                 >late 8th c.</date></example>
         <comment><ttnote>New PUA.</ttnote></comment>
     </glyph>
@@ -5387,7 +5387,7 @@
         <description>As <postname>Tau_omega</postname>, but tau shaped as cross and omage a single
             arc. </description>
         <example ex-type="coin"><pub>ABC</pub>
-            <ref>pp. 61–63</ref><date notBefore="650" notAfter="700">late 7th c.</date></example>
+            <ref>pp. 61–63</ref><date notBefore="0650" notAfter="0700">late 7th c.</date></example>
         <comment><ttnote>New PUA.</ttnote></comment>
     </glyph>
     <glyph use-seals="unclassified" use-coins="basic">
@@ -5586,7 +5586,7 @@
         <legacyfonts>New.</legacyfonts>
         <description>Represents ΨΩ. The three legs of the psi seem to grow out of the omega’s center
             stem. </description>
-        <example ex-type="seal"><pub>CBS</pub><ref>5:37.2</ref><date notBefore="701" notAfter="800"
+        <example ex-type="seal"><pub>CBS</pub><ref>5:37.2</ref><date notBefore="0701" notAfter="0800"
                 >8th c.</date></example>
         <comment>
             <ttnote>New PUA.</ttnote></comment>
@@ -6898,7 +6898,7 @@
         <postname>A.1</postname>
         <legacyfonts><athena cp="0063">&#x0063;</athena></legacyfonts>
         <description>Looped, open at top. </description>
-        <example ex-type="seal"><pub>SBS</pub><ref>1:78</ref><date notBefore="501" notAfter="600"
+        <example ex-type="seal"><pub>SBS</pub><ref>1:78</ref><date notBefore="0501" notAfter="0600"
                 >6th c.</date></example>
     </glyph>
     <glyph use-seals="basic" use-coins="unclassified">
@@ -6911,9 +6911,9 @@
         <postname>A.2</postname>
         <legacyfonts>See xref.</legacyfonts>
         <description>Broken crossbar. As <postname>Alpha.1</postname>. </description>
-        <example ex-type="seal"><pub>CBS</pub><ref>1:2.3</ref><date notBefore="501" notAfter="600"
+        <example ex-type="seal"><pub>CBS</pub><ref>1:2.3</ref><date notBefore="0501" notAfter="0600"
                 >6th c.</date></example>
-        <example ex-type="seal"><pub>CBS</pub><ref>1:18.83</ref><date notBefore="601" notAfter="700"
+        <example ex-type="seal"><pub>CBS</pub><ref>1:18.83</ref><date notBefore="0601" notAfter="0700"
                 >7th c.</date></example>
     </glyph>
     <glyph use-seals="unclassified" use-coins="unclassified">
@@ -6995,7 +6995,7 @@
         <postname>C</postname>
         <legacyfonts>See xref.</legacyfonts>
         <description>As <postname>Sigma</postname>.</description>
-        <example ex-type="seal"><pub>SBS</pub><ref>1:78</ref><date notBefore="501" notAfter="600"
+        <example ex-type="seal"><pub>SBS</pub><ref>1:78</ref><date notBefore="0501" notAfter="0600"
                 >6th c.</date></example>
     </glyph>
     <glyph use-seals="unclassified" use-coins="unclassified">
@@ -7064,9 +7064,9 @@
         <postname>D.1</postname>
         <legacyfonts><athena cp="00C7">&#x00C7;</athena></legacyfonts>
         <description>Cursive. Like ccw spiral. </description>
-        <example ex-type="seal"><pub>SBS</pub><ref>1:78</ref><date notBefore="501" notAfter="600"
+        <example ex-type="seal"><pub>SBS</pub><ref>1:78</ref><date notBefore="0501" notAfter="0600"
                 >6th c.</date></example>
-        <example ex-type="seal"><pub>CBS</pub><ref>1:8.1</ref><date notBefore="601" notAfter="700"
+        <example ex-type="seal"><pub>CBS</pub><ref>1:8.1</ref><date notBefore="0601" notAfter="0700"
                 >7th c.</date></example>
     </glyph>
     <glyph use-seals="unclassified" use-coins="unclassified">
@@ -7176,7 +7176,7 @@
         <postname>E</postname>
         <legacyfonts>See xref.</legacyfonts>
         <description>Round, midbar medium length. As <postname>Epsilon</postname>.</description>
-        <example ex-type="seal"><pub>CBS</pub><ref>1:2.3</ref><date notBefore="501" notAfter="600"
+        <example ex-type="seal"><pub>CBS</pub><ref>1:2.3</ref><date notBefore="0501" notAfter="0600"
                 >6th c.</date></example>
     </glyph>
     <glyph use-seals="basic" use-coins="unclassified">
@@ -7417,7 +7417,7 @@
         <postname>H.1</postname>
         <legacyfonts><athena cp="00C4">&#x00C4;</athena></legacyfonts>
         <description>Cursive, like h. </description>
-        <example ex-type="seal"><pub>SBS</pub><ref>1:78</ref><date notBefore="501" notAfter="600"
+        <example ex-type="seal"><pub>SBS</pub><ref>1:78</ref><date notBefore="0501" notAfter="0600"
                 >6th c.</date></example>
     </glyph>
     <glyph use-seals="unclassified" use-coins="unclassified">
@@ -7441,7 +7441,7 @@
         <postname>I</postname>
         <legacyfonts>See xref.</legacyfonts>
         <description>Familiar. As <postname>Iota</postname>. </description>
-        <example ex-type="seal"><pub>CBS</pub><ref>1:8.1</ref><date notBefore="601" notAfter="700"
+        <example ex-type="seal"><pub>CBS</pub><ref>1:8.1</ref><date notBefore="0601" notAfter="0700"
                 >7th c.</date></example>
     </glyph>
     <glyph use-seals="unclassified" use-coins="basic">
@@ -7498,7 +7498,7 @@
         <legacyfonts><athena cp="00D2">&#x00D2;</athena><athena cp="00A1"
             >&#x00A1;</athena></legacyfonts>
         <description>Familiar. </description>
-        <example ex-type="seal"><pub>CBS</pub><ref>1:2.3</ref><date notBefore="501" notAfter="600"
+        <example ex-type="seal"><pub>CBS</pub><ref>1:2.3</ref><date notBefore="0501" notAfter="0600"
                 >6th c.</date></example>
     </glyph>
     <glyph use-seals="unclassified" use-coins="basic">
@@ -7558,7 +7558,7 @@
         <postname>M.1</postname>
         <legacyfonts><athena cp="00A3">&#x00A3;</athena></legacyfonts>
         <description>As upside down <postname>Omega</postname>.</description>
-        <example ex-type="seal"><pub>CBS</pub><ref>1:2.3</ref><date notBefore="501" notAfter="600"
+        <example ex-type="seal"><pub>CBS</pub><ref>1:2.3</ref><date notBefore="0501" notAfter="0600"
                 >6th c.</date></example>
     </glyph>
     <glyph use-seals="unclassified" use-coins="basic">
@@ -7644,7 +7644,7 @@
         <postname>N</postname>
         <legacyfonts>See xref.</legacyfonts>
         <description>Familiar. As <postname>Nu</postname>.</description>
-        <example ex-type="seal"><pub>CBS</pub><ref>1:18.83</ref><date notBefore="601" notAfter="700"
+        <example ex-type="seal"><pub>CBS</pub><ref>1:18.83</ref><date notBefore="0601" notAfter="0700"
                 >7th c.</date></example>
     </glyph>
     <glyph use-seals="basic" use-coins="unclassified">
@@ -7714,9 +7714,9 @@
         <postname>O</postname>
         <legacyfonts>See xref.</legacyfonts>
         <description>Familiar. As <postname>Omicron</postname>. </description>
-        <example ex-type="seal"><pub>CBS</pub><ref>1:2.3</ref><date notBefore="501" notAfter="600"
+        <example ex-type="seal"><pub>CBS</pub><ref>1:2.3</ref><date notBefore="0501" notAfter="0600"
                 >6th c.</date></example>
-        <example ex-type="seal"><pub>CBS</pub><ref>1:18.83</ref><date notBefore="601" notAfter="700"
+        <example ex-type="seal"><pub>CBS</pub><ref>1:18.83</ref><date notBefore="0601" notAfter="0700"
                 >7th c.</date></example>
     </glyph>
     <glyph use-seals="unclassified" use-coins="basic">
@@ -7739,7 +7739,7 @@
         <postname>P</postname>
         <legacyfonts>See xref.</legacyfonts>
         <description>Familiar. As <postname>Rho</postname>.</description>
-        <example ex-type="seal"><pub>CBS</pub><ref>1:2.3</ref><date notBefore="501" notAfter="600"
+        <example ex-type="seal"><pub>CBS</pub><ref>1:2.3</ref><date notBefore="0501" notAfter="0600"
                 >6th c.</date></example>
     </glyph>
     <glyph use-seals="unclassified" use-coins="basic">
@@ -7773,7 +7773,7 @@
         <postname>R</postname>
         <legacyfonts>See xref.</legacyfonts>
         <description>As <postname>Beta.1</postname>.</description>
-        <example ex-type="seal"><pub>SBS</pub><ref>1:78</ref><date notBefore="501" notAfter="600"
+        <example ex-type="seal"><pub>SBS</pub><ref>1:78</ref><date notBefore="0501" notAfter="0600"
                 >6th c.</date></example>
     </glyph>
     <glyph use-seals="unclassified" use-coins="unclassified">
@@ -7846,7 +7846,7 @@
         <postname>S</postname>
         <legacyfonts><athena cp="003D">&#x003D;</athena></legacyfonts>
         <description>Familiar. Like S. </description>
-        <example ex-type="seal"><pub>CBS</pub><ref>1:8.1</ref><date notBefore="601" notAfter="700"
+        <example ex-type="seal"><pub>CBS</pub><ref>1:8.1</ref><date notBefore="0601" notAfter="0700"
                 >7th c.</date></example>
     </glyph>
     <glyph use-seals="basic" use-coins="unclassified">
@@ -7906,7 +7906,7 @@
         <postname>T.1</postname>
         <legacyfonts><athena cp="00B6">&#x00B6;</athena></legacyfonts>
         <description>Stem hooks to right. </description>
-        <example ex-type="seal"><pub>SBS</pub><ref>1:78</ref><date notBefore="501" notAfter="600"
+        <example ex-type="seal"><pub>SBS</pub><ref>1:78</ref><date notBefore="0501" notAfter="0600"
                 >6th c.</date></example>
     </glyph>
     <glyph use-seals="unclassified" use-coins="basic">
@@ -7967,7 +7967,7 @@
         <legacyfonts><athena cp="2022">&#x2022;</athena></legacyfonts>
         <description>Cursive, with flourish at bottom right. </description>
         <example ex-type="seal"><pub>SBS</pub><ref>3:32</ref></example>
-        <example ex-type="seal"><pub>CBS</pub><ref>1:8.1</ref><date notBefore="601" notAfter="700"
+        <example ex-type="seal"><pub>CBS</pub><ref>1:8.1</ref><date notBefore="0601" notAfter="0700"
                 >7th c.</date></example>
     </glyph>
     <glyph use-seals="unclassified" use-coins="basic">
@@ -8153,8 +8153,8 @@
         <legacyfonts>New.</legacyfonts>
         <description>Abbr. for Heraclius. </description>
         <example ex-type="coin"><pub>DOC</pub><ref>2.1:110, table 2, no. b left</ref></example>
-        <example ex-type="coin"><pub>DOC</pub><ref>2.1:331 no. 184</ref><date notBefore="600"
-                notAfter="650">late 7th c.</date></example>
+        <example ex-type="coin"><pub>DOC</pub><ref>2.1:331 no. 184</ref><date notBefore="0600"
+                notAfter="0650">late 7th c.</date></example>
     </glyph>
     <glyph use-seals="unclassified" use-coins="basic">
         <index>554</index>
@@ -8175,7 +8175,7 @@
         <legacyfonts><athena8 cp="00EB">&#x00EB;</athena8></legacyfonts>
         <description>As <postname>H_R</postname>, but with crossbar. </description>
         <example ex-type="coin"><pub>DOC</pub><ref>2.1:110, table 2, no. e left</ref></example>
-        <example ex-type="coin"><pub>ABC</pub><ref>p. 14</ref><date notBefore="600" notAfter="650"
+        <example ex-type="coin"><pub>ABC</pub><ref>p. 14</ref><date notBefore="0600" notAfter="0650"
                 >early 7th c.</date></example>
     </glyph>
     <glyph use-seals="unclassified" use-coins="basic">
@@ -8200,7 +8200,7 @@
         <legacyfonts><athena8 cp="00ED">&#x00ED;</athena8></legacyfonts>
         <description>As H_R no. 2, but with hook on left arm of crossbar. </description>
         <example ex-type="coin"><pub>DOC</pub><ref>2.1:110, table 2, no. a left</ref></example>
-        <example ex-type="coin"><pub>ABC</pub><ref>p. 15</ref><date notBefore="600" notAfter="650"
+        <example ex-type="coin"><pub>ABC</pub><ref>p. 15</ref><date notBefore="0600" notAfter="0650"
                 >early 7th c.</date></example>
         <comment><ttnote>Was /H_R.2/</ttnote></comment>
     </glyph>
@@ -8254,9 +8254,9 @@
         <postname>uniE51A</postname>
         <legacyfonts><athena cp="0029">&#x0029;</athena></legacyfonts>
         <description>Crossbar curls upwards to right. </description>
-        <example ex-type="seal"><pub>DBLS</pub><ref>30</ref><date notBefore="701" notAfter="800">8th
+        <example ex-type="seal"><pub>DBLS</pub><ref>30</ref><date notBefore="0701" notAfter="0800">8th
                 c.</date></example>
-        <example ex-type="seal"><pub>CBS</pub><ref>2:40.22</ref><date notBefore="701" notAfter="800"
+        <example ex-type="seal"><pub>CBS</pub><ref>2:40.22</ref><date notBefore="0701" notAfter="0800"
                 >8th c.</date></example>
         <comment>Possible Unicode proposal
             <ttnote>Moved from ligature section. To be proposed.</ttnote></comment>
@@ -8269,9 +8269,9 @@
         <postname>uniE51B</postname>
         <legacyfonts><athena cp="005F">&#x005F;</athena></legacyfonts>
         <description>Crossbar curls downwards to right. </description>
-        <example ex-type="seal"><pub>DBLS</pub><ref>22</ref><date notBefore="601" notAfter="700">7th
+        <example ex-type="seal"><pub>DBLS</pub><ref>22</ref><date notBefore="0601" notAfter="0700">7th
                 c.</date></example>
-        <example ex-type="seal"><pub>DBLS</pub><ref>44</ref><date notBefore="801" notAfter="900">9th
+        <example ex-type="seal"><pub>DBLS</pub><ref>44</ref><date notBefore="0801" notAfter="0900">9th
                 c.</date></example>
         <comment>Possible Unicode proposal
             <ttnote>Moved from ligature section. Variant.</ttnote></comment>
@@ -8305,13 +8305,13 @@
         <postname>uni2E09.2</postname>
         <legacyfonts><athena cp="0033">&#x0033;</athena></legacyfonts>
         <description>Vertical squiggle. </description>
-        <example ex-type="seal"><pub>DBLS</pub><ref>52</ref><date notBefore="801" notAfter="900">9th
+        <example ex-type="seal"><pub>DBLS</pub><ref>52</ref><date notBefore="0801" notAfter="0900">9th
                 c.</date></example>
         <example ex-type="seal"><pub>DBLS</pub><ref>88</ref><date notBefore="1001" notAfter="1100"
                 >11th c.</date></example>
         <example ex-type="seal"><pub>DBLS</pub><ref>115</ref><date notBefore="1101" notAfter="1200"
                 >12th c.</date></example>
-        <example ex-type="seal"><pub>SBS</pub><ref>2:81</ref><date notBefore="801" notAfter="900"
+        <example ex-type="seal"><pub>SBS</pub><ref>2:81</ref><date notBefore="0801" notAfter="0900"
                 >9th c.</date></example>
     </glyph>
     <glyph use-seals="basic" use-coins="unclassified">
@@ -8323,7 +8323,7 @@
         <postname>uni2E09.3</postname>
         <legacyfonts><athena cp="00DF">&#x00DF;</athena></legacyfonts>
         <description>As <postname>uni2E09</postname>, set between x-height and ascender line. </description>
-        <example ex-type="seal"><pub>CBS</pub><ref>1:5.6</ref><date notBefore="801" notAfter="900"
+        <example ex-type="seal"><pub>CBS</pub><ref>1:5.6</ref><date notBefore="0801" notAfter="0900"
                 >9th c.</date></example>
         <comment>
             <ttnote>New PUA.</ttnote></comment>
@@ -8355,9 +8355,9 @@
         <postname>uni02CA</postname>
         <legacyfonts>See xref.</legacyfonts>
         <description>Like <postname>acutecomb</postname>.</description>
-        <example ex-type="seal"><pub>DBLS</pub><ref>10</ref><date notBefore="601" notAfter="700">7th
+        <example ex-type="seal"><pub>DBLS</pub><ref>10</ref><date notBefore="0601" notAfter="0700">7th
                 c.</date></example>
-        <example ex-type="seal"><pub>DBLS</pub><ref>42</ref><date notBefore="701" notAfter="800">8th
+        <example ex-type="seal"><pub>DBLS</pub><ref>42</ref><date notBefore="0701" notAfter="0800">8th
                 c.</date></example>
     </glyph>
     <glyph use-seals="basic" use-coins="unclassified">
@@ -8367,7 +8367,7 @@
         <postname>uni02CB</postname>
         <legacyfonts>See xref.</legacyfonts>
         <description>Like <postname>gravecomb</postname>.</description>
-        <example ex-type="seal"><pub>DBLS</pub><ref>42</ref><date notBefore="701" notAfter="800">8th
+        <example ex-type="seal"><pub>DBLS</pub><ref>42</ref><date notBefore="0701" notAfter="0800">8th
                 c.</date></example>
     </glyph>
     <glyph use-seals="unclassified" use-coins="unclassified">
@@ -8402,7 +8402,7 @@
         <legacyfonts>New.</legacyfonts>
         <description>Large slash, climbing to right. </description>
         <example ex-type="seal"><pub>SBS</pub><ref>3:37</ref></example>
-        <example ex-type="seal"><pub>CBS</pub><ref>1:4.5</ref><date notBefore="801" notAfter="900"
+        <example ex-type="seal"><pub>CBS</pub><ref>1:4.5</ref><date notBefore="0801" notAfter="0900"
                 >9th c.</date></example>
     </glyph>
     <glyph use-seals="basic" use-coins="unclassified">
@@ -8415,7 +8415,7 @@
         <legacyfonts>New.</legacyfonts>
         <example ex-type="seal"
                 ><pub>Cheynet, personal correspondence</pub><ref>Theod 1244</ref><date
-                notBefore="801" notAfter="1000">9-10th c.</date></example>
+                notBefore="0801" notAfter="1000">9-10th c.</date></example>
         <comment>
             <ttnote>Curved</ttnote></comment>
     </glyph>
@@ -8426,9 +8426,9 @@
         <postname>uniE600</postname>
         <legacyfonts>New.</legacyfonts>
         <description>Combination of <postname>comma</postname> and <postname>uni02CA</postname>. </description>
-        <example ex-type="seal"><pub>CBS</pub><ref>2:8.44</ref><date notBefore="701" notAfter="900"
+        <example ex-type="seal"><pub>CBS</pub><ref>2:8.44</ref><date notBefore="0701" notAfter="0900"
                 >8-9th c.</date></example>
-        <example ex-type="seal"><pub>CBS</pub><ref>2:40.11</ref><date notBefore="901"
+        <example ex-type="seal"><pub>CBS</pub><ref>2:40.11</ref><date notBefore="0901"
                 notAfter="1000">10th c.</date></example>
         <comment>Possible Unicode proposal</comment>
     </glyph>
@@ -8496,11 +8496,11 @@
         <postname>uni0337</postname>
         <legacyfonts><athena cp="0032">&#x0032;</athena></legacyfonts>
         <description>Oblique stroke cutting previous letter. Combining character.</description>
-        <example ex-type="seal"><pub>DBLS</pub><ref>5</ref><date notBefore="501" notAfter="600">6th
+        <example ex-type="seal"><pub>DBLS</pub><ref>5</ref><date notBefore="0501" notAfter="0600">6th
                 c.</date></example>
-        <example ex-type="seal"><pub>DBLS</pub><ref>6</ref><date notBefore="501" notAfter="600">6th
+        <example ex-type="seal"><pub>DBLS</pub><ref>6</ref><date notBefore="0501" notAfter="0600">6th
                 c.</date></example>
-        <example ex-type="seal"><pub>DBLS</pub><ref>33</ref><date notBefore="701" notAfter="800">8th
+        <example ex-type="seal"><pub>DBLS</pub><ref>33</ref><date notBefore="0701" notAfter="0800">8th
                 c.</date></example>
         <comment>
             <ttnote>Combining, especially with Κ, Ρ, Φ, Μ.</ttnote></comment>
@@ -8660,7 +8660,7 @@
         <postname>uni0374.overline</postname>
         <legacyfonts>See xref.</legacyfonts>
         <description><postname>uni0305</postname>.</description>
-        <example ex-type="seal"><pub>DBLS</pub><ref>58</ref><date notBefore="901" notAfter="1000"
+        <example ex-type="seal"><pub>DBLS</pub><ref>58</ref><date notBefore="0901" notAfter="1000"
                 >10th c.</date></example>
         <comment>
             <ttnote>New PUA.</ttnote></comment>
@@ -8923,15 +8923,15 @@
         <postname>uniE712</postname>
         <symbolclass>3-ray array</symbolclass>
         <description>Set in hexagonal array, one “axis” set vertically.</description>
-        <example ex-type="seal"><pub>DBLS</pub><ref>26</ref><date notBefore="701" notAfter="800">8th
+        <example ex-type="seal"><pub>DBLS</pub><ref>26</ref><date notBefore="0701" notAfter="0800">8th
                 c.</date></example>
-        <example ex-type="seal"><pub>DBLS</pub><ref>48</ref><date notBefore="801" notAfter="900">9th
+        <example ex-type="seal"><pub>DBLS</pub><ref>48</ref><date notBefore="0801" notAfter="0900">9th
                 c.</date></example>
-        <example ex-type="seal"><pub>DBLS</pub><ref>59</ref><date notBefore="901" notAfter="1000"
+        <example ex-type="seal"><pub>DBLS</pub><ref>59</ref><date notBefore="0901" notAfter="1000"
                 >10th c.</date></example>
         <example ex-type="seal"><pub>DBLS</pub><ref>144</ref><date notBefore="1201" notAfter="1300"
                 >13th c.</date></example>
-        <example ex-type="seal"><pub>BLS</pub><ref>81</ref><date notBefore="701" notAfter="800">8th
+        <example ex-type="seal"><pub>BLS</pub><ref>81</ref><date notBefore="0701" notAfter="0800">8th
                 c.</date></example>
         <comment>Could be combined with 6-pellet array uniE73E to form pelleted star.</comment>
     </glyph>
@@ -9063,11 +9063,11 @@
         <legacyfonts><athena cp="0021">&#x0021;</athena></legacyfonts>
         <symbolclass>1-pellet array</symbolclass>
         <description>Single midpoint. </description>
-        <example ex-type="seal"><pub>DBLS</pub><ref>13</ref><date notBefore="601" notAfter="700">7th
+        <example ex-type="seal"><pub>DBLS</pub><ref>13</ref><date notBefore="0601" notAfter="0700">7th
                 c.</date></example>
-        <example ex-type="seal"><pub>DBLS</pub><ref>52</ref><date notBefore="801" notAfter="900">9th
+        <example ex-type="seal"><pub>DBLS</pub><ref>52</ref><date notBefore="0801" notAfter="0900">9th
                 c.</date></example>
-        <example ex-type="seal"><pub>DBLS</pub><ref>60</ref><date notBefore="901" notAfter="1000"
+        <example ex-type="seal"><pub>DBLS</pub><ref>60</ref><date notBefore="0901" notAfter="1000"
                 >10th c.</date></example>
         <comment>We considered encoding this class of symbols as U+2024, but decided against
             it.</comment>
@@ -9254,7 +9254,7 @@
                 >13th c.</date></example>
         <example ex-type="seal"><pub>DBLS</pub><ref>148</ref><date notBefore="1301" notAfter="1400"
                 >14th c.</date></example>
-        <example ex-type="seal"><pub>CBS</pub><ref>1:70.1</ref><date notBefore="901" notAfter="1100"
+        <example ex-type="seal"><pub>CBS</pub><ref>1:70.1</ref><date notBefore="0901" notAfter="1100"
                 >10/11th c.</date></example>
         <comment>Perhaps set combining form for new pendilia.</comment>
     </glyph>
@@ -9318,9 +9318,9 @@
         <legacyfonts><athena cp="005E">&#x005E;</athena></legacyfonts>
         <symbolclass>4-pellet array</symbolclass>
         <description>Large diamond arrangement.</description>
-        <example ex-type="seal"><pub>DBLS</pub><ref>52</ref><date notBefore="801" notAfter="900">9th
+        <example ex-type="seal"><pub>DBLS</pub><ref>52</ref><date notBefore="0801" notAfter="0900">9th
                 c.</date></example>
-        <example ex-type="seal"><pub>DBLS</pub><ref>61</ref><date notBefore="901" notAfter="1000"
+        <example ex-type="seal"><pub>DBLS</pub><ref>61</ref><date notBefore="0901" notAfter="1000"
                 >10th c.</date></example>
         <example ex-type="seal"><pub>BLS</pub><ref>16</ref><date notBefore="1001" notAfter="1100"
                 >11th c.</date></example>
@@ -9335,7 +9335,7 @@
         <legacyfonts><coinart cp="0034">&#x0034;</coinart></legacyfonts>
         <symbolclass>5-pellet array</symbolclass>
         <description>Quincunx.</description>
-        <example ex-type="seal"><pub>DBLS</pub><ref>64</ref><date notBefore="901" notAfter="1000"
+        <example ex-type="seal"><pub>DBLS</pub><ref>64</ref><date notBefore="0901" notAfter="1000"
                 >10th c.</date></example>
         <comment>We considered encoding this class of symbols as U+2059, but decided against it. See
             large 4-pellet array. Ideal for making imperial costume elements.</comment>
@@ -9667,13 +9667,13 @@
         <legacyfonts><athena cp="0024">&#x0024;</athena></legacyfonts>
         <symbolclass>tendril</symbolclass>
         <description>Two leaves, stem on right. </description>
-        <example ex-type="seal"><pub>CBS</pub><ref>5:22.3</ref><date notBefore="801" notAfter="1000"
+        <example ex-type="seal"><pub>CBS</pub><ref>5:22.3</ref><date notBefore="0801" notAfter="1000"
                 >9-10th c.</date></example>
         <example ex-type="seal"><pub>CBS</pub><ref>5:42.18</ref><date notBefore="1301"
                 notAfter="1400">14th c.</date></example>
         <example ex-type="seal"><pub>CBS</pub><ref>5:42.19</ref><date notBefore="1301"
                 notAfter="1400">14th c.</date></example>
-        <example ex-type="seal"><pub>CBS</pub><ref>5:42.35</ref><date notBefore="833" notAfter="867"
+        <example ex-type="seal"><pub>CBS</pub><ref>5:42.35</ref><date notBefore="0833" notAfter="0867"
                 >mid-9th c.</date></example>
         <comment>As drawn, it looks like a bird in flight. Character should show clearly that
             vegetation is being depicted.</comment>
@@ -9696,7 +9696,7 @@
         <postname>uniE802</postname>
         <symbolclass>tendril</symbolclass>
         <description>Three leaves, stem on right.</description>
-        <example ex-type="seal"><pub>DBLS</pub><ref>31</ref><date notBefore="701" notAfter="800">8th
+        <example ex-type="seal"><pub>DBLS</pub><ref>31</ref><date notBefore="0701" notAfter="0800">8th
                 c.</date></example>
         <comment/>
     </glyph>
@@ -9707,7 +9707,7 @@
         <postname>uniE803</postname>
         <symbolclass>tendril</symbolclass>
         <description>As <postname>uniE802</postname>, reversed. </description>
-        <example ex-type="seal"><pub>DBLS</pub><ref>31</ref><date notBefore="701" notAfter="800">8th
+        <example ex-type="seal"><pub>DBLS</pub><ref>31</ref><date notBefore="0701" notAfter="0800">8th
                 c.</date></example>
         <comment/>
     </glyph>
@@ -9720,13 +9720,13 @@
             >&#2264;</athena8></legacyfonts>
         <symbolclass>cross</symbolclass>
         <description>Mid-point, arms of equal length. </description>
-        <example ex-type="seal"><pub>DBLS</pub><ref>6</ref><date notBefore="501" notAfter="600">6th
+        <example ex-type="seal"><pub>DBLS</pub><ref>6</ref><date notBefore="0501" notAfter="0600">6th
                 c.</date></example>
-        <example ex-type="seal"><pub>DBLS</pub><ref>15</ref><date notBefore="601" notAfter="700">7th
+        <example ex-type="seal"><pub>DBLS</pub><ref>15</ref><date notBefore="0601" notAfter="0700">7th
                 c.</date></example>
-        <example ex-type="seal"><pub>DBLS</pub><ref>27</ref><date notBefore="701" notAfter="800">8th
+        <example ex-type="seal"><pub>DBLS</pub><ref>27</ref><date notBefore="0701" notAfter="0800">8th
                 c.</date></example>
-        <example ex-type="seal"><pub>DBLS</pub><ref>45</ref><date notBefore="801" notAfter="900">9th
+        <example ex-type="seal"><pub>DBLS</pub><ref>45</ref><date notBefore="0801" notAfter="0900">9th
                 c.</date></example>
         <example ex-type="seal"><pub>DBLS</pub><ref>76</ref><date notBefore="1001" notAfter="1100"
                 >11th c.</date></example>
@@ -9766,7 +9766,7 @@
         <legacyfonts><athena8 cp="00D9">&#x00D9;</athena8></legacyfonts>
         <symbolclass>cross</symbolclass>
         <description>De-Christianized cross. </description>
-        <example ex-type="coin"><pub>ABC</pub><ref>p. 33</ref><date notBefore="650" notAfter="700"
+        <example ex-type="coin"><pub>ABC</pub><ref>p. 33</ref><date notBefore="0650" notAfter="0700"
                 >late 7th c.</date></example>
         <comment/>
     </glyph>
