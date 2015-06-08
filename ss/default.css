@@ -2,84 +2,69 @@
 
 /* Items below pertain to fonts */
 @font-face
- {
-    font-family : Athena;
-    src : url('../fonts/Athena.TTF');
+{
+    font-family:Athena;
+    src:url('../fonts/Athena.TTF');
 }
 @font-face
- {
-    font-family : CoinArt;
-    src : url('../fonts/COINART_.TTF');
+{
+    font-family:CoinArt;
+    src:url('../fonts/COINART_.TTF');
 }
 @font-face
- {
-    font-family : CoinGreek;
-    src : url('../fonts/COG_____.TTF');
+{
+    font-family:CoinGreek;
+    src:url('../fonts/COG_____.TTF');
 }
 @font-face
- {
-    font-family : CoinInscr;
-    src : url('../fonts/COI_____.TTF');
+{
+    font-family:CoinInscr;
+    src:url('../fonts/COI_____.TTF');
 }
 @font-face
- {
-    font-family : Grierson;
-    src : url('../fonts/GR______.TTF');
+{
+    font-family:Grierson;
+    src:url('../fonts/GR______.TTF');
 }
-@font-face {
-    font-family : athenarubyweb;
-    src : url('../fonts/athenaruby_b017-webfont.eot?#iefix') format('embedded-opentype'), 
-url('../fonts/athenaruby_b017-webfont.woff')format('woff'), 
-url('../fonts/AthenaRuby_b017.ttf')format('truetype'), 
-url('../fonts/athenaruby_b017-webfont.svg#athenarubyweb')format('svg');
+@font-face{
+    font-family:athenarubyweb;
+    src:url('../fonts/athenaruby_b017-webfont.eot?#iefix') format('embedded-opentype'), 
+url('../fonts/athenaruby_b017-webfont.woff') format('woff'), 
+url('../fonts/AthenaRuby_b017.ttf') format('truetype'), 
+url('../fonts/athenaruby_b017-webfont.svg#athenarubyweb') format('svg');
 }
 
 /* Items below pertain to text that uses customized fonts defined above */
-.athenarubyweb {
-    font-family : athenarubyweb;
+.athenarubyweb{
+    font-family:athenarubyweb;
+    -moz-font-variant-ligatures: "calt=1"; /* for Firefox 14 and prior */
+    -moz-font-variant-ligatures: contextual; /* for Firefox 15 and later */
+    -webkit-font-variant-ligatures: contextual;
+    -ms-font-variant-ligatures: contextual;
+    -o-font-variant-ligatures: contextual;
+    font-variant-ligatures: contextual;
 }
-span.dlig-on {
-    -moz-font-feature-settings : "liga=1, dlig=1"; /* for Firefox 14 and prior */
-    -moz-font-feature-settings : "liga" on, "dlig" on; /* for Firefox 15 */
-    -ms-font-feature-settings : "liga" on, "dlig" on;
-    -webkit-font-feature-settings : "liga" on, "dlig" on;
-    -o-font-feature-settings : "liga" on, "dlig" on;
-    font-feature-settings : "liga" on, "dlig" on;
+.athena{
+    font-family:Athena;
+    font-size:large;
 }
-span.cvXX-01 {
-    -moz-font-feature-settings : "cv01=1,cv02=1,cv03=1,cv04=1,cv05=1,cv06=1,cv07=1,cv08=1,cv09=1,cv10=1,cv11=1,cv12=1,cv13=1,cv14=1,cv15=1,cv16=1,cv17=1,cv18=1,cv19=1,cv20=1,cv21=1,cv22=1,cv23=1,cv24=1,cv25=1,cv26=1,cv27=1,cv28=1,cv29=1,cv30=1,cv31=1,cv32=1,cv33=1,cv34=1,cv35=1,cv36=1,cv37=1,cv38=1,cv39=1,cv40=1,cv41=1,cv42=1,cv43=1,cv44=1,cv45=1,cv46=1,cv47=1,cv48=1,cv49=1,cv50=1,cv51=1,cv52=1,cv53=1,cv54=1,cv55=1,cv56=1,cv57=1,cv58=1,cv59=1,cv60=1,cv61=1,cv62=1,cv63=1,cv64=1,cv65=1,cv66=1,cv67=1,cv68=1,cv69=1,cv70=1,cv71=1,cv72=1,cv73=1,cv74=1,cv75=1,cv76=1,cv77=1,cv78=1,cv79=1,cv80=1,cv81=1,cv82=1,cv83=1,cv84=1,cv85=1,cv86=1,cv87=1,cv88=1,cv89=1,cv90=1,cv91=1,cv92=1,cv93=1,cv94=1,cv95=1,cv96=1,cv97=1,cv98=1,cv99=1"; /* for Firefox 14 and prior */
-    -moz-font-feature-settings : "cv01" 1,"cv02" 1,"cv03" 1,"cv04" 1,"cv05" 1,"cv06" 1,"cv07" 1,"cv08" 1,"cv09" 1,"cv10" 1,"cv11" 1,"cv12" 1,"cv13" 1,"cv14" 1,"cv15" 1,"cv16" 1,"cv17" 1,"cv18" 1,"cv19" 1,"cv20" 1,"cv21" 1,"cv22" 1,"cv23" 1,"cv24" 1,"cv25" 1,"cv26" 1,"cv27" 1,"cv28" 1,"cv29" 1,"cv30" 1,"cv31" 1,"cv32" 1,"cv33" 1,"cv34" 1,"cv35" 1,"cv36" 1,"cv37" 1,"cv38" 1,"cv39" 1,"cv40" 1,"cv41" 1,"cv42" 1,"cv43" 1,"cv44" 1,"cv45" 1,"cv46" 1,"cv47" 1,"cv48" 1,"cv49" 1,"cv50" 1,"cv51" 1,"cv52" 1,"cv53" 1,"cv54" 1,"cv55" 1,"cv56" 1,"cv57" 1,"cv58" 1,"cv59" 1,"cv60" 1,"cv61" 1,"cv62" 1,"cv63" 1,"cv64" 1,"cv65" 1,"cv66" 1,"cv67" 1,"cv68" 1,"cv69" 1,"cv70" 1,"cv71" 1,"cv72" 1,"cv73" 1,"cv74" 1,"cv75" 1,"cv76" 1,"cv77" 1,"cv78" 1,"cv79" 1,"cv80" 1,"cv81" 1,"cv82" 1,"cv83" 1,"cv84" 1,"cv85" 1,"cv86" 1,"cv87" 1,"cv88" 1,"cv89" 1,"cv90" 1,"cv91" 1,"cv92" 1,"cv93" 1,"cv94" 1,"cv95" 1,"cv96" 1,"cv97" 1,"cv98" 1,"cv99" 1; /* for Firefox 15 */
-    -ms-font-feature-settings : "cv01" 1,"cv02" 1,"cv03" 1,"cv04" 1,"cv05" 1,"cv06" 1,"cv07" 1,"cv08" 1,"cv09" 1,"cv10" 1,"cv11" 1,"cv12" 1,"cv13" 1,"cv14" 1,"cv15" 1,"cv16" 1,"cv17" 1,"cv18" 1,"cv19" 1,"cv20" 1,"cv21" 1,"cv22" 1,"cv23" 1,"cv24" 1,"cv25" 1,"cv26" 1,"cv27" 1,"cv28" 1,"cv29" 1,"cv30" 1,"cv31" 1,"cv32" 1,"cv33" 1,"cv34" 1,"cv35" 1,"cv36" 1,"cv37" 1,"cv38" 1,"cv39" 1,"cv40" 1,"cv41" 1,"cv42" 1,"cv43" 1,"cv44" 1,"cv45" 1,"cv46" 1,"cv47" 1,"cv48" 1,"cv49" 1,"cv50" 1,"cv51" 1,"cv52" 1,"cv53" 1,"cv54" 1,"cv55" 1,"cv56" 1,"cv57" 1,"cv58" 1,"cv59" 1,"cv60" 1,"cv61" 1,"cv62" 1,"cv63" 1,"cv64" 1,"cv65" 1,"cv66" 1,"cv67" 1,"cv68" 1,"cv69" 1,"cv70" 1,"cv71" 1,"cv72" 1,"cv73" 1,"cv74" 1,"cv75" 1,"cv76" 1,"cv77" 1,"cv78" 1,"cv79" 1,"cv80" 1,"cv81" 1,"cv82" 1,"cv83" 1,"cv84" 1,"cv85" 1,"cv86" 1,"cv87" 1,"cv88" 1,"cv89" 1,"cv90" 1,"cv91" 1,"cv92" 1,"cv93" 1,"cv94" 1,"cv95" 1,"cv96" 1,"cv97" 1,"cv98" 1,"cv99" 1;
-    -webkit-font-feature-settings : "cv01" 1,"cv02" 1,"cv03" 1,"cv04" 1,"cv05" 1,"cv06" 1,"cv07" 1,"cv08" 1,"cv09" 1,"cv10" 1,"cv11" 1,"cv12" 1,"cv13" 1,"cv14" 1,"cv15" 1,"cv16" 1,"cv17" 1,"cv18" 1,"cv19" 1,"cv20" 1,"cv21" 1,"cv22" 1,"cv23" 1,"cv24" 1,"cv25" 1,"cv26" 1,"cv27" 1,"cv28" 1,"cv29" 1,"cv30" 1,"cv31" 1,"cv32" 1,"cv33" 1,"cv34" 1,"cv35" 1,"cv36" 1,"cv37" 1,"cv38" 1,"cv39" 1,"cv40" 1,"cv41" 1,"cv42" 1,"cv43" 1,"cv44" 1,"cv45" 1,"cv46" 1,"cv47" 1,"cv48" 1,"cv49" 1,"cv50" 1,"cv51" 1,"cv52" 1,"cv53" 1,"cv54" 1,"cv55" 1,"cv56" 1,"cv57" 1,"cv58" 1,"cv59" 1,"cv60" 1,"cv61" 1,"cv62" 1,"cv63" 1,"cv64" 1,"cv65" 1,"cv66" 1,"cv67" 1,"cv68" 1,"cv69" 1,"cv70" 1,"cv71" 1,"cv72" 1,"cv73" 1,"cv74" 1,"cv75" 1,"cv76" 1,"cv77" 1,"cv78" 1,"cv79" 1,"cv80" 1,"cv81" 1,"cv82" 1,"cv83" 1,"cv84" 1,"cv85" 1,"cv86" 1,"cv87" 1,"cv88" 1,"cv89" 1,"cv90" 1,"cv91" 1,"cv92" 1,"cv93" 1,"cv94" 1,"cv95" 1,"cv96" 1,"cv97" 1,"cv98" 1,"cv99" 1;
-    -o-font-feature-settings : "cv01" 1,"cv02" 1,"cv03" 1,"cv04" 1,"cv05" 1,"cv06" 1,"cv07" 1,"cv08" 1,"cv09" 1,"cv10" 1,"cv11" 1,"cv12" 1,"cv13" 1,"cv14" 1,"cv15" 1,"cv16" 1,"cv17" 1,"cv18" 1,"cv19" 1,"cv20" 1,"cv21" 1,"cv22" 1,"cv23" 1,"cv24" 1,"cv25" 1,"cv26" 1,"cv27" 1,"cv28" 1,"cv29" 1,"cv30" 1,"cv31" 1,"cv32" 1,"cv33" 1,"cv34" 1,"cv35" 1,"cv36" 1,"cv37" 1,"cv38" 1,"cv39" 1,"cv40" 1,"cv41" 1,"cv42" 1,"cv43" 1,"cv44" 1,"cv45" 1,"cv46" 1,"cv47" 1,"cv48" 1,"cv49" 1,"cv50" 1,"cv51" 1,"cv52" 1,"cv53" 1,"cv54" 1,"cv55" 1,"cv56" 1,"cv57" 1,"cv58" 1,"cv59" 1,"cv60" 1,"cv61" 1,"cv62" 1,"cv63" 1,"cv64" 1,"cv65" 1,"cv66" 1,"cv67" 1,"cv68" 1,"cv69" 1,"cv70" 1,"cv71" 1,"cv72" 1,"cv73" 1,"cv74" 1,"cv75" 1,"cv76" 1,"cv77" 1,"cv78" 1,"cv79" 1,"cv80" 1,"cv81" 1,"cv82" 1,"cv83" 1,"cv84" 1,"cv85" 1,"cv86" 1,"cv87" 1,"cv88" 1,"cv89" 1,"cv90" 1,"cv91" 1,"cv92" 1,"cv93" 1,"cv94" 1,"cv95" 1,"cv96" 1,"cv97" 1,"cv98" 1,"cv99" 1;
-    font-feature-settings : "cv01" 1,"cv02" 1,"cv03" 1,"cv04" 1,"cv05" 1,"cv06" 1,"cv07" 1,"cv08" 1,"cv09" 1,"cv10" 1,"cv11" 1,"cv12" 1,"cv13" 1,"cv14" 1,"cv15" 1,"cv16" 1,"cv17" 1,"cv18" 1,"cv19" 1,"cv20" 1,"cv21" 1,"cv22" 1,"cv23" 1,"cv24" 1,"cv25" 1,"cv26" 1,"cv27" 1,"cv28" 1,"cv29" 1,"cv30" 1,"cv31" 1,"cv32" 1,"cv33" 1,"cv34" 1,"cv35" 1,"cv36" 1,"cv37" 1,"cv38" 1,"cv39" 1,"cv40" 1,"cv41" 1,"cv42" 1,"cv43" 1,"cv44" 1,"cv45" 1,"cv46" 1,"cv47" 1,"cv48" 1,"cv49" 1,"cv50" 1,"cv51" 1,"cv52" 1,"cv53" 1,"cv54" 1,"cv55" 1,"cv56" 1,"cv57" 1,"cv58" 1,"cv59" 1,"cv60" 1,"cv61" 1,"cv62" 1,"cv63" 1,"cv64" 1,"cv65" 1,"cv66" 1,"cv67" 1,"cv68" 1,"cv69" 1,"cv70" 1,"cv71" 1,"cv72" 1,"cv73" 1,"cv74" 1,"cv75" 1,"cv76" 1,"cv77" 1,"cv78" 1,"cv79" 1,"cv80" 1,"cv81" 1,"cv82" 1,"cv83" 1,"cv84" 1,"cv85" 1,"cv86" 1,"cv87" 1,"cv88" 1,"cv89" 1,"cv90" 1,"cv91" 1,"cv92" 1,"cv93" 1,"cv94" 1,"cv95" 1,"cv96" 1,"cv97" 1,"cv98" 1,"cv99" 1;
-}
-span.cvXX-02 {
-    -moz-font-feature-settings : "cv01=2,cv02=2,cv03=2,cv04=2,cv05=2,cv06=2,cv07=2,cv08=2,cv09=2,cv10=2,cv11=2,cv12=2,cv13=2,cv14=2,cv15=2,cv16=2,cv17=2,cv18=2,cv19=2,cv20=2,cv21=2,cv22=2,cv23=2,cv24=2,cv25=2,cv26=2,cv27=2,cv28=2,cv29=2,cv30=2,cv31=2,cv32=2,cv33=2,cv34=2,cv35=2,cv36=2,cv37=2,cv38=2,cv39=2,cv40=2,cv41=2,cv42=2,cv43=2,cv44=2,cv45=2,cv46=2,cv47=2,cv48=2,cv49=2,cv50=2,cv51=2,cv52=2,cv53=2,cv54=2,cv55=2,cv56=2,cv57=2,cv58=2,cv59=2,cv60=2,cv61=2,cv62=2,cv63=2,cv64=2,cv65=2,cv66=2,cv67=2,cv68=2,cv69=2,cv70=2,cv71=2,cv72=2,cv73=2,cv74=2,cv75=2,cv76=2,cv77=2,cv78=2,cv79=2,cv80=2,cv81=2,cv82=2,cv83=2,cv84=2,cv85=2,cv86=2,cv87=2,cv88=2,cv89=2,cv90=2,cv91=2,cv92=2,cv93=2,cv94=2,cv95=2,cv96=2,cv97=2,cv98=2,cv99=2"; /* for Firefox 14 and prior */
-    -moz-font-feature-settings : "cv01" 2,"cv02" 2,"cv03" 2,"cv04" 2,"cv05" 2,"cv06" 2,"cv07" 2,"cv08" 2,"cv09" 2,"cv10" 2,"cv11" 2,"cv12" 2,"cv13" 2,"cv14" 2,"cv15" 2,"cv16" 2,"cv17" 2,"cv18" 2,"cv19" 2,"cv20" 2,"cv21" 2,"cv22" 2,"cv23" 2,"cv24" 2,"cv25" 2,"cv26" 2,"cv27" 2,"cv28" 2,"cv29" 2,"cv30" 2,"cv31" 2,"cv32" 2,"cv33" 2,"cv34" 2,"cv35" 2,"cv36" 2,"cv37" 2,"cv38" 2,"cv39" 2,"cv40" 2,"cv41" 2,"cv42" 2,"cv43" 2,"cv44" 2,"cv45" 2,"cv46" 2,"cv47" 2,"cv48" 2,"cv49" 2,"cv50" 2,"cv51" 2,"cv52" 2,"cv53" 2,"cv54" 2,"cv55" 2,"cv56" 2,"cv57" 2,"cv58" 2,"cv59" 2,"cv60" 2,"cv61" 2,"cv62" 2,"cv63" 2,"cv64" 2,"cv65" 2,"cv66" 2,"cv67" 2,"cv68" 2,"cv69" 2,"cv70" 2,"cv71" 2,"cv72" 2,"cv73" 2,"cv74" 2,"cv75" 2,"cv76" 2,"cv77" 2,"cv78" 2,"cv79" 2,"cv80" 2,"cv81" 2,"cv82" 2,"cv83" 2,"cv84" 2,"cv85" 2,"cv86" 2,"cv87" 2,"cv88" 2,"cv89" 2,"cv90" 2,"cv91" 2,"cv92" 2,"cv93" 2,"cv94" 2,"cv95" 2,"cv96" 2,"cv97" 2,"cv98" 2,"cv99" 2; /* for Firefox 15 */
-    -ms-font-feature-settings : "cv01" 2,"cv02" 2,"cv03" 2,"cv04" 2,"cv05" 2,"cv06" 2,"cv07" 2,"cv08" 2,"cv09" 2,"cv10" 2,"cv11" 2,"cv12" 2,"cv13" 2,"cv14" 2,"cv15" 2,"cv16" 2,"cv17" 2,"cv18" 2,"cv19" 2,"cv20" 2,"cv21" 2,"cv22" 2,"cv23" 2,"cv24" 2,"cv25" 2,"cv26" 2,"cv27" 2,"cv28" 2,"cv29" 2,"cv30" 2,"cv31" 2,"cv32" 2,"cv33" 2,"cv34" 2,"cv35" 2,"cv36" 2,"cv37" 2,"cv38" 2,"cv39" 2,"cv40" 2,"cv41" 2,"cv42" 2,"cv43" 2,"cv44" 2,"cv45" 2,"cv46" 2,"cv47" 2,"cv48" 2,"cv49" 2,"cv50" 2,"cv51" 2,"cv52" 2,"cv53" 2,"cv54" 2,"cv55" 2,"cv56" 2,"cv57" 2,"cv58" 2,"cv59" 2,"cv60" 2,"cv61" 2,"cv62" 2,"cv63" 2,"cv64" 2,"cv65" 2,"cv66" 2,"cv67" 2,"cv68" 2,"cv69" 2,"cv70" 2,"cv71" 2,"cv72" 2,"cv73" 2,"cv74" 2,"cv75" 2,"cv76" 2,"cv77" 2,"cv78" 2,"cv79" 2,"cv80" 2,"cv81" 2,"cv82" 2,"cv83" 2,"cv84" 2,"cv85" 2,"cv86" 2,"cv87" 2,"cv88" 2,"cv89" 2,"cv90" 2,"cv91" 2,"cv92" 2,"cv93" 2,"cv94" 2,"cv95" 2,"cv96" 2,"cv97" 2,"cv98" 2,"cv99" 2;
-    -webkit-font-feature-settings : "cv01" 2,"cv02" 2,"cv03" 2,"cv04" 2,"cv05" 2,"cv06" 2,"cv07" 2,"cv08" 2,"cv09" 2,"cv10" 2,"cv11" 2,"cv12" 2,"cv13" 2,"cv14" 2,"cv15" 2,"cv16" 2,"cv17" 2,"cv18" 2,"cv19" 2,"cv20" 2,"cv21" 2,"cv22" 2,"cv23" 2,"cv24" 2,"cv25" 2,"cv26" 2,"cv27" 2,"cv28" 2,"cv29" 2,"cv30" 2,"cv31" 2,"cv32" 2,"cv33" 2,"cv34" 2,"cv35" 2,"cv36" 2,"cv37" 2,"cv38" 2,"cv39" 2,"cv40" 2,"cv41" 2,"cv42" 2,"cv43" 2,"cv44" 2,"cv45" 2,"cv46" 2,"cv47" 2,"cv48" 2,"cv49" 2,"cv50" 2,"cv51" 2,"cv52" 2,"cv53" 2,"cv54" 2,"cv55" 2,"cv56" 2,"cv57" 2,"cv58" 2,"cv59" 2,"cv60" 2,"cv61" 2,"cv62" 2,"cv63" 2,"cv64" 2,"cv65" 2,"cv66" 2,"cv67" 2,"cv68" 2,"cv69" 2,"cv70" 2,"cv71" 2,"cv72" 2,"cv73" 2,"cv74" 2,"cv75" 2,"cv76" 2,"cv77" 2,"cv78" 2,"cv79" 2,"cv80" 2,"cv81" 2,"cv82" 2,"cv83" 2,"cv84" 2,"cv85" 2,"cv86" 2,"cv87" 2,"cv88" 2,"cv89" 2,"cv90" 2,"cv91" 2,"cv92" 2,"cv93" 2,"cv94" 2,"cv95" 2,"cv96" 2,"cv97" 2,"cv98" 2,"cv99" 2;
-    -o-font-feature-settings : "cv01" 2,"cv02" 2,"cv03" 2,"cv04" 2,"cv05" 2,"cv06" 2,"cv07" 2,"cv08" 2,"cv09" 2,"cv10" 2,"cv11" 2,"cv12" 2,"cv13" 2,"cv14" 2,"cv15" 2,"cv16" 2,"cv17" 2,"cv18" 2,"cv19" 2,"cv20" 2,"cv21" 2,"cv22" 2,"cv23" 2,"cv24" 2,"cv25" 2,"cv26" 2,"cv27" 2,"cv28" 2,"cv29" 2,"cv30" 2,"cv31" 2,"cv32" 2,"cv33" 2,"cv34" 2,"cv35" 2,"cv36" 2,"cv37" 2,"cv38" 2,"cv39" 2,"cv40" 2,"cv41" 2,"cv42" 2,"cv43" 2,"cv44" 2,"cv45" 2,"cv46" 2,"cv47" 2,"cv48" 2,"cv49" 2,"cv50" 2,"cv51" 2,"cv52" 2,"cv53" 2,"cv54" 2,"cv55" 2,"cv56" 2,"cv57" 2,"cv58" 2,"cv59" 2,"cv60" 2,"cv61" 2,"cv62" 2,"cv63" 2,"cv64" 2,"cv65" 2,"cv66" 2,"cv67" 2,"cv68" 2,"cv69" 2,"cv70" 2,"cv71" 2,"cv72" 2,"cv73" 2,"cv74" 2,"cv75" 2,"cv76" 2,"cv77" 2,"cv78" 2,"cv79" 2,"cv80" 2,"cv81" 2,"cv82" 2,"cv83" 2,"cv84" 2,"cv85" 2,"cv86" 2,"cv87" 2,"cv88" 2,"cv89" 2,"cv90" 2,"cv91" 2,"cv92" 2,"cv93" 2,"cv94" 2,"cv95" 2,"cv96" 2,"cv97" 2,"cv98" 2,"cv99" 2;
-    font-feature-settings : "cv01" 2,"cv02" 2,"cv03" 2,"cv04" 2,"cv05" 2,"cv06" 2,"cv07" 2,"cv08" 2,"cv09" 2,"cv10" 2,"cv11" 2,"cv12" 2,"cv13" 2,"cv14" 2,"cv15" 2,"cv16" 2,"cv17" 2,"cv18" 2,"cv19" 2,"cv20" 2,"cv21" 2,"cv22" 2,"cv23" 2,"cv24" 2,"cv25" 2,"cv26" 2,"cv27" 2,"cv28" 2,"cv29" 2,"cv30" 2,"cv31" 2,"cv32" 2,"cv33" 2,"cv34" 2,"cv35" 2,"cv36" 2,"cv37" 2,"cv38" 2,"cv39" 2,"cv40" 2,"cv41" 2,"cv42" 2,"cv43" 2,"cv44" 2,"cv45" 2,"cv46" 2,"cv47" 2,"cv48" 2,"cv49" 2,"cv50" 2,"cv51" 2,"cv52" 2,"cv53" 2,"cv54" 2,"cv55" 2,"cv56" 2,"cv57" 2,"cv58" 2,"cv59" 2,"cv60" 2,"cv61" 2,"cv62" 2,"cv63" 2,"cv64" 2,"cv65" 2,"cv66" 2,"cv67" 2,"cv68" 2,"cv69" 2,"cv70" 2,"cv71" 2,"cv72" 2,"cv73" 2,"cv74" 2,"cv75" 2,"cv76" 2,"cv77" 2,"cv78" 2,"cv79" 2,"cv80" 2,"cv81" 2,"cv82" 2,"cv83" 2,"cv84" 2,"cv85" 2,"cv86" 2,"cv87" 2,"cv88" 2,"cv89" 2,"cv90" 2,"cv91" 2,"cv92" 2,"cv93" 2,"cv94" 2,"cv95" 2,"cv96" 2,"cv97" 2,"cv98" 2,"cv99" 2;
-}
-.athena {
-    font-family : Athena;
-    font-size : large;
-}
-.athenaruby {
-    font-size : large;
-    font-family : athenarubyweb;
+.athenaruby{
+    font-size:large;
+    font-family:athenarubyweb;
 }
 
 /* Items below pertain to paragraphs and divs */
-
-h2 {
-    color : maroon;
-    border-bottom : 2px solid maroon;
+h2{
+    color:maroon;
+    border-bottom:2px solid maroon;
 }
-.tool:nth-child(even) {
-    background : #CC9999;
+.tool:nth-child(even){
+    background:#CC9999;
 }
-.tool:nth-child(odd) {
-    background : #E6CCCC;
+.tool:nth-child(odd){
+    background:#E6CCCC;
+}
+.minornote{
+    font-size:x-small;
+    font-style:italic;
 }

@@ -1,9 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
+        <meta charset="utf-8" />
         <title>Conversion tool for Dumbarton Oaks legacy fonts</title>
         <link rel="stylesheet" type="text/css" href="ss/default.css" />
+        <link rel="stylesheet" type="text/css" href="ss/ar-otf.css" />
         <link rel="shortcut icon" href="favicon.ico" />
+        <style type="text/css">
+            table{width:100%}
+            td:nth-child(1){width:10%;text-align:right}
+            td:nth-child(2){width:60%}
+            td:nth-child(3){width:30%;font-style:italic}
+            #oldtext, #convertedtext{font-size:xx-large}
+        </style>
         <script type="text/javascript" src="js/jquery.js"></script>
         <script type="text/javascript" src="js/converter.js"></script>
         <!-- Google analytics -->
@@ -23,14 +32,60 @@
     </head>
     <body>
         <h1>Conversion tool for Dumbarton Oaks legacy fonts</h1>
-        <p> Beware ambiguous Latin and Greek letters. If you've typed an N in Athena it will convert
-            to a Greek nu, but you may have intended a Latin N. Converter beware. </p>
-        <p contenteditable="true" class="athena" id="oldtext">SORu Ob TuRe O&#x00D2;&#x005C; ATHeNA
-            Hebe...</p>
-        <!-- Clicking on the paragraph below invokes converter.js -->
-        <p class="athenarubyweb" id="convertedtext" onclick="stroke()">...then click here.</p>
+        <table>
+            <tr>
+                <td>
+                    <p class="athena">ATHeNA&emsp;</p>
+                </td>
+                <td>
+                    <p contenteditable="true" class="athena" id="oldtext" onkeyup="stroke()">RËT O&#x00D2;&#x005C;
+                        ATHeNA Hebe...</p>
+                </td>
+                <td>
+                    <p></p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p class="athenarubyweb">Athena Ruby&emsp;</p>
+                </td>
+                <td>
+                    <!-- Clicking on the paragraph below invokes converter.js -->
+                    <p class="athenarubyweb" id="convertedtext"></p>
+                </td>
+                <td>
+                    <p>fully Unicode compliant (optimal for data interchange, but may not look right
+                        in your browser; ideal for getting Unicode data, without regard to special
+                        glyphs)</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p></p>
+                </td>
+                <td>
+                    <p class="athenarubyweb" id="convertedtextpua"></p>
+                </td>
+                <td>
+                    <p>using Private Use Area (not optimal for data interchange, but should look
+                        correct; ideal for use in most word processors)</p>
+                </td>
+            </tr>
+        </table>
         <hr />
-        <p id="feedback0">Testing feedback below this point</p>
+        <p>Tested successfully in Chrome, Firefox, Opera, Safari for Mac. Looks best in Chrome,
+            Firefox. When you paste text in your other application, make sure that you have Athena
+            Ruby installed, that you paste text only, and that you paste it in a section styled with
+            Athena Ruby.</p>
+        <p>Beware: </p>
+        <ul>
+            <li>Athena glyphs used for both Latin and Greek (an <span class="athena">N</span> will
+                convert to a Greek nu, but you may have meant a Latin N; a <span class="athena"
+                    >Å</span> could signify A or D)</li>
+            <li>Macrons (you may need to supply extra macrons [U+0305] in the converted text)</li>
+        </ul>
+        <hr />
+        <p id="feedback0" style="color:gray;">Testing feedback below this point</p>
         <p id="feedback1"></p>
         <p id="feedback2"></p>
         <p id="feedback3"></p>

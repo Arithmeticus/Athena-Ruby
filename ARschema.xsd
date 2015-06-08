@@ -13,6 +13,7 @@
     </xs:complexType>
   </xs:element>
   <xs:element name="glyph">
+    <xs:annotation><xs:documentation>A glyph in Athena Ruby 1.17</xs:documentation></xs:annotation>
     <xs:complexType>
       <xs:sequence>
         <xs:element ref="index"/>

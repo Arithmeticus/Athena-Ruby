@@ -8,7 +8,6 @@
     PRIORITY
     Determine whether each glyph is unused, basic, or extended for the two main categories: coins and seals.
     Find all instances of <legacyfonts>See xref.</legacyfonts> and replace with verifiable info. 
-    Replace all x-refs with <postname> elements and values (need to check against original prospectus)
     Using legacyfonts.html, check to make sure all Athena mappings are accurate and complete 
     
     SECONDARY
@@ -342,7 +341,7 @@
         <postname>Alpha.20</postname>
         <legacyfonts>New.</legacyfonts>
         <description>As <postname>Alpha.1</postname>, but with upper horizontal bar. </description>
-        <example ex-type="coin"><pub>DOC</pub><ref>1:170 #308</ref></example>
+        <example ex-type="coin"><pub>DOC</pub><ref>1:170 no. 308</ref></example>
     </glyph>
     <glyph use-seals="unclassified" use-coins="basic">
         <index>25</index>
@@ -508,7 +507,7 @@
         <prodname>Beta.4</prodname>
         <postname>Beta.4</postname>
         <legacyfonts><coininscr cp="0050">&#x0050;</coininscr>See xref.</legacyfonts>
-        <description>As Latin <postname>B.1</postname>.</description>
+        <description>As <postname>B.1</postname>.</description>
         <example>pending</example>
         <comment>CoinInscr glyph was meant for Old Bulgarian.</comment>
     </glyph>
@@ -640,7 +639,7 @@
         <prodname>Gamma.2</prodname>
         <postname>Gamma.2</postname>
         <legacyfonts>See xref.</legacyfonts>
-        <description>As Latin <postname>S</postname>.</description>
+        <description>As <postname>S</postname>.</description>
         <example ex-type="coin"><pub>DOC</pub><ref>3.1:187</ref></example>
         <example ex-type="coin"><pub>DOC</pub><ref>3.1:326</ref></example>
         <example ex-type="coin"><pub>DOC</pub><ref>3.1:328</ref></example>
@@ -790,7 +789,7 @@
         <prodname>Delta.8</prodname>
         <postname>Delta.8</postname>
         <legacyfonts>See xref.</legacyfonts>
-        <description>As Latin <postname>D.1</postname>.</description>
+        <description>As <postname>D.1</postname>.</description>
         <example ex-type="coin"
                 ><pub>DOC</pub><ref>3.1:187 plus variants at 3.1:375 and pl. xviii nos.
                 1-3 rev.</ref><date
@@ -1022,7 +1021,8 @@
         <prodname>Zeta.3</prodname>
         <postname>Zeta.3</postname>
         <legacyfonts><athena cp="0178">&#x0178;</athena></legacyfonts>
-        <description>Cursive, four strokes, like xi #4. Often pushed against other letters. </description>
+        <description>Cursive, four strokes, like <postname>Xi.2</postname>. Often pushed against
+            other letters. </description>
         <example ex-type="seal"><pub>DBLS</pub><ref>148</ref><date notBefore="1301" notAfter="1400"
                 >14th c.</date></example>
     </glyph>
@@ -1064,7 +1064,7 @@
         <prodname>Eta.1</prodname>
         <postname>Eta.1</postname>
         <legacyfonts>See xref.</legacyfonts>
-        <description>As Latin H #2.</description>
+        <description>As <postname>H.1</postname>.</description>
         <example ex-type="coin"><pub>DOC</pub>3.1:187</example>
     </glyph>
     <glyph use-seals="basic" use-coins="unclassified">
@@ -1101,10 +1101,10 @@
         <prodname>Theta.1</prodname>
         <postname>Theta.1</postname>
         <legacyfonts>New.</legacyfonts>
-        <description>As #1 but with cross inside. Control mark</description>
+        <description>As <postname>Theta</postname> but with cross inside. Control mark</description>
         <example ex-type="coin"><pub>DOC</pub><ref>3.1:187</ref></example>
-        <example ex-type="coin"><pub>DOC</pub><ref>3.1:349 #1a.1, pl. vx</ref></example>
-        <example ex-type="coin"><pub>DOC</pub><ref>3.1:355 #1a, pl. vx</ref></example>
+        <example ex-type="coin"><pub>DOC</pub><ref>3.1:349 no. 1a.1, pl. vx</ref></example>
+        <example ex-type="coin"><pub>DOC</pub><ref>3.1:355 no. 1a, pl. vx</ref></example>
     </glyph>
     <glyph use-seals="basic" use-coins="basic">
         <index>76</index>
@@ -1115,8 +1115,8 @@
         <prodname>Theta.2</prodname>
         <postname>Theta.2</postname>
         <legacyfonts>New.</legacyfonts>
-        <description>As no. 1 but with crossbar that extends beyond loop on both left and right
-            sides.</description>
+        <description>As <postname>Theta</postname> but with crossbar that extends beyond loop on
+            both left and right sides.</description>
         <example ex-type="coin"><pub>DOC</pub><ref>5:1503-4</ref></example>
         <example ex-type="seal"><pub>Zacos-Veglery</pub>
             <ref>1: no. 1O9OA, plate 219</ref></example>
@@ -1130,8 +1130,8 @@
         <prodname>Theta.3</prodname>
         <postname>Theta.3</postname>
         <legacyfonts>New.</legacyfonts>
-        <description>As no. 1 but with decorative hatch in the crossbar (forms a tiny cross in the
-            center of the loop).</description>
+        <description>As <postname>Theta</postname> but with decorative hatch in the crossbar (forms
+            a tiny cross in the center of the loop).</description>
         <example ex-type="silver"><pub>Boyd and Mango</pub><ref>no. S41</ref><date notBefore="501"
                 notAfter="600">6th c.</date></example>
     </glyph>
@@ -1187,7 +1187,7 @@
                 >&#x0049;</coininscr><coininscr cp="F8FF">&#xF8FF;</coininscr></legacyfonts>
         <description>As <postname>Iota</postname> but with diaresis marks.</description>
         <example ex-type="coin"><pub>DOC</pub><ref>4.2:477</ref></example>
-        <example ex-type="coin"><pub>DOC</pub><ref>4.2:587 #13.2, pl. xlii</ref></example>
+        <example ex-type="coin"><pub>DOC</pub><ref>4.2:587 no. 13.2, pl. xlii</ref></example>
     </glyph>
     <glyph use-seals="basic" use-coins="unclassified">
         <index>81</index>
@@ -1398,7 +1398,8 @@
         <prodname>Mu.2</prodname>
         <postname>Mu.2</postname>
         <legacyfonts><athena cp="00B5">&#x00B5;</athena></legacyfonts>
-        <description>Like an eta with a vertical bar hanging from the crossbar’s midpoint. </description>
+        <description>Like an <postname>Eta</postname> with a vertical bar hanging from the
+            crossbar’s midpoint. </description>
         <example ex-type="seal"><pub>DBLS</pub><ref>134</ref><date notBefore="1201" notAfter="1300"
                 >13th c.</date></example>
         <example ex-type="seal"><pub>SBS</pub><ref>4:39</ref></example>
@@ -1588,7 +1589,7 @@
                 c.</date></example>
         <example ex-type="seal"><pub>DBLS</pub><ref>84</ref><date notBefore="1001" notAfter="1100"
                 >11th c.</date></example>
-        <example ex-type="coin"><pub>DOC</pub><ref>1:157 #274.1–12</ref></example>
+        <example ex-type="coin"><pub>DOC</pub><ref>1:157 no. 274.1–12</ref></example>
         <comment>
             <ttnote>New PUA.</ttnote></comment>
     </glyph>
@@ -1648,7 +1649,7 @@
         <prodname>Xi.4</prodname>
         <postname>Xi.4</postname>
         <legacyfonts><coininscr cp="005F">&#x005F;</coininscr></legacyfonts>
-        <description>Like an I with full upper and lower bars. </description>
+        <description>Like an <postname>I</postname> with full upper and lower bars. </description>
         <example ex-type="coin"><pub>DOC</pub><ref>3.1:188</ref></example>
         <example ex-type="coin"><pub>DOC</pub><ref>3.2:763 and p. 43</ref><date notBefore="1001"
                 notAfter="1100">11th c.</date></example>
@@ -1664,7 +1665,7 @@
         <prodname>Xi.5</prodname>
         <postname>Xi.5</postname>
         <legacyfonts><athena8 cp="00E8">&#x00E8;</athena8></legacyfonts>
-        <description>Intersecting C and reversed C. </description>
+        <description>Intersecting <postname>Sigma</postname> and <postname>Sigma.1</postname>. </description>
         <example ex-type="coin"><pub>ABC</pub><ref>p. 7</ref></example>
         <comment><ttnote>New PUA.</ttnote></comment>
     </glyph>
@@ -1971,7 +1972,7 @@
         <prodname>Sigma.3</prodname>
         <postname>Sigma.3</postname>
         <legacyfonts><coininscr cp="2018">&#x2018;</coininscr></legacyfonts>
-        <description>As #1, reversed.</description>
+        <description>As <postname>Sigma</postname>, reversed.</description>
         <example>pending</example>
         <comment>
             <ttnote>New PUA.</ttnote></comment>
@@ -2025,7 +2026,7 @@
         <prodname>Upsilon</prodname>
         <postname>Upsilon</postname>
         <legacyfonts><athena cp="0055">&#x0055;</athena></legacyfonts>
-        <description>Like V. </description>
+        <description>Like <postname>V</postname>. </description>
         <example ex-type="seal"><pub>DBLS</pub><ref>29</ref><date notBefore="701" notAfter="800">8th
                 c.</date></example>
         <example ex-type="seal"><pub>DBLS</pub><ref>63</ref><date notBefore="901" notAfter="1000"
@@ -2047,8 +2048,8 @@
         <postname>Upsilon.1</postname>
         <legacyfonts><coininscr cp="00BA">&#x00BA;</coininscr><coininscr cp="0153"
                 >&#x0153;</coininscr>See xref.</legacyfonts>
-        <description>As Latin Y, below.</description>
-        <example ex-type="coin"><pub>DOC</pub><ref>1:32 #47a</ref></example>
+        <description>As <postname>Y</postname>.</description>
+        <example ex-type="coin"><pub>DOC</pub><ref>1:32 no. 47a</ref></example>
         <comment>
             <ttnote>New PUA.</ttnote></comment>
     </glyph>
@@ -2061,7 +2062,7 @@
         <prodname>Upsilon.2</prodname>
         <postname>Upsilon.2</postname>
         <legacyfonts>See xref.</legacyfonts>
-        <description>As Latin U #3.</description>
+        <description>As <postname>U.2</postname>.</description>
         <example ex-type="coin"><pub>DOC</pub><ref>3.1:188</ref></example>
         <comment>
             <ttnote>New PUA.</ttnote></comment>
@@ -2075,7 +2076,7 @@
         <prodname>Upsilon.3</prodname>
         <postname>Upsilon.3</postname>
         <legacyfonts>See xref.</legacyfonts>
-        <description>As Latin U #1.</description>
+        <description>As <postname>U</postname>.</description>
         <example ex-type="coin"><pub>DOC</pub><ref>5.1:98</ref></example>
         <comment>
             <ttnote>New PUA.</ttnote></comment>
@@ -2307,7 +2308,7 @@
         <prodname>Omega.4</prodname>
         <postname>Omega.4</postname>
         <legacyfonts>New.</legacyfonts>
-        <description>Cup-shaped, like a shallow U.</description>
+        <description>Cup-shaped, like a shallow <postname>U</postname>.</description>
         <example ex-type="coin"><pub>DOC</pub><ref>5.1:98</ref></example>
         <example ex-type="coin"><pub>DOC</pub><ref>5.2:1199</ref></example>
         <comment>
@@ -2322,7 +2323,7 @@
         <prodname>Omega.5</prodname>
         <postname>Omega.5</postname>
         <legacyfonts>New.</legacyfonts>
-        <description>As no. 4 but with middle stem as a cross.</description>
+        <description>As <postname>Omega.3</postname> but with middle stem as a cross.</description>
         <example ex-type="silver"><pub>Boyd and Mango, Silver</pub><ref>no. S1</ref><date
                 notBefore="501" notAfter="600">6th c.</date></example>
         <example ex-type="silver"><pub>Boyd and Mango, Silver</pub><ref>no. S41</ref><date
@@ -2356,7 +2357,7 @@
         <postname>uni03DA</postname>
         <legacyfonts><athena cp="00E9">&#x00E9;</athena></legacyfonts>
         <description>Greek numeral six. </description>
-        <example ex-type="coin"><pub>DOC</pub>1:143 #216a</example>
+        <example ex-type="coin"><pub>DOC</pub>1:143 no. 216a</example>
         <example ex-type="coin"><pub>DOC</pub>2.1:106–7</example>
         <example ex-type="weight"><pub>BW</pub><ref>158–60</ref></example>
         <comment><ttnote>New PUA.</ttnote></comment>
@@ -2370,10 +2371,10 @@
         <prodname>Stigma.1</prodname>
         <postname>Stigma.1</postname>
         <legacyfonts>New.</legacyfonts>
-        <description>Like S. Represents the number 6.</description>
+        <description>Like <postname>S</postname>. Represents the number 6.</description>
         <example ex-type="seal"><pub>DBLS</pub><ref>58</ref><date notBefore="901" notAfter="1000"
                 >10th c.</date></example>
-        <example ex-type="coin"><pub>DOC</pub>2.2:422 #5c</example>
+        <example ex-type="coin"><pub>DOC</pub>2.2:422 no. 5c</example>
         <comment>
             <ttnote>New PUA.</ttnote></comment>
     </glyph>
@@ -2386,7 +2387,8 @@
         <prodname>Stigma.2</prodname>
         <postname>Stigma.2</postname>
         <legacyfonts>New.</legacyfonts>
-        <description>As no. 2, reversed (as Latin S.2 (pros.3)).</description>
+        <description>As <postname>Stigma.1</postname>, reversed (as
+            <postname>S.2</postname>).</description>
         <comment>
             <ttnote>New PUA.</ttnote></comment>
     </glyph>
@@ -2424,7 +2426,7 @@
         <prodname>Koppa.2</prodname>
         <postname>uni03D8.2</postname>
         <legacyfonts>New.</legacyfonts>
-        <description>As Greek Stigma (pros.1).</description>
+        <description>As <postname>Stigma</postname>.</description>
         <example ex-type="stone inscription"><pub>Prentice, GLI</pub><ref>no. 33</ref></example>
         <example ex-type="stone inscription"><pub>Prentice, GLI</pub><ref>no. 60</ref></example>
         <example ex-type="stone inscription"><pub>Prentice, GLI</pub><ref>no. 78</ref></example>
@@ -2455,7 +2457,7 @@
         <prodname>Sampi.1</prodname>
         <postname>uni03E0.1</postname>
         <legacyfonts>New.</legacyfonts>
-        <description>As Alpha.19 (pros.20) Check.</description>
+        <description>As <postname>Alpha.19</postname>.</description>
         <example ex-type="stone inscription"><pub>Prentice, GLI</pub><ref>287</ref></example>
         <example ex-type="stone inscription"><pub>Prentice, GLI</pub><ref>319</ref></example>
         <example ex-type="stone inscription"><pub>Prentice, GLI</pub><ref>332</ref></example>
@@ -2472,7 +2474,7 @@
         <prodname>Sampi.2</prodname>
         <postname>uni03E0.2</postname>
         <legacyfonts>New.</legacyfonts>
-        <description>As Alpha.16 (pros.17)</description>
+        <description>As <postname>Alpha.16</postname>.</description>
         <comment>
             <ttnote>New PUA.</ttnote></comment>
     </glyph>
@@ -2482,7 +2484,8 @@
         <prodname>Kyathos</prodname>
         <postname>U10182</postname>
         <legacyfonts>New.</legacyfonts>
-        <description>As KAPPA 1 with short slash through bottom right leg.</description>
+        <description>As <postname>Kappa</postname> with short slash through bottom right
+            leg.</description>
         <example ex-type="weight"><pub>Weber, private correspondence</pub></example>
         <comment>
             <ttnote>New PUA.</ttnote></comment>
@@ -2526,7 +2529,7 @@
         <prodname>Alpha_Beta.1</prodname>
         <postname>Alpha_Beta.1</postname>
         <legacyfonts>New.</legacyfonts>
-        <description>As Gk alpha #6 and Gk beta #1</description>
+        <description>As <postname>Alpha.4</postname> and <postname>Beta</postname>.</description>
         <example ex-type="coin"><pub>DOC</pub><ref>5.1:138</ref></example>
         <comment>
             <ttnote>New PUA.</ttnote></comment>
@@ -2547,7 +2550,7 @@
         <prodname>Alpha_Kappa</prodname>
         <postname>Alpha_Kappa</postname>
         <legacyfonts>New.</legacyfonts>
-        <description>Represents ΑΚ. Uses Gk alpha #6. </description>
+        <description>Represents ΑΚ. Uses <postname>Alpha.5</postname>. </description>
         <example ex-type="seal"><pub>DBLS</pub><ref>153</ref><date notBefore="1301" notAfter="1400"
                 >14th c.</date></example>
         <comment>
@@ -2591,7 +2594,7 @@
         <prodname>Alpha_Nu</prodname>
         <postname>Alpha_Nu</postname>
         <legacyfonts>New.</legacyfonts>
-        <description>Represents ΑΝ. Uses Gk alpha #6. </description>
+        <description>Represents ΑΝ. Uses <postname>Alpha.5</postname>. </description>
         <example ex-type="seal"><pub>DBLS</pub><ref>133</ref><date notBefore="1201" notAfter="1300"
                 >13th c.</date></example>
         <example ex-type="seal"><pub>DBLS</pub><ref>153</ref><date notBefore="1301" notAfter="1400"
@@ -2616,7 +2619,7 @@
         <prodname>Alpha_Rho</prodname>
         <postname>Alpha_Rho</postname>
         <legacyfonts><athena cp="222B;0052">&#x222B;&#x0052;</athena></legacyfonts>
-        <description>Represents ΑΡ. Uses Gk alpha #6. </description>
+        <description>Represents ΑΡ. Uses <postname>Alpha.5</postname>. </description>
         <example ex-type="seal"><pub>DBLS</pub><ref>137</ref><date notBefore="1201" notAfter="1300"
                 >13th c.</date></example>
         <example ex-type="seal"><pub>DBLS</pub><ref>153</ref><date notBefore="1301" notAfter="1400"
@@ -2641,7 +2644,6 @@
         <prodname>Alpha_Rho.1</prodname>
         <postname>Alpha_Rho.1</postname>
         <legacyfonts><coininscr cp="00AE">&#x00AE;</coininscr></legacyfonts>
-        <description>Uses Gk alpha #1. </description>
         <example>pending</example>
         <comment>
             <ttnote>New PUA.</ttnote></comment>
@@ -2662,7 +2664,8 @@
         <prodname>Alpha_Chi</prodname>
         <postname>Alpha_Chi</postname>
         <legacyfonts><athena cp="0078;0041">&#x0078;&#x0041;</athena></legacyfonts>
-        <description>Represents μοναχ-. Formed from a base alpha and a superscript combining chi. </description>
+        <description>Represents μοναχ-. Formed from a base <postname>Alpha</postname> and a
+            superscript combining <postname>Chi</postname>. </description>
         <example ex-type="seal"><pub>DBLS</pub><ref>102</ref><date notBefore="1001" notAfter="1100"
                 >11th c.</date></example>
         <comment>
@@ -2825,7 +2828,8 @@
         <prodname>Gamma_Rho_Omega.1</prodname>
         <postname>Gamma_Rho_Omega.1</postname>
         <legacyfonts>New.</legacyfonts>
-        <description>As #1, but with double-arced omega, as in ΓΩ ligature.</description>
+        <description>As <postname>Gamma_Rho_Omega</postname>, but with double-arced omega, as in
+            <postname>Gamma_Omega</postname>.</description>
         <example ex-type="coin"><pub>DOC</pub><ref>5.2: class viii</ref></example>
         <comment>
             <ttnote>New PUA.</ttnote></comment>
@@ -3187,7 +3191,8 @@
         <prodname>Eta_Rho_Sigma</prodname>
         <postname>Eta_Rho_Sigma</postname>
         <legacyfonts>New.</legacyfonts>
-        <description>As Eta_Rho #2, but with hook on left end of crossbar.</description>
+        <description>As <postname>Eta_Rho.1</postname>, but with hook on left end of
+            crossbar.</description>
         <example ex-type="coin"><pub>DOC</pub><ref>2.1:383</ref></example>
         <comment>
             <ttnote>Was /Eta_Rho.2/ (pros.3). New PUA.</ttnote></comment>
@@ -3209,7 +3214,7 @@
         <prodname>Eta_Sigma</prodname>
         <postname>Eta_Sigma</postname>
         <legacyfonts>New.</legacyfonts>
-        <description>Represents ΗΣ. Use Gk sigma #1.</description>
+        <description>Represents ΗΣ. Use <postname>Sigma</postname>.</description>
         <example ex-type="seal"><pub>DBLS</pub><ref>147</ref><date notBefore="1301" notAfter="1400"
                 >14th c.</date></example>
         <comment>
@@ -3272,8 +3277,8 @@
         <prodname>Iota_Alpha</prodname>
         <postname>Iota_Alpha</postname>
         <legacyfonts>New.</legacyfonts>
-        <description>Represents ΙΑ (numeral for 11). As Gk alpha #3 with iota fused at
-            apex.</description>
+        <description>Represents ΙΑ (numeral for 11). As <postname>Alpha.2</postname> with iota fused
+            at apex.</description>
         <example ex-type="coin"><pub>DOC</pub><ref>2.1:106</ref><date notBefore="601" notAfter="700"
                 >7th c.</date></example>
         <comment>
@@ -3295,7 +3300,7 @@
         <prodname>Iota_Beta</prodname>
         <postname>Iota_Beta</postname>
         <legacyfonts>New.</legacyfonts>
-        <description>Represents ΙΒ (numeral for 12). As Gk beta #5 with iota fused at
+        <description>Represents ΙΒ (numeral for 12). <postname>Beta</postname> with iota fused at
             apex.</description>
         <example ex-type="coin"><pub>DOC</pub><ref>2.1:106</ref><date notBefore="601" notAfter="700"
                 >7th c.</date></example>
@@ -3426,7 +3431,7 @@
         <prodname>Kappa_Gamma.1</prodname>
         <postname>Kappa_Gamma.1</postname>
         <legacyfonts>New.</legacyfonts>
-        <description>As #1, reversed.</description>
+        <description>As <postname>Kappa_Gamma</postname>, reversed.</description>
         <example ex-type="coin"><pub>DOC</pub><ref>5.1:218</ref></example>
         <comment>
             <ttnote>New PUA.</ttnote></comment>
@@ -3491,7 +3496,7 @@
         <prodname>Kappa_Phi.1</prodname>
         <postname>Kappa_Phi.1</postname>
         <legacyfonts>New.</legacyfonts>
-        <description>As #1, but phi at top of kappa.</description>
+        <description>As <postname>Kappa_Phi</postname>, but phi at top of kappa.</description>
         <example ex-type="coin"><pub>DOC</pub><ref>5.1:218</ref></example>
         <comment>
             <ttnote>New PUA.</ttnote></comment>
@@ -3540,8 +3545,8 @@
         <prodname>Lambda_Eta</prodname>
         <postname>Lambda_Eta</postname>
         <legacyfonts><coininscr cp="0068">&#x0068;</coininscr></legacyfonts>
-        <description>Represents ΛΗ. Use Gk lambda #1, modified so leg shared by the letters remains
-            vertical. </description>
+        <description>Represents ΛΗ. <postname>Lambda</postname>, modified so leg shared by the
+            letters remains vertical. </description>
         <example ex-type="seal"><pub>DBLS</pub><ref>145</ref><date notBefore="1301" notAfter="1400"
                 >14th c.</date></example>
         <comment>
@@ -3632,7 +3637,7 @@
         <prodname>Lambda_Iota.3</prodname>
         <postname>Lambda_Iota.3</postname>
         <legacyfonts>New.</legacyfonts>
-        <description>As no. 3, reversed.</description>
+        <description>As <postname>Lambda_Iota.2</postname>, reversed.</description>
         <example ex-type="weight"><pub>Kisch, Scales and Weights</pub><ref>152</ref></example>
         <comment>
             <ttnote>New PUA.</ttnote></comment>
@@ -3654,7 +3659,6 @@
         <prodname>Lambda_Iota.4</prodname>
         <postname>Lambda_Iota.4</postname>
         <legacyfonts>New (moved).</legacyfonts>
-        <description>As Lambda #7, but crossbar is divided by right leg.</description>
         <example ex-type="weight"><pub>BW</pub><ref>46, p. 30</ref></example>
         <comment>
             <ttnote>WAS Lambda.7 (pros.8). New PUA.</ttnote></comment>
@@ -3676,8 +3680,9 @@
         <prodname>Lambda_Iota.5</prodname>
         <postname>Lambda_Iota.5</postname>
         <legacyfonts>New (moved).</legacyfonts>
-        <description>As Lambda_Iota #1, but the middle leg is as long as the other two legs; adjust
-            design so that character fits between cap height and baseline.</description>
+        <description>As <postname>Lambda_Iota</postname>, but the middle leg is as long as the other
+            two legs; adjust design so that character fits between cap height and
+            baseline.</description>
         <example ex-type="weight"><pub>BW</pub><ref>no. 47</ref></example>
         <example ex-type="weight"><pub>BW</pub><ref>no. 48</ref></example>
         <example ex-type="weight"><pub>BW</pub><ref>no. 51</ref></example>
@@ -3746,7 +3751,7 @@
         <prodname>Mu_Gamma</prodname>
         <postname>Mu_Gamma</postname>
         <legacyfonts><athena cp="0067;004D">&#x0067;&#x004D;</athena></legacyfonts>
-        <description>Represents μεγα-. Uses Gk mu #1. </description>
+        <description>Represents μεγα-. Uses <postname>Mu</postname>.</description>
         <example ex-type="seal"><pub>DBLS</pub><ref>86</ref><date notBefore="1001" notAfter="1100"
                 >11th c.</date></example>
         <example ex-type="seal"><pub>CBS</pub><ref>1:1.30</ref><date notBefore="1001"
@@ -3772,7 +3777,7 @@
         <prodname>Mu_Gamma.1</prodname>
         <postname>Mu_Gamma.1</postname>
         <legacyfonts><grierson cp="002D">&#x002D;</grierson></legacyfonts>
-        <description>Uses Gk mu #3. </description>
+        <description>Uses <postname>Mu.2</postname>. </description>
         <example>pending</example>
         <comment>
             <ttnote>New PUA.</ttnote></comment>
@@ -3794,7 +3799,8 @@
         <prodname>Mu_Epsilon</prodname>
         <postname>Mu_Epsilon</postname>
         <legacyfonts>New.</legacyfonts>
-        <description>Represents ΜΕ. Uses Gk mu #1 and default Gk epsilon.</description>
+        <description>Represents ΜΕ. Uses <postname>Mu</postname> and default
+            <postname>Epsilon</postname>.</description>
         <example ex-type="seal"><pub>DBLS</pub><ref>147</ref><date notBefore="1301" notAfter="1400"
                 >14th c.</date></example>
         <comment>
@@ -3817,7 +3823,7 @@
         <prodname>Mu_Epsilon.1</prodname>
         <postname>Mu_Epsilon.1</postname>
         <legacyfonts>New.</legacyfonts>
-        <description>Represents ΜΕ. Uses Gk mu #1 and Gk epsilon #1. </description>
+        <description>Represents ΜΕ. Uses <postname>Mu</postname> and <postname>Epsilon.3</postname>. </description>
         <comment>
             <ttnote>New PUA.</ttnote></comment>
     </glyph>
@@ -3838,7 +3844,7 @@
         <prodname>Mu_Eta</prodname>
         <postname>Mu_Eta</postname>
         <legacyfonts><coininscr cp="00D3">&#x00D3;</coininscr></legacyfonts>
-        <description>Represents ΜΗ. Uses Gk mu #1. </description>
+        <description>Represents ΜΗ. Uses <postname>Mu</postname>. </description>
         <example ex-type="seal"><pub>DBLS</pub><ref>51</ref><date notBefore="801" notAfter="900">9th
                 c.</date></example>
         <example ex-type="seal"><pub>DBLS</pub><ref>138</ref><date notBefore="1201" notAfter="1300"
@@ -3866,7 +3872,7 @@
         <postname>Mu_Eta.1</postname>
         <legacyfonts><coininscr cp="00D4">&#x00D4;</coininscr><coininscr cp="2206"
                 >&#2206;</coininscr></legacyfonts>
-        <description>Uses Gk mu #3. </description>
+        <description>Uses <postname>Mu.2</postname>. </description>
         <example ex-type="seal"><pub>DBLS</pub><ref>153</ref><date notBefore="1301" notAfter="1400"
                 >14th c.</date></example>
         <comment>
@@ -3894,7 +3900,7 @@
         <postname>Mu_Eta_Rho</postname>
         <legacyfonts><athena cp="02DC;0068;0052">&#x02DC;&#x0068;&#x0052;</athena><coininscr
                 cp="0152">&#x0152;</coininscr></legacyfonts>
-        <description>Represents μήτηρ. Uses Gk mu #1. </description>
+        <description>Represents μήτηρ. Uses <postname>Mu</postname>. </description>
         <example ex-type="seal"><pub>DBLS</pub><ref>121</ref><date notBefore="1101" notAfter="1200"
                 >12th c.</date></example>
         <example ex-type="seal"><pub>DBLS</pub><ref>143</ref><date notBefore="1201" notAfter="1300"
@@ -3925,7 +3931,7 @@
         <prodname>Mu_Eta_Rho.1</prodname>
         <postname>Mu_Eta_Rho.1</postname>
         <legacyfonts><coininscr cp="0021">&#x0021;</coininscr></legacyfonts>
-        <description>As #1, reversed. </description>
+        <description>As <postname>Mu_Eta_Rho</postname>, reversed. </description>
         <example ex-type="coin"><pub>CMBE</pub><ref>344</ref></example>
         <comment>
             <ttnote>New PUA.</ttnote></comment>
@@ -3952,7 +3958,7 @@
         <postname>Mu_Eta_Rho.2</postname>
         <legacyfonts><athena cp="02C6;0068;0052">&#x02C6;&#x0068;&#x0052;</athena><coininscr
                 cp="0040">&#x0040;</coininscr></legacyfonts>
-        <description>Uses Gk mu #3. </description>
+        <description>Uses Gk <postname>Mu.2</postname>. </description>
         <example ex-type="seal"><pub>DBLS</pub><ref>137</ref><date notBefore="1201" notAfter="1300"
                 >13th c.</date></example>
         <comment>
@@ -3975,7 +3981,7 @@
         <prodname>Mu_Mu</prodname>
         <postname>Mu_Mu</postname>
         <legacyfonts>New.</legacyfonts>
-        <description>Represents ΜΜ. Uses Gk mu #1. </description>
+        <description>Represents ΜΜ. Uses <postname>Mu</postname>. </description>
         <example ex-type="seal"><pub>DBLS</pub><ref>27</ref><date notBefore="701" notAfter="800">8th
                 c.</date></example>
         <example ex-type="seal"><pub>DBLS</pub><ref>146</ref><date notBefore="1301" notAfter="1400"
@@ -4000,7 +4006,7 @@
         <prodname>Mu_Mu.1</prodname>
         <postname>Mu_Mu.1</postname>
         <legacyfonts><coininscr cp="00CD">&#x00CD;</coininscr></legacyfonts>
-        <description>Uses Gk mu #3. </description>
+        <description>Uses Gk <postname>Mu.2</postname>. </description>
         <example>pending</example>
         <comment>
             <ttnote>New PUA.</ttnote></comment>
@@ -4103,7 +4109,7 @@
         <postname>Mu_Rho</postname>
         <legacyfonts><athena cp="02DC;0052">&#x02DC;&#x0052;</athena><coininscr cp="0031"
                 >&#x0031;</coininscr><grierson cp="0031">&#x0031;</grierson></legacyfonts>
-        <description>Represents Μήτηρ (sc. Θεοῦ). Uses Gk mu #1. </description>
+        <description>Represents Μήτηρ (sc. Θεοῦ). Uses <postname>Mu</postname>. </description>
         <example ex-type="coin"><pub>CMBE</pub><ref>xviii</ref></example>
         <comment>
             <ttnote>New PUA.</ttnote></comment>
@@ -4126,7 +4132,7 @@
         <postname>Mu_Rho.1</postname>
         <legacyfonts><athena cp="02C6;0052">&#x02C6;&#x0052;</athena><coininscr cp="203A"
                 >&#x203A;</coininscr><grierson cp="0024">&#x0024;</grierson></legacyfonts>
-        <description>Uses Gk mu #3. </description>
+        <description>Uses <postname>Mu.2</postname>. </description>
         <example>pending</example>
         <comment>
             <ttnote>New PUA.</ttnote></comment>
@@ -4194,7 +4200,8 @@
         <prodname>Nu_Gamma_Rho</prodname>
         <postname>Nu_Gamma_Rho</postname>
         <legacyfonts>New.</legacyfonts>
-        <description>Like a synthesis of ligatures NU+GAMMA and GAMMA+RHO. </description>
+        <description>Like a synthesis of <postname>Nu_Gamma</postname> and
+            <postname>Gamma_Rho</postname>. </description>
         <example ex-type="coin"><pub>Morrisson, L’Epigraphie</pub><ref>273</ref></example>
         <comment>
             <ttnote>New PUA.</ttnote></comment>
@@ -4236,7 +4243,7 @@
         <prodname>Nu_Epsilon</prodname>
         <postname>Nu_Epsilon</postname>
         <legacyfonts>New.</legacyfonts>
-        <description>Represents ΝΕ. Uses Gk epsilon #1. </description>
+        <description>Represents ΝΕ. Uses <postname>Epsilon</postname>. </description>
         <example ex-type="seal"><pub>DBLS</pub><ref>147</ref><date notBefore="1101" notAfter="1200"
                 >12th c.</date></example>
         <comment>
@@ -4330,7 +4337,7 @@
         <variant cv="63">0</variant>
         <prodname>Nu_Mu</prodname>
         <postname>Nu_Mu</postname>
-        <description>Mu.2</description>
+        <description><postname>Mu.2</postname></description>
         <example ex-type="seal"
             ><pub>Cheynet, personal correspondence</pub><ref>Theod
             606</ref></example>
@@ -4397,7 +4404,7 @@
         <prodname>Nu_Nu.1</prodname>
         <postname>Nu_Nu.1</postname>
         <legacyfonts><grierson cp="00E7">&#x00E7;</grierson></legacyfonts>
-        <description>As #1, reversed. </description>
+        <description>As <postname>Nu_Nu</postname>, reversed. </description>
         <example ex-type="seal"><pub>SBS</pub><ref>3:50, no. 15</ref><date notBefore="1101"
                 notAfter="1300">12-13th c.</date></example>
         <comment>
@@ -4698,7 +4705,7 @@
         <postname>Omicron_Upsilon.2</postname>
         <legacyfonts><coingreek cp="004C">&#x004C;</coingreek><coininscr cp="003E"
                 >&#x003E;</coininscr><coininscr cp="0043">&#x0043;</coininscr></legacyfonts>
-        <description>As #1, but ribbon shaped. </description>
+        <description>As <postname>Omicron_Upsilon</postname>, but ribbon shaped. </description>
         <example ex-type="coin"><pub>DOC</pub><ref>2.1:110</ref></example>
         <comment>
             <ttnote>New PUA.</ttnote></comment>
@@ -4720,7 +4727,8 @@
         <prodname>Omicron_Upsilon.3</prodname>
         <postname>Omicron_Upsilon.3</postname>
         <legacyfonts>New.</legacyfonts>
-        <description>As #3, but loop is diamond shaped.</description>
+        <description>As <postname>Omicron_Upsilon.2</postname>, but loop is diamond
+            shaped.</description>
         <example ex-type="weight"><pub>BW</pub><ref>23</ref></example>
         <comment>Appears principally in weights. <ttnote>New PUA.</ttnote></comment>
     </glyph>
@@ -4741,7 +4749,7 @@
         <prodname>Omicron_Upsilon.4</prodname>
         <postname>Omicron_Upsilon.4</postname>
         <legacyfonts>New.</legacyfonts>
-        <description>No. 3 upside-down.</description>
+        <description><postname>Omicron_Upsilon.2</postname> upside-down.</description>
         <comment>
             <ttnote>New PUA.</ttnote></comment>
     </glyph>
@@ -4762,7 +4770,7 @@
         <prodname>Omicron_Upsilon.5</prodname>
         <postname>Omicron_Upsilon.5</postname>
         <legacyfonts>New.</legacyfonts>
-        <description>No. 4 upside-down.</description>
+        <description><postname>Omicron_Upsilon.3</postname> upside-down.</description>
         <comment>
             <ttnote>New PUA.</ttnote></comment>
     </glyph>
@@ -4904,7 +4912,7 @@
         <prodname>Pi_Rho.1</prodname>
         <postname>Pi_Rho.1</postname>
         <legacyfonts><grierson cp="03C0">&#x03C0;</grierson></legacyfonts>
-        <description>As #1, reversed. </description>
+        <description>As <postname>Pi_Rho</postname>, reversed. </description>
         <example>pending</example>
         <comment>
             <ttnote>New PUA.</ttnote></comment>
@@ -4970,7 +4978,7 @@
         <prodname>Rho_Omega.1</prodname>
         <postname>Rho_Omega.1</postname>
         <legacyfonts><grierson cp="002A">&#x002A;</grierson></legacyfonts>
-        <description>As #1, reversed. </description>
+        <description>As <postname>Rho_Omega</postname>, reversed. </description>
         <example>pending</example>
         <comment>
             <ttnote>New PUA.</ttnote></comment>
@@ -4992,7 +5000,7 @@
         <prodname>Rho_Omega.2</prodname>
         <postname>Rho_Omega.2</postname>
         <legacyfonts><athena8 cp="00F3">&#x00F3;</athena8></legacyfonts>
-        <description>As #2 but with crossbar. </description>
+        <description>As <postname>Rho_Omega.1</postname> but with crossbar. </description>
         <example ex-type="coin"><pub>ABC</pub><ref>p. 42</ref><date notBefore="750" notAfter="800"
                 >late 8th c.</date></example>
         <comment><ttnote>New PUA.</ttnote></comment>
@@ -5014,7 +5022,7 @@
         <prodname>Rho_Omega.3</prodname>
         <postname>Rho_Omega.3</postname>
         <legacyfonts><athena8 cp="00F4">&#x00F4;</athena8></legacyfonts>
-        <description>As #4, reversed. </description>
+        <description>As <postname>Rho_Omega.2</postname>, reversed. </description>
         <example ex-type="coin"><pub>ABC</pub><ref>p. 45</ref></example>
         <comment><ttnote>New PUA.</ttnote></comment>
     </glyph>
@@ -5057,8 +5065,8 @@
         <prodname>Sigma_Pi</prodname>
         <postname>Sigma_Pi</postname>
         <legacyfonts>New.</legacyfonts>
-        <description>Represents ΣΠ. Uses Gk sigma #1, raised, with Gk pi attached to end of arc at
-            top left corner.</description>
+        <description>Represents ΣΠ. Uses <postname>Sigma</postname>, raised, with
+            <postname>Pi</postname> attached to end of arc at top left corner.</description>
         <example ex-type="coin"><pub>DOC</pub><ref>5.1:216</ref></example>
         <comment>
             <ttnote>New PUA.</ttnote></comment>
@@ -5112,7 +5120,7 @@
         <prodname>Sigma_Tau.1</prodname>
         <postname>Sigma_Tau.1</postname>
         <legacyfonts>New.</legacyfonts>
-        <description>Raised Gk sigma #1, with hanging vertical tail.</description>
+        <description>Raised <postname>Sigma</postname>, with hanging vertical tail.</description>
         <example ex-type="coin"><pub>DOC</pub><ref>5.1:99</ref></example>
         <comment>
             <ttnote>New PUA.</ttnote></comment>
@@ -5138,7 +5146,7 @@
         <prodname>Sigma_Tau_Iota</prodname>
         <postname>Sigma_Tau_Iota</postname>
         <legacyfonts>New.</legacyfonts>
-        <description>Represents ΣΤΙ. Made from ΣΤ ligature #1 with iota attached at
+        <description>Represents ΣΤΙ. Made from <postname>Sigma_Tau</postname> with iota attached at
             right.</description>
         <example ex-type="coin"><pub>DOC</pub><ref>5.1:99</ref></example>
         <comment>
@@ -5301,7 +5309,7 @@
         <prodname>Tau_Rho.1</prodname>
         <postname>Tau_Rho.1</postname>
         <legacyfonts><grierson cp="00A8">&#x00A8;</grierson></legacyfonts>
-        <description>As #1, reversed. </description>
+        <description>As <postname>Tau_Rho</postname>, reversed. </description>
         <example>pending</example>
         <comment>
             <ttnote>New PUA.</ttnote></comment>
@@ -5326,7 +5334,8 @@
         <prodname>Tau_Rho_Eta</prodname>
         <postname>Tau_Rho_Eta</postname>
         <legacyfonts>New.</legacyfonts>
-        <description>Like a combination of ΤΡ #1 and ΤΗ #1 ligatures.</description>
+        <description>Like a combination of <postname>Tau_Rho</postname> and
+            <postname>Tau_Eta</postname> ligatures.</description>
         <example ex-type="coin"><pub>DOC</pub><ref>5.1:99</ref></example>
         <comment>
             <ttnote>New PUA.</ttnote></comment>
@@ -5375,7 +5384,8 @@
         <prodname>Tau_Omega.1</prodname>
         <postname>Tau_Omega.1</postname>
         <legacyfonts><athena8 cp="00F6">&#x00F6;</athena8></legacyfonts>
-        <description>As #1, but tau shaped as cross and omage a single arc. </description>
+        <description>As <postname>Tau_omega</postname>, but tau shaped as cross and omage a single
+            arc. </description>
         <example ex-type="coin"><pub>ABC</pub>
             <ref>pp. 61–63</ref><date notBefore="650" notAfter="700">late 7th c.</date></example>
         <comment><ttnote>New PUA.</ttnote></comment>
@@ -5397,7 +5407,8 @@
         <prodname>Tau_Omega.2</prodname>
         <postname>Tau_Omega.2</postname>
         <legacyfonts><coininscr cp="004A">&#x004A;</coininscr></legacyfonts>
-        <description>As #1, but with bottom like #2.</description>
+        <description>As <postname>Tau_Omega</postname>, but with bottom like
+            <postname>Tau_Omega.1</postname>.</description>
         <example ex-type="coin"><pub>CMBE</pub><ref>xviii</ref></example>
         <comment>
             <ttnote>New PUA.</ttnote></comment>
@@ -5464,7 +5475,7 @@
         <prodname>Phi_Omega.1</prodname>
         <postname>Phi_Omega.1</postname>
         <legacyfonts><coininscr cp="0075">&#x0075;</coininscr></legacyfonts>
-        <description>As #1 but with flat omega.</description>
+        <description>As <postname>Phi_Omega</postname> but with flat omega.</description>
         <example ex-type="coin"><pub>CMBE</pub><ref>xviii</ref></example>
         <comment>
             <ttnote>New PUA.</ttnote></comment>
@@ -5510,7 +5521,7 @@
         <postname>Chi_Rho.1</postname>
         <legacyfonts><athena cp="0072;2013">&#x0072;&#x2013;</athena></legacyfonts>
         <description>Simplified form. </description>
-        <example ex-type="coin"><pub>DOC</pub><ref>1:8 #9.3</ref></example>
+        <example ex-type="coin"><pub>DOC</pub><ref>1:8 no. 9.3</ref></example>
         <comment><ttnote>New PUA.</ttnote></comment>
     </glyph>
     <glyph use-seals="unclassified" use-coins="basic">
@@ -5530,8 +5541,8 @@
         <prodname>Chi_Rho.2</prodname>
         <postname>Chi_Rho.2</postname>
         <legacyfonts>New.</legacyfonts>
-        <description>As #1, reversed.</description>
-        <example ex-type="coin"><pub>DOC</pub><ref>1:208 #31</ref></example>
+        <description>As <postname>Chi_Rho</postname>, reversed.</description>
+        <example ex-type="coin"><pub>DOC</pub><ref>1:208 no. 31</ref></example>
         <comment>
             <ttnote>New PUA.</ttnote></comment>
     </glyph>
@@ -5552,8 +5563,8 @@
         <prodname>Chi_Rho.3</prodname>
         <postname>Chi_Rho.3</postname>
         <legacyfonts>New.</legacyfonts>
-        <description>As #2, reversed.</description>
-        <example ex-type="coin"><pub>DOC</pub><ref>1:8 #8.1</ref></example>
+        <description>As <postname>Chi_Rho.1</postname>, reversed.</description>
+        <example ex-type="coin"><pub>DOC</pub><ref>1:8 no. 8.1</ref></example>
         <comment>
             <ttnote>New PUA.</ttnote></comment>
     </glyph>
@@ -5642,7 +5653,7 @@
         <prodname>Omega_Rho.1</prodname>
         <postname>Omega_Rho.1</postname>
         <legacyfonts>New.</legacyfonts>
-        <description>As #1 ΡΩ but with flat omega.</description>
+        <description>As <postname>Omega_Rho</postname> but with flat omega.</description>
         <example ex-type="coin"><pub>CMBE</pub><ref>xviii</ref></example>
         <comment>
             <ttnote>New PUA.</ttnote></comment>
@@ -5664,8 +5675,8 @@
         <prodname>Omega_Rho.2</prodname>
         <postname>Omega_Rho.2</postname>
         <legacyfonts>New.</legacyfonts>
-        <description>Omega #4 plus rho #1</description>
-        <example ex-type="coin"><pub>DOC</pub>4.1:359 #2.1</example>
+        <description><postname>Omega.3</postname> plus <postname>Rho</postname>.</description>
+        <example ex-type="coin"><pub>DOC</pub>4.1:359 no. 2.1</example>
         <comment>
             <ttnote>New PUA.</ttnote></comment>
     </glyph>
@@ -5684,7 +5695,7 @@
         <prodname>CrossGrk_Phi</prodname>
         <postname>uni271A_Phi</postname>
         <legacyfonts>New.</legacyfonts>
-        <description>As cross #6 with Gk phi</description>
+        <description>As <postname>uniE809</postname> with <postname>Phi</postname></description>
         <example ex-type="coin"><pub>DOC</pub><ref>2.1:122</ref></example>
         <comment>
             <ttnote>New PUA.</ttnote></comment>
@@ -5704,7 +5715,8 @@
         <prodname>CrossGrk_Omega</prodname>
         <postname>uni271A_Omega</postname>
         <legacyfonts>New.</legacyfonts>
-        <description>As cross #6 with flat omega (like ΙΩ ligature)</description>
+        <description>As <postname>uniE809</postname> with flat omega (like
+            <postname>Iota_Omega</postname>)</description>
         <example ex-type="coin"><pub>DOC</pub><ref>2.1:122</ref></example>
         <comment>
             <ttnote>New PUA.</ttnote></comment>
@@ -6805,7 +6817,7 @@
         <variant cv="25">0</variant>
         <prodname>ChiRho</prodname>
         <postname>uni2627</postname>
-        <description>Duplicate of Chi_Rho</description>
+        <description>Duplicate of <postname>Chi_Rho</postname></description>
     </glyph>
     <glyph use-seals="unclassified" use-coins="unclassified">
         <index>443</index>
@@ -6814,7 +6826,7 @@
         <variant cv="25">1</variant>
         <prodname>ChiRho.1</prodname>
         <postname>uni2627.1</postname>
-        <description>Duplicate of Chi_Rho.1</description>
+        <description>Duplicate of <postname>Chi_Rho.1</postname></description>
         <comment>
             <ttnote>New PUA.</ttnote></comment>
     </glyph>
@@ -6825,7 +6837,7 @@
         <variant cv="25">2</variant>
         <prodname>ChiRho.2</prodname>
         <postname>uni2627.2</postname>
-        <description>Duplicate of Chi_Rho.2</description>
+        <description>Duplicate of <postname>Chi_Rho.2</postname></description>
         <comment>
             <ttnote>New PUA.</ttnote></comment>
     </glyph>
@@ -6836,7 +6848,7 @@
         <variant cv="25">3</variant>
         <prodname>ChiRho.3</prodname>
         <postname>uni2627.3</postname>
-        <description>Duplicate of Chi_Rho.3</description>
+        <description>Duplicate of <postname>Chi_Rho.3</postname></description>
         <comment>
             <ttnote>New PUA.</ttnote></comment>
     </glyph>
@@ -6846,7 +6858,7 @@
         <variant cv="26">0</variant>
         <prodname>ouggia</prodname>
         <postname>u10184</postname>
-        <description>Gamma with small internal omicron</description>
+        <description><postname>Gamma</postname> with small internal omicron</description>
     </glyph>
     <glyph use-seals="unclassified" use-coins="unclassified">
         <index>447</index>
@@ -6855,7 +6867,7 @@
         <variant cv="26">1</variant>
         <prodname>ouggia.1</prodname>
         <postname>u10184.1</postname>
-        <description>Gamma with internal pellet</description>
+        <description><postname>Gamma</postname> with internal pellet</description>
         <comment>
             <ttnote>New PUA.</ttnote></comment>
     </glyph>
@@ -6873,7 +6885,7 @@
         <prodname>A</prodname>
         <postname>A</postname>
         <legacyfonts>See xref.</legacyfonts>
-        <description>As Gk alpha #1. </description>
+        <description>As <postname>Alpha</postname>. </description>
         <example>pending</example>
     </glyph>
     <glyph use-seals="basic" use-coins="unclassified">
@@ -6898,7 +6910,7 @@
         <prodname>A.2</prodname>
         <postname>A.2</postname>
         <legacyfonts>See xref.</legacyfonts>
-        <description>Broken crossbar. As Gk alpha #2. </description>
+        <description>Broken crossbar. As <postname>Alpha.1</postname>. </description>
         <example ex-type="seal"><pub>CBS</pub><ref>1:2.3</ref><date notBefore="501" notAfter="600"
                 >6th c.</date></example>
         <example ex-type="seal"><pub>CBS</pub><ref>1:18.83</ref><date notBefore="601" notAfter="700"
@@ -6913,7 +6925,7 @@
         <prodname>A.3</prodname>
         <postname>A.3</postname>
         <legacyfonts>See xref.</legacyfonts>
-        <description>As Gk alpha #3.</description>
+        <description>As <postname>Alpha.2</postname>.</description>
         <example>pending</example>
     </glyph>
     <glyph use-seals="unclassified" use-coins="unclassified">
@@ -6925,7 +6937,7 @@
         <prodname>A.4</prodname>
         <postname>A.4</postname>
         <legacyfonts>See xref.</legacyfonts>
-        <description>As Gk alpha #4.</description>
+        <description>As <postname>Alpha.3</postname>.</description>
         <example>pending</example>
     </glyph>
     <glyph use-seals="unclassified" use-coins="basic">
@@ -6949,7 +6961,7 @@
         <prodname>A.6</prodname>
         <postname>A.6</postname>
         <legacyfonts>New.</legacyfonts>
-        <description>Stepanova, as U.1</description>
+        <description>Stepanova, as <postname>U.1</postname></description>
     </glyph>
     <glyph use-seals="unclassified" use-coins="unclassified">
         <index>456</index>
@@ -6959,7 +6971,7 @@
         <prodname>B</prodname>
         <postname>B</postname>
         <legacyfonts>See xref.</legacyfonts>
-        <description>Familiar. As Gk beta #1.</description>
+        <description>Familiar. As <postname>Beta</postname>.</description>
         <example>pending</example>
     </glyph>
     <glyph use-seals="basic" use-coins="unclassified">
@@ -6982,7 +6994,7 @@
         <prodname>C</prodname>
         <postname>C</postname>
         <legacyfonts>See xref.</legacyfonts>
-        <description>As Gk sigma #1</description>
+        <description>As <postname>Sigma</postname>.</description>
         <example ex-type="seal"><pub>SBS</pub><ref>1:78</ref><date notBefore="501" notAfter="600"
                 >6th c.</date></example>
     </glyph>
@@ -6995,7 +7007,7 @@
         <prodname>C.1</prodname>
         <postname>C.1</postname>
         <legacyfonts>See xref.</legacyfonts>
-        <description>As Gk sigma #2</description>
+        <description>As <postname>Sigma.1</postname>.</description>
     </glyph>
     <glyph use-seals="unclassified" use-coins="unclassified">
         <index>460</index>
@@ -7006,7 +7018,7 @@
         <prodname>C.2</prodname>
         <postname>C.2</postname>
         <legacyfonts>See xref.</legacyfonts>
-        <description>As Gk sigma #3</description>
+        <description>As <postname>Sigma.2</postname>.</description>
     </glyph>
     <glyph use-seals="unclassified" use-coins="unclassified">
         <index>461</index>
@@ -7017,7 +7029,7 @@
         <prodname>C.3</prodname>
         <postname>C.3</postname>
         <legacyfonts>See xref.</legacyfonts>
-        <description>As Gk sigma #4</description>
+        <description>As <postname>Sigma.3</postname>.</description>
     </glyph>
     <glyph use-seals="unclassified" use-coins="unclassified">
         <index>462</index>
@@ -7078,8 +7090,8 @@
         <prodname>D.3</prodname>
         <postname>D.3</postname>
         <legacyfonts><athena8 cp="02D8">&#x02D8;</athena8></legacyfonts>
-        <description>As #1, reversed. </description>
-        <example ex-type="coin"><pub>DOC</pub><ref>1:47 #23.2</ref></example>
+        <description>As <postname>D</postname>, reversed. </description>
+        <example ex-type="coin"><pub>DOC</pub><ref>1:47 no. 23.2</ref></example>
         <example ex-type="coin"><pub>ABC</pub><ref>p. 5</ref></example>
     </glyph>
     <glyph use-seals="unclassified" use-coins="basic">
@@ -7104,7 +7116,7 @@
         <prodname>D.5</prodname>
         <postname>D.5</postname>
         <legacyfonts>See xref.</legacyfonts>
-        <description>As #5, reversed.</description>
+        <description>As <postname>D.4</postname>, reversed.</description>
         <example ex-type="coin"><pub>DOC</pub><ref>2.1:104</ref></example>
     </glyph>
     <glyph use-seals="unclassified" use-coins="basic">
@@ -7128,7 +7140,7 @@
         <prodname>D.7</prodname>
         <postname>D.7</postname>
         <legacyfonts>See xref.</legacyfonts>
-        <description>As Gk rho #1.</description>
+        <description>As <postname>Rho</postname>.</description>
         <example ex-type="coin"><pub>DOC</pub><ref>2.1:104</ref></example>
     </glyph>
     <glyph use-seals="unclassified" use-coins="basic">
@@ -7140,7 +7152,7 @@
         <prodname>D.8</prodname>
         <postname>D.8</postname>
         <legacyfonts>New.</legacyfonts>
-        <description>As #2, reversed.</description>
+        <description>As <postname>D.1</postname>, reversed.</description>
         <example ex-type="coin"><pub>DOC</pub><ref>3.1:185</ref></example>
     </glyph>
     <glyph use-seals="unclassified" use-coins="basic">
@@ -7163,7 +7175,7 @@
         <prodname>E</prodname>
         <postname>E</postname>
         <legacyfonts>See xref.</legacyfonts>
-        <description>Round, midbar medium length. As Gk epsilon #1.</description>
+        <description>Round, midbar medium length. As <postname>Epsilon</postname>.</description>
         <example ex-type="seal"><pub>CBS</pub><ref>1:2.3</ref><date notBefore="501" notAfter="600"
                 >6th c.</date></example>
     </glyph>
@@ -7176,7 +7188,7 @@
         <prodname>E.1</prodname>
         <postname>E.1</postname>
         <legacyfonts>See xref.</legacyfonts>
-        <description>Familiar. As Gk epsilon #4. </description>
+        <description>Familiar. As <postname>Epsilon.3</postname>. </description>
         <example ex-type="seal"><pub>SBS</pub><ref>3:37</ref></example>
     </glyph>
     <glyph use-seals="unclassified" use-coins="basic">
@@ -7188,7 +7200,7 @@
         <prodname>E.2</prodname>
         <postname>E.2</postname>
         <legacyfonts>See xref.</legacyfonts>
-        <description>As Gk epsilon #3.</description>
+        <description>As <postname>Epsilon.2</postname>.</description>
         <example ex-type="coin"><pub>DOC</pub><ref>2.1:104</ref></example>
     </glyph>
     <glyph use-seals="unclassified" use-coins="basic">
@@ -7200,8 +7212,8 @@
         <prodname>E.3</prodname>
         <postname>E.3</postname>
         <legacyfonts>See xref.</legacyfonts>
-        <description>As Gk epsilon #5.</description>
-        <example ex-type="coin"><pub>DOC</pub><ref>2.1:211 #7</ref></example>
+        <description>As <postname>Epsilon.4</postname>.</description>
+        <example ex-type="coin"><pub>DOC</pub><ref>2.1:211 no. 7</ref></example>
     </glyph>
     <glyph use-seals="unclassified" use-coins="unclassified">
         <index>477</index>
@@ -7212,7 +7224,7 @@
         <prodname>E.4</prodname>
         <postname>E.4</postname>
         <legacyfonts>New.</legacyfonts>
-        <description>Reversed form of #2.</description>
+        <description>Reversed form of <postname>E.1</postname>.</description>
     </glyph>
     <glyph use-seals="unclassified" use-coins="unclassified">
         <index>478</index>
@@ -7235,7 +7247,7 @@
         <prodname>F.1</prodname>
         <postname>F.1</postname>
         <legacyfonts>See xref.</legacyfonts>
-        <description>As Latin C #3.</description>
+        <description>As <postname>C.2</postname>.</description>
         <example ex-type="coin"><pub>DOC</pub><ref>3.1:186</ref></example>
     </glyph>
     <glyph use-seals="unclassified" use-coins="basic">
@@ -7247,7 +7259,7 @@
         <prodname>F.2</prodname>
         <postname>F.2</postname>
         <legacyfonts>New.</legacyfonts>
-        <description>As #1, upside down.</description>
+        <description>As <postname>F</postname>, upside down.</description>
         <example ex-type="coin"><pub>DOC</pub><ref>3.1:186</ref></example>
         <example ex-type="coin"
             ><pub>DOC</pub><ref>3.1:368</ref><examplenote>Examples at pl.
@@ -7262,7 +7274,7 @@
         <prodname>F.3</prodname>
         <postname>F.3</postname>
         <legacyfonts>New.</legacyfonts>
-        <description>Stepanova, as U.2</description>
+        <description>Stepanova, as <postname>U.2</postname></description>
     </glyph>
     <glyph use-seals="unclassified" use-coins="basic">
         <index>482</index>
@@ -7274,7 +7286,7 @@
         <legacyfonts><athena cp="00E9">&#x00E9;</athena></legacyfonts>
         <description>Open loop, with short vertical tail. </description>
         <example ex-type="coin"><pub>DOC</pub><ref>3.1:186</ref></example>
-        <example ex-type="coin"><pub>DOC</pub><ref>2.1:244 #1a</ref></example>
+        <example ex-type="coin"><pub>DOC</pub><ref>2.1:244 no. 1a</ref></example>
     </glyph>
     <glyph use-seals="unclassified" use-coins="basic">
         <index>483</index>
@@ -7309,8 +7321,8 @@
         <prodname>G.3</prodname>
         <postname>G.3</postname>
         <legacyfonts>See xref.</legacyfonts>
-        <description>As Gk sigma #1</description>
-        <example ex-type="coin"><pub>DOC</pub><ref>2.1:202 #124a</ref></example>
+        <description>As <postname>Sigma</postname>.</description>
+        <example ex-type="coin"><pub>DOC</pub><ref>2.1:202 no. 124a</ref></example>
     </glyph>
     <glyph use-seals="unclassified" use-coins="basic">
         <index>486</index>
@@ -7321,8 +7333,8 @@
         <prodname>G.4</prodname>
         <postname>G.4</postname>
         <legacyfonts>See xref.</legacyfonts>
-        <description>As Gk sigma #2</description>
-        <example ex-type="coin"><pub>DOC</pub><ref>2.1:172 #44</ref></example>
+        <description>As <postname>Sigma.1</postname>.</description>
+        <example ex-type="coin"><pub>DOC</pub><ref>2.1:172 no. 44</ref></example>
     </glyph>
     <glyph use-seals="unclassified" use-coins="unclassified">
         <index>487</index>
@@ -7333,7 +7345,7 @@
         <prodname>G.5</prodname>
         <postname>G.5</postname>
         <legacyfonts><athena cp="00C9">&#x00C9;</athena></legacyfonts>
-        <description>As #1, but with horizontal cap. </description>
+        <description>As <postname>G</postname>, but with horizontal cap. </description>
         <example>pending</example>
     </glyph>
     <glyph use-seals="unclassified" use-coins="basic">
@@ -7345,7 +7357,7 @@
         <prodname>G.6</prodname>
         <postname>G.6</postname>
         <legacyfonts>See xref.</legacyfonts>
-        <description>As Latin S #1.</description>
+        <description>As <postname>S</postname>.</description>
         <example ex-type="coin"><pub>DOC</pub><ref>3.1:186</ref></example>
     </glyph>
     <glyph use-seals="unclassified" use-coins="basic">
@@ -7357,7 +7369,7 @@
         <prodname>G.7</prodname>
         <postname>G.7</postname>
         <legacyfonts>See xref.</legacyfonts>
-        <description>Shaped like Latin D #7.</description>
+        <description>Shaped like <postname>D.6</postname>.</description>
         <example ex-type="coin"><pub>DOC</pub><ref>3.1:186</ref></example>
     </glyph>
     <glyph use-seals="unclassified" use-coins="basic">
@@ -7392,7 +7404,7 @@
         <prodname>H</prodname>
         <postname>H</postname>
         <legacyfonts>See xref.</legacyfonts>
-        <description>As Gk eta. </description>
+        <description>As <postname>Eta</postname>. </description>
         <example>pending</example>
     </glyph>
     <glyph use-seals="basic" use-coins="unclassified">
@@ -7417,7 +7429,7 @@
         <prodname>H.2</prodname>
         <postname>H.2</postname>
         <legacyfonts>New.</legacyfonts>
-        <description>As #2, reversed. </description>
+        <description>As <postname>H.1</postname>, reversed. </description>
         <example>pending</example>
     </glyph>
     <glyph use-seals="basic" use-coins="unclassified">
@@ -7428,7 +7440,7 @@
         <prodname>I</prodname>
         <postname>I</postname>
         <legacyfonts>See xref.</legacyfonts>
-        <description>Familiar. As Gk iota. </description>
+        <description>Familiar. As <postname>Iota</postname>. </description>
         <example ex-type="seal"><pub>CBS</pub><ref>1:8.1</ref><date notBefore="601" notAfter="700"
                 >7th c.</date></example>
     </glyph>
@@ -7511,7 +7523,7 @@
         <postname>L.2</postname>
         <legacyfonts>See xref.</legacyfonts>
         <description>As <postname>L</postname>, reversed.</description>
-        <example ex-type="coin"><pub>DOC</pub><ref>2.1:194 #106.41</ref></example>
+        <example ex-type="coin"><pub>DOC</pub><ref>2.1:194 no. 106.41</ref></example>
     </glyph>
     <glyph use-seals="unclassified" use-coins="basic">
         <index>503</index>
@@ -7522,7 +7534,7 @@
         <prodname>L.3</prodname>
         <postname>L.3</postname>
         <legacyfonts>New.</legacyfonts>
-        <description>As #1, but base drops to right.</description>
+        <description>As <postname>L</postname>, but base drops to right.</description>
         <example ex-type="coin"><pub>DOC</pub><ref>2.1:104</ref></example>
     </glyph>
     <glyph use-seals="unclassified" use-coins="basic">
@@ -7533,7 +7545,7 @@
         <prodname>M</prodname>
         <postname>M</postname>
         <legacyfonts>See xref.</legacyfonts>
-        <description>Familiar. As Gk mu #1. </description>
+        <description>Familiar. As <postname>Mu</postname>. </description>
         <example ex-type="coin"><pub>DOC</pub><ref>3.1:186</ref></example>
     </glyph>
     <glyph use-seals="unclassified" use-coins="unclassified">
@@ -7595,7 +7607,7 @@
         <prodname>M.5</prodname>
         <postname>M.5</postname>
         <legacyfonts>New.</legacyfonts>
-        <description>As #1, but with five horizontal caps.</description>
+        <description>As <postname>M</postname>, but with five horizontal caps.</description>
         <example ex-type="coin"><pub>DOC</pub><ref>1:15</ref></example>
     </glyph>
     <glyph use-seals="unclassified" use-coins="basic">
@@ -7620,7 +7632,7 @@
         <prodname>M.7</prodname>
         <postname>M.7</postname>
         <legacyfonts><athena8 cp="00B1">&#x00B1;</athena8></legacyfonts>
-        <description>As #4, reversed. </description>
+        <description>As <postname>M.3</postname>, reversed. </description>
         <example ex-type="coin"><pub>ABC</pub><ref>pp. 134–35 no. 56</ref></example>
     </glyph>
     <glyph use-seals="basic" use-coins="unclassified">
@@ -7631,7 +7643,7 @@
         <prodname>N</prodname>
         <postname>N</postname>
         <legacyfonts>See xref.</legacyfonts>
-        <description>Familiar. As Gk nu #1.</description>
+        <description>Familiar. As <postname>Nu</postname>.</description>
         <example ex-type="seal"><pub>CBS</pub><ref>1:18.83</ref><date notBefore="601" notAfter="700"
                 >7th c.</date></example>
     </glyph>
@@ -7644,7 +7656,7 @@
         <prodname>N.1</prodname>
         <postname>N.1</postname>
         <legacyfonts>See xref.</legacyfonts>
-        <description>Cursive, as Latin H #2. </description>
+        <description>Cursive, as <postname>H.1</postname>. </description>
         <example ex-type="seal"><pub>SBS</pub><ref>3:33</ref></example>
     </glyph>
     <glyph use-seals="unclassified" use-coins="basic">
@@ -7656,7 +7668,7 @@
         <prodname>N.2</prodname>
         <postname>N.2</postname>
         <legacyfonts><athena cp="00A2">&#x00A2;</athena></legacyfonts>
-        <description>Cursive, as left half of Latin M #4. </description>
+        <description>Cursive, as left half of <postname>M.3</postname>. </description>
         <example ex-type="coin"><pub>DOC</pub><ref>3.1:186</ref></example>
     </glyph>
     <glyph use-seals="unclassified" use-coins="basic">
@@ -7669,7 +7681,7 @@
         <postname>N.3</postname>
         <legacyfonts>See xref.</legacyfonts>
         <description>As <postname>U.2</postname>.</description>
-        <example ex-type="coin"><pub>DOC</pub><ref>2.2:687 #4.2</ref></example>
+        <example ex-type="coin"><pub>DOC</pub><ref>2.2:687 no. 4.2</ref></example>
     </glyph>
     <glyph use-seals="unclassified" use-coins="basic">
         <index>516</index>
@@ -7681,7 +7693,7 @@
         <postname>N.4</postname>
         <legacyfonts>See xref.</legacyfonts>
         <description>As <postname>Nu.1</postname></description>
-        <example ex-type="coin"><pub>DOC</pub><ref>2.1:329 #181a.3</ref></example>
+        <example ex-type="coin"><pub>DOC</pub><ref>2.1:329 no. 181a.3</ref></example>
     </glyph>
     <glyph use-seals="unclassified" use-coins="unclassified">
         <index>517</index>
@@ -7701,7 +7713,7 @@
         <prodname>O</prodname>
         <postname>O</postname>
         <legacyfonts>See xref.</legacyfonts>
-        <description>Familiar. As Gk omicron. </description>
+        <description>Familiar. As <postname>Omicron</postname>. </description>
         <example ex-type="seal"><pub>CBS</pub><ref>1:2.3</ref><date notBefore="501" notAfter="600"
                 >6th c.</date></example>
         <example ex-type="seal"><pub>CBS</pub><ref>1:18.83</ref><date notBefore="601" notAfter="700"
@@ -7715,7 +7727,7 @@
         <variant cv="40">1</variant>
         <prodname>O.1</prodname>
         <postname>O.1</postname>
-        <description>As Latin D #1</description>
+        <description>As <postname>D</postname>.</description>
         <example ex-type="coin"><pub>DOC</pub><ref>3.1:186</ref></example>
     </glyph>
     <glyph use-seals="basic" use-coins="unclassified">
@@ -7726,7 +7738,7 @@
         <prodname>P</prodname>
         <postname>P</postname>
         <legacyfonts>See xref.</legacyfonts>
-        <description>Familiar. As Gk rho #1.</description>
+        <description>Familiar. As <postname>Rho</postname>.</description>
         <example ex-type="seal"><pub>CBS</pub><ref>1:2.3</ref><date notBefore="501" notAfter="600"
                 >6th c.</date></example>
     </glyph>
@@ -7739,8 +7751,8 @@
         <prodname>P.1</prodname>
         <postname>P.1</postname>
         <legacyfonts><coingreek cp="0052">&#x0052;</coingreek>See xref.</legacyfonts>
-        <description>As Gk rho #3.</description>
-        <example ex-type="coin"><pub>DOC</pub><ref>1:48 #29a.1</ref></example>
+        <description>As <postname>Rho.2</postname>.</description>
+        <example ex-type="coin"><pub>DOC</pub><ref>1:48 no. 29a.1</ref></example>
     </glyph>
     <glyph use-seals="unclassified" use-coins="unclassified">
         <index>522</index>
@@ -7760,7 +7772,7 @@
         <prodname>R</prodname>
         <postname>R</postname>
         <legacyfonts>See xref.</legacyfonts>
-        <description>As Gk beta #2.</description>
+        <description>As <postname>Beta.1</postname>.</description>
         <example ex-type="seal"><pub>SBS</pub><ref>1:78</ref><date notBefore="501" notAfter="600"
                 >6th c.</date></example>
     </glyph>
@@ -7797,7 +7809,7 @@
         <prodname>R.3</prodname>
         <postname>R.3</postname>
         <legacyfonts>See xref.</legacyfonts>
-        <description>As Gk gamma #1.</description>
+        <description>As <postname>Gamma</postname>.</description>
         <example ex-type="seal"><pub>SBS</pub><ref>3:32</ref></example>
     </glyph>
     <glyph use-seals="unclassified" use-coins="basic">
@@ -7809,8 +7821,8 @@
         <prodname>R.4</prodname>
         <postname>R.4</postname>
         <legacyfonts>New.</legacyfonts>
-        <description>As #1, reversed</description>
-        <example ex-type="coin"><pub>DOC</pub>2.1:331 #184a.3</example>
+        <description>As <postname>R</postname>, reversed</description>
+        <example ex-type="coin"><pub>DOC</pub>2.1:331 no. 184a.3</example>
     </glyph>
     <glyph use-seals="unclassified" use-coins="basic">
         <index>528</index>
@@ -7821,8 +7833,8 @@
         <prodname>R.5</prodname>
         <postname>R.5</postname>
         <legacyfonts>New.</legacyfonts>
-        <description>As Gk omicron and Gk upsilon ligature #1, upside down. </description>
-        <example ex-type="coin"><pub>DOC</pub><ref>1:330 #119.1</ref></example>
+        <description>As <postname>Omicron_Upsilon.2</postname>, upside down. </description>
+        <example ex-type="coin"><pub>DOC</pub><ref>1:330 no. 119.1</ref></example>
         <example ex-type="coin"><pub>DOC</pub><ref>2.1:105</ref></example>
     </glyph>
     <glyph use-seals="basic" use-coins="unclassified">
@@ -7858,8 +7870,8 @@
         <prodname>S.2</prodname>
         <postname>S.2</postname>
         <legacyfonts>New.</legacyfonts>
-        <description>As #1, reversed.</description>
-        <example ex-type="coin"><pub>DOC</pub><ref>1:45 #21b.5</ref></example>
+        <description>As <postname>S</postname>, reversed.</description>
+        <example ex-type="coin"><pub>DOC</pub><ref>1:45 no. 21b.5</ref></example>
     </glyph>
     <glyph use-seals="unclassified" use-coins="basic">
         <index>532</index>
@@ -7870,7 +7882,7 @@
         <prodname>S.3</prodname>
         <postname>S.3</postname>
         <legacyfonts>New.</legacyfonts>
-        <description>As #1, lazy.</description>
+        <description>As <postname>S</postname>, lazy.</description>
         <example ex-type="coin"><pub>DOC</pub><ref>1:176</ref></example>
     </glyph>
     <glyph use-seals="basic" use-coins="unclassified">
@@ -7881,7 +7893,7 @@
         <prodname>T</prodname>
         <postname>T</postname>
         <legacyfonts><athena cp="0054">&#x0054;</athena></legacyfonts>
-        <description>As Gk tau. </description>
+        <description>As <postname>Tau</postname>. </description>
         <example ex-type="seal"><pub>SBS</pub><ref>3:37</ref></example>
     </glyph>
     <glyph use-seals="basic" use-coins="unclassified">
@@ -7906,8 +7918,8 @@
         <prodname>T.2</prodname>
         <postname>T.2</postname>
         <legacyfonts><coininscr cp="2044">&#x2044;</coininscr></legacyfonts>
-        <description>As #2, reversed. </description>
-        <example ex-type="coin"><pub>DOC</pub><ref>1:283 #41</ref></example>
+        <description>As <postname>T.1</postname>, reversed. </description>
+        <example ex-type="coin"><pub>DOC</pub><ref>1:283 no. 41</ref></example>
     </glyph>
     <glyph use-seals="unclassified" use-coins="basic">
         <index>536</index>
@@ -7930,7 +7942,7 @@
         <prodname>T.4</prodname>
         <postname>T.4</postname>
         <legacyfonts>New.</legacyfonts>
-        <description>As no. 4, reversed.</description>
+        <description>As <postname>T.3</postname>, reversed.</description>
         <example ex-type="coin"><pub>DOC</pub><ref>2.2:575-584 + pls. 37-38</ref></example>
     </glyph>
     <glyph use-seals="unclassified" use-coins="unclassified">
@@ -7979,7 +7991,7 @@
         <prodname>U.3</prodname>
         <postname>U.3</postname>
         <legacyfonts><athena cp="00BA">&#x00BA;</athena></legacyfonts>
-        <description>As #3, reversed. </description>
+        <description>As <postname>U.2</postname>, reversed. </description>
         <example>pending</example>
     </glyph>
     <glyph use-seals="unclassified" use-coins="unclassified">
@@ -7991,7 +8003,7 @@
         <prodname>U.4</prodname>
         <postname>U.4</postname>
         <legacyfonts>See xref.</legacyfonts>
-        <description>As Gk upsilon #1.</description>
+        <description>As <postname>Upsilon</postname>.</description>
         <example>pending</example>
     </glyph>
     <glyph use-seals="unclassified" use-coins="basic">
@@ -8002,7 +8014,7 @@
         <prodname>V</prodname>
         <postname>V</postname>
         <legacyfonts>See xref.</legacyfonts>
-        <description>As Gk upsilon #1.</description>
+        <description>As <postname>Upsilon</postname>.</description>
         <example ex-type="coin"><pub>DOC</pub>1:121n</example>
     </glyph>
     <glyph use-seals="unclassified" use-coins="basic">
@@ -8014,7 +8026,7 @@
         <prodname>V.1</prodname>
         <postname>V.1</postname>
         <legacyfonts>See xref.</legacyfonts>
-        <description>As Latin U #4</description>
+        <description>As <postname>U.3</postname>.</description>
         <example ex-type="coin"><pub>DOC</pub><ref>1:266</ref></example>
     </glyph>
     <glyph use-seals="unclassified" use-coins="unclassified">
@@ -8026,7 +8038,7 @@
         <prodname>V.2</prodname>
         <postname>V.2</postname>
         <legacyfonts>See xref.</legacyfonts>
-        <description>As #2, reversed.</description>
+        <description>As <postname>V.1</postname>, reversed.</description>
         <example>pending</example>
     </glyph>
     <glyph use-seals="unclassified" use-coins="unclassified">
@@ -8045,7 +8057,7 @@
         <prodname>X</prodname>
         <postname>X</postname>
         <legacyfonts>See xref.</legacyfonts>
-        <description>As Gk chi. </description>
+        <description>As <postname>Chi</postname>. </description>
         <example>pending</example>
     </glyph>
     <glyph use-seals="unclassified" use-coins="unclassified">
@@ -8067,7 +8079,7 @@
         <prodname>Z</prodname>
         <postname>Z</postname>
         <legacyfonts>See xref.</legacyfonts>
-        <description>As Gk zeta #1.</description>
+        <description>As <postname>Zeta</postname>.</description>
         <example>pending</example>
     </glyph>
     <glyph use-seals="unclassified" use-coins="unclassified">
@@ -8079,7 +8091,7 @@
         <prodname>Z.1</prodname>
         <postname>Z.1</postname>
         <legacyfonts>See xref.</legacyfonts>
-        <description>As Gk zeta #2.</description>
+        <description>As <postname>Zeta.1</postname>.</description>
         <example>pending</example>
     </glyph>
     <glyph use-seals="unclassified" use-coins="basic">
@@ -8098,8 +8110,8 @@
         <prodname>A_U</prodname>
         <postname>A_U</postname>
         <legacyfonts><coingreek cp="0033">&#x0033;</coingreek></legacyfonts>
-        <description>Latin A #4 and Latin U #5. </description>
-        <example ex-type="coin"><pub>DOC</pub><ref>1:119 #138b.1</ref></example>
+        <description><postname>A.3</postname> and <postname>U.4</postname>. </description>
+        <example ex-type="coin"><pub>DOC</pub><ref>1:119 no. 138b.1</ref></example>
     </glyph>
     <glyph use-seals="unclassified" use-coins="unclassified">
         <index>552</index>
@@ -8141,7 +8153,7 @@
         <legacyfonts>New.</legacyfonts>
         <description>Abbr. for Heraclius. </description>
         <example ex-type="coin"><pub>DOC</pub><ref>2.1:110, table 2, no. b left</ref></example>
-        <example ex-type="coin"><pub>DOC</pub><ref>2.1:331 #184</ref><date notBefore="600"
+        <example ex-type="coin"><pub>DOC</pub><ref>2.1:331 no. 184</ref><date notBefore="600"
                 notAfter="650">late 7th c.</date></example>
     </glyph>
     <glyph use-seals="unclassified" use-coins="basic">
@@ -8161,7 +8173,7 @@
         <prodname>H_R.1</prodname>
         <postname>H_R.1</postname>
         <legacyfonts><athena8 cp="00EB">&#x00EB;</athena8></legacyfonts>
-        <description>As no. 1, but with crossbar. </description>
+        <description>As <postname>H_R</postname>, but with crossbar. </description>
         <example ex-type="coin"><pub>DOC</pub><ref>2.1:110, table 2, no. e left</ref></example>
         <example ex-type="coin"><pub>ABC</pub><ref>p. 14</ref><date notBefore="600" notAfter="650"
                 >early 7th c.</date></example>
@@ -8231,7 +8243,7 @@
         <prodname>RomanCD.1</prodname>
         <postname>RomanCD.1</postname>
         <legacyfonts>New.</legacyfonts>
-        <description>As #1, rotated.</description>
+        <description>As <postname>RomanCD</postname>, rotated.</description>
         <example ex-type="coin"><pub>CMBE</pub><ref>303</ref></example>
     </glyph>
     <glyph use-seals="basic" use-coins="unclassified">
@@ -8281,7 +8293,6 @@
         <variant cv="78">1</variant>
         <prodname>abbreviation1.1</prodname>
         <postname>uni2E09.1</postname>
-        <legacyfonts><athena cp="002C">&#x002C;</athena></legacyfonts>
         <description>Like a comma, midheight. </description>
         <example>pending</example>
     </glyph>
@@ -8427,7 +8438,8 @@
         <prodname>abbreviation8</prodname>
         <postname>uni02C1</postname>
         <legacyfonts>New.</legacyfonts>
-        <description>Like backwards, tilted question mark without dot. As Latin G #2.</description>
+        <description>Like backwards, tilted question mark without dot. As
+            <postname>G.1</postname>.</description>
         <example ex-type="coin"><pub>DOC</pub><ref>2.1:39</ref></example>
         <example ex-type="coin"><pub>DOC</pub><ref>2.1:44</ref></example>
     </glyph>
@@ -8470,7 +8482,7 @@
     </glyph>
     <glyph use-seals="basic" use-coins="unclassified">
         <index>578</index>
-        <pua cp="E40B"></pua>
+        <pua cp="E40B"/>
         <prodname>abbreviation11</prodname>
         <postname>uniE40B</postname>
         <legacyfonts>New.</legacyfonts>
@@ -8587,8 +8599,9 @@
         <prodname>overlinecomb.waverev</prodname>
         <postname>uni0305.waverev</postname>
         <legacyfonts>New.</legacyfonts>
-        <description>As #2, reversed.</description>
-        <example ex-type="coin"><pub>DOC</pub><ref>4.1:224 #22.2</ref><date>pl. iv</date></example>
+        <description>As <postname>uni0305.wave</postname>, reversed.</description>
+        <example ex-type="coin"><pub>DOC</pub><ref>4.1:224 no. 22.2</ref><date>pl.
+            iv</date></example>
         <comment>
             <ttnote>Combining. New PUA.</ttnote></comment>
     </glyph>
@@ -8617,7 +8630,7 @@
             lines on a seal. Also appears on coins for other purposes. </description>
         <example ex-type="seal"><pub>CBS</pub><ref>1:1.14</ref><date notBefore="1101"
                 notAfter="1200">12th c.</date></example>
-        <example ex-type="coin"><pub>DOC</pub><ref>1:127 #171b.3</ref></example>
+        <example ex-type="coin"><pub>DOC</pub><ref>1:127 no. 171b.3</ref></example>
     </glyph>
     <glyph use-seals="unclassified" use-coins="unclassified">
         <index>595</index>
@@ -8646,7 +8659,7 @@
         <prodname>numeralGreek.overline</prodname>
         <postname>uni0374.overline</postname>
         <legacyfonts>See xref.</legacyfonts>
-        <description>Overbar #1.</description>
+        <description><postname>uni0305</postname>.</description>
         <example ex-type="seal"><pub>DBLS</pub><ref>58</ref><date notBefore="901" notAfter="1000"
                 >10th c.</date></example>
         <comment>
@@ -8731,7 +8744,7 @@
         <symbolclass>1-ray array</symbolclass>
         <description>As hyphen.</description>
         <example>pending</example>
-        <comment>Could be combined with 2-pellet array #1.</comment>
+        <comment>Could be combined with 2-pellet array uniE724.</comment>
     </glyph>
     <glyph use-seals="unclassified" use-coins="unclassified">
         <index>608</index>
@@ -8748,7 +8761,7 @@
         <prodname>R1Lh</prodname>
         <postname>uniE702</postname>
         <symbolclass>1-ray array</symbolclass>
-        <description>As #1, set near baseline.</description>
+        <description>Set near baseline.</description>
         <example>pending</example>
         <comment/>
     </glyph>
@@ -8767,7 +8780,7 @@
         <prodname>R1Hh</prodname>
         <postname>uniE704</postname>
         <symbolclass>1-ray array</symbolclass>
-        <description>As #1, set near cap height.</description>
+        <description>Set near cap height.</description>
         <example>pending</example>
         <comment/>
     </glyph>
@@ -8786,7 +8799,7 @@
         <prodname>R1Mv</prodname>
         <postname>uniE706</postname>
         <symbolclass>1-ray array</symbolclass>
-        <description>As #1, set vertically.</description>
+        <description>Set vertically.</description>
         <example>pending</example>
         <comment>Perhaps to use as base for pendilia?</comment>
     </glyph>
@@ -8805,9 +8818,9 @@
         <prodname>R1Mdr</prodname>
         <postname>uniE708</postname>
         <symbolclass>1-ray array</symbolclass>
-        <description>As #1, set diagonally to top right.</description>
+        <description>Set diagonally to top right.</description>
         <example>pending</example>
-        <comment>Could be combined with 2-pellet array #5.</comment>
+        <comment>Could be combined with 2-pellet array uniE728.</comment>
     </glyph>
     <glyph use-seals="unclassified" use-coins="unclassified">
         <index>616</index>
@@ -8815,9 +8828,9 @@
         <prodname>R1Mdl</prodname>
         <postname>uniE709</postname>
         <symbolclass>1-ray array</symbolclass>
-        <description>As #5, to bottom right.</description>
+        <description>Set diagonally to bottom right.</description>
         <example>pending</example>
-        <comment>Could be combined with 2-pellet array #6.</comment>
+        <comment>Could be combined with 2-pellet array uniE729.</comment>
     </glyph>
     <glyph use-seals="unclassified" use-coins="unclassified">
         <index>617</index>
@@ -8837,7 +8850,7 @@
         <symbolclass>2-ray array</symbolclass>
         <description>Large cross.</description>
         <example>pending</example>
-        <comment>Could be combined with 4-pellet array #2.</comment>
+        <comment>Could be combined with 4-pellet array uniE736.</comment>
     </glyph>
     <glyph use-seals="unclassified" use-coins="unclassified">
         <index>619</index>
@@ -8846,9 +8859,9 @@
         <postname>uniE70C</postname>
         <legacyfonts><athena cp="002A">&#x002A;</athena></legacyfonts>
         <symbolclass>2-ray array</symbolclass>
-        <description>As #1, x shaped.</description>
+        <description>x shaped.</description>
         <example>pending</example>
-        <comment>Could be combined with 4-pellet array #3.</comment>
+        <comment>Could be combined with 4-pellet array uniE734.</comment>
     </glyph>
     <glyph use-seals="unclassified" use-coins="unclassified">
         <index>620</index>
@@ -8856,9 +8869,9 @@
         <prodname>R2Mxb</prodname>
         <postname>uniE70D</postname>
         <symbolclass>2-ray array</symbolclass>
-        <description>As #2, x shaped.</description>
+        <description>x shaped.</description>
         <example>pending</example>
-        <comment>Could be combined with 4-pellet array #4.</comment>
+        <comment>Could be combined with 4-pellet array uniE736.</comment>
     </glyph>
     <glyph use-seals="unclassified" use-coins="unclassified">
         <index>621</index>
@@ -8866,7 +8879,7 @@
         <prodname>R3M2h1v</prodname>
         <postname>uniE70E</postname>
         <symbolclass>3-ray array</symbolclass>
-        <description>Like 2-ray array #2 with short crossbar bisecting top arm.</description>
+        <description>Like 2-ray array <postname>uniE70B</postname> with short crossbar bisecting top arm.</description>
         <example>pending</example>
         <comment/>
     </glyph>
@@ -8889,7 +8902,7 @@
         <symbolclass>3-ray array</symbolclass>
         <description>Set in octagonal array (no ray assigned to horizontal “axis”)</description>
         <example>pending</example>
-        <comment>Could be combined with 6-pellet array #3 to form pelleted star.</comment>
+        <comment>Could be combined with 6-pellet array uniE73C to form pelleted star.</comment>
     </glyph>
     <glyph use-seals="unclassified" use-coins="unclassified">
         <index>624</index>
@@ -8897,10 +8910,11 @@
         <prodname>R3Mho</prodname>
         <postname>uniE711</postname>
         <symbolclass>3-ray array</symbolclass>
-        <description>As #3, but no ray assigned to vertical “axis.”</description>
+        <description>As <postname>uniE710</postname>, but no ray assigned to vertical
+            “axis.”</description>
         <example>pending</example>
-        <comment>Could be combined with 6-pellet array #4 to form pelleted star. Perhaps design to
-            combine with Gk rho, as in DOC 1:66?</comment>
+        <comment>Could be combined with 6-pellet array uniE73D to form pelleted star. Perhaps design
+            to combine with Rho, as in DOC 1:66?</comment>
     </glyph>
     <glyph use-seals="unclassified" use-coins="unclassified">
         <index>625</index>
@@ -8919,7 +8933,7 @@
                 >13th c.</date></example>
         <example ex-type="seal"><pub>BLS</pub><ref>81</ref><date notBefore="701" notAfter="800">8th
                 c.</date></example>
-        <comment>Could be combined with 6-pellet array #5 to form pelleted star.</comment>
+        <comment>Could be combined with 6-pellet array uniE73E to form pelleted star.</comment>
     </glyph>
     <glyph use-seals="unclassified" use-coins="unclassified">
         <index>626</index>
@@ -8927,9 +8941,9 @@
         <prodname>R3Mhx</prodname>
         <postname>uniE713</postname>
         <symbolclass>3-ray array</symbolclass>
-        <description>As #5, but one “axis” set horizontally.</description>
+        <description>One “axis” set horizontally.</description>
         <example>pending</example>
-        <comment>Could be combined with 6-pellet array #6 to form pelleted star.</comment>
+        <comment>Could be combined with 6-pellet array uniE73F to form pelleted star.</comment>
     </glyph>
     <glyph use-seals="unclassified" use-coins="unclassified">
         <index>627</index>
@@ -9006,7 +9020,7 @@
         <prodname>R4Mxw</prodname>
         <postname>uniE71B</postname>
         <symbolclass>4-ray array</symbolclass>
-        <description>As #4, but large rays.</description>
+        <description>As <postname>uniE71A</postname>, but large rays.</description>
         <example>pending</example>
         <comment>To combine with 4- and 5-pellet arrays.</comment>
     </glyph>
@@ -9039,7 +9053,7 @@
         <symbolclass>5-ray array</symbolclass>
         <description>Five-pointed star.</description>
         <example>pending</example>
-        <comment>To be combined with 5-pellet array #3.</comment>
+        <comment>To be combined with 5-pellet array uniE739.</comment>
     </glyph>
     <glyph use-seals="unclassified" use-coins="unclassified">
         <index>638</index>
@@ -9064,9 +9078,8 @@
         <prodname>P1L</prodname>
         <postname>uniE720</postname>
         <symbolclass>1-pellet array</symbolclass>
-        <description>As #1, near baseline.</description>
+        <description>Set near baseline.</description>
         <example>pending</example>
-        <comment>Should be able to combine with Gk beta #7 to have pellet inside loop.</comment>
     </glyph>
     <glyph use-seals="unclassified" use-coins="unclassified">
         <index>640</index>
@@ -9074,7 +9087,7 @@
         <prodname>P1LL</prodname>
         <postname>uniE721</postname>
         <symbolclass>1-pellet array</symbolclass>
-        <description>As #1, below baseline.</description>
+        <description>Set below baseline.</description>
         <example>pending</example>
         <comment/>
     </glyph>
@@ -9084,7 +9097,7 @@
         <prodname>P1H</prodname>
         <postname>uniE722</postname>
         <symbolclass>1-pellet array</symbolclass>
-        <description>As #1, above x-height.</description>
+        <description>Set above x-height.</description>
         <example>pending</example>
         <comment>Should be able to combine with Gk rho to have pellet inside loop.</comment>
     </glyph>
@@ -9094,7 +9107,7 @@
         <prodname>P1HH</prodname>
         <postname>uniE723</postname>
         <symbolclass>1-pellet array</symbolclass>
-        <description>As #1, above cap height.</description>
+        <description>Set above cap height.</description>
         <example>pending</example>
         <comment/>
     </glyph>
@@ -9116,7 +9129,7 @@
         <prodname>P2Mv</prodname>
         <postname>uniE725</postname>
         <symbolclass>2-pellet array</symbolclass>
-        <description>As #1, but set vertically.</description>
+        <description>Set vertically.</description>
         <example>pending</example>
         <comment>Could be designed to combine with epsilon, per DOC 1:24</comment>
     </glyph>
@@ -9126,7 +9139,7 @@
         <prodname>P2Mhw</prodname>
         <postname>uniE726</postname>
         <symbolclass>2-pellet array</symbolclass>
-        <description>As #1, but spaced apart further.</description>
+        <description>Set horizontally, spaced apart.</description>
         <example>pending</example>
         <comment/>
     </glyph>
@@ -9136,7 +9149,7 @@
         <prodname>P2Mvw</prodname>
         <postname>uniE727</postname>
         <symbolclass>2-pellet array</symbolclass>
-        <description>As #3, but set vertically.</description>
+        <description>Set vertically, spaced apart.</description>
         <example>pending</example>
         <comment>Could be designed to combine with chi, per DOC 1:91.</comment>
     </glyph>
@@ -9146,7 +9159,7 @@
         <prodname>P2Mdr</prodname>
         <postname>uniE728</postname>
         <symbolclass>2-pellet array</symbolclass>
-        <description>As #1, but set diagonally to top right.</description>
+        <description>Set diagonally to top right.</description>
         <example>pending</example>
         <comment/>
     </glyph>
@@ -9156,7 +9169,7 @@
         <prodname>P2Mdl</prodname>
         <postname>uniE729</postname>
         <symbolclass>2-pellet array</symbolclass>
-        <description>As #5, but to bottom right.</description>
+        <description>Set diagonally to bottom right.</description>
         <example>pending</example>
         <comment/>
     </glyph>
@@ -9166,7 +9179,7 @@
         <prodname>P2Lh</prodname>
         <postname>uniE72A</postname>
         <symbolclass>2-pellet array</symbolclass>
-        <description>As #1, but set near baseline.</description>
+        <description>Set near baseline.</description>
         <example>pending</example>
         <comment>Could be designed to combine with chi-rho, per DOC 1:46.</comment>
     </glyph>
@@ -9176,7 +9189,7 @@
         <prodname>P3Mh</prodname>
         <postname>uniE72B</postname>
         <symbolclass>3-pellet array</symbolclass>
-        <description>As 2-pellet array #1, but with three pellets.</description>
+        <description>Set horizontally.</description>
         <example>pending</example>
         <comment>We considered encoding this class of symbols as U+2026, but decided against
             it.</comment>
@@ -9187,7 +9200,7 @@
         <prodname>P3Mv</prodname>
         <postname>uniE72C</postname>
         <symbolclass>3-pellet array</symbolclass>
-        <description>As #1, but set vertically.</description>
+        <description>Set vertically.</description>
         <example>pending</example>
         <comment/>
     </glyph>
@@ -9199,7 +9212,7 @@
         <legacyfonts><coinart cp="0037">&#x0037;</coinart></legacyfonts>
         <symbolclass>3-pellet array</symbolclass>
         <description>Three pellets set in shape of equilateral triangle, pointing up.</description>
-        <example ex-type="coin"><pub>DOC</pub><ref>1:358 #247</ref></example>
+        <example ex-type="coin"><pub>DOC</pub><ref>1:358 no. 247</ref></example>
         <comment>Perhaps set combining form for new pendilia.</comment>
     </glyph>
     <glyph use-seals="unclassified" use-coins="unclassified">
@@ -9209,7 +9222,7 @@
         <postname>uniE72E</postname>
         <legacyfonts><coinart cp="0038">&#x0038;</coinart></legacyfonts>
         <symbolclass>3-pellet array</symbolclass>
-        <description>As #3, pointing down.</description>
+        <description>Equilateral triangle pointing down.</description>
         <example>pending</example>
         <comment>Perhaps set combining form for new pendilia.</comment>
     </glyph>
@@ -9220,7 +9233,7 @@
         <postname>uniE72F</postname>
         <legacyfonts><coinart cp="0035">&#x0035;</coinart></legacyfonts>
         <symbolclass>3-pellet array</symbolclass>
-        <description>As #3, pointing right.</description>
+        <description>Equilateral triangle pointing right.</description>
         <example ex-type="seal"><pub>DBLS</pub><ref>119</ref><date notBefore="1101" notAfter="1200"
                 >12th c.</date></example>
         <example ex-type="seal"><pub>DBLS</pub><ref>142</ref><date notBefore="1201" notAfter="1300"
@@ -9236,7 +9249,7 @@
         <postname>uniE730</postname>
         <legacyfonts><coinart cp="0036">&#x0036;</coinart></legacyfonts>
         <symbolclass>3-pellet array</symbolclass>
-        <description>As #3, pointing left.</description>
+        <description>Equilateral triangle pointing left.</description>
         <example ex-type="seal"><pub>DBLS</pub><ref>142</ref><date notBefore="1201" notAfter="1300"
                 >13th c.</date></example>
         <example ex-type="seal"><pub>DBLS</pub><ref>148</ref><date notBefore="1301" notAfter="1400"
@@ -9251,7 +9264,7 @@
         <prodname>P3Lh</prodname>
         <postname>uniE731</postname>
         <symbolclass>3-pellet array</symbolclass>
-        <description>As #1, set near baseline.</description>
+        <description>Set near baseline.</description>
         <example>pending</example>
         <comment/>
     </glyph>
@@ -9261,7 +9274,7 @@
         <prodname>P4Mh</prodname>
         <postname>uniE732</postname>
         <symbolclass>4-pellet array</symbolclass>
-        <description>As 3-pellet array #1, but with four pellets.</description>
+        <description>Set horizontally.</description>
         <example>pending</example>
         <comment>We considered encoding this class of symbols as U+2058, but decided against
             it.</comment>
@@ -9272,7 +9285,7 @@
         <prodname>P4Mv</prodname>
         <postname>uniE733</postname>
         <symbolclass>4-pellet array</symbolclass>
-        <description>As #1, but set vertically.</description>
+        <description>Set vertically.</description>
         <example>pending</example>
         <comment/>
     </glyph>
@@ -9334,7 +9347,7 @@
         <postname>uniE738</postname>
         <legacyfonts><coinart cp="0033">&#x0033;</coinart></legacyfonts>
         <symbolclass>5-pellet array</symbolclass>
-        <description>As #1 but in cross arrangement.</description>
+        <description>In cross arrangement.</description>
         <example>pending</example>
         <comment/>
     </glyph>
@@ -9366,7 +9379,7 @@
         <prodname>P6Mv33</prodname>
         <postname>uniE73B</postname>
         <symbolclass>6-pellet array</symbolclass>
-        <description>As #1, but 2 across by 3 down.</description>
+        <description>2 across by 3 down.</description>
         <example>pending</example>
         <comment/>
     </glyph>
@@ -9386,7 +9399,7 @@
         <prodname>P6Mho</prodname>
         <postname>uniE73D</postname>
         <symbolclass>6-pellet array</symbolclass>
-        <description>As #3, but no pellets assigned to vertical “axis.”</description>
+        <description>No pellets assigned to vertical “axis.”</description>
         <example>pending</example>
         <comment>Ideal for combining with rays to make pelleted stars.</comment>
     </glyph>
@@ -9406,7 +9419,7 @@
         <prodname>P6Mhx</prodname>
         <postname>uniE73F</postname>
         <symbolclass>6-pellet array</symbolclass>
-        <description>As #5, but one “axis” set horizontally.</description>
+        <description>Hexagonal array, one “axis” set horizontally.</description>
         <example>pending</example>
         <comment>Ideal for combining with rays to make pelleted stars.</comment>
     </glyph>
@@ -9416,7 +9429,8 @@
         <prodname>P7M</prodname>
         <postname>uniE740</postname>
         <symbolclass>7-pellet array</symbolclass>
-        <description>As 6-pellet array #5, but with center pellet.</description>
+        <description>As 6-pellet array <postname>uniE73E</postname>, but with center
+            pellet.</description>
         <example>pending</example>
         <comment>We considered encoding this class of symbols in a newly proposed Unicode slot, but
             decided against it. Cf. comments on other pellet arrays.</comment>
@@ -9428,7 +9442,8 @@
         <postname>uniE741</postname>
         <legacyfonts><athena cp="0026">&#x0026;</athena></legacyfonts>
         <symbolclass>7-pellet array</symbolclass>
-        <description>As #1, but with center pellet larger than the others.</description>
+        <description>As <postname>uniE740</postname>, but with center pellet larger than the
+            others.</description>
         <example>pending</example>
         <comment>Center pellet should be larger than the other six.</comment>
     </glyph>
@@ -9438,7 +9453,7 @@
         <prodname>P8Ms</prodname>
         <postname>uniE742</postname>
         <symbolclass>8-pellet array</symbolclass>
-        <description>Set in square formation, proportionate to 3-pellet arrays #1–2.</description>
+        <description>Set in hollow square formation.</description>
         <example>pending</example>
         <comment>Ideal for combining with edges of labarums? We considered encoding this class of
             symbols in a newly proposed Unicode slot, but decided against it. Cf. comments on other
@@ -9460,7 +9475,7 @@
         <prodname>P9M</prodname>
         <postname>uniE744</postname>
         <symbolclass>9-pellet array</symbolclass>
-        <description>Set in 3 x 3 array, similar to 8-pellet array #1.</description>
+        <description>Set in 3 x 3 array, similar to <postname>uniE742</postname>.</description>
         <example ex-type="coin"><pub>DOC</pub><ref>3.2:796</ref></example>
         <comment>Ideal for using with imperial costume elements. We considered encoding this class
             of symbols in a newly proposed Unicode slot, but decided against it. Cf. comments on
@@ -9472,9 +9487,9 @@
         <prodname>B1M</prodname>
         <postname>uniE745</postname>
         <symbolclass>9-pellet array</symbolclass>
-        <description>As #1, near x-height.</description>
+        <description>Set near x-height.</description>
         <example>pending</example>
-        <comment>Should match the center pellet in the 7-pellet array #2.</comment>
+        <comment>Should match the center pellet in the 7-pellet array uniE741.</comment>
     </glyph>
     <glyph use-seals="unclassified" use-coins="unclassified">
         <index>677</index>
@@ -9494,8 +9509,8 @@
         <postname>uniE747</postname>
         <legacyfonts><coinart cp="0039">&#x0039;</coinart></legacyfonts>
         <symbolclass>medium circle</symbolclass>
-        <description>As #2, but hollow</description>
-        <example ex-type="coin"><pub>DOC</pub><ref>5.2: #1155</ref></example>
+        <description>As <postname>uniE745</postname>, but hollow</description>
+        <example ex-type="coin"><pub>DOC</pub><ref>5.2: no. 1155</ref></example>
         <comment>Should be able to combine with a single pellet to form (.</comment>
     </glyph>
     <glyph use-seals="unclassified" use-coins="unclassified">
@@ -9504,7 +9519,7 @@
         <prodname>B2Mv</prodname>
         <postname>uniE748</postname>
         <symbolclass>2 medium circles</symbolclass>
-        <description>As medium circle #1, but two set vertically.</description>
+        <description>Set vertically.</description>
         <example>pending</example>
         <comment/>
     </glyph>
@@ -9514,7 +9529,7 @@
         <prodname>B1Mb</prodname>
         <postname>uniE749</postname>
         <symbolclass>3 medium circles</symbolclass>
-        <description>As #1, but set near x-height.</description>
+        <description>Set near x-height.</description>
         <example>pending</example>
         <comment/>
     </glyph>
@@ -9536,7 +9551,7 @@
         <prodname>B1Mbo</prodname>
         <postname>uniE74B</postname>
         <symbolclass>large circle</symbolclass>
-        <description>As #2, but hollow.</description>
+        <description>As <postname>uniE749</postname>, but hollow.</description>
         <example>pending</example>
         <comment>Could be combined with triangular 3-pellet arrays.</comment>
     </glyph>
@@ -9545,11 +9560,9 @@
         <unicode cp="E74C"/>
         <prodname>S1M</prodname>
         <postname>uniE74C</postname>
-        <symbolclass>large circle</symbolclass>
-        <description>Square set and sized as 1-pellet array #1.</description>
+        <symbolclass>small square</symbolclass>
         <example>pending</example>
-        <comment>Ideal for combining with 4-pellet rays #4–5 for variants with square
-            centers.</comment>
+        <comment>Ideal for combining with 4-pellet rays for variants with square centers.</comment>
     </glyph>
     <glyph use-seals="unclassified" use-coins="unclassified">
         <index>684</index>
@@ -9557,7 +9570,6 @@
         <prodname>S1L</prodname>
         <postname>uniE74D</postname>
         <symbolclass>small square</symbolclass>
-        <description>Square set and sized as 1-pellet array #2.</description>
         <example>pending</example>
         <comment/>
     </glyph>
@@ -9566,8 +9578,7 @@
         <unicode cp="E74E"/>
         <prodname>S1Mm</prodname>
         <postname>uniE74E</postname>
-        <symbolclass>small square</symbolclass>
-        <description>Square set and sized as medium circle #2.</description>
+        <symbolclass>medium square</symbolclass>
         <example>pending</example>
         <comment>Ideal for combining with 2-ray array</comment>
     </glyph>
@@ -9578,7 +9589,6 @@
         <postname>uniE74F</postname>
         <legacyfonts><coinart cp="0030">&#x0030;</coinart></legacyfonts>
         <symbolclass>medium square</symbolclass>
-        <description>Square set and sized as medium circle #1.</description>
         <example ex-type="coin"><pub>CMBE</pub><ref>123</ref></example>
         <comment>Prob. should be set on baseline</comment>
     </glyph>
@@ -9588,7 +9598,7 @@
         <prodname>S1Mmo</prodname>
         <postname>uniE750</postname>
         <symbolclass>medium square</symbolclass>
-        <description>As #2, hollow.</description>
+        <description>Hollow.</description>
         <example>pending</example>
         <comment/>
     </glyph>
@@ -9598,7 +9608,7 @@
         <prodname>S1Lb</prodname>
         <postname>uniE751</postname>
         <symbolclass>large square</symbolclass>
-        <description>As large circle #1.</description>
+        <description>As large circle <postname>uniE74A</postname>.</description>
         <example>pending</example>
         <comment/>
     </glyph>
@@ -9609,7 +9619,7 @@
         <postname>uniE752</postname>
         <legacyfonts><coinart cp="006E">&#x006E;</coinart></legacyfonts>
         <symbolclass>large square</symbolclass>
-        <description>As #1, but pinched sides.</description>
+        <description>As <postname>uniE751</postname>, but pinched sides.</description>
         <example ex-type="coin"><pub>CMBE</pub><ref>184</ref></example>
         <comment>“Waisted square,” used with shaft or alone.</comment>
     </glyph>
@@ -9675,7 +9685,7 @@
         <postname>uniE801</postname>
         <legacyfonts><athena cp="0025">&#x0025;</athena></legacyfonts>
         <symbolclass>tendril</symbolclass>
-        <description>As #1, mirrored. </description>
+        <description>As <postname>uniE800</postname>, reversed. </description>
         <example>pending</example>
         <comment/>
     </glyph>
@@ -9696,7 +9706,7 @@
         <prodname>Leaf3Right</prodname>
         <postname>uniE803</postname>
         <symbolclass>tendril</symbolclass>
-        <description>As #3, mirrored. </description>
+        <description>As <postname>uniE802</postname>, reversed. </description>
         <example ex-type="seal"><pub>DBLS</pub><ref>31</ref><date notBefore="701" notAfter="800">8th
                 c.</date></example>
         <comment/>
@@ -9733,7 +9743,7 @@
         <postname>uniE805</postname>
         <legacyfonts><coinart cp="0074">&#x0074;</coinart></legacyfonts>
         <symbolclass>cross</symbolclass>
-        <description>As #1, thicker arms. </description>
+        <description>As <postname>uniE804</postname>, thicker arms. </description>
         <example>pending</example>
         <comment/>
     </glyph>
@@ -9808,7 +9818,7 @@
         <postname>uniE80D</postname>
         <legacyfonts><coinart cp="0058">&#x0058;</coinart></legacyfonts>
         <symbolclass>globus cruciger</symbolclass>
-        <description>As #2, with second crossbar. </description>
+        <description>As <postname>uniE80C</postname>, with second crossbar. </description>
         <example>pending</example>
         <comment/>
     </glyph>
@@ -9881,7 +9891,7 @@
         <prodname>MoonStar</prodname>
         <postname>uniE814</postname>
         <symbolclass>border decoration</symbolclass>
-        <description>As #1, but 6-ray star instead of pellet in middle. </description>
+        <description>As <postname>uniE813</postname>, but 6-ray star instead of pellet in middle. </description>
         <example ex-type="coin"
             ><pub>classicalcoins.com</pub><ref>products 656, 603, etc.</ref></example>
         <comment/>
@@ -9981,7 +9991,7 @@
         <prodname>Pendilium2R</prodname>
         <postname>uniE81D</postname>
         <symbolclass>pendilium</symbolclass>
-        <description>As #9, but on right.</description>
+        <description>As <postname>uniE81C</postname>, but on right.</description>
         <example ex-type="coin"><pub>CMBE</pub><ref>95</ref></example>
         <comment/>
     </glyph>
@@ -10014,7 +10024,7 @@
         <postname>uniE820</postname>
         <legacyfonts><coinart cp="005D">&#x005D;</coinart></legacyfonts>
         <symbolclass>pendilium</symbolclass>
-        <description>As #1, but one dot over two.</description>
+        <description>Triangle points up.</description>
         <example>pending</example>
         <comment/>
     </glyph>
@@ -10035,7 +10045,7 @@
         <prodname>Pendilium3R</prodname>
         <postname>uniE822</postname>
         <symbolclass>pendilium</symbolclass>
-        <description>As #7, pointing right.</description>
+        <description>Triangle points right.</description>
         <example ex-type="coin"><pub>CMBE</pub><ref>table vi</ref></example>
         <comment/>
     </glyph>

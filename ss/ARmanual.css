@@ -1,8 +1,16 @@
 /* Style sheet for Athena Ruby manual */
 
 /* Text formats */
-p, h1, h2, h3, ol, ul, li{
-    font-size:large;
+body{
+    margin-left : 1em;
+    margin-right : 1em;
+}
+p{
+    text-indent : 1em;
+    margin : 0em;
+}
+p br:after{
+    content : "grump";
 }
 .mac {
     font-style : italic;
@@ -24,10 +32,13 @@ p, h1, h2, h3, ol, ul, li{
 }
 .instr {
     font-family : monospace;
+    margin-left : 2em;
+    text-indent : 0em;
 }
 .question {
     font-style : italic;
     font-weight : bold;
+    margin-top : 1em;
 }
 .question:before {
     content : "Q. ";
@@ -45,7 +56,6 @@ blockquote, .term, .title {
     color : red;
 }
 .notice {
-    line-height : 50%;
     font-size : small;
     padding : 10px 20px;
     background-color : #F5F5DC;

@@ -1,0 +1,802 @@
+<!DOCTYPE html SYSTEM "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Athena Ruby Palette</title>
+        <link rel="stylesheet" type="text/css" href="ss/default.css" />
+        <link rel="stylesheet" type="text/css" href="ss/ar-otf.css" />
+        <link rel="shortcut icon" href="favicon.ico" />
+        <style type="text/css">
+            span[class ^= "ar"],
+            .punc{
+                border:1px solid gray;
+                border-radius:0.5em;
+                background-color:#F8F8F8;
+                box-shadow:2px 2px 3px #888;
+            }
+            *[id ^= "result"]{
+                font-size:36px;
+            }
+            *[id ^= "feedback"]{
+                color:gray;
+                font-size:10px;
+            }
+            *[class ^= "ar"]{
+                font-size:16px;
+                color:black;
+            }
+            p[id $= "letters"] .ar-u{
+                font-size:24px;
+                color:blue;
+            }
+            #tempinsert{color:red}
+        </style>
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <!-- Google analytics -->
+        <script type="text/javascript">
+            
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-26428902-1']);
+            _gaq.push(['_trackPageview']);
+            
+            (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+            
+        </script>
+    </head>
+    <body>
+        <script type="text/javascript">
+$(document).ready(function() {
+    $("span[class^='ar']").click(function(){
+        var x = $(this).text().replace(/\s/g,"");
+        $("#resultpua").append(x);
+        $("#feedback1").append(x.charCodeAt(0).toString(16));
+        $(this).css({"font-size":"24px","color":"blue"});
+    });
+    $("span[class^='ar']").hover(function() {
+        var x = $(this).text().replace(/\s/g,"");
+        $(this).css({"background-color":"#DFDFDF"});
+        $("#resultpua").after("<span id='tempinsert'>" + x + "</span>");
+    },function() {
+        $(this).css({"background-color":"#F8F8F8"});
+        $("#tempinsert").remove();
+    });
+    $("#space").click(function() {
+        $("#resultpua").append(" ");
+        $("#feedback1").append(" ".charCodeAt(0).toString(16));
+    });
+});
+        </script>
+        <h1>Athena Ruby Palette</h1>
+        <p><em>Written February 2013 by Joel Kalvesmaki for Dumbarton Oaks, Trustees of Harvard
+                University.</em></p>
+        <p id="result" class="athenarubyweb" contenteditable="true"><span id="resultpua"></span></p>
+        <p><em>Uses Private Use Area, not Unicode, for variant characters. Suitable for pasting in word processors, but you
+        must have Athena Ruby already installed, and you may need to reformat the pasted text.</em></p>
+        <!--<div class="punc-mod" style="float:right"><span id="space">&#x00A0;</span>
+            <span id="backspace">&#x2408;</span>
+            <span id="clear">&#x2717;</span>
+            <span class="ar-u">zwnj&#x200C;</span>
+            <span class="ar-u">zwj&#x200D;</span>
+        </div>-->
+        <p id="grc-punctuation" class="athenarubyweb">
+            <span class="ar-u">&#x00A0;&#x002C;</span>
+            <span class="ar-u">&#x00A0;&#x2E09;</span>
+            <span class="ar-p">&#x00A0;&#xE400;</span>
+            <span class="ar-p">&#x00A0;&#xE401;</span>
+            <span class="ar-p">&#x00A0;&#xE402;</span>
+            <span class="ar-p">&#x00A0;&#xE403;</span>
+            <span class="ar-u">&#x00A0;&#x2E0A;</span>
+            <span class="ar-u">&#x00A0;&#x02CA;</span>
+            <span class="ar-u">&#x00A0;&#x02CB;</span>
+            <span class="ar-u">&#x00A0;&#x00B7;</span>
+            <span class="ar-u">&#x00A0;&#x0387;</span>
+            <span class="ar-p">&#x00A0;&#xE404;</span>
+            <span class="ar-u">&#x00A0;&#x002F;</span>
+            <span class="ar-p">&#x00A0;&#xE405;</span>
+            <span class="ar-p">&#x00A0;&#xE600;</span>
+            <span class="ar-u">&#x00A0;&#x003A;</span>
+            <span class="ar-u">&#x02C1;</span>
+            <span class="ar-u">&#x00A0;&#x02D9;</span>
+            <span class="ar-u">&#x00A0;&#x2E23;</span>
+            <span class="ar-p">&#x00A0;&#xE406;</span>
+            <span class="ar-p">&#x00A0;&#xE40B;</span>
+            <span class="ar-u">&#x00A0;&#x0337;</span>&#x2001; <span class="ar-u"
+                >&#x2002;&#x0305;</span>
+            <span class="ar-p">&#x2002;&#xE407;</span>
+            <span class="ar-p">&#x2002;&#xE408;</span>
+            <span class="ar-p">&#x2002;&#xE409;</span>
+            <span class="ar-p">&#x2002;&#xE40A;</span>&#x2001; <span class="ar-u"
+                >&#x00A0;&#x005B;</span>
+            <span class="ar-u">&#x00A0;&#x005D;</span>
+            <span class="ar-u">&#x00A0;&#x002E;</span>
+            <span class="ar-u">&#x2002;&#x0323;</span>
+            <span class="ar-u">&#x00A0;&#x007C;</span>
+        </p>
+        <p id="grc-letters" class="athenarubyweb">
+            <span class="ar-u">&#x0391;</span>
+            <span class="ar-p">&#xE100;</span>
+            <span class="ar-p">&#xE101;</span>
+            <span class="ar-p">&#xE102;</span>
+            <span class="ar-p">&#xE103;</span>
+            <span class="ar-p">&#xE104;</span>
+            <span class="ar-p">&#xE105;</span>
+            <span class="ar-p">&#xE106;</span>
+            <span class="ar-p">&#xE107;</span>
+            <span class="ar-p">&#xE108;</span>
+            <span class="ar-p">&#xE109;</span>
+            <span class="ar-p">&#xE10A;</span>
+            <span class="ar-p">&#xE10B;</span>
+            <span class="ar-p">&#xE10C;</span>
+            <span class="ar-p">&#xE10D;</span>
+            <span class="ar-p">&#xE10E;</span>
+            <span class="ar-p">&#xE10F;</span>
+            <span class="ar-p">&#xE110;</span>
+            <span class="ar-p">&#xE111;</span>
+            <span class="ar-p">&#xE112;</span>
+            <span class="ar-p">&#xE113;</span>
+            <span class="ar-p">&#xE114;</span>
+            <span class="ar-p">&#xE115;</span>
+            <span class="ar-p">&#xE116;</span>
+            <span class="ar-p">&#xE117;</span>
+            <span class="ar-p">&#xE118;</span>
+            <span class="ar-p">&#xE119;</span>
+            <span class="ar-p">&#xE11A;</span>
+            <span class="ar-u">&#x0392;</span>
+            <span class="ar-p">&#xE11B;</span>
+            <span class="ar-p">&#xE11C;</span>
+            <span class="ar-p">&#xE11D;</span>
+            <span class="ar-p">&#xE11E;</span>
+            <span class="ar-p">&#xE11F;</span>
+            <span class="ar-p">&#xE120;</span>
+            <span class="ar-p">&#xE121;</span>
+            <span class="ar-p">&#xE122;</span>
+            <span class="ar-p">&#xE123;</span>
+            <span class="ar-p">&#xE124;</span>
+            <span class="ar-u">&#x0393;</span>
+            <span class="ar-p">&#xE125;</span>
+            <span class="ar-p">&#xE126;</span>
+            <span class="ar-p">&#xE127;</span>
+            <span class="ar-u">&#x0394;</span>
+            <span class="ar-p">&#xE128;</span>
+            <span class="ar-p">&#xE129;</span>
+            <span class="ar-p">&#xE12A;</span>
+            <span class="ar-p">&#xE12B;</span>
+            <span class="ar-p">&#xE12C;</span>
+            <span class="ar-p">&#xE12D;</span>
+            <span class="ar-p">&#xE12E;</span>
+            <span class="ar-p">&#xE12F;</span>
+            <span class="ar-p">&#xE130;</span>
+            <span class="ar-p">&#xE131;</span>
+            <span class="ar-p">&#xE132;</span>
+            <span class="ar-p">&#xE133;</span>
+            <span class="ar-p">&#xE134;</span>
+            <span class="ar-u">&#x0395;</span>
+            <span class="ar-p">&#xE135;</span>
+            <span class="ar-p">&#xE136;</span>
+            <span class="ar-p">&#xE137;</span>
+            <span class="ar-p">&#xE138;</span>
+            <span class="ar-p">&#xE139;</span>
+            <span class="ar-p">&#xE13A;</span>
+            <span class="ar-u">&#x0396;</span>
+            <span class="ar-p">&#xE13B;</span>
+            <span class="ar-p">&#xE13C;</span>
+            <span class="ar-p">&#xE13D;</span>
+            <span class="ar-u">&#x0397;</span>
+            <span class="ar-p">&#xE13E;</span>
+            <span class="ar-u">&#x0398;</span>
+            <span class="ar-p">&#xE13F;</span>
+            <span class="ar-p">&#xE140;</span>
+            <span class="ar-p">&#xE141;</span>
+            <span class="ar-p">&#xE142;</span>
+            <span class="ar-u">&#x0399;</span>
+            <span class="ar-p">&#xE143;</span>
+            <span class="ar-u">&#x039A;</span>
+            <span class="ar-p">&#xE144;</span>
+            <span class="ar-p">&#xE145;</span>
+            <span class="ar-p">&#xE146;</span>
+            <span class="ar-u">&#x039B;</span>
+            <span class="ar-p">&#xE147;</span>
+            <span class="ar-p">&#xE148;</span>
+            <span class="ar-p">&#xE149;</span>
+            <span class="ar-p">&#xE14A;</span>
+            <span class="ar-p">&#xE14B;</span>
+            <span class="ar-p">&#xE14C;</span>
+            <span class="ar-u">&#x039C;</span>
+            <span class="ar-p">&#xE14D;</span>
+            <span class="ar-p">&#xE14E;</span>
+            <span class="ar-p">&#xE14F;</span>
+            <span class="ar-p">&#xE150;</span>
+            <span class="ar-p">&#xE151;</span>
+            <span class="ar-p">&#xE152;</span>
+            <span class="ar-p">&#xE153;</span>
+            <span class="ar-u">&#x039D;</span>
+            <span class="ar-p">&#xE154;</span>
+            <span class="ar-p">&#xE155;</span>
+            <span class="ar-p">&#xE156;</span>
+            <span class="ar-p">&#xE157;</span>
+            <span class="ar-p">&#xE158;</span>
+            <span class="ar-u">&#x039E;</span>
+            <span class="ar-p">&#xE159;</span>
+            <span class="ar-p">&#xE15A;</span>
+            <span class="ar-p">&#xE15B;</span>
+            <span class="ar-p">&#xE15C;</span>
+            <span class="ar-p">&#xE15D;</span>
+            <span class="ar-p">&#xE15E;</span>
+            <span class="ar-p">&#xE15F;</span>
+            <span class="ar-p">&#xE160;</span>
+            <span class="ar-p">&#xE161;</span>
+            <span class="ar-p">&#xE162;</span>
+            <span class="ar-p">&#xE163;</span>
+            <span class="ar-u">&#x039F;</span>
+            <span class="ar-u">&#x03A0;</span>
+            <span class="ar-p">&#xE164;</span>
+            <span class="ar-u">&#x03A1;</span>
+            <span class="ar-p">&#xE165;</span>
+            <span class="ar-p">&#xE166;</span>
+            <span class="ar-p">&#xE167;</span>
+            <span class="ar-u">&#x03A3;</span>
+            <span class="ar-p">&#xE168;</span>
+            <span class="ar-p">&#xE169;</span>
+            <span class="ar-p">&#xE16A;</span>
+            <span class="ar-p">&#xE16B;</span>
+            <span class="ar-u">&#x03A4;</span>
+            <span class="ar-u">&#x03A5;</span>
+            <span class="ar-p">&#xE16C;</span>
+            <span class="ar-p">&#xE16D;</span>
+            <span class="ar-p">&#xE16E;</span>
+            <span class="ar-u">&#x03A6;</span>
+            <span class="ar-p">&#xE16F;</span>
+            <span class="ar-p">&#xE170;</span>
+            <span class="ar-p">&#xE171;</span>
+            <span class="ar-p">&#xE172;</span>
+            <span class="ar-u">&#x03A7;</span>
+            <span class="ar-u">&#x03A8;</span>
+            <span class="ar-p">&#xE173;</span>
+            <span class="ar-u">&#x03A9;</span>
+            <span class="ar-p">&#xE174;</span>
+            <span class="ar-p">&#xE175;</span>
+            <span class="ar-p">&#xE176;</span>
+            <span class="ar-p">&#xE177;</span>
+            <span class="ar-p">&#xE178;</span>
+            <span class="ar-p">&#xE179;</span>
+        </p>
+        <p id="grc-ligatures" class="athenarubyweb"><span class="ar-p">&#xE180;</span>
+            <span class="ar-p">&#xE181;</span>
+            <span class="ar-p">&#xE182;</span>
+            <span class="ar-p">&#xE183;</span>
+            <span class="ar-p">&#xE184;</span>
+            <span class="ar-p">&#xE185;</span>
+            <span class="ar-p">&#xE186;</span>
+            <span class="ar-p">&#xE187;</span>
+            <span class="ar-p">&#xE188;</span>
+            <span class="ar-p">&#xE189;</span>
+            <span class="ar-p">&#xE18A;</span>
+            <span class="ar-p">&#xE18B;</span>
+            <span class="ar-p">&#xE18C;</span>
+            <span class="ar-p">&#xE18D;</span>
+            <span class="ar-p">&#xE18E;</span>
+            <span class="ar-p">&#xE18F;</span>
+            <span class="ar-p">&#xE190;</span>
+            <span class="ar-p">&#xE191;</span>
+            <span class="ar-p">&#xE192;</span>
+            <span class="ar-p">&#xE193;</span>
+            <span class="ar-p">&#xE194;</span>
+            <span class="ar-p">&#xE195;</span>
+            <span class="ar-p">&#xE196;</span>
+            <span class="ar-p">&#xE197;</span>
+            <span class="ar-p">&#xE198;</span>
+            <span class="ar-p">&#xE199;</span>
+            <span class="ar-p">&#xE19A;</span>
+            <span class="ar-p">&#xE19B;</span>
+            <span class="ar-p">&#xE19C;</span>
+            <span class="ar-p">&#xE19D;</span>
+            <span class="ar-p">&#xE19E;</span>
+            <span class="ar-p">&#xE19F;</span>
+            <span class="ar-p">&#xE1A0;</span>
+            <span class="ar-p">&#xE1A1;</span>
+            <span class="ar-p">&#xE1A2;</span>
+            <span class="ar-p">&#xE1A3;</span>
+            <span class="ar-p">&#xE1A4;</span>
+            <span class="ar-p">&#xE1A5;</span>
+            <span class="ar-p">&#xE1A6;</span>
+            <span class="ar-p">&#xE1A7;</span>
+            <span class="ar-p">&#xE1A8;</span>
+            <span class="ar-p">&#xE1A9;</span>
+            <span class="ar-p">&#xE1AA;</span>
+            <span class="ar-p">&#xE1AB;</span>
+            <span class="ar-p">&#xE1AC;</span>
+            <span class="ar-p">&#xE1AD;</span>
+            <span class="ar-p">&#xE1AE;</span>
+            <span class="ar-p">&#xE1AF;</span>
+            <span class="ar-p">&#xE1B0;</span>
+            <span class="ar-p">&#xE1B1;</span>
+            <span class="ar-p">&#xE1B2;</span>
+            <span class="ar-p">&#xE1B3;</span>
+            <span class="ar-p">&#xE1B4;</span>
+            <span class="ar-p">&#xE1B5;</span>
+            <span class="ar-p">&#xE1B6;</span>
+            <span class="ar-p">&#xE1B7;</span>
+            <span class="ar-p">&#xE1B8;</span>
+            <span class="ar-p">&#xE1B9;</span>
+            <span class="ar-p">&#xE1BA;</span>
+            <span class="ar-p">&#xE1BB;</span>
+            <span class="ar-p">&#xE1BC;</span>
+            <span class="ar-p">&#xE1BD;</span>
+            <span class="ar-p">&#xE1BE;</span>
+            <span class="ar-p">&#xE1BF;</span>
+            <span class="ar-p">&#xE1C0;</span>
+            <span class="ar-p">&#xE1C1;</span>
+            <span class="ar-p">&#xE1C2;</span>
+            <span class="ar-p">&#xE1C3;</span>
+            <span class="ar-p">&#xE1C4;</span>
+            <span class="ar-p">&#xE1C5;</span>
+            <span class="ar-p">&#xE1C6;</span>
+            <span class="ar-p">&#xE1C7;</span>
+            <span class="ar-p">&#xE1C8;</span>
+            <span class="ar-p">&#xE1C9;</span>
+            <span class="ar-p">&#xE1CA;</span>
+            <span class="ar-p">&#xE1CB;</span>
+            <span class="ar-p">&#xE1CC;</span>
+            <span class="ar-p">&#xE1CD;</span>
+            <span class="ar-p">&#xE1CE;</span>
+            <span class="ar-p">&#xE1CF;</span>
+            <span class="ar-p">&#xE1D0;</span>
+            <span class="ar-p">&#xE1D1;</span>
+            <span class="ar-p">&#xE1D2;</span>
+            <span class="ar-p">&#xE1D3;</span>
+            <span class="ar-p">&#xE1D4;</span>
+            <span class="ar-p">&#xE1D5;</span>
+            <span class="ar-p">&#xE1D6;</span>
+            <span class="ar-p">&#xE1D7;</span>
+            <span class="ar-p">&#xE1D8;</span>
+            <span class="ar-p">&#xE1D9;</span>
+            <span class="ar-p">&#xE1DA;</span>
+            <span class="ar-p">&#xE1DB;</span>
+            <span class="ar-p">&#xE1DC;</span>
+            <span class="ar-p">&#xE1DD;</span>
+            <span class="ar-p">&#xE1DE;</span>
+            <span class="ar-p">&#xE1DF;</span>
+            <span class="ar-p">&#xE1E0;</span>
+            <span class="ar-p">&#xE1E1;</span>
+            <span class="ar-p">&#xE1E2;</span>
+            <span class="ar-p">&#xE1E3;</span>
+            <span class="ar-p">&#xE1E4;</span>
+            <span class="ar-p">&#xE1E5;</span>
+            <span class="ar-p">&#xE1E6;</span>
+            <span class="ar-p">&#xE1E7;</span>
+            <span class="ar-p">&#xE1E8;</span>
+            <span class="ar-p">&#xE1E9;</span>
+            <span class="ar-p">&#xE1EA;</span>
+            <span class="ar-p">&#xE1EB;</span>
+            <span class="ar-p">&#xE1EC;</span>
+            <span class="ar-p">&#xE1ED;</span>
+            <span class="ar-p">&#xE1EE;</span>
+            <span class="ar-p">&#xE1EF;</span>
+            <span class="ar-p">&#xE1F0;</span>
+            <span class="ar-p">&#xE1F1;</span>
+            <span class="ar-p">&#xE1F2;</span>
+            <span class="ar-p">&#xE1F3;</span>
+            <span class="ar-p">&#xE1F4;</span>
+            <span class="ar-p">&#xE1F5;</span>
+            <span class="ar-p">&#xE1F6;</span>
+            <span class="ar-p">&#xE1F7;</span>
+            <span class="ar-p">&#xE1F8;</span>
+            <span class="ar-p">&#xE1F9;</span>
+            <span class="ar-p">&#xE1FA;</span>
+            <span class="ar-p">&#xE1FB;</span>
+            <span class="ar-p">&#xE1FC;</span>
+            <span class="ar-p">&#xE1FD;</span>
+            <span class="ar-p">&#xE1FE;</span>
+            <span class="ar-p">&#xE1FF;</span>
+            <span class="ar-p">&#xE200;</span>
+            <span class="ar-p">&#xE201;</span>
+            <span class="ar-p">&#xE202;</span>
+            <span class="ar-p">&#xE203;</span>
+            <span class="ar-p">&#xE204;</span>
+            <span class="ar-p">&#xE205;</span>
+            <span class="ar-p">&#xE206;</span>
+            <span class="ar-p">&#xE207;</span>
+            <span class="ar-p">&#xE208;</span>
+            <span class="ar-p">&#xE209;</span>
+            <span class="ar-p">&#xE20A;</span></p>
+        <p id="grc-numerals" class="athenarubyweb">
+            <span class="ar-u">&#x03DA;</span>
+            <span class="ar-p">&#xE17A;</span>
+            <span class="ar-p">&#xE17B;</span>
+            <span class="ar-u">&#x03D8;</span>
+            <span class="ar-p">&#xE17C;</span>
+            <span class="ar-p">&#xE17D;</span>
+            <span class="ar-u">&#x03E0;</span>
+            <span class="ar-p">&#xE17E;</span>
+            <span class="ar-p">&#xE17F;</span>
+            <span class="ar-u">&#x0374;</span>
+            <span class="ar-u">&#x0375;</span> &#x2001; <span class="ar-u">&#x2627;</span>
+            <span class="ar-p">&#xE20B;</span>
+            <span class="ar-p">&#xE20C;</span>
+            <span class="ar-p">&#xE20D;</span>
+            <span class="ar-u">&#x010184;</span>
+            <span class="ar-p">&#xE20E;</span>
+            <span class="ar-u">&#x03D7;</span> &#x2001;<span class="ar-u">&#x010182;</span>
+            <span class="ar-p">&#xE51A;</span>
+            <span class="ar-p">&#xE51B;</span>
+        </p>
+        <p id="grc-comb" class="athenarubyweb">
+            <span class="ar-u">&#x2007;&#x0313;&#x2007;</span>
+            <span class="ar-u">&#x2007;&#x1FBD;&#x2007;</span>
+            <span class="ar-u">&#x2007;&#x0314;&#x2007;</span>
+            <span class="ar-u">&#x2007;&#x1FFE;&#x2007;</span>
+            <span class="ar-u">&#x2007;&#x0301;&#x2007;</span>
+            <span class="ar-u">&#x2007;&#x0384;&#x2007;</span>
+            <span class="ar-u">&#x2007;&#x0300;&#x2007;</span>
+            <span class="ar-u">&#x2007;&#x1FEF;&#x2007;</span>
+            <span class="ar-u">&#x2007;&#x0342;&#x2007;</span>
+            <span class="ar-u">&#x2007;&#x1FC0;&#x2007;</span>
+            <span class="ar-u">&#x2007;&#x0304;&#x2007;</span>
+            <span class="ar-u">&#x2007;&#x0306;&#x2007;</span>
+            <span class="ar-u">&#x2007;&#x0308;&#x2007;</span>
+            <span class="ar-u">&#x2007;&#x1FCE;&#x2007;</span>
+            <span class="ar-u">&#x2007;&#x1FCD;&#x2007;</span>
+            <span class="ar-u">&#x2007;&#x1FCF;&#x2007;</span>
+            <span class="ar-u">&#x2007;&#x1FDE;&#x2007;</span>
+            <span class="ar-u">&#x2007;&#x1FDD;&#x2007;</span>
+            <span class="ar-u">&#x2007;&#x1FDF;&#x2007;</span>
+            <span class="ar-u">&#x2007;&#x0385;&#x2007;</span>
+            <span class="ar-u">&#x2007;&#x1FED;&#x2007;</span> &#x2001;<span class="ar-p"
+                >&#x2002;&#xE500;</span>
+            <span class="ar-p">&#x2002;&#xE501;</span>
+            <span class="ar-p">&#x2002;&#xE502;</span>
+            <span class="ar-p">&#x2002;&#xE503;</span>
+            <span class="ar-p">&#x2002;&#xE504;</span>
+            <span class="ar-p">&#x2002;&#xE505;</span>
+            <span class="ar-p">&#x2002;&#xE506;</span>
+            <span class="ar-p">&#x2002;&#xE507;</span>
+            <span class="ar-p">&#x2002;&#xE508;</span>
+            <span class="ar-p">&#x2002;&#xE509;</span>
+            <span class="ar-p">&#x2002;&#xE50A;</span>
+            <span class="ar-p">&#x2002;&#xE50B;</span>
+            <span class="ar-p">&#x2002;&#xE50C;</span>
+            <span class="ar-p">&#x2002;&#xE50D;</span>
+            <span class="ar-p">&#x2002;&#xE50E;</span>
+            <span class="ar-p">&#x2002;&#xE50F;</span>
+            <span class="ar-p">&#x2002;&#xE510;</span>
+            <span class="ar-p">&#x2002;&#xE511;</span>
+            <span class="ar-p">&#x2002;&#xE512;</span>
+            <span class="ar-p">&#x2002;&#xE513;</span>
+            <span class="ar-p">&#x2002;&#xE514;</span>
+            <span class="ar-p">&#x2002;&#xE515;</span>
+            <span class="ar-p">&#x2002;&#xE516;</span>
+            <span class="ar-p">&#x2002;&#xE517;</span>
+            <span class="ar-p">&#x2002;&#xE518;</span>
+            <span class="ar-p">&#x2002;&#xE519;</span></p>
+        <p id="grc-extended" class="athenarubyweb"><span class="ar-u">&#x1F08;</span>
+            <span class="ar-u">&#x1F0C;</span>
+            <span class="ar-u">&#x1F0A;</span>
+            <span class="ar-u">&#x1F0E;</span>
+            <span class="ar-u">&#x1F09;</span>
+            <span class="ar-u">&#x1F0D;</span>
+            <span class="ar-u">&#x1F0B;</span>
+            <span class="ar-u">&#x1F0F;</span>
+            <span class="ar-u">&#x0386;</span>
+            <span class="ar-u">&#x1FBA;</span>
+            <span class="ar-u">&#x1FB6;</span>
+            <span class="ar-u">&#x1FB9;</span>
+            <span class="ar-u">&#x1FB8;</span>
+            <span class="ar-u">&#x1F18;</span>
+            <span class="ar-u">&#x1F1C;</span>
+            <span class="ar-u">&#x1F1A;</span>
+            <span class="ar-u">&#x1F19;</span>
+            <span class="ar-u">&#x1F1D;</span>
+            <span class="ar-u">&#x1F1B;</span>
+            <span class="ar-u">&#x0388;</span>
+            <span class="ar-u">&#x1FC8;</span>
+            <span class="ar-u">&#x1F28;</span>
+            <span class="ar-u">&#x1F2C;</span>
+            <span class="ar-u">&#x1F2A;</span>
+            <span class="ar-u">&#x1F2E;</span>
+            <span class="ar-u">&#x1F29;</span>
+            <span class="ar-u">&#x1F2D;</span>
+            <span class="ar-u">&#x1F2B;</span>
+            <span class="ar-u">&#x1F2F;</span>
+            <span class="ar-u">&#x0389;</span>
+            <span class="ar-u">&#x1FCA;</span>
+            <span class="ar-u">&#x1FC6;</span>
+            <span class="ar-u">&#x1F38;</span>
+            <span class="ar-u">&#x1F3C;</span>
+            <span class="ar-u">&#x1F3A;</span>
+            <span class="ar-u">&#x1F3E;</span>
+            <span class="ar-u">&#x1F39;</span>
+            <span class="ar-u">&#x1F3D;</span>
+            <span class="ar-u">&#x1F3B;</span>
+            <span class="ar-u">&#x1F3F;</span>
+            <span class="ar-u">&#x038A;</span>
+            <span class="ar-u">&#x1FDA;</span>
+            <span class="ar-u">&#x1FD6;</span>
+            <span class="ar-u">&#x1FD9;</span>
+            <span class="ar-u">&#x1FD8;</span>
+            <span class="ar-u">&#x03AA;</span>
+            <span class="ar-u">&#x0390;</span>
+            <span class="ar-u">&#x1FD2;</span>
+            <span class="ar-u">&#x1FD7;</span>
+            <span class="ar-u">&#x1F48;</span>
+            <span class="ar-u">&#x1F4C;</span>
+            <span class="ar-u">&#x1F4A;</span>
+            <span class="ar-u">&#x1F49;</span>
+            <span class="ar-u">&#x1F4D;</span>
+            <span class="ar-u">&#x1F4B;</span>
+            <span class="ar-u">&#x038C;</span>
+            <span class="ar-u">&#x1FF8;</span>
+            <span class="ar-u">&#x1FE4;</span>
+            <span class="ar-u">&#x1FEC;</span>
+            <span class="ar-u">&#x1F50;</span>
+            <span class="ar-u">&#x1F54;</span>
+            <span class="ar-u">&#x1F52;</span>
+            <span class="ar-u">&#x1F56;</span>
+            <span class="ar-u">&#x1F59;</span>
+            <span class="ar-u">&#x1F5D;</span>
+            <span class="ar-u">&#x1F5B;</span>
+            <span class="ar-u">&#x1F5F;</span>
+            <span class="ar-u">&#x038E;</span>
+            <span class="ar-u">&#x1FEA;</span>
+            <span class="ar-u">&#x1FE6;</span>
+            <span class="ar-u">&#x1FE9;</span>
+            <span class="ar-u">&#x1FE8;</span>
+            <span class="ar-u">&#x03AB;</span>
+            <span class="ar-u">&#x03B0;</span>
+            <span class="ar-u">&#x1FE2;</span>
+            <span class="ar-u">&#x1FE7;</span>
+            <span class="ar-u">&#x1F68;</span>
+            <span class="ar-u">&#x1F6C;</span>
+            <span class="ar-u">&#x1F6A;</span>
+            <span class="ar-u">&#x1F6E;</span>
+            <span class="ar-u">&#x1F69;</span>
+            <span class="ar-u">&#x1F6D;</span>
+            <span class="ar-u">&#x1F6B;</span>
+            <span class="ar-u">&#x1F6F;</span>
+            <span class="ar-u">&#x038F;</span>
+            <span class="ar-u">&#x1FFA;</span>
+            <span class="ar-u">&#x1FF6;</span>
+        </p>
+        <p id="lat-letters" class="athenarubyweb"><span class="ar-u">&#x0041;</span>
+            <span class="ar-p">&#xE300;</span>
+            <span class="ar-p">&#xE301;</span>
+            <span class="ar-p">&#xE302;</span>
+            <span class="ar-p">&#xE303;</span>
+            <span class="ar-p">&#xE304;</span>
+            <span class="ar-p">&#xE305;</span>
+            <span class="ar-u">&#x0042;</span>
+            <span class="ar-p">&#xE306;</span>
+            <span class="ar-u">&#x0043;</span>
+            <span class="ar-p">&#xE307;</span>
+            <span class="ar-p">&#xE308;</span>
+            <span class="ar-p">&#xE309;</span>
+            <span class="ar-p">&#xE30A;</span>
+            <span class="ar-u">&#x0044;</span>
+            <span class="ar-p">&#xE30B;</span>
+            <span class="ar-p">&#xE30C;</span>
+            <span class="ar-p">&#xE30D;</span>
+            <span class="ar-p">&#xE30E;</span>
+            <span class="ar-p">&#xE30F;</span>
+            <span class="ar-p">&#xE310;</span>
+            <span class="ar-p">&#xE311;</span>
+            <span class="ar-p">&#xE312;</span>
+            <span class="ar-p">&#xE313;</span>
+            <span class="ar-u">&#x0045;</span>
+            <span class="ar-p">&#xE314;</span>
+            <span class="ar-p">&#xE315;</span>
+            <span class="ar-p">&#xE316;</span>
+            <span class="ar-p">&#xE317;</span>
+            <span class="ar-u">&#x0046;</span>
+            <span class="ar-p">&#xE318;</span>
+            <span class="ar-p">&#xE319;</span>
+            <span class="ar-p">&#xE31A;</span>
+            <span class="ar-u">&#x0047;</span>
+            <span class="ar-p">&#xE31B;</span>
+            <span class="ar-p">&#xE31C;</span>
+            <span class="ar-p">&#xE31D;</span>
+            <span class="ar-p">&#xE31E;</span>
+            <span class="ar-p">&#xE31F;</span>
+            <span class="ar-p">&#xE320;</span>
+            <span class="ar-p">&#xE321;</span>
+            <span class="ar-p">&#xE322;</span>
+            <span class="ar-p">&#xE323;</span>
+            <span class="ar-u">&#x0048;</span>
+            <span class="ar-p">&#xE324;</span>
+            <span class="ar-p">&#xE325;</span>
+            <span class="ar-u">&#x0049;</span>
+            <span class="ar-p">&#xE326;</span>
+            <span class="ar-u">&#x004A;</span>
+            <span class="ar-u">&#x004B;</span>
+            <span class="ar-p">&#xE327;</span>
+            <span class="ar-u">&#x004C;</span>
+            <span class="ar-p">&#xE328;</span>
+            <span class="ar-p">&#xE329;</span>
+            <span class="ar-p">&#xE32A;</span>
+            <span class="ar-u">&#x004D;</span>
+            <span class="ar-p">&#xE32B;</span>
+            <span class="ar-p">&#xE32C;</span>
+            <span class="ar-p">&#xE32D;</span>
+            <span class="ar-p">&#xE32E;</span>
+            <span class="ar-p">&#xE32F;</span>
+            <span class="ar-p">&#xE330;</span>
+            <span class="ar-p">&#xE331;</span>
+            <span class="ar-u">&#x004E;</span>
+            <span class="ar-p">&#xE332;</span>
+            <span class="ar-p">&#xE333;</span>
+            <span class="ar-p">&#xE334;</span>
+            <span class="ar-p">&#xE335;</span>
+            <span class="ar-p">&#xE336;</span>
+            <span class="ar-u">&#x004F;</span>
+            <span class="ar-p">&#xE337;</span>
+            <span class="ar-u">&#x0050;</span>
+            <span class="ar-p">&#xE338;</span>
+            <span class="ar-u">&#x0051;</span>
+            <span class="ar-u">&#x0052;</span>
+            <span class="ar-p">&#xE339;</span>
+            <span class="ar-p">&#xE33A;</span>
+            <span class="ar-p">&#xE33B;</span>
+            <span class="ar-p">&#xE33C;</span>
+            <span class="ar-p">&#xE33D;</span>
+            <span class="ar-u">&#x0053;</span>
+            <span class="ar-p">&#xE33E;</span>
+            <span class="ar-p">&#xE33F;</span>
+            <span class="ar-p">&#xE340;</span>
+            <span class="ar-u">&#x0054;</span>
+            <span class="ar-p">&#xE341;</span>
+            <span class="ar-p">&#xE342;</span>
+            <span class="ar-p">&#xE343;</span>
+            <span class="ar-p">&#xE344;</span>
+            <span class="ar-u">&#x0055;</span>
+            <span class="ar-p">&#xE345;</span>
+            <span class="ar-p">&#xE346;</span>
+            <span class="ar-p">&#xE347;</span>
+            <span class="ar-p">&#xE348;</span>
+            <span class="ar-u">&#x0056;</span>
+            <span class="ar-p">&#xE349;</span>
+            <span class="ar-p">&#xE34A;</span>
+            <span class="ar-u">&#x0057;</span>
+            <span class="ar-u">&#x0058;</span>
+            <span class="ar-u">&#x0059;</span>
+            <span class="ar-u">&#x005A;</span>
+            <span class="ar-p">&#xE34B;</span>
+        </p>
+        <p id="lat-ligatures" class="athenarubyweb"><span class="ar-p">&#xE34C;</span>
+            <span class="ar-p">&#xE34D;</span>
+            <span class="ar-p">&#xE34E;</span>
+            <span class="ar-p">&#xE34F;</span>
+            <span class="ar-p">&#xE350;</span>
+            <span class="ar-p">&#xE351;</span> &#x2001;<span class="ar-u">&#x2180;</span>
+            <span class="ar-p">&#xE352;</span>
+        </p>
+        <p id="grc-decorations" class="athenarubyweb"><span class="ar-u">&#x25CC;</span>
+            <span class="ar-u">&#xE700;</span>
+            <span class="ar-u">&#xE701;</span>
+            <span class="ar-u">&#xE702;</span>
+            <span class="ar-u">&#xE703;</span>
+            <span class="ar-u">&#xE704;</span>
+            <span class="ar-u">&#xE705;</span>
+            <span class="ar-u">&#xE706;</span>
+            <span class="ar-u">&#xE707;</span>
+            <span class="ar-u">&#xE708;</span>
+            <span class="ar-u">&#xE709;</span>
+            <span class="ar-u">&#xE70A;</span>
+            <span class="ar-u">&#xE70B;</span>
+            <span class="ar-u">&#xE70C;</span>
+            <span class="ar-u">&#xE70D;</span>
+            <span class="ar-u">&#xE70E;</span>
+            <span class="ar-u">&#xE70F;</span>
+            <span class="ar-u">&#xE710;</span>
+            <span class="ar-u">&#xE711;</span>
+            <span class="ar-u">&#xE712;</span>
+            <span class="ar-u">&#xE713;</span>
+            <span class="ar-u">&#xE714;</span>
+            <span class="ar-u">&#xE715;</span>
+            <span class="ar-u">&#xE716;</span>
+            <span class="ar-u">&#xE717;</span>
+            <span class="ar-u">&#xE718;</span>
+            <span class="ar-u">&#xE719;</span>
+            <span class="ar-u">&#xE71A;</span>
+            <span class="ar-u">&#xE71B;</span>
+            <span class="ar-u">&#xE71C;</span>
+            <span class="ar-u">&#xE71D;</span>
+            <span class="ar-u">&#xE71E;</span>
+            <span class="ar-u">&#xE71F;</span>
+            <span class="ar-u">&#xE720;</span>
+            <span class="ar-u">&#xE721;</span>
+            <span class="ar-u">&#xE722;</span>
+            <span class="ar-u">&#xE723;</span>
+            <span class="ar-u">&#xE724;</span>
+            <span class="ar-u">&#xE725;</span>
+            <span class="ar-u">&#xE726;</span>
+            <span class="ar-u">&#xE727;</span>
+            <span class="ar-u">&#xE728;</span>
+            <span class="ar-u">&#xE729;</span>
+            <span class="ar-u">&#xE72A;</span>
+            <span class="ar-u">&#xE72B;</span>
+            <span class="ar-u">&#xE72C;</span>
+            <span class="ar-u">&#xE72D;</span>
+            <span class="ar-u">&#xE72E;</span>
+            <span class="ar-u">&#xE72F;</span>
+            <span class="ar-u">&#xE730;</span>
+            <span class="ar-u">&#xE731;</span>
+            <span class="ar-u">&#xE732;</span>
+            <span class="ar-u">&#xE733;</span>
+            <span class="ar-u">&#xE734;</span>
+            <span class="ar-u">&#xE735;</span>
+            <span class="ar-u">&#xE736;</span>
+            <span class="ar-u">&#xE737;</span>
+            <span class="ar-u">&#xE738;</span>
+            <span class="ar-u">&#xE739;</span>
+            <span class="ar-u">&#xE73A;</span>
+            <span class="ar-u">&#xE73B;</span>
+            <span class="ar-u">&#xE73C;</span>
+            <span class="ar-u">&#xE73D;</span>
+            <span class="ar-u">&#xE73E;</span>
+            <span class="ar-u">&#xE73F;</span>
+            <span class="ar-u">&#xE740;</span>
+            <span class="ar-u">&#xE741;</span>
+            <span class="ar-u">&#xE742;</span>
+            <span class="ar-u">&#xE743;</span>
+            <span class="ar-u">&#xE744;</span>
+            <span class="ar-u">&#xE745;</span>
+            <span class="ar-u">&#xE746;</span>
+            <span class="ar-u">&#xE747;</span>
+            <span class="ar-u">&#xE748;</span>
+            <span class="ar-u">&#xE749;</span>
+            <span class="ar-u">&#xE74A;</span>
+            <span class="ar-u">&#xE74B;</span>
+            <span class="ar-u">&#xE74C;</span>
+            <span class="ar-u">&#xE74D;</span>
+            <span class="ar-u">&#xE74E;</span>
+            <span class="ar-u">&#xE74F;</span>
+            <span class="ar-u">&#xE750;</span>
+            <span class="ar-u">&#xE751;</span>
+            <span class="ar-u">&#xE752;</span>
+            <span class="ar-u">&#xE753;</span>
+            <span class="ar-u">&#xE754;</span>
+            <span class="ar-u">&#xE755;</span>
+            <span class="ar-u">&#xE756;</span>
+            <span class="ar-u">&#xE800;</span>
+            <span class="ar-u">&#xE801;</span>
+            <span class="ar-u">&#xE802;</span>
+            <span class="ar-u">&#xE803;</span>
+            <span class="ar-u">&#xE804;</span>
+            <span class="ar-u">&#xE805;</span>
+            <span class="ar-u">&#xE807;</span>
+            <span class="ar-u">&#xE808;</span>
+            <span class="ar-u">&#xE809;</span>
+            <span class="ar-u">&#xE80A;</span>
+            <span class="ar-u">&#xE80B;</span>
+            <span class="ar-u">&#xE80C;</span>
+            <span class="ar-u">&#xE80D;</span>
+            <span class="ar-u">&#xE80E;</span>
+            <span class="ar-u">&#xE80F;</span>
+            <span class="ar-u">&#xE810;</span>
+            <span class="ar-u">&#xE811;</span>
+            <span class="ar-u">&#xE812;</span>
+            <span class="ar-u">&#xE813;</span>
+            <span class="ar-u">&#xE814;</span>
+            <span class="ar-u">&#xE815;</span>
+            <span class="ar-u">&#xE816;</span>
+            <span class="ar-u">&#xE817;</span>
+            <span class="ar-u">&#xE818;</span>
+            <span class="ar-u">&#xE819;</span>
+            <span class="ar-u">&#xE81A;</span>
+            <span class="ar-u">&#xE81B;</span>
+            <span class="ar-u">&#xE81C;</span>
+            <span class="ar-u">&#xE81D;</span>
+            <span class="ar-u">&#xE81E;</span>
+            <span class="ar-u">&#xE81F;</span>
+            <span class="ar-u">&#xE820;</span>
+            <span class="ar-u">&#xE821;</span>
+            <span class="ar-u">&#xE822;</span>
+            <span class="ar-u">&#xE823;</span>
+            <span class="ar-u">&#xE757;</span>
+            <span class="ar-u">&#xE758;</span>
+        </p>
+        <hr />
+        <p id="feedback1">Feedback: </p>
+    </body>
+</html>

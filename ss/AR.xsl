@@ -6,18 +6,37 @@
         <html>
             <head>
                 <link rel="stylesheet" type="text/css" href="ss/default.css"/>
+                <link rel="stylesheet" type="text/css" href="ss/ar-otf.css"/>
                 <style type="text/css">
                     .majorinfo{
                         color:blue;
                         font-size:120%;
                     }
-                    .otlig-on{
-                        -moz-font-feature-settings:"liga=1, dlig=1"; /* for Firefox 14 and prior */
-                        -moz-font-feature-settings:"liga" on, "dlig" on; /* for Firefox 15 */
-                        -ms-font-feature-settings:"liga" on, "dlig" on;
-                        -webkit-font-feature-settings:"liga" on, "dlig" on;
-                        -o-font-feature-settings:"liga" on, "dlig" on;
-                        font-feature-settings:"liga" on, "dlig" on;
+                    .sample{
+                        font-size:300%;
+                        font-family:athenarubyweb;
+                        color:blue;
+                    }
+                    .samplecontext{
+                        color:gray;
+                    }
+                    span[class ^= legacy]{
+                        font-size:200%;
+                    }
+                    span[class $= athena]{
+                        font-family:Athena;
+                    }
+                    span[class $= coinart]{
+                        font-family:CoinArt;
+                    }
+                    span[class $= coingreek]{
+                        font-family:CoinGreek;
+                    }
+                    span[class $= coininscr]{
+                        font-family:CoinInscr;
+                    }
+                    span[class $= grierson]{
+                        font-family:Grierson;
                     }</style>
             </head>
             <body>
@@ -52,12 +71,12 @@
             <xsl:apply-templates select="postname"/>
             <xsl:apply-templates select="symbolclass"/>
         </p>
-        <p>
+        <p> Published example(s): <xsl:apply-templates select="example"/>
+        </p>
+        <p class="minornote">
             <xsl:apply-templates select="description"/>
             <xsl:apply-templates select="comment"/>
             <xsl:apply-templates select="ttnote"/>
-        </p>
-        <p> Published example(s): <xsl:apply-templates select="example"/>
         </p>
         <hr/>
     </xsl:template>
@@ -74,29 +93,21 @@
         <xsl:variable name="cppicked" select="fn:codepoints-to-string(f:hex-to-dec(@cp))"/>
         <xsl:variable name="arcvcat" select="../variant/@cv"/>
         <xsl:variable name="arcvitem" select="../variant/text()"/> U+<xsl:value-of select="@cp"/>:
-            <span style="font-size:300%;font-family:athenarubyweb;color:gray">AB<xsl:choose>
+            <span class="sample"><span class="samplecontext">AB</span><xsl:choose>
                 <xsl:when test="fn:exists(../pua)">
-                    <xsl:element name="span"><xsl:attribute name="style">color:blue;
-                            -moz-font-feature-settings: 'cv<xsl:value-of select="$arcvcat"
-                                />=<xsl:value-of select="$arcvitem"/>'; -moz-font-feature-settings:
-                                'cv<xsl:value-of select="$arcvcat"/>' <xsl:value-of
-                                select="$arcvitem"/>; -webkit-font-feature-settings:
-                                'cv<xsl:value-of select="$arcvcat"/>' <xsl:value-of
-                                select="$arcvitem"/>; -ms-font-feature-settings: 'cv<xsl:value-of
-                                select="$arcvcat"/>' <xsl:value-of select="$arcvitem"/>;
-                            -o-font-feature-settings: 'cv<xsl:value-of select="$arcvcat"/>'
-                                <xsl:value-of select="$arcvitem"/>; font-feature-settings:
-                                'cv<xsl:value-of select="$arcvcat"/>' <xsl:value-of
-                                select="$arcvitem"/>; </xsl:attribute><xsl:value-of
-                            select="$cppicked"/>
+                    <xsl:element name="span">
+                        <xsl:attribute name="class">
+                            <xsl:value-of select="fn:concat('ar-cv-n',$arcvitem)"/></xsl:attribute>
+                        <xsl:value-of select="$cppicked"/>
                     </xsl:element>
                 </xsl:when>
-                <xsl:otherwise><span style="color:blue"><xsl:value-of select="$cppicked"
+                <xsl:otherwise><span class="ar-cv-n0"><xsl:value-of select="$cppicked"
                     /></span></xsl:otherwise>
-            </xsl:choose>CD </span>
+            </xsl:choose><span class="samplecontext">CD</span>
+        </span>
         <xsl:value-of select="document('../unicode/ucd.nounihan.grouped.xml')//*[@cp=$cppicked]/@na"/>
         <xsl:choose>
-            <xsl:when test="fn:exists(../pua)">, variant <xsl:value-of select="../variant"/> (cv
+            <xsl:when test="fn:exists(../variant)">variant <xsl:value-of select="../variant"/> (cv
                     <xsl:value-of select="../variant/@cv"/>)</xsl:when>
         </xsl:choose>
         <br/>
@@ -111,33 +122,27 @@
             </xsl:for-each>
             <br/>
         </xsl:for-each>
-        <span style="font-size:300%;font-family:athenarubyweb;color:gray">AB<xsl:for-each
-                select="ligatureelement">
-                <xsl:choose><xsl:when test="$isvariant"><xsl:element name="span">
-                            <xsl:attribute name="class">otlig-on</xsl:attribute>
-                            <xsl:attribute name="style">color:blue; -moz-font-feature-settings:
-                                    'cv<xsl:value-of select="$arcvcat"/>=<xsl:value-of
-                                    select="$arcvitem"/>'; -moz-font-feature-settings:
-                                    'cv<xsl:value-of select="$arcvcat"/>' <xsl:value-of
-                                    select="$arcvitem"/>; -webkit-font-feature-settings:
-                                    'cv<xsl:value-of select="$arcvcat"/>' <xsl:value-of
-                                    select="$arcvitem"/>; -ms-font-feature-settings:
-                                    'cv<xsl:value-of select="$arcvcat"/>' <xsl:value-of
-                                    select="$arcvitem"/>; -o-font-feature-settings: 'cv<xsl:value-of
-                                    select="$arcvcat"/>' <xsl:value-of select="$arcvitem"/>;
-                                font-feature-settings: 'cv<xsl:value-of select="$arcvcat"/>'
-                                    <xsl:value-of select="$arcvitem"/>;
-                                </xsl:attribute><xsl:value-of
-                                select="fn:codepoints-to-string(f:hex-to-dec(unicode[1]/@cp))"
-                            /></xsl:element></xsl:when>
-                    <xsl:otherwise><span class="otlig-on" style="color:blue;"><xsl:value-of
-                                select="fn:codepoints-to-string(f:hex-to-dec(unicode[1]/@cp))"
-                            /></span></xsl:otherwise></xsl:choose>
-            </xsl:for-each>CD </span>
+        <span class="sample">
+            <span class="samplecontext">AB</span>
+            <xsl:element name="span">
+                <xsl:attribute name="class">
+                    <xsl:choose>
+                        <xsl:when test="$isvariant">
+                            <xsl:value-of select="fn:concat('ar-cv-n',$arcvitem,'-lig')"/>
+                        </xsl:when>
+                        <xsl:otherwise>ar-cv-n0-lig</xsl:otherwise>
+                    </xsl:choose>
+                </xsl:attribute>
+                <xsl:for-each select="ligatureelement">
+                    <xsl:value-of select="fn:codepoints-to-string(f:hex-to-dec(unicode[1]/@cp))"/>
+                </xsl:for-each>
+            </xsl:element>
+            <span class="samplecontext">CD</span>
+        </span>
     </xsl:template>
 
-    <xsl:template match="pua">Private Use Area U+<xsl:value-of select="./@cp"/>:&#160;
-            <span style="font-family:athenarubyweb"><xsl:value-of
+    <xsl:template match="pua">Private Use Area U+<xsl:value-of select="./@cp"/>:&#160; <span
+            style="font-family:athenarubyweb"><xsl:value-of
                 select="fn:codepoints-to-string(f:hex-to-dec(../pua/@cp))"/></span></xsl:template>
 
     <xsl:template match="postname">Postname: <xsl:value-of select="."/></xsl:template>
@@ -153,29 +158,30 @@
 
     <xsl:template match="athena"> Athena (<xsl:for-each select="fn:tokenize(@cp,';')"
                 >U+<xsl:value-of select="."/><xsl:text>&#x0020;</xsl:text></xsl:for-each>): <span
-            style="font-family:Athena;font-size:200%">
+            class="legacy-athena">
             <xsl:for-each select="fn:tokenize(@cp,';')"><xsl:value-of
                     select="fn:codepoints-to-string(f:hex-to-dec(.))"/></xsl:for-each>
         </span>
     </xsl:template>
     <xsl:template match="coinart"> CoinArt: (U+<xsl:value-of select="@cp"/>): <span
-            style="font-family:CoinArt;font-size:200%"><xsl:value-of
-                select="fn:codepoints-to-string(f:hex-to-dec(@cp))"/></span>
+            class="legacy-coinart"><xsl:value-of select="fn:codepoints-to-string(f:hex-to-dec(@cp))"
+            /></span>
     </xsl:template>
     <xsl:template match="coingreek"> CoinGreek: (U+<xsl:value-of select="@cp"/>): <span
-            style="font-family:CoinGreek;font-size:200%"><xsl:value-of
+            class="legacy-coingreek"><xsl:value-of
                 select="fn:codepoints-to-string(f:hex-to-dec(@cp))"/></span>
     </xsl:template>
     <xsl:template match="coininscr"> CoinInscr: (U+<xsl:value-of select="@cp"/>): <span
-            style="font-family:CoinInscr;font-size:200%"><xsl:value-of
+            class="legacy-coininscr"><xsl:value-of
                 select="fn:codepoints-to-string(f:hex-to-dec(@cp))"/></span>
     </xsl:template>
     <xsl:template match="grierson"> Grierson: (U+<xsl:value-of select="@cp"/>): <span
-            style="font-family:Grierson;font-size:200%"><xsl:value-of
+            class="legacy-grierson"><xsl:value-of
                 select="fn:codepoints-to-string(f:hex-to-dec(@cp))"/></span>
     </xsl:template>
 
     <xsl:template match="description">
+        <xsl:text>Preliminary typography notes: </xsl:text>
         <xsl:value-of select="."/>
         <xsl:for-each select="./postname">(x-ref: <xsl:element name="a"><xsl:attribute name="href"
                         ><xsl:value-of select="fn:concat('#',.)"/>
