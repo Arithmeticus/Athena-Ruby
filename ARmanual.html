@@ -21,11 +21,12 @@
         </script>
     </head>
     <body><h1>Athena Ruby Users Manual</h1>
-        <div class="notice"><p class="alert"><strong>Rough draft, 22 October 2012. This manual
-                    assumes of the reader <a
+        <div class="notice">
+            <p class="alert"><strong>Version 21 July 2015. This manual assumes of the reader <a
                         href="http://www.doaks.org/resources/publications/resources-for-authors-and-editors/guide-to-unicode-greek"
                         >basic knowledge of the Unicode standard as it applies to Unicode
-                    Greek</a>.</strong></p></div>
+                    Greek</a>.</strong></p>
+        </div>
         <h2>Introduction</h2>
         <p>Athena Ruby is a comprehensive OpenType font for the publication of scholarly editions of
             Byzantine inscriptions. Named after a predecessor font, Athena, and Dumbarton Oaks
@@ -34,10 +35,9 @@
             variants, ligatures, and decoration found commonly in coins, seals, weights, and other
             media, such as mosaics and frescoes. The glyphs are idealized replicas of letterforms
             found in the geographical area of the Byzantine empire, from approximately 325 to 1453.
-            Designed to comply with Unicode and to take advantage of advanced OpenType features,
-            Athena Ruby is suited to a broad range of print and digital publications, from simple,
-            single-author projects to complex ones that involve multiple authors and multiple
-            platforms.</p>
+            Designed as a Unicode-compliant OpenType font, Athena Ruby is suited to a broad range of
+            print and digital publications, from simple, single-author publications to complex
+            projects.</p>
         <div><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/"><img
                     alt="Creative Commons License" style="border-width:0"
                     src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a></div>
@@ -64,13 +64,12 @@
         <p>Athena Ruby has the Latin and Greek alphabets (normal forms, variants, ligatures);
             punctuation (modern and Byzantine); and symbols and decoration. To see a complete list
             of the glyphs, consult the database (<a href="ARdatabase.html">HTML</a> | <a
-                href="AR.xml">XML</a>), which includes citations to published exmaples, or the <a
+                href="AR.xml">XML</a>), which includes citations to published examples, or the <a
                 href="AR ensemble.pdf">pdf presenting the ensemble of characters</a>. </p>
-        <p>On the principle that the term <span class="term">minuscule</span> is anachronistic, the
-            font has only uncial letterforms, bound to both upper- and lowercase keys. This accords
-            with the Unicode standard, which makes no normative statements about the appearance of
-            characters (in particular because it anticipates special needs in historic fonts such as
-            Athena Ruby), only their encoding.</p>
+        <p>On the principle that minuscule letterforms would be anachronistic to its geographical,
+            chronological, and cultural scope, the font has only uncial letterforms, bound to both
+            upper- and lowercase keys. (This accords with the Unicode standard, which makes
+            normative statements only about the encoding of characters, not their appearance.)</p>
         <p>The only non-Byzantine glyphs allowed in the font are modern punctation marks &ndash; | ,
             . [ ] : · and the combining underdot. Athena Ruby has glyphs in the following tables (in
             Unicode sequence): Basic Latin (61 points supported), Latin-1 Supplement (2 points),
@@ -92,30 +91,30 @@
             <li><strong>Character variants.</strong> Unicode can be thought of as a very long
                 two-dimensional table. (See our <a
                     href="http://www.doaks.org/resources/publications/resources-for-authors-and-editors/guide-to-unicode-greek"
-                    >Guide to Unicode Greek</a> for basic background on Unicode.) OpenType font
-                technology allows type designers to assign numerous glyphs to any single Unicode
-                point, thus adding something like a third dimension to the Unicode table. Athena
-                Ruby employs this technique for letters with historically attested variant
-                representations. The font has, for example, twenty-eight variants of the Greek
-                alpha, each one bound to the proper Unicode point. Many software programs and
-                contexts are not designed to acess Unicode-compliant variants. (That is, they can
-                access Unicode only as a two-dimensional space.) For those instances, character
-                variant glyphs are bound to suitable places in the private use area (PUA).</li>
+                    >Guide to Unicode Greek</a> for basic background on Unicode.) Something like a
+                third dimension is made available by OpenType font technology, which allows type
+                designers to assign numerous glyphs to any single Unicode point. Athena Ruby employs
+                this technique for letters with historically attested variant representations. The
+                font has, for example, twenty-eight variants of the Greek alpha, each one bound to
+                the proper Unicode points (U+0391, U+03B1). Many software programs and contexts are
+                not designed to acess Unicode-compliant variants. To use the earlier analogy, they
+                access Unicode only as a two-dimensional space, and ignore the third dimension of
+                character variants. For those instances, the glyphs for character variants are also
+                bound to suitable places in the private use area (PUA).</li>
             <li><strong>Contextual alternates.</strong> OpenType font technology allows for a glyph
                 to change its form depending upon the context. Athena Ruby uses this technology, but
                 only for overbars (U+0305), which change depending upon whether placed over a single
                 letter or a ligature. Not all software programs will take advantage of this
                 feature.</li>
-            <li><strong>Discretionary ligatures.</strong> OpenType technology allows several ways to
-                turn sequences of letters into ligatures that retain the underlying codepoint
-                values. Athena Ruby uses discretionary ligatures, which are not turned on by
-                default. These are accessed or permitted within application software. Note, too,
-                that several of these ligatures have variants. One of them (U+0305) also has
-                contextual alternates.</li>
+            <li><strong>Discretionary ligatures.</strong> OpenType technology allows several methods
+                of turning Unicode-compliant codepoints into ligatures. Athena Ruby uses
+                discretionary ligatures, which are not turned on by default. These are accessed or
+                permitted within application software. Note, too, that several of these ligatures
+                have variants. One of them (U+0305) also has contextual alternates.</li>
             <li><strong>Stacking decorative elements in the PUA.</strong> Decorative elements in the
                 PUA in the range U+E700..E758 are assigned specialized GPOS kerning values to allow
                 the symbols to stack. To prevent nearby symbols from stacking, one may insert the
-                zero width non-joiner (abbr. ZWNJ; U+200C).</li>
+                zero width non-joiner (ZWNJ; U+200C).</li>
         </ul>
         <p>To get the most out of Athena Ruby, you may need to choose a software program different
             from the one you are accustomed to using. Or you may need to modify the way you use a
@@ -127,15 +126,16 @@
             double-clicking on the file, or right-clicking on it and choose "expand" or "unpack".
             Find the newly unpacked font. The next step depends upon your operating system.</p>
         <p class="pc">Right click on the font and select Install. Alternatively, find the drive
-            where you have your operating system installed and copy the file to /windows/fonts.</p>
-        <p class="mac">Macintosh fonts are kept in multiple directories, and many Mac users manage
-            their fonts with Fontbook (part of the OS) or a similar program. (Apple's website
+            where you have your operating system installed and copy the file to
+            C:\windows\fonts.</p>
+        <p class="mac">Macintosh fonts are to be found in multiple directories, and many Mac users
+            manage their fonts with Fontbook (part of the OS) or a similar program. (Apple's website
             provides a good expalantion on <a href="http://support.apple.com/kb/HT2435">how to
                 manage fonts on the Mac</a>.) Copy the uncompressed Athena Ruby file to the
             directory of your choice, and use your preferred font management program to install the
             font. If you don't know about font management programs, try double-clicking on the file
             and then click "Install Font."</p>
-        <p>After Athena Ruby is installed, open software programs will need to be restarted.</p>
+        <p>After Athena Ruby is installed, any open software programs will need to be restarted.</p>
         <h2>Entering text</h2>
         <p>To enter new text in Athena Ruby, use any of the methods below.</p>
         <h3>Just Start Typing: Keyboard Drivers</h3>
@@ -188,14 +188,17 @@
                 >View</span> dropdown menu. Click some of the buttons that appear just below the
                 <span class="instr">View</span> dropdown. Click the triangles beside <span
                 class="instr">Character Info</span> and <span class="instr">Font Variation</span>.
-            The <span class="instr">Character Viewer</span> for OS 10.7-10.8 is no help in finding
-            glyphs in Athena Ruby. You will need to use a third-party application, such as <a
-                href="http://www.fontexplorerx.com/">Linotype Fontexplorer</a> or <a
-                href="http://www.ergonis.com/products/popcharx/">PopChar X</a>.</p>
+            The <span class="instr">Character Viewer</span> for OS 10.7 and beyond is of little use
+            in finding glyphs specific to Athena Ruby. You will need to use a third-party
+            application, such as <a href="http://www.fontexplorerx.com/">Linotype Fontexplorer</a>
+            or <a href="http://www.ergonis.com/products/popcharx/">PopChar X</a>. Also see
+            below.</p>
         <p>Because the glyphs cover such a wide number of tables, quite separate from each other in
-            the Unicode standard, a palette or glyph finder can be awkward to use. Users may find it
-            more useful to use as palettes the character ensemble on the Dumbarton Oaks Athena Ruby
-            website. Dowload the <a href="AR ensemble.docx.zip">Word</a>, <a
+            the Unicode standard, a generic palette or glyph finder can be awkward to use. Users may
+            find it more useful to use as palettes the character ensemble on the Dumbarton Oaks
+            Athena Ruby website. See here for a <a href="ARpalette.html">Web-based custom
+                palette</a> (caution: some versions of Safari do not support this tool; other major
+            browsers do). Or download the <a href="AR ensemble.docx.zip">Word</a>, <a
                 href="AR ensemble.indd.zip">InDesign</a>, <a href="AR ensemble.pdf">PDF</a>, <a
                 href="AR.xml">XML</a>, or <a href="ARdatabase.html">HTML</a> document, and simply
             copy the characters you want.</p>
@@ -210,15 +213,15 @@
         <ol>
             <li>Use a generic word processor along with a markup language. This method preserves the
                 integrity of the underlying data, separates meaning from appearance, and is best
-                equipped to handle robust layout challenges (both in print and on screen). It is
-                also the least familiar to scholars, and will come in use only gradually, as
-                scholars get more familiar with XML, TeX, and similar technologies. </li>
+                equipped to handle robust layout challenges both in print and on screen. It is also
+                the least familiar to scholars, and will come in use only gradually, as scholars get
+                more familiar with XML, TeX, and similar technologies. </li>
             <li>Use a program that uses advanced OpenType features. Because most software of this
                 kind pertains to specialized typesetting, this method is most suited to
                 publishers.</li>
             <li>Use a decent word processor. This method will be the most familiar to most users,
-                but advanced features of Athena Ruby will be available only through non-Unicode
-                compliant features.</li>
+                but advanced features of Athena Ruby will be available only by proxy, through the
+                Private Use Area.</li>
         </ol>
         <p>Each of these techniques are described below, beginning with the method most familiar
             (but least ideal), and concluding with least familiar (but most ideal).</p>
@@ -229,14 +232,14 @@
             support. The advanced OpenType features used by Athena Ruby are usually poorly
             supported, if at all. Although these programs are not ideal for advanced typography,
             Athena Ruby has been designed to work with them. Variant letterforms and discretionary
-            ligatures are accessed not through their proper Unicode points but through the PUA. If
-            you are using character finders and palettes (see above), you will find variant forms
-            and ligatures toward the end of the font (U+E100 onward). This method is not ideal
-            because it generates non-Unicode compliant text that cannot reliably searched, sorted,
-            or indexed. To make Athena Ruby text created in this environment Unicode compliant, the
-            text must be converted and exported to an environment that can handle advanced
-            typegraphic features. </p>
-        <p>This technique will be ideal for pdfs, personal word processing documents, and
+            ligatures are accessed not through their proper Unicode points but through the Private
+            Use Area (PUA). If you are using character finders and palettes (see above), you will
+            find variant forms and ligatures after all the major alphabets, from U+E100 onward. This
+            method is not ideal because the variant characters are bound to Unicode points that have
+            no meaning, and so the text cannot be reliably searched, sorted, or indexed. To make PUA
+            Athena Ruby text Unicode compliant, it must be converted and exported to an environment
+            that can handle advanced typographic features. </p>
+        <p>This use of Athena Ruby is ideal for pdfs, personal word processing documents, and
             publications that do not require much professionalism or interoperability.</p>
         <h3>Method B: Professional layout software</h3>
         <p>Less commonly used but more appropriate for professional publication are a small group of
@@ -257,7 +260,7 @@
                     >E</span>X</strong> is a sophisticated typesetting system that uses text markup
             to take advantage of advanced typography. Special versions of TeX, notably XeTeX, are
             also equipped to access ligatures and variant letterforms in compliance with Unicode
-            standards. A sample TeX file is under development.</p>
+            standards.</p>
         <p>Method B is ideal for generating more professional-looking pdfs than those generated
             under Method C, since the software programs provide subtle but important typographic
             finesse. There is also a greater chance that underlying Unicode data will be
@@ -271,22 +274,22 @@
                 ordinary, plain text in a structured document, most commonly HTML, XML, or XHTML.
                 Specific flavors of XML, such as TEI and EpiDoc, are good candidates, although a
                 given schema may need some customization. The editor deals only with the text's
-                Unicode values, not typography. Those characters that should get special treatment
-                in Athena Ruby are marked with unique, special tags. </li>
+                Unicode values, not typography. Characters that should get special treatment in
+                Athena Ruby are marked with unique, special tags. </li>
             <li><strong>Defining what the markup means</strong>. The markup codes chosen in the
                 first stage are defined, usually in a stylesheet, to facilitate the next steps. The
                 markup language chosen will dictate the kind of stylesheet to be used. For HTML and
                 XHTML some form of CSS is most common. An XML project might rely on a companion file
                 in XSLT, XML, or a similar structured format.</li>
-            <li><strong>Anticipating reading environments</strong>. One usually chooses a markup
-                language with some sense of how the text will be most advantageous to readers. An
-                HTML file is meant for internet browsers. XML files are more flexible, and can be
-                rendered into web pages, ordinary text documents, or even pdfs. One must decide
-                which browsers, or even which devices, to support. Decisions here may affect
-                previous steps, and may change the workflow in other ways.</li>
+            <li><strong>Anticipating reading environments and file formats</strong>. One usually
+                chooses a markup language with some sense of how the text will be most advantageous
+                to readers. An HTML file is meant for internet browsers. XML files are more
+                flexible, and can be rendered into web pages, ordinary text documents, or even pdfs.
+                One must decide which browsers, or even which devices, to support. Decisions here
+                may affect previous steps, and may change the workflow in other ways.</li>
             <li><strong>Transforming the text documents</strong>. Once the previous three steps have
-                been synchronized, a mechanism needs to be set up to take the marked up text (step
-                1), coupled with the stylesheet (step 2), and generate files appropriate for the
+                been synchronized, a mechanism needs to be set up to transform the marked up text
+                (step 1) with the stylesheet (step 2), and generate files appropriate for the
                 specified reading environments (step 3). If a web project, this transformation could
                 be done before files are uploaded to the server (e.g., static HTML files), or a
                 server could make the transformations on the fly (i.e., server-side
@@ -298,7 +301,7 @@
         </ol>
         <p>These four steps are usually negotiated concurrently, as an author or a team discovers
             the method that works best for them and their audience. Because the four steps require
-            different skills and expertise, this method is especially conducive to collaborative
+            different skills and expertise, this method usually requires collaboration and
             teamwork.</p>
         <p>Users of this method will want to pay attention to the draft of <a
                 href="http://dev.w3.org/csswg/css3-fonts/">CSS Fonts Module Level 3</a>, which is
@@ -351,7 +354,7 @@
                 </tr>
                 <tr>
                     <td> How to use advanced features </td>
-                    <td> Mark variants, ligatures, and symbols with markup tags (e.g., XML); set up
+                    <td> Mark variants, ligatures, and symbols with tags (e.g., XML); set up
                         stylesheets (e.g., CSS) to render the code correctly.</td>
                     <td> Choose variant letters, ligatures, and other glyphs with built-in advanced
                         glyph palette </td>
@@ -392,14 +395,14 @@
         <h2>Principles of glyph design</h2>
         <p>The glyphs in Athena Ruby were designed with two guiding principles. The first was to
             preserve our publishing legacy. The custom typography in Dumbarton Oaks books evolved
-            over time, and glyphs were created to suit a particular catalogue or monograph. This
-            habit was epitomized by Nicholas Oikonomides, who pioneered the categorization and
-            dating of letterforms in Byzantine seals. <span class="title">A Collection of Dated
-                Byzantine Lead Seals</span> (Washington, D.C., 1986) introduced the world's first
-            font for Byzantine inscriptions. This led to a number of other fonts developed specially
-            in the 1990s for publications about seals, coins, and silver plate. We wished to
-            consolidate and preserve that legacy, so Athena Ruby's design conserves much of the
-            aesthetic from Athena and older fonts.</p>
+            over time, and glyphs were created for specific catalogues or monographs. Nicholas
+            Oikonomides pioneered the categorization and dating of letterforms in Byzantine seals,
+            epitomized by his <span class="title">A Collection of Dated Byzantine Lead Seals</span>
+            (Washington, D.C., 1986), which featured the world's first font for Byzantine
+            inscriptions. This led to a number of other fonts developed specially in the 1990s for
+            publications about seals, coins, and silver plate. We wished to consolidate and preserve
+            that legacy, so Athena Ruby's design conserves much of the aesthetic from Athena and
+            older fonts.</p>
         <p>The second principle was to foster a scholarly conversation about Byzantine letterforms.
             We conservatively anticipated variants, ligatures, and designs that had not been
             included in our older fonts, but seemed especially useful, and noncontroversial, to
@@ -421,35 +424,32 @@
                 href="http://socrates.berkeley.edu/~pinax/greekkeys/NAUdownload.html">New Athena
                 Unicode</a>, also use the PUA. Each font was built with a different rationale for
             the selection and arrangement of the glyphs in the PUA. That is entirely appropriate, if
-            not expected, since the purpose of the PUA is for private use, and therefore arbitrary
-            decisions. We decided early on that we could not align the characters needed in Athena
-            Ruby with the rationale used by other epigraphic fonts for the PUA. <br />&emsp;Most PUA
-            codepoints in Athena Ruby are concessions. In an ideal world, the R-shaped beta, very
-            common in Byzantine seals, would be accessed by keying in U+0392 then accessing variant
-            1. But because most software programs do not allow a user to choose variant letterforms,
-            we provided a copy of the glyph at U+E11B. This concessive use of the PUA applies to the
-            first three subblocks (U+E100.., U+E300.., U+E400..). Subsequent blocks (U+E500..,
-            U+E600.., U+E700..) have no corresponding Unicode point, and may never have one. Many of
-            these proprietary codepoints are used in different ways in different disciplines, and
-            there is no guarantee that the meanings imputed by users of Athena Ruby would hold true
-            in other proprietary fonts. So assignments to the PUA have been made with attention only
-            to users of Athena Ruby, to avoid giving the impression, that it is commensurate with
-            other fonts.<br />&emsp;Nevertheless, some of the overlap between Athena Ruby and other
-            epigraphic fonts points to agreement on types of letterforms in the Byzantine period. As
-            documentation for Athena Ruby and other proprietary inscription fonts grow, and as
-            consensus emerges in the field, there should be no obstacle either to finding new
-            proposals for Unicode, or in furnishing a cross-walk protocol, to document corresponding
-            characters from the PUA blocks of different fonts. Discussion about this topic is ideal
-            for the <a href="https://groups.google.com/forum/?fromgroups#!forum/athena-ruby">Athena
-                Ruby Google group</a>.</p>
+            not expected, since the PUA is meant for private use, and therefore must involve
+            arbitrary decisions. We decided early on that we could not align the characters needed
+            in Athena Ruby with the rationale used by other epigraphic fonts for the PUA.
+            <br />&emsp;Most PUA codepoints in Athena Ruby are concessions. In an ideal world, the
+            R-shaped beta, very common in Byzantine seals, would be accessed by keying in U+0392
+            then accessing variant 1. But because most software programs do not allow a user to
+            choose variant letterforms, we provided a copy of the glyph at U+E11B. This concessive
+            use of the PUA applies to the first three subblocks (U+E100.., U+E300.., U+E400..).
+            Subsequent blocks (U+E500.., U+E600.., U+E700..) have no corresponding Unicode point,
+            and may never have one. Many of these proprietary codepoints are used in different ways
+            in different disciplines, and there is no guarantee that the meanings imputed by users
+            of Athena Ruby would hold true in other proprietary fonts. So assignments to the PUA
+            have been made with attention only to users of Athena Ruby, to avoid giving the
+            impression that it is commensurate with other fonts.<br />&emsp;Nevertheless, some of
+            the overlap between Athena Ruby and other epigraphic fonts points to agreement on types
+            of letterforms in the Byzantine period. Discussion about this topic is ideal for the <a
+                href="https://groups.google.com/forum/?fromgroups#!forum/athena-ruby">Athena Ruby
+                Google group</a>.</p>
         <p class="question">How do you use the overbar in conjunction with ligatures?</p>
         <p class="answer">If you're using the private use area, use U+0305 immediately after the
             glyph. If you're using Unicode-based ligatures, use U+0305 after each ligature letter
             that takes an overbar.</p>
         <p class="question">Why don't you include other Greek Unicode characters such as the
             digamma, the sho, and the san?</p>
-        <p class="answer">The font covers the Byzantine period, so characters that were used before
-            the foundation of Constantinople (324) were not included.</p>
+        <p class="answer">The font covers the Byzantine period, so characters that went out of use
+            before the foundation of Constantinople (324) were not included.</p>
         <p class="question">I don't see a special character that I need. Could you create a new
             version of the font with these new forms?</p>
         <p class="answer">Dumbarton Oaks will add to the official version of the font only as our
@@ -462,7 +462,8 @@
             Byzantine letterforms. But that task belongs to the scholarly community.</p>
         <p class="question">I already have a document that uses the previous Athena font. Is there a
             conversion tool I can use?</p>
-        <p class="answer">A web-based conversion tool is under development.</p>
+        <p class="answer">Here is a <a href="converter.html">web-based conversion tool</a>, under
+            development.</p>
         <p class="question">Your database of letterforms is incomplete and incorrect. How do I
             supply corrections?</p>
         <p class="answer">Join the <a href="https://groups.google.com/d/forum/athena-ruby">Athena
@@ -504,8 +505,8 @@
         <p class="question">Why doesn't Athena Ruby support the full set of ASCII characters?</p>
         <p class="answer">Font designers for Windows XP and earlier operating systems generally
             regarded it as a best practice to include in each font at least one complete Windows
-            8-bit codepage for backwards compatibility. Since Athena Ruby relies on font and layout
-            technologies that are not found on older systems, backwards compatibility seemed
+            8-bit codepage for backward compatibility. Since Athena Ruby relies on font and layout
+            technologies that are not found on older systems, backward compatibility seemed
             irrelevant. Including a full codepage would have added considerably to the cost of the
             font's development, without serving any of its main functions.</p>
         <h2>Credits</h2>
