@@ -4,7 +4,7 @@
     NAME: AR.xml
     DESCRIPTION: Master database of characters in Athena Ruby. 
 -->
-<!-- Joel's to-do list (for future versions): 
+<!-- To-do list (for future versions): 
     PRIORITY
     Determine whether each glyph is unused, basic, or extended for the two main categories: coins and seals.
     Find all instances of <legacyfonts>See xref.</legacyfonts> and replace with verifiable info. 
