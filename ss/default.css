@@ -37,12 +37,12 @@ url('../fonts/athenaruby_b017-webfont.svg#athenarubyweb') format('svg');
 /* Items below pertain to text that uses customized fonts defined above */
 .athenarubyweb{
     font-family:athenarubyweb;
-    -moz-font-variant-ligatures: "calt=1"; /* for Firefox 14 and prior */
-    -moz-font-variant-ligatures: contextual; /* for Firefox 15 and later */
-    -webkit-font-variant-ligatures: contextual;
-    -ms-font-variant-ligatures: contextual;
-    -o-font-variant-ligatures: contextual;
-    font-variant-ligatures: contextual;
+    -moz-font-variant-ligatures:"calt=1"; /* for Firefox 14 and prior */
+    -moz-font-variant-ligatures:contextual; /* for Firefox 15 and later */
+    -webkit-font-variant-ligatures:contextual;
+    -ms-font-variant-ligatures:contextual;
+    -o-font-variant-ligatures:contextual;
+    font-variant-ligatures:contextual;
 }
 .athena{
     font-family:Athena;
@@ -58,11 +58,9 @@ h2{
     color:maroon;
     border-bottom:2px solid maroon;
 }
-.tool:nth-child(even){
-    background:#CC9999;
-}
-.tool:nth-child(odd){
-    background:#E6CCCC;
+div
+{
+    background:rgba(60,120,180,0.2)
 }
 .minornote{
     font-size:x-small;
