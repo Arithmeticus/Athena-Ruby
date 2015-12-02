@@ -5415,12 +5415,12 @@
     <glyph use-seals="basic" use-coins="unclassified" xml:id="i246">
         <ligature>
             <ligatureelement>
-                <unicode cp="110A"/>
-                <unicode cp="110B"/>
+                <unicode cp="039F"/>
+                <unicode cp="03BF"/>
             </ligatureelement>
             <ligatureelement>
-                <unicode cp="110C"/>
-                <unicode cp="110D"/>
+                <unicode cp="0391"/>
+                <unicode cp="03B1"/>
             </ligatureelement>
         </ligature>
         <pua cp="E1D6"/>
@@ -11884,7 +11884,7 @@
         <auth xml:id="cheynet" class="person">
             <name short="true">Cheynet</name>
             <name>Jean-Claude Cheynet</name>
-            <IRI>Permalink: http://viaf.org/viaf/113293740</IRI>
+            <IRI>http://viaf.org/viaf/113293740</IRI>
         </auth>
     </authorities>
 </athenaruby>

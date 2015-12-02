@@ -7,7 +7,7 @@
                     @font-face
                      {
                         font-family : AthenaRuby;
-                        src : url('AthenaRuby_b017.ttf');
+                        src : url('AthenaRuby_b018.ttf');
                     }
                     @font-face
                      {

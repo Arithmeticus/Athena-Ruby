@@ -12,7 +12,7 @@
             </head>
             <body>
                 <h1>Athena Ruby</h1>
-                <p class="athenarubyweb">
+                <p class="athenaruby">
                     <xsl:for-each select="/*/glyph[index &gt; 2]">
                         <xsl:choose>
                             <xsl:when test="exists(pua)"><span class="ar-p">#x<xsl:value-of

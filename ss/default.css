@@ -1,6 +1,6 @@
 /* Style sheet for Athena Ruby tools */
 
-/* Items below pertain to fonts */
+/* FONTS */
 @font-face
 {
     font-family:Athena;
@@ -27,42 +27,87 @@
     src:url('../fonts/GR______.TTF');
 }
 @font-face{
-    font-family:athenarubyweb;
-    src:url('../fonts/athenaruby_b017-webfont.eot?#iefix') format('embedded-opentype'), 
-url('../fonts/athenaruby_b017-webfont.woff') format('woff'), 
-url('../fonts/AthenaRuby_b017.ttf') format('truetype'), 
-url('../fonts/athenaruby_b017-webfont.svg#athenarubyweb') format('svg');
+    font-family:athenaruby;
+    src:/*url('../fonts/athenaruby_b018-webfont.eot?#iefix') format('embedded-opentype'), 
+url('../fonts/athenaruby_b018-webfont.woff') format('woff'),*/ 
+url('../fonts/AthenaRuby_b018.ttf') format('truetype'), 
+url('../fonts/athenaruby_b018-webfont.svg#athenaruby') format('svg');
 }
 
-/* Items below pertain to text that uses customized fonts defined above */
-.athenarubyweb{
-    font-family:athenarubyweb;
+.athenaruby{
+    font-family:athenaruby;
     -moz-font-variant-ligatures:"calt=1"; /* for Firefox 14 and prior */
     -moz-font-variant-ligatures:contextual; /* for Firefox 15 and later */
     -webkit-font-variant-ligatures:contextual;
     -ms-font-variant-ligatures:contextual;
     -o-font-variant-ligatures:contextual;
-    font-variant-ligatures:contextual;
+    font-variant-ligatures:contextual; /* marked as invalid only because advanced CSS 3 feature */
+}
+.athenaruby,
+.sample{
+    font-family:athenaruby;
 }
 .athena{
     font-family:Athena;
-    font-size:large;
 }
-.athenaruby{
-    font-size:large;
-    font-family:athenarubyweb;
+.coinart{
+    font-family:CoinArt;
+}
+.coingreek{
+    font-family:CoinGreek;
+}
+.coininscr{
+    font-family:CoinInscr;
+}
+.grierson{
+    font-family:Grierson;
 }
 
-/* Items below pertain to paragraphs and divs */
-h2{
+/* FONT SIZE */
+.athena,
+.athenaruby{
+    font-size:large;
+}
+.minor{
+    font-size:small;
+}
+.major{
+    font-size:120%;
+}
+.sample{
+    font-size:300%;
+}
+
+/* COLORS */
+h1,
+h2,
+h3{
     color:maroon;
+}
+.legacy,
+.item
+{
+    background:rgba(60, 120, 180, 0.2)
+}
+.samplecontext{
+    color:gray;
+}
+.samplecontext *{
+    color:blue;
+}
+.major{
+    color:blue;
+}
+.alert{
+    color:red;
+}
+
+/* BORDERS */
+h2{
     border-bottom:2px solid maroon;
 }
-div
-{
-    background:rgba(60,120,180,0.2)
-}
-.minornote{
-    font-size:x-small;
-    font-style:italic;
+
+/* POSITION */
+.legacy{
+    float:right
 }

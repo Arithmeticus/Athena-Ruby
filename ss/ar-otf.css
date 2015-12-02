@@ -1,5 +1,5 @@
 *[class^="ar-cv"]{
-    font-family : athenarubyweb;
+    font-family : athenaruby;
 }
 /* Exhaustive list of character variants */
 .ar-cv-n0{
@@ -267,12 +267,14 @@ font-feature-settings: "calt" 1,  "cv01" 3, "cv02" 3, "cv03" 3, "cv04" 3, "cv05"
 font-feature-settings: "calt" 1,  "cv01" 4, "cv02" 4, "cv04" 4, "cv05" 4, "cv08" 4, "cv11" 4, "cv12" 4, "cv13" 4, "cv14" 4, "cv17" 4, "cv19" 4, "cv21" 4, "cv56" 4, "cv65" 4, "cv66" 4, "cv27" 4, "cv29" 4, "cv30" 4, "cv31" 4, "cv33" 4, "cv38" 4, "cv39" 4, "cv42" 4, "cv44" 4, "cv45" 4, "cv78" 4;
   }
 .ar-cv-n5-lig{
--moz-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01=5", "cv02=5", "cv04=5", "cv05=5", "cv11=5", "cv12=5", "cv13=5", "cv14=5", "cv21=5", "cv56=5", "cv65=5", "cv66=5", "cv27=5", "cv30=5", "cv33=5", "cv38=5", "cv42=5";
--moz-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 5, "cv02" 5, "cv04" 5, "cv05" 5, "cv11" 5, "cv12" 5, "cv13" 5, "cv14" 5, "cv21" 5, "cv56" 5, "cv65" 5, "cv66" 5, "cv27" 5, "cv30" 5, "cv33" 5, "cv38" 5, "cv42" 5;
--webkit-font-feature-settings: "calt" 1,  "cv01" 5, "cv02" 5, "cv04" 5, "cv05" 5, "cv11" 5, "cv12" 5, "cv13" 5, "cv14" 5, "cv21" 5, "cv56" 5, "cv65" 5, "cv66" 5, "cv27" 5, "cv30" 5, "cv33" 5, "cv38" 5, "cv42" 5;
--ms-font-feature-settings: "calt" 1,  "cv01" 5, "cv02" 5, "cv04" 5, "cv05" 5, "cv11" 5, "cv12" 5, "cv13" 5, "cv14" 5, "cv21" 5, "cv56" 5, "cv65" 5, "cv66" 5, "cv27" 5, "cv30" 5, "cv33" 5, "cv38" 5, "cv42" 5;
+/*-moz-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01=5", "cv02=5", "cv04=5", "cv05=5", "cv11=5", "cv12=5", "cv13=5", "cv14=5", "cv21=5", "cv56=5", "cv65=5", "cv66=5", "cv27=5", "cv30=5", "cv33=5", "cv38=5", "cv42=5";
+-moz-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 5, "cv02" 5, "cv04" 5, "cv05" 5, "cv11" 5, "cv12" 5, "cv13" 5, "cv14" 5, "cv21" 5, "cv56" 5, "cv65" 5, "cv66" 5, "cv27" 5, "cv30" 5, "cv33" 5, "cv38" 5, "cv42" 5;*/
+-webkit-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 5, "cv02" 5, "cv04" 5, "cv05" 5, "cv11" 5, "cv12" 5, "cv13" 5, "cv14" 5, "cv21" 5, "cv56" 5, "cv65" 5, "cv66" 5, "cv27" 5, "cv30" 5, "cv33" 5, "cv38" 5, "cv42" 5;
+/*-webkit-font-feature-settings: "calt" 1,  "cv01" 5, "cv02" 5, "cv04" 5, "cv05" 5, "cv11" 5, "cv12" 5, "cv13" 5, "cv14" 5, "cv21" 5, "cv56" 5, "cv65" 5, "cv66" 5, "cv27" 5, "cv30" 5, "cv33" 5, "cv38" 5, "cv42" 5;*/
+/*-ms-font-feature-settings: "calt" 1,  "cv01" 5, "cv02" 5, "cv04" 5, "cv05" 5, "cv11" 5, "cv12" 5, "cv13" 5, "cv14" 5, "cv21" 5, "cv56" 5, "cv65" 5, "cv66" 5, "cv27" 5, "cv30" 5, "cv33" 5, "cv38" 5, "cv42" 5;
 -o-font-feature-settings: "calt" 1,  "cv01" 5, "cv02" 5, "cv04" 5, "cv05" 5, "cv11" 5, "cv12" 5, "cv13" 5, "cv14" 5, "cv21" 5, "cv56" 5, "cv65" 5, "cv66" 5, "cv27" 5, "cv30" 5, "cv33" 5, "cv38" 5, "cv42" 5;
 font-feature-settings: "calt" 1,  "cv01" 5, "cv02" 5, "cv04" 5, "cv05" 5, "cv11" 5, "cv12" 5, "cv13" 5, "cv14" 5, "cv21" 5, "cv56" 5, "cv65" 5, "cv66" 5, "cv27" 5, "cv30" 5, "cv33" 5, "cv38" 5, "cv42" 5;
+*/
   }
 .ar-cv-n6-lig{
 -moz-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01=6", "cv02=6", "cv04=6", "cv05=6", "cv11=6", "cv12=6", "cv14=6", "cv21=6", "cv56=6", "cv65=6", "cv27=6", "cv30=6", "cv33=6", "cv38=6";
