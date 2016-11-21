@@ -1,0 +1,46 @@
+@namespace ar "tag:doaks.org,2015:ns/ar";
+@namespace html "http://www.w3.org/1999/xhtml";
+@namespace xs "http://www.w3.org/2001/XMLSchema";
+
+/* Style sheet for editing Sigidoc in oXygen XML's author mode */
+
+/* FONTS */
+@font-face{
+    font-family: athenaruby;
+    src: /*url('../fonts/athenaruby_b018-webfont.eot?#iefix') format('embedded-opentype'), 
+url('../fonts/athenaruby_b018-webfont.woff') format('woff'),*/ 
+url('../fonts/AthenaRuby_b018.ttf') format('truetype'), 
+url('../fonts/athenaruby_b018-webfont.svg#athenaruby') format('svg');
+}
+
+/* DISPLAY */
+div,
+p{
+    display: block;
+}
+/* COLORS */
+div[style = ar]{
+    color: green
+}
+/* OxYGEN */
+div[style = ar] p:after{
+    font-family: athenaruby;
+    color: blue;
+    display: block;
+    content: oxy_xpath("for $h in doc('AR.xml'), \
+    $i in .//text(),\
+    $j in ($i/../@type, '0')[1] \
+    return if ($j = '0') then $i \
+    else for $k in string-to-codepoints($i) return \
+    if (not(exists($h//ar:glyph[ar:unicode/@cp-dec = $k][ar:variant = $j]))) \
+    then codepoints-to-string($k)  \
+    else codepoints-to-string($h//ar:glyph[ar:unicode/@cp-dec = $k][ar:variant = $j]/ar:pua/@cp-dec)")
+}
+div[style = ar] g[type]{
+    content: 
+    oxy_combobox(
+edit, "@type", 
+values, oxy_xpath("string-join(for $i in text() return doc('AR.xml')/ar:athenaruby/ar:glyph[ar:unicode/@cp-dec = string-to-codepoints($i)]/ar:variant/text(),', ')"), 
+columns, 5
+)
+}

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="ss/sigidoc-oXygen.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Example of Byzantine seal transcription in EpiDoc, using Athena Ruby
+                    character variants</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>first</edition>
+            </editionStmt>
+            <extent/>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <seriesStmt>
+                <p/>
+            </seriesStmt>
+            <notesStmt>
+                <note/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl>http://www.doaks.org/resources/seals/byzantine-seals/BZS.1955.1.4278</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>started file</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div style="ar" type="edition">
+                <p>ENO....UP̅R̅STU<g type="4">U̅U</g>̅ΚΑΙTỤẠG̣IUPNS</p>
+                <p>LEON|ΚΑΙCONSTA|NTI<g type="1">N</g>OS..|STOIBAṢ.|LIṢROM|AIO<g type="1"
+                    >N</g></p>
+            </div>
+            <div type="edition">
+                <p>En o[nom(ati) t]u p(at)r(os) (καὶ) tu y(io)u (καὶ) tu agiu pn(eumato)s.</p>
+                <p>Leon (καὶ) Constantinos [pi]stoi bas[i]lis Romaion.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

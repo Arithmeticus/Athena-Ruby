@@ -1,4 +1,5 @@
 default namespace = "tag:doaks.org,2015:ns/ar"
+namespace h = "http://www.w3.org/1999/xhtml"
 namespace xsi = "http://www.w3.org/2001/XMLSchema-instance"
 
 datatypes d = "http://relaxng.org/ns/compatibility/datatypes/1.0"
@@ -107,6 +108,10 @@ codepoint =
     ## Contains one or more space-delimited hexadecimal numbers marking the value of a Unicode codepoint.
     attribute cp {
         xsd:string { pattern = "[0-9A-Fa-f]{1,6}( [0-9A-Fa-f]{1,6})*" }
+    },
+    ## Contains one or more space-delimited integers marking the value of a Unicode codepoint.
+    attribute cp-dec {
+        xsd:string { pattern = "\d+( \d+)*" }
     }
 cat.gen =
     
@@ -203,7 +208,7 @@ mixedtext = text & italics* & ref.auth*
 italics =
     
     ## Marks text that should be rendered in italics
-    element i { text }
+    element h:i { text }
 IRI =
     
     ## Contains an IRI identifying the authority
