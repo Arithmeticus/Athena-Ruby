@@ -9562,6 +9562,8 @@
         <description>Pellet centered above letter.</description>
         <example type="coin">
             <resp-auth which="DOC"/>
+            <ref>1:150 #247.1</ref>
+            <ref>1:359 #252</ref>
             <ref>3.1:188</ref>
         </example>
         <comment>Sits between letters. Very rarely used.</comment>
