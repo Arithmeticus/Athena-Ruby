@@ -15,6 +15,7 @@
             '-o-',
             ''"
         as="xs:string+"/>
+    <xsl:variable name="variant-glyphs" select="/ar:athenaruby/ar:variants/ar:set/ar:variant-glyph"/>
 
     <xsl:template match="/">
         <xsl:text>/* Athena Ruby character variants
@@ -36,64 +37,44 @@
         <xsl:text>  }&#xA;}&#xA;</xsl:text>
 
         <!-- Syntax that works, but not recommended by W3C -->
-        <xsl:for-each-group
-            select="/ar:athenaruby/ar:variants/ar:set/ar:variant-glyph"
-            group-by="count(preceding-sibling::*)">
-            <xsl:variable name="pos" select="current-grouping-key()"/>
-            
-            <xsl:variable name="params" as="xs:string*">
-                <xsl:for-each select="current-group()">
-                    <xsl:variable name="this-set" select="../@n"/>
-                    <xsl:value-of select="concat($quot, 'cv', $this-set, $quot,' ',$pos)"/>
-                </xsl:for-each>
+        <xsl:for-each select="('', '-lig')">
+            <xsl:variable name="this-suffix" select="."/>
+            <xsl:variable name="this-setting">
+                <xsl:if test="matches($this-suffix, 'lig')">"liga" on, "dlig" on, </xsl:if>
             </xsl:variable>
-            <xsl:text>.ar-cv-n</xsl:text>
-            <xsl:value-of select="$pos"/>
-            <xsl:text>{&#xA;-moz-font-feature-settings: "calt=1", </xsl:text>
-            <xsl:value-of
-                select="
-                string-join(for $i in $params
-                return
-                replace($i, concat($quot, ' (\d+)'), concat('=$1', $quot)), ', ')"/>
-            <xsl:text>;&#xA;</xsl:text>
-            <xsl:for-each select="$settings">
-                <xsl:value-of select="."/>
-                <xsl:text>font-feature-settings: "calt" 1, </xsl:text>
-                <xsl:value-of select="string-join($params, ', ')"/>
-                <!--<xsl:text> </xsl:text>
+            <xsl:for-each-group select="$variant-glyphs" group-by="count(preceding-sibling::*)">
+                <xsl:variable name="pos" select="current-grouping-key()"/>
+
+                <xsl:variable name="params" as="xs:string*">
+                    <xsl:for-each select="current-group()">
+                        <xsl:variable name="this-set" select="../@n"/>
+                        <xsl:value-of select="concat($quot, 'cv', $this-set, $quot, ' ', $pos)"/>
+                    </xsl:for-each>
+                </xsl:variable>
+                <xsl:text>.ar-cv-n</xsl:text>
+                <xsl:value-of select="$pos"/>
+                <xsl:value-of select="$this-suffix"/>
+                <xsl:text>{&#xA;-moz-font-feature-settings: "calt=1", </xsl:text>
+                <xsl:value-of select="$this-setting"/>
+                <xsl:value-of
+                    select="
+                        string-join(for $i in $params
+                        return
+                            replace($i, concat($quot, ' (\d+)'), concat('=$1', $quot)), ', ')"/>
+                <xsl:text>;&#xA;</xsl:text>
+                <xsl:for-each select="$settings">
+                    <xsl:value-of select="."/>
+                    <xsl:text>font-feature-settings: "calt" 1, </xsl:text>
+                    <xsl:value-of select="$this-setting"/>
+                    <xsl:value-of select="string-join($params, ', ')"/>
+                    <!--<xsl:text> </xsl:text>
                 <xsl:value-of select="$pos"/>-->
-                <xsl:text>;&#xA;</xsl:text>
-            </xsl:for-each>
-            <xsl:text>}&#xA;</xsl:text>
-            
-        </xsl:for-each-group>
-        <!--<xsl:for-each-group select="/ar:athenaruby/ar:variants/ar:set/ar:variant-glyph"
-            group-by="count(preceding-sibling::*)">
-            <xsl:variable name="pos" select="current-grouping-key()"/>
-            <xsl:variable name="params" as="xs:string*">
-                <xsl:for-each select="current-group()">
-                    <xsl:variable name="this-set" select="../@n"/>
-                    <xsl:value-of select="concat('&quot;cv', $this-set, '&quot; ', $pos)"/>
+                    <xsl:text>;&#xA;</xsl:text>
                 </xsl:for-each>
-            </xsl:variable>
-            <xsl:text>.ar-cv-n</xsl:text>
-            <xsl:value-of select="$pos"/>
-            <xsl:text>-lig</xsl:text>
-            <xsl:text>{&#xA;-moz-font-feature-settings: "calt=1", "liga=on", "dlig=on", </xsl:text>
-            <xsl:value-of
-                select="
-                string-join(for $i in $params
-                return
-                replace($i, concat($quot, '=(\d+)'), concat(' $1', $quot)), ', ')"/>
-            <xsl:text>;&#xA;</xsl:text>
-            <xsl:for-each select="$settings">
-                <xsl:value-of select="."/>
-                <xsl:text>font-feature-settings: "calt" 1, "liga" on, "dlig" on, </xsl:text>
-                <xsl:value-of select="string-join($params, ', ')"/>
-                <xsl:text>;&#xA;</xsl:text>
-            </xsl:for-each>
-            <xsl:text>}&#xA;</xsl:text>
-        </xsl:for-each-group>-->
+                <xsl:text>}&#xA;</xsl:text>
+
+            </xsl:for-each-group>
+        </xsl:for-each>
 
 
         <!-- recommended CSS3 Fonts Module syntax

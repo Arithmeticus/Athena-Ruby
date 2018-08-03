@@ -18,9 +18,10 @@
             <body>
                 <h1>Variant Athena Ruby glyphs</h1>
                 <p>Generated <xsl:value-of select="current-date()"/></p>
-                <p>Intended for testing in browsers. First line represent Unicode-compliant variant
-                    and the second, the PUA counterpart. The first and second lines should appear
-                    identical. Differences indicate a problem in CSS @font-feature-settings.</p>
+                <p>Intended for testing in browsers. Within each pair of lines, the first carry
+                    standard Unicode points and the second, the PUA counterpart (for variants). Each
+                    pair should appear identical. Differences indicate a problem in CSS
+                    @font-feature-settings.</p>
                 <hr/>
                 <xsl:for-each select="ar:athenaruby/ar:variants/ar:set">
                     <xsl:variable name="cv-set" select="@n"/>
@@ -34,7 +35,7 @@
                                 select="
                                     concat('ar-cv-n', string(($this-pos,
                                     0)[1]), if ($this-glyph/ar:ligature) then
-                                        ' lig'
+                                        '-lig'
                                     else
                                         ())"/>
                             <span class="{$this-class}">
@@ -48,6 +49,7 @@
                             </span>
                         </xsl:for-each>
                     </div>
+                    <xsl:text>&#xa;</xsl:text>
                     <div class="athenaruby sample calt">
                         <xsl:for-each select="ar:variant-glyph">
                             <xsl:variable name="this-which" select="@which"/>
@@ -60,7 +62,9 @@
                             />
                         </xsl:for-each>
                     </div>
+                    <xsl:text>&#xa;</xsl:text>
                     <hr/>
+                    <xsl:text>&#xa;</xsl:text>
                 </xsl:for-each>
             </body>
         </html>

@@ -130,31 +130,6 @@ font-feature-settings: "calt" 1, "cv01" 3, "cv02" 3, "cv03" 3, "cv04" 3, "cv05" 
 -o-font-feature-settings: "calt" 1, "cv01" 4, "cv02" 4, "cv04" 4, "cv05" 4, "cv08" 4, "cv11" 4, "cv12" 4, "cv13" 4, "cv14" 4, "cv17" 4, "cv19" 4, "cv21" 4, "cv27" 4, "cv29" 4, "cv30" 4, "cv31" 4, "cv33" 4, "cv38" 4, "cv39" 4, "cv42" 4, "cv44" 4, "cv45" 4, "cv56" 4, "cv65" 4, "cv66" 4, "cv78" 4;
 font-feature-settings: "calt" 1, "cv01" 4, "cv02" 4, "cv04" 4, "cv05" 4, "cv08" 4, "cv11" 4, "cv12" 4, "cv13" 4, "cv14" 4, "cv17" 4, "cv19" 4, "cv21" 4, "cv27" 4, "cv29" 4, "cv30" 4, "cv31" 4, "cv33" 4, "cv38" 4, "cv39" 4, "cv42" 4, "cv44" 4, "cv45" 4, "cv56" 4, "cv65" 4, "cv66" 4, "cv78" 4;
 }
-.ar-cv-n2-patch{
--moz-font-feature-settings: "cv19=2", "cv21=2", "cv22=2", "cv23=2", "cv24=2", "cv25=2", "cv27=2", "cv29=2", "cv30=2", "cv31=2", "cv32=2", "cv33=2", "cv34=2", "cv37=2", "cv38=2", "cv39=2", "cv42=2", "cv43=2", "cv44=2", "cv45=2", "cv46=2", "cv52=2", "cv56=2", "cv60=2", "cv65=2", "cv66=2", "cv68=2", "cv72=2", "cv74=2", "cv75=2", "cv78=2", "cv82=2";
--moz-font-feature-settings: "cv19" 2, "cv21" 2, "cv22" 2, "cv23" 2, "cv24" 2, "cv25" 2, "cv27" 2, "cv29" 2, "cv30" 2, "cv31" 2, "cv32" 2, "cv33" 2, "cv34" 2, "cv37" 2, "cv38" 2, "cv39" 2, "cv42" 2, "cv43" 2, "cv44" 2, "cv45" 2, "cv46" 2, "cv52" 2, "cv56" 2, "cv60" 2, "cv65" 2, "cv66" 2, "cv68" 2, "cv72" 2, "cv74" 2, "cv75" 2, "cv78" 2, "cv82" 2;
--webkit-font-feature-settings: "cv19" 2, "cv21" 2, "cv22" 2, "cv23" 2, "cv24" 2, "cv25" 2, "cv27" 2, "cv29" 2, "cv30" 2, "cv31" 2, "cv32" 2, "cv33" 2, "cv34" 2, "cv37" 2, "cv38" 2, "cv39" 2, "cv42" 2, "cv43" 2, "cv44" 2, "cv45" 2, "cv46" 2, "cv52" 2, "cv56" 2, "cv60" 2, "cv65" 2, "cv66" 2, "cv68" 2, "cv72" 2, "cv74" 2, "cv75" 2, "cv78" 2, "cv82" 2;
--ms-font-feature-settings: "cv19" 2, "cv21" 2, "cv22" 2, "cv23" 2, "cv24" 2, "cv25" 2, "cv27" 2, "cv29" 2, "cv30" 2, "cv31" 2, "cv32" 2, "cv33" 2, "cv34" 2, "cv37" 2, "cv38" 2, "cv39" 2, "cv42" 2, "cv43" 2, "cv44" 2, "cv45" 2, "cv46" 2, "cv52" 2, "cv56" 2, "cv60" 2, "cv65" 2, "cv66" 2, "cv68" 2, "cv72" 2, "cv74" 2, "cv75" 2, "cv78" 2, "cv82" 2;
--o-font-feature-settings: "cv19" 2, "cv21" 2, "cv22" 2, "cv23" 2, "cv24" 2, "cv25" 2, "cv27" 2, "cv29" 2, "cv30" 2, "cv31" 2, "cv32" 2, "cv33" 2, "cv34" 2, "cv37" 2, "cv38" 2, "cv39" 2, "cv42" 2, "cv43" 2, "cv44" 2, "cv45" 2, "cv46" 2, "cv52" 2, "cv56" 2, "cv60" 2, "cv65" 2, "cv66" 2, "cv68" 2, "cv72" 2, "cv74" 2, "cv75" 2, "cv78" 2, "cv82" 2;
-font-feature-settings: "cv19" 2, "cv21" 2, "cv22" 2, "cv23" 2, "cv24" 2, "cv25" 2, "cv27" 2, "cv29" 2, "cv30" 2, "cv31" 2, "cv32" 2, "cv33" 2, "cv34" 2, "cv37" 2, "cv38" 2, "cv39" 2, "cv42" 2, "cv43" 2, "cv44" 2, "cv45" 2, "cv46" 2, "cv52" 2, "cv56" 2, "cv60" 2, "cv65" 2, "cv66" 2, "cv68" 2, "cv72" 2, "cv74" 2, "cv75" 2, "cv78" 2, "cv82" 2;
-}
-.ar-cv-n3-patch{
--moz-font-feature-settings: "cv19=3", "cv21=3", "cv25=3", "cv27=3", "cv29=3", "cv30=3", "cv31=3", "cv32=3", "cv33=3", "cv37=3", "cv38=3", "cv39=3", "cv42=3", "cv43=3", "cv44=3", "cv45=3", "cv56=3", "cv65=3", "cv66=3", "cv68=3", "cv74=3", "cv78=3";
--moz-font-feature-settings: "cv19" 3, "cv21" 3, "cv25" 3, "cv27" 3, "cv29" 3, "cv30" 3, "cv31" 3, "cv32" 3, "cv33" 3, "cv37" 3, "cv38" 3, "cv39" 3, "cv42" 3, "cv43" 3, "cv44" 3, "cv45" 3, "cv56" 3, "cv65" 3, "cv66" 3, "cv68" 3, "cv74" 3, "cv78" 3;
--webkit-font-feature-settings: "cv19" 3, "cv21" 3, "cv25" 3, "cv27" 3, "cv29" 3, "cv30" 3, "cv31" 3, "cv32" 3, "cv33" 3, "cv37" 3, "cv38" 3, "cv39" 3, "cv42" 3, "cv43" 3, "cv44" 3, "cv45" 3, "cv56" 3, "cv65" 3, "cv66" 3, "cv68" 3, "cv74" 3, "cv78" 3;
--ms-font-feature-settings: "cv19" 3, "cv21" 3, "cv25" 3, "cv27" 3, "cv29" 3, "cv30" 3, "cv31" 3, "cv32" 3, "cv33" 3, "cv37" 3, "cv38" 3, "cv39" 3, "cv42" 3, "cv43" 3, "cv44" 3, "cv45" 3, "cv56" 3, "cv65" 3, "cv66" 3, "cv68" 3, "cv74" 3, "cv78" 3;
--o-font-feature-settings: "cv19" 3, "cv21" 3, "cv25" 3, "cv27" 3, "cv29" 3, "cv30" 3, "cv31" 3, "cv32" 3, "cv33" 3, "cv37" 3, "cv38" 3, "cv39" 3, "cv42" 3, "cv43" 3, "cv44" 3, "cv45" 3, "cv56" 3, "cv65" 3, "cv66" 3, "cv68" 3, "cv74" 3, "cv78" 3;
-font-feature-settings: "cv19" 3, "cv21" 3, "cv25" 3, "cv27" 3, "cv29" 3, "cv30" 3, "cv31" 3, "cv32" 3, "cv33" 3, "cv37" 3, "cv38" 3, "cv39" 3, "cv42" 3, "cv43" 3, "cv44" 3, "cv45" 3, "cv56" 3, "cv65" 3, "cv66" 3, "cv68" 3, "cv74" 3, "cv78" 3;
-}
-.ar-cv-n4-patch{
--moz-font-feature-settings: "cv19=4", "cv21=4", "cv27=4", "cv29=4", "cv30=4", "cv31=4", "cv33=4", "cv38=4", "cv39=4", "cv42=4", "cv44=4", "cv45=4", "cv56=4", "cv65=4", "cv66=4", "cv78=4";
--moz-font-feature-settings: "cv19" 4, "cv21" 4, "cv27" 4, "cv29" 4, "cv30" 4, "cv31" 4, "cv33" 4, "cv38" 4, "cv39" 4, "cv42" 4, "cv44" 4, "cv45" 4, "cv56" 4, "cv65" 4, "cv66" 4, "cv78" 4;
--webkit-font-feature-settings: "cv19" 4, "cv21" 4, "cv27" 4, "cv29" 4, "cv30" 4, "cv31" 4, "cv33" 4, "cv38" 4, "cv39" 4, "cv42" 4, "cv44" 4, "cv45" 4, "cv56" 4, "cv65" 4, "cv66" 4, "cv78" 4;
--ms-font-feature-settings: "cv19" 4, "cv21" 4, "cv27" 4, "cv29" 4, "cv30" 4, "cv31" 4, "cv33" 4, "cv38" 4, "cv39" 4, "cv42" 4, "cv44" 4, "cv45" 4, "cv56" 4, "cv65" 4, "cv66" 4, "cv78" 4;
--o-font-feature-settings: "cv19" 4, "cv21" 4, "cv27" 4, "cv29" 4, "cv30" 4, "cv31" 4, "cv33" 4, "cv38" 4, "cv39" 4, "cv42" 4, "cv44" 4, "cv45" 4, "cv56" 4, "cv65" 4, "cv66" 4, "cv78" 4;
-font-feature-settings: "cv19" 4, "cv21" 4, "cv27" 4, "cv29" 4, "cv30" 4, "cv31" 4, "cv33" 4, "cv38" 4, "cv39" 4, "cv42" 4, "cv44" 4, "cv45" 4, "cv56" 4, "cv65" 4, "cv66" 4, "cv78" 4;
-}
-
 .ar-cv-n5{
 -moz-font-feature-settings: "calt=1", "cv01=5", "cv02=5", "cv04=5", "cv05=5", "cv11=5", "cv12=5", "cv13=5", "cv14=5", "cv21=5", "cv27=5", "cv30=5", "cv33=5", "cv38=5", "cv42=5", "cv56=5", "cv65=5", "cv66=5";
 -moz-font-feature-settings: "calt" 1, "cv01" 5, "cv02" 5, "cv04" 5, "cv05" 5, "cv11" 5, "cv12" 5, "cv13" 5, "cv14" 5, "cv21" 5, "cv27" 5, "cv30" 5, "cv33" 5, "cv38" 5, "cv42" 5, "cv56" 5, "cv65" 5, "cv66" 5;
@@ -339,6 +314,230 @@ font-feature-settings: "calt" 1, "cv01" 26;
 -o-font-feature-settings: "calt" 1, "cv01" 27;
 font-feature-settings: "calt" 1, "cv01" 27;
 }
+.ar-cv-n0-lig{
+-moz-font-feature-settings: "calt=1", "liga" on, "dlig" on, "cv01=0", "cv02=0", "cv03=0", "cv04=0", "cv05=0", "cv06=0", "cv07=0", "cv08=0", "cv09=0", "cv10=0", "cv11=0", "cv12=0", "cv13=0", "cv14=0", "cv15=0", "cv16=0", "cv17=0", "cv18=0", "cv19=0", "cv20=0", "cv21=0", "cv22=0", "cv23=0", "cv24=0", "cv25=0", "cv26=0", "cv27=0", "cv28=0", "cv29=0", "cv30=0", "cv31=0", "cv32=0", "cv33=0", "cv34=0", "cv35=0", "cv36=0", "cv37=0", "cv38=0", "cv39=0", "cv40=0", "cv41=0", "cv42=0", "cv43=0", "cv44=0", "cv45=0", "cv46=0", "cv47=0", "cv48=0", "cv49=0", "cv50=0", "cv51=0", "cv52=0", "cv53=0", "cv54=0", "cv55=0", "cv56=0", "cv57=0", "cv58=0", "cv59=0", "cv60=0", "cv61=0", "cv62=0", "cv63=0", "cv64=0", "cv65=0", "cv66=0", "cv67=0", "cv68=0", "cv69=0", "cv70=0", "cv71=0", "cv72=0", "cv73=0", "cv74=0", "cv75=0", "cv76=0", "cv77=0", "cv78=0", "cv79=0", "cv80=0", "cv81=0", "cv82=0", "cv83=0", "cv84=0";
+-moz-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 0, "cv02" 0, "cv03" 0, "cv04" 0, "cv05" 0, "cv06" 0, "cv07" 0, "cv08" 0, "cv09" 0, "cv10" 0, "cv11" 0, "cv12" 0, "cv13" 0, "cv14" 0, "cv15" 0, "cv16" 0, "cv17" 0, "cv18" 0, "cv19" 0, "cv20" 0, "cv21" 0, "cv22" 0, "cv23" 0, "cv24" 0, "cv25" 0, "cv26" 0, "cv27" 0, "cv28" 0, "cv29" 0, "cv30" 0, "cv31" 0, "cv32" 0, "cv33" 0, "cv34" 0, "cv35" 0, "cv36" 0, "cv37" 0, "cv38" 0, "cv39" 0, "cv40" 0, "cv41" 0, "cv42" 0, "cv43" 0, "cv44" 0, "cv45" 0, "cv46" 0, "cv47" 0, "cv48" 0, "cv49" 0, "cv50" 0, "cv51" 0, "cv52" 0, "cv53" 0, "cv54" 0, "cv55" 0, "cv56" 0, "cv57" 0, "cv58" 0, "cv59" 0, "cv60" 0, "cv61" 0, "cv62" 0, "cv63" 0, "cv64" 0, "cv65" 0, "cv66" 0, "cv67" 0, "cv68" 0, "cv69" 0, "cv70" 0, "cv71" 0, "cv72" 0, "cv73" 0, "cv74" 0, "cv75" 0, "cv76" 0, "cv77" 0, "cv78" 0, "cv79" 0, "cv80" 0, "cv81" 0, "cv82" 0, "cv83" 0, "cv84" 0;
+-webkit-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 0, "cv02" 0, "cv03" 0, "cv04" 0, "cv05" 0, "cv06" 0, "cv07" 0, "cv08" 0, "cv09" 0, "cv10" 0, "cv11" 0, "cv12" 0, "cv13" 0, "cv14" 0, "cv15" 0, "cv16" 0, "cv17" 0, "cv18" 0, "cv19" 0, "cv20" 0, "cv21" 0, "cv22" 0, "cv23" 0, "cv24" 0, "cv25" 0, "cv26" 0, "cv27" 0, "cv28" 0, "cv29" 0, "cv30" 0, "cv31" 0, "cv32" 0, "cv33" 0, "cv34" 0, "cv35" 0, "cv36" 0, "cv37" 0, "cv38" 0, "cv39" 0, "cv40" 0, "cv41" 0, "cv42" 0, "cv43" 0, "cv44" 0, "cv45" 0, "cv46" 0, "cv47" 0, "cv48" 0, "cv49" 0, "cv50" 0, "cv51" 0, "cv52" 0, "cv53" 0, "cv54" 0, "cv55" 0, "cv56" 0, "cv57" 0, "cv58" 0, "cv59" 0, "cv60" 0, "cv61" 0, "cv62" 0, "cv63" 0, "cv64" 0, "cv65" 0, "cv66" 0, "cv67" 0, "cv68" 0, "cv69" 0, "cv70" 0, "cv71" 0, "cv72" 0, "cv73" 0, "cv74" 0, "cv75" 0, "cv76" 0, "cv77" 0, "cv78" 0, "cv79" 0, "cv80" 0, "cv81" 0, "cv82" 0, "cv83" 0, "cv84" 0;
+-ms-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 0, "cv02" 0, "cv03" 0, "cv04" 0, "cv05" 0, "cv06" 0, "cv07" 0, "cv08" 0, "cv09" 0, "cv10" 0, "cv11" 0, "cv12" 0, "cv13" 0, "cv14" 0, "cv15" 0, "cv16" 0, "cv17" 0, "cv18" 0, "cv19" 0, "cv20" 0, "cv21" 0, "cv22" 0, "cv23" 0, "cv24" 0, "cv25" 0, "cv26" 0, "cv27" 0, "cv28" 0, "cv29" 0, "cv30" 0, "cv31" 0, "cv32" 0, "cv33" 0, "cv34" 0, "cv35" 0, "cv36" 0, "cv37" 0, "cv38" 0, "cv39" 0, "cv40" 0, "cv41" 0, "cv42" 0, "cv43" 0, "cv44" 0, "cv45" 0, "cv46" 0, "cv47" 0, "cv48" 0, "cv49" 0, "cv50" 0, "cv51" 0, "cv52" 0, "cv53" 0, "cv54" 0, "cv55" 0, "cv56" 0, "cv57" 0, "cv58" 0, "cv59" 0, "cv60" 0, "cv61" 0, "cv62" 0, "cv63" 0, "cv64" 0, "cv65" 0, "cv66" 0, "cv67" 0, "cv68" 0, "cv69" 0, "cv70" 0, "cv71" 0, "cv72" 0, "cv73" 0, "cv74" 0, "cv75" 0, "cv76" 0, "cv77" 0, "cv78" 0, "cv79" 0, "cv80" 0, "cv81" 0, "cv82" 0, "cv83" 0, "cv84" 0;
+-o-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 0, "cv02" 0, "cv03" 0, "cv04" 0, "cv05" 0, "cv06" 0, "cv07" 0, "cv08" 0, "cv09" 0, "cv10" 0, "cv11" 0, "cv12" 0, "cv13" 0, "cv14" 0, "cv15" 0, "cv16" 0, "cv17" 0, "cv18" 0, "cv19" 0, "cv20" 0, "cv21" 0, "cv22" 0, "cv23" 0, "cv24" 0, "cv25" 0, "cv26" 0, "cv27" 0, "cv28" 0, "cv29" 0, "cv30" 0, "cv31" 0, "cv32" 0, "cv33" 0, "cv34" 0, "cv35" 0, "cv36" 0, "cv37" 0, "cv38" 0, "cv39" 0, "cv40" 0, "cv41" 0, "cv42" 0, "cv43" 0, "cv44" 0, "cv45" 0, "cv46" 0, "cv47" 0, "cv48" 0, "cv49" 0, "cv50" 0, "cv51" 0, "cv52" 0, "cv53" 0, "cv54" 0, "cv55" 0, "cv56" 0, "cv57" 0, "cv58" 0, "cv59" 0, "cv60" 0, "cv61" 0, "cv62" 0, "cv63" 0, "cv64" 0, "cv65" 0, "cv66" 0, "cv67" 0, "cv68" 0, "cv69" 0, "cv70" 0, "cv71" 0, "cv72" 0, "cv73" 0, "cv74" 0, "cv75" 0, "cv76" 0, "cv77" 0, "cv78" 0, "cv79" 0, "cv80" 0, "cv81" 0, "cv82" 0, "cv83" 0, "cv84" 0;
+font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 0, "cv02" 0, "cv03" 0, "cv04" 0, "cv05" 0, "cv06" 0, "cv07" 0, "cv08" 0, "cv09" 0, "cv10" 0, "cv11" 0, "cv12" 0, "cv13" 0, "cv14" 0, "cv15" 0, "cv16" 0, "cv17" 0, "cv18" 0, "cv19" 0, "cv20" 0, "cv21" 0, "cv22" 0, "cv23" 0, "cv24" 0, "cv25" 0, "cv26" 0, "cv27" 0, "cv28" 0, "cv29" 0, "cv30" 0, "cv31" 0, "cv32" 0, "cv33" 0, "cv34" 0, "cv35" 0, "cv36" 0, "cv37" 0, "cv38" 0, "cv39" 0, "cv40" 0, "cv41" 0, "cv42" 0, "cv43" 0, "cv44" 0, "cv45" 0, "cv46" 0, "cv47" 0, "cv48" 0, "cv49" 0, "cv50" 0, "cv51" 0, "cv52" 0, "cv53" 0, "cv54" 0, "cv55" 0, "cv56" 0, "cv57" 0, "cv58" 0, "cv59" 0, "cv60" 0, "cv61" 0, "cv62" 0, "cv63" 0, "cv64" 0, "cv65" 0, "cv66" 0, "cv67" 0, "cv68" 0, "cv69" 0, "cv70" 0, "cv71" 0, "cv72" 0, "cv73" 0, "cv74" 0, "cv75" 0, "cv76" 0, "cv77" 0, "cv78" 0, "cv79" 0, "cv80" 0, "cv81" 0, "cv82" 0, "cv83" 0, "cv84" 0;
+}
+.ar-cv-n1-lig{
+-moz-font-feature-settings: "calt=1", "liga" on, "dlig" on, "cv01=1", "cv02=1", "cv03=1", "cv04=1", "cv05=1", "cv06=1", "cv07=1", "cv08=1", "cv09=1", "cv10=1", "cv11=1", "cv12=1", "cv13=1", "cv14=1", "cv15=1", "cv16=1", "cv17=1", "cv18=1", "cv19=1", "cv20=1", "cv21=1", "cv22=1", "cv23=1", "cv24=1", "cv25=1", "cv26=1", "cv27=1", "cv28=1", "cv29=1", "cv30=1", "cv31=1", "cv32=1", "cv33=1", "cv34=1", "cv35=1", "cv36=1", "cv37=1", "cv38=1", "cv39=1", "cv40=1", "cv41=1", "cv42=1", "cv43=1", "cv44=1", "cv45=1", "cv46=1", "cv47=1", "cv48=1", "cv49=1", "cv50=1", "cv51=1", "cv52=1", "cv53=1", "cv54=1", "cv55=1", "cv56=1", "cv57=1", "cv58=1", "cv59=1", "cv60=1", "cv61=1", "cv62=1", "cv63=1", "cv64=1", "cv65=1", "cv66=1", "cv67=1", "cv68=1", "cv69=1", "cv70=1", "cv71=1", "cv72=1", "cv73=1", "cv74=1", "cv75=1", "cv76=1", "cv77=1", "cv78=1", "cv79=1", "cv80=1", "cv81=1", "cv82=1", "cv83=1", "cv84=1";
+-moz-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 1, "cv02" 1, "cv03" 1, "cv04" 1, "cv05" 1, "cv06" 1, "cv07" 1, "cv08" 1, "cv09" 1, "cv10" 1, "cv11" 1, "cv12" 1, "cv13" 1, "cv14" 1, "cv15" 1, "cv16" 1, "cv17" 1, "cv18" 1, "cv19" 1, "cv20" 1, "cv21" 1, "cv22" 1, "cv23" 1, "cv24" 1, "cv25" 1, "cv26" 1, "cv27" 1, "cv28" 1, "cv29" 1, "cv30" 1, "cv31" 1, "cv32" 1, "cv33" 1, "cv34" 1, "cv35" 1, "cv36" 1, "cv37" 1, "cv38" 1, "cv39" 1, "cv40" 1, "cv41" 1, "cv42" 1, "cv43" 1, "cv44" 1, "cv45" 1, "cv46" 1, "cv47" 1, "cv48" 1, "cv49" 1, "cv50" 1, "cv51" 1, "cv52" 1, "cv53" 1, "cv54" 1, "cv55" 1, "cv56" 1, "cv57" 1, "cv58" 1, "cv59" 1, "cv60" 1, "cv61" 1, "cv62" 1, "cv63" 1, "cv64" 1, "cv65" 1, "cv66" 1, "cv67" 1, "cv68" 1, "cv69" 1, "cv70" 1, "cv71" 1, "cv72" 1, "cv73" 1, "cv74" 1, "cv75" 1, "cv76" 1, "cv77" 1, "cv78" 1, "cv79" 1, "cv80" 1, "cv81" 1, "cv82" 1, "cv83" 1, "cv84" 1;
+-webkit-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 1, "cv02" 1, "cv03" 1, "cv04" 1, "cv05" 1, "cv06" 1, "cv07" 1, "cv08" 1, "cv09" 1, "cv10" 1, "cv11" 1, "cv12" 1, "cv13" 1, "cv14" 1, "cv15" 1, "cv16" 1, "cv17" 1, "cv18" 1, "cv19" 1, "cv20" 1, "cv21" 1, "cv22" 1, "cv23" 1, "cv24" 1, "cv25" 1, "cv26" 1, "cv27" 1, "cv28" 1, "cv29" 1, "cv30" 1, "cv31" 1, "cv32" 1, "cv33" 1, "cv34" 1, "cv35" 1, "cv36" 1, "cv37" 1, "cv38" 1, "cv39" 1, "cv40" 1, "cv41" 1, "cv42" 1, "cv43" 1, "cv44" 1, "cv45" 1, "cv46" 1, "cv47" 1, "cv48" 1, "cv49" 1, "cv50" 1, "cv51" 1, "cv52" 1, "cv53" 1, "cv54" 1, "cv55" 1, "cv56" 1, "cv57" 1, "cv58" 1, "cv59" 1, "cv60" 1, "cv61" 1, "cv62" 1, "cv63" 1, "cv64" 1, "cv65" 1, "cv66" 1, "cv67" 1, "cv68" 1, "cv69" 1, "cv70" 1, "cv71" 1, "cv72" 1, "cv73" 1, "cv74" 1, "cv75" 1, "cv76" 1, "cv77" 1, "cv78" 1, "cv79" 1, "cv80" 1, "cv81" 1, "cv82" 1, "cv83" 1, "cv84" 1;
+-ms-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 1, "cv02" 1, "cv03" 1, "cv04" 1, "cv05" 1, "cv06" 1, "cv07" 1, "cv08" 1, "cv09" 1, "cv10" 1, "cv11" 1, "cv12" 1, "cv13" 1, "cv14" 1, "cv15" 1, "cv16" 1, "cv17" 1, "cv18" 1, "cv19" 1, "cv20" 1, "cv21" 1, "cv22" 1, "cv23" 1, "cv24" 1, "cv25" 1, "cv26" 1, "cv27" 1, "cv28" 1, "cv29" 1, "cv30" 1, "cv31" 1, "cv32" 1, "cv33" 1, "cv34" 1, "cv35" 1, "cv36" 1, "cv37" 1, "cv38" 1, "cv39" 1, "cv40" 1, "cv41" 1, "cv42" 1, "cv43" 1, "cv44" 1, "cv45" 1, "cv46" 1, "cv47" 1, "cv48" 1, "cv49" 1, "cv50" 1, "cv51" 1, "cv52" 1, "cv53" 1, "cv54" 1, "cv55" 1, "cv56" 1, "cv57" 1, "cv58" 1, "cv59" 1, "cv60" 1, "cv61" 1, "cv62" 1, "cv63" 1, "cv64" 1, "cv65" 1, "cv66" 1, "cv67" 1, "cv68" 1, "cv69" 1, "cv70" 1, "cv71" 1, "cv72" 1, "cv73" 1, "cv74" 1, "cv75" 1, "cv76" 1, "cv77" 1, "cv78" 1, "cv79" 1, "cv80" 1, "cv81" 1, "cv82" 1, "cv83" 1, "cv84" 1;
+-o-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 1, "cv02" 1, "cv03" 1, "cv04" 1, "cv05" 1, "cv06" 1, "cv07" 1, "cv08" 1, "cv09" 1, "cv10" 1, "cv11" 1, "cv12" 1, "cv13" 1, "cv14" 1, "cv15" 1, "cv16" 1, "cv17" 1, "cv18" 1, "cv19" 1, "cv20" 1, "cv21" 1, "cv22" 1, "cv23" 1, "cv24" 1, "cv25" 1, "cv26" 1, "cv27" 1, "cv28" 1, "cv29" 1, "cv30" 1, "cv31" 1, "cv32" 1, "cv33" 1, "cv34" 1, "cv35" 1, "cv36" 1, "cv37" 1, "cv38" 1, "cv39" 1, "cv40" 1, "cv41" 1, "cv42" 1, "cv43" 1, "cv44" 1, "cv45" 1, "cv46" 1, "cv47" 1, "cv48" 1, "cv49" 1, "cv50" 1, "cv51" 1, "cv52" 1, "cv53" 1, "cv54" 1, "cv55" 1, "cv56" 1, "cv57" 1, "cv58" 1, "cv59" 1, "cv60" 1, "cv61" 1, "cv62" 1, "cv63" 1, "cv64" 1, "cv65" 1, "cv66" 1, "cv67" 1, "cv68" 1, "cv69" 1, "cv70" 1, "cv71" 1, "cv72" 1, "cv73" 1, "cv74" 1, "cv75" 1, "cv76" 1, "cv77" 1, "cv78" 1, "cv79" 1, "cv80" 1, "cv81" 1, "cv82" 1, "cv83" 1, "cv84" 1;
+font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 1, "cv02" 1, "cv03" 1, "cv04" 1, "cv05" 1, "cv06" 1, "cv07" 1, "cv08" 1, "cv09" 1, "cv10" 1, "cv11" 1, "cv12" 1, "cv13" 1, "cv14" 1, "cv15" 1, "cv16" 1, "cv17" 1, "cv18" 1, "cv19" 1, "cv20" 1, "cv21" 1, "cv22" 1, "cv23" 1, "cv24" 1, "cv25" 1, "cv26" 1, "cv27" 1, "cv28" 1, "cv29" 1, "cv30" 1, "cv31" 1, "cv32" 1, "cv33" 1, "cv34" 1, "cv35" 1, "cv36" 1, "cv37" 1, "cv38" 1, "cv39" 1, "cv40" 1, "cv41" 1, "cv42" 1, "cv43" 1, "cv44" 1, "cv45" 1, "cv46" 1, "cv47" 1, "cv48" 1, "cv49" 1, "cv50" 1, "cv51" 1, "cv52" 1, "cv53" 1, "cv54" 1, "cv55" 1, "cv56" 1, "cv57" 1, "cv58" 1, "cv59" 1, "cv60" 1, "cv61" 1, "cv62" 1, "cv63" 1, "cv64" 1, "cv65" 1, "cv66" 1, "cv67" 1, "cv68" 1, "cv69" 1, "cv70" 1, "cv71" 1, "cv72" 1, "cv73" 1, "cv74" 1, "cv75" 1, "cv76" 1, "cv77" 1, "cv78" 1, "cv79" 1, "cv80" 1, "cv81" 1, "cv82" 1, "cv83" 1, "cv84" 1;
+}
+.ar-cv-n2-lig{
+-moz-font-feature-settings: "calt=1", "liga" on, "dlig" on, "cv01=2", "cv02=2", "cv03=2", "cv04=2", "cv05=2", "cv06=2", "cv08=2", "cv10=2", "cv11=2", "cv12=2", "cv13=2", "cv14=2", "cv16=2", "cv17=2", "cv18=2", "cv19=2", "cv21=2", "cv22=2", "cv23=2", "cv24=2", "cv25=2", "cv27=2", "cv29=2", "cv30=2", "cv31=2", "cv32=2", "cv33=2", "cv34=2", "cv37=2", "cv38=2", "cv39=2", "cv42=2", "cv43=2", "cv44=2", "cv45=2", "cv46=2", "cv52=2", "cv56=2", "cv60=2", "cv65=2", "cv66=2", "cv68=2", "cv72=2", "cv74=2", "cv75=2", "cv78=2", "cv82=2";
+-moz-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 2, "cv02" 2, "cv03" 2, "cv04" 2, "cv05" 2, "cv06" 2, "cv08" 2, "cv10" 2, "cv11" 2, "cv12" 2, "cv13" 2, "cv14" 2, "cv16" 2, "cv17" 2, "cv18" 2, "cv19" 2, "cv21" 2, "cv22" 2, "cv23" 2, "cv24" 2, "cv25" 2, "cv27" 2, "cv29" 2, "cv30" 2, "cv31" 2, "cv32" 2, "cv33" 2, "cv34" 2, "cv37" 2, "cv38" 2, "cv39" 2, "cv42" 2, "cv43" 2, "cv44" 2, "cv45" 2, "cv46" 2, "cv52" 2, "cv56" 2, "cv60" 2, "cv65" 2, "cv66" 2, "cv68" 2, "cv72" 2, "cv74" 2, "cv75" 2, "cv78" 2, "cv82" 2;
+-webkit-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 2, "cv02" 2, "cv03" 2, "cv04" 2, "cv05" 2, "cv06" 2, "cv08" 2, "cv10" 2, "cv11" 2, "cv12" 2, "cv13" 2, "cv14" 2, "cv16" 2, "cv17" 2, "cv18" 2, "cv19" 2, "cv21" 2, "cv22" 2, "cv23" 2, "cv24" 2, "cv25" 2, "cv27" 2, "cv29" 2, "cv30" 2, "cv31" 2, "cv32" 2, "cv33" 2, "cv34" 2, "cv37" 2, "cv38" 2, "cv39" 2, "cv42" 2, "cv43" 2, "cv44" 2, "cv45" 2, "cv46" 2, "cv52" 2, "cv56" 2, "cv60" 2, "cv65" 2, "cv66" 2, "cv68" 2, "cv72" 2, "cv74" 2, "cv75" 2, "cv78" 2, "cv82" 2;
+-ms-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 2, "cv02" 2, "cv03" 2, "cv04" 2, "cv05" 2, "cv06" 2, "cv08" 2, "cv10" 2, "cv11" 2, "cv12" 2, "cv13" 2, "cv14" 2, "cv16" 2, "cv17" 2, "cv18" 2, "cv19" 2, "cv21" 2, "cv22" 2, "cv23" 2, "cv24" 2, "cv25" 2, "cv27" 2, "cv29" 2, "cv30" 2, "cv31" 2, "cv32" 2, "cv33" 2, "cv34" 2, "cv37" 2, "cv38" 2, "cv39" 2, "cv42" 2, "cv43" 2, "cv44" 2, "cv45" 2, "cv46" 2, "cv52" 2, "cv56" 2, "cv60" 2, "cv65" 2, "cv66" 2, "cv68" 2, "cv72" 2, "cv74" 2, "cv75" 2, "cv78" 2, "cv82" 2;
+-o-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 2, "cv02" 2, "cv03" 2, "cv04" 2, "cv05" 2, "cv06" 2, "cv08" 2, "cv10" 2, "cv11" 2, "cv12" 2, "cv13" 2, "cv14" 2, "cv16" 2, "cv17" 2, "cv18" 2, "cv19" 2, "cv21" 2, "cv22" 2, "cv23" 2, "cv24" 2, "cv25" 2, "cv27" 2, "cv29" 2, "cv30" 2, "cv31" 2, "cv32" 2, "cv33" 2, "cv34" 2, "cv37" 2, "cv38" 2, "cv39" 2, "cv42" 2, "cv43" 2, "cv44" 2, "cv45" 2, "cv46" 2, "cv52" 2, "cv56" 2, "cv60" 2, "cv65" 2, "cv66" 2, "cv68" 2, "cv72" 2, "cv74" 2, "cv75" 2, "cv78" 2, "cv82" 2;
+font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 2, "cv02" 2, "cv03" 2, "cv04" 2, "cv05" 2, "cv06" 2, "cv08" 2, "cv10" 2, "cv11" 2, "cv12" 2, "cv13" 2, "cv14" 2, "cv16" 2, "cv17" 2, "cv18" 2, "cv19" 2, "cv21" 2, "cv22" 2, "cv23" 2, "cv24" 2, "cv25" 2, "cv27" 2, "cv29" 2, "cv30" 2, "cv31" 2, "cv32" 2, "cv33" 2, "cv34" 2, "cv37" 2, "cv38" 2, "cv39" 2, "cv42" 2, "cv43" 2, "cv44" 2, "cv45" 2, "cv46" 2, "cv52" 2, "cv56" 2, "cv60" 2, "cv65" 2, "cv66" 2, "cv68" 2, "cv72" 2, "cv74" 2, "cv75" 2, "cv78" 2, "cv82" 2;
+}
+.ar-cv-n3-lig{
+-moz-font-feature-settings: "calt=1", "liga" on, "dlig" on, "cv01=3", "cv02=3", "cv03=3", "cv04=3", "cv05=3", "cv06=3", "cv08=3", "cv10=3", "cv11=3", "cv12=3", "cv13=3", "cv14=3", "cv16=3", "cv17=3", "cv18=3", "cv19=3", "cv21=3", "cv25=3", "cv27=3", "cv29=3", "cv30=3", "cv31=3", "cv32=3", "cv33=3", "cv37=3", "cv38=3", "cv39=3", "cv42=3", "cv43=3", "cv44=3", "cv45=3", "cv56=3", "cv65=3", "cv66=3", "cv68=3", "cv74=3", "cv78=3";
+-moz-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 3, "cv02" 3, "cv03" 3, "cv04" 3, "cv05" 3, "cv06" 3, "cv08" 3, "cv10" 3, "cv11" 3, "cv12" 3, "cv13" 3, "cv14" 3, "cv16" 3, "cv17" 3, "cv18" 3, "cv19" 3, "cv21" 3, "cv25" 3, "cv27" 3, "cv29" 3, "cv30" 3, "cv31" 3, "cv32" 3, "cv33" 3, "cv37" 3, "cv38" 3, "cv39" 3, "cv42" 3, "cv43" 3, "cv44" 3, "cv45" 3, "cv56" 3, "cv65" 3, "cv66" 3, "cv68" 3, "cv74" 3, "cv78" 3;
+-webkit-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 3, "cv02" 3, "cv03" 3, "cv04" 3, "cv05" 3, "cv06" 3, "cv08" 3, "cv10" 3, "cv11" 3, "cv12" 3, "cv13" 3, "cv14" 3, "cv16" 3, "cv17" 3, "cv18" 3, "cv19" 3, "cv21" 3, "cv25" 3, "cv27" 3, "cv29" 3, "cv30" 3, "cv31" 3, "cv32" 3, "cv33" 3, "cv37" 3, "cv38" 3, "cv39" 3, "cv42" 3, "cv43" 3, "cv44" 3, "cv45" 3, "cv56" 3, "cv65" 3, "cv66" 3, "cv68" 3, "cv74" 3, "cv78" 3;
+-ms-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 3, "cv02" 3, "cv03" 3, "cv04" 3, "cv05" 3, "cv06" 3, "cv08" 3, "cv10" 3, "cv11" 3, "cv12" 3, "cv13" 3, "cv14" 3, "cv16" 3, "cv17" 3, "cv18" 3, "cv19" 3, "cv21" 3, "cv25" 3, "cv27" 3, "cv29" 3, "cv30" 3, "cv31" 3, "cv32" 3, "cv33" 3, "cv37" 3, "cv38" 3, "cv39" 3, "cv42" 3, "cv43" 3, "cv44" 3, "cv45" 3, "cv56" 3, "cv65" 3, "cv66" 3, "cv68" 3, "cv74" 3, "cv78" 3;
+-o-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 3, "cv02" 3, "cv03" 3, "cv04" 3, "cv05" 3, "cv06" 3, "cv08" 3, "cv10" 3, "cv11" 3, "cv12" 3, "cv13" 3, "cv14" 3, "cv16" 3, "cv17" 3, "cv18" 3, "cv19" 3, "cv21" 3, "cv25" 3, "cv27" 3, "cv29" 3, "cv30" 3, "cv31" 3, "cv32" 3, "cv33" 3, "cv37" 3, "cv38" 3, "cv39" 3, "cv42" 3, "cv43" 3, "cv44" 3, "cv45" 3, "cv56" 3, "cv65" 3, "cv66" 3, "cv68" 3, "cv74" 3, "cv78" 3;
+font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 3, "cv02" 3, "cv03" 3, "cv04" 3, "cv05" 3, "cv06" 3, "cv08" 3, "cv10" 3, "cv11" 3, "cv12" 3, "cv13" 3, "cv14" 3, "cv16" 3, "cv17" 3, "cv18" 3, "cv19" 3, "cv21" 3, "cv25" 3, "cv27" 3, "cv29" 3, "cv30" 3, "cv31" 3, "cv32" 3, "cv33" 3, "cv37" 3, "cv38" 3, "cv39" 3, "cv42" 3, "cv43" 3, "cv44" 3, "cv45" 3, "cv56" 3, "cv65" 3, "cv66" 3, "cv68" 3, "cv74" 3, "cv78" 3;
+}
+.ar-cv-n4-lig{
+-moz-font-feature-settings: "calt=1", "liga" on, "dlig" on, "cv01=4", "cv02=4", "cv04=4", "cv05=4", "cv08=4", "cv11=4", "cv12=4", "cv13=4", "cv14=4", "cv17=4", "cv19=4", "cv21=4", "cv27=4", "cv29=4", "cv30=4", "cv31=4", "cv33=4", "cv38=4", "cv39=4", "cv42=4", "cv44=4", "cv45=4", "cv56=4", "cv65=4", "cv66=4", "cv78=4";
+-moz-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 4, "cv02" 4, "cv04" 4, "cv05" 4, "cv08" 4, "cv11" 4, "cv12" 4, "cv13" 4, "cv14" 4, "cv17" 4, "cv19" 4, "cv21" 4, "cv27" 4, "cv29" 4, "cv30" 4, "cv31" 4, "cv33" 4, "cv38" 4, "cv39" 4, "cv42" 4, "cv44" 4, "cv45" 4, "cv56" 4, "cv65" 4, "cv66" 4, "cv78" 4;
+-webkit-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 4, "cv02" 4, "cv04" 4, "cv05" 4, "cv08" 4, "cv11" 4, "cv12" 4, "cv13" 4, "cv14" 4, "cv17" 4, "cv19" 4, "cv21" 4, "cv27" 4, "cv29" 4, "cv30" 4, "cv31" 4, "cv33" 4, "cv38" 4, "cv39" 4, "cv42" 4, "cv44" 4, "cv45" 4, "cv56" 4, "cv65" 4, "cv66" 4, "cv78" 4;
+-ms-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 4, "cv02" 4, "cv04" 4, "cv05" 4, "cv08" 4, "cv11" 4, "cv12" 4, "cv13" 4, "cv14" 4, "cv17" 4, "cv19" 4, "cv21" 4, "cv27" 4, "cv29" 4, "cv30" 4, "cv31" 4, "cv33" 4, "cv38" 4, "cv39" 4, "cv42" 4, "cv44" 4, "cv45" 4, "cv56" 4, "cv65" 4, "cv66" 4, "cv78" 4;
+-o-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 4, "cv02" 4, "cv04" 4, "cv05" 4, "cv08" 4, "cv11" 4, "cv12" 4, "cv13" 4, "cv14" 4, "cv17" 4, "cv19" 4, "cv21" 4, "cv27" 4, "cv29" 4, "cv30" 4, "cv31" 4, "cv33" 4, "cv38" 4, "cv39" 4, "cv42" 4, "cv44" 4, "cv45" 4, "cv56" 4, "cv65" 4, "cv66" 4, "cv78" 4;
+font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 4, "cv02" 4, "cv04" 4, "cv05" 4, "cv08" 4, "cv11" 4, "cv12" 4, "cv13" 4, "cv14" 4, "cv17" 4, "cv19" 4, "cv21" 4, "cv27" 4, "cv29" 4, "cv30" 4, "cv31" 4, "cv33" 4, "cv38" 4, "cv39" 4, "cv42" 4, "cv44" 4, "cv45" 4, "cv56" 4, "cv65" 4, "cv66" 4, "cv78" 4;
+}
+.ar-cv-n5-lig{
+-moz-font-feature-settings: "calt=1", "liga" on, "dlig" on, "cv01=5", "cv02=5", "cv04=5", "cv05=5", "cv11=5", "cv12=5", "cv13=5", "cv14=5", "cv21=5", "cv27=5", "cv30=5", "cv33=5", "cv38=5", "cv42=5", "cv56=5", "cv65=5", "cv66=5";
+-moz-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 5, "cv02" 5, "cv04" 5, "cv05" 5, "cv11" 5, "cv12" 5, "cv13" 5, "cv14" 5, "cv21" 5, "cv27" 5, "cv30" 5, "cv33" 5, "cv38" 5, "cv42" 5, "cv56" 5, "cv65" 5, "cv66" 5;
+-webkit-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 5, "cv02" 5, "cv04" 5, "cv05" 5, "cv11" 5, "cv12" 5, "cv13" 5, "cv14" 5, "cv21" 5, "cv27" 5, "cv30" 5, "cv33" 5, "cv38" 5, "cv42" 5, "cv56" 5, "cv65" 5, "cv66" 5;
+-ms-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 5, "cv02" 5, "cv04" 5, "cv05" 5, "cv11" 5, "cv12" 5, "cv13" 5, "cv14" 5, "cv21" 5, "cv27" 5, "cv30" 5, "cv33" 5, "cv38" 5, "cv42" 5, "cv56" 5, "cv65" 5, "cv66" 5;
+-o-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 5, "cv02" 5, "cv04" 5, "cv05" 5, "cv11" 5, "cv12" 5, "cv13" 5, "cv14" 5, "cv21" 5, "cv27" 5, "cv30" 5, "cv33" 5, "cv38" 5, "cv42" 5, "cv56" 5, "cv65" 5, "cv66" 5;
+font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 5, "cv02" 5, "cv04" 5, "cv05" 5, "cv11" 5, "cv12" 5, "cv13" 5, "cv14" 5, "cv21" 5, "cv27" 5, "cv30" 5, "cv33" 5, "cv38" 5, "cv42" 5, "cv56" 5, "cv65" 5, "cv66" 5;
+}
+.ar-cv-n6-lig{
+-moz-font-feature-settings: "calt=1", "liga" on, "dlig" on, "cv01=6", "cv02=6", "cv04=6", "cv05=6", "cv11=6", "cv12=6", "cv14=6", "cv21=6", "cv27=6", "cv30=6", "cv33=6", "cv38=6", "cv56=6", "cv65=6";
+-moz-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 6, "cv02" 6, "cv04" 6, "cv05" 6, "cv11" 6, "cv12" 6, "cv14" 6, "cv21" 6, "cv27" 6, "cv30" 6, "cv33" 6, "cv38" 6, "cv56" 6, "cv65" 6;
+-webkit-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 6, "cv02" 6, "cv04" 6, "cv05" 6, "cv11" 6, "cv12" 6, "cv14" 6, "cv21" 6, "cv27" 6, "cv30" 6, "cv33" 6, "cv38" 6, "cv56" 6, "cv65" 6;
+-ms-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 6, "cv02" 6, "cv04" 6, "cv05" 6, "cv11" 6, "cv12" 6, "cv14" 6, "cv21" 6, "cv27" 6, "cv30" 6, "cv33" 6, "cv38" 6, "cv56" 6, "cv65" 6;
+-o-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 6, "cv02" 6, "cv04" 6, "cv05" 6, "cv11" 6, "cv12" 6, "cv14" 6, "cv21" 6, "cv27" 6, "cv30" 6, "cv33" 6, "cv38" 6, "cv56" 6, "cv65" 6;
+font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 6, "cv02" 6, "cv04" 6, "cv05" 6, "cv11" 6, "cv12" 6, "cv14" 6, "cv21" 6, "cv27" 6, "cv30" 6, "cv33" 6, "cv38" 6, "cv56" 6, "cv65" 6;
+}
+.ar-cv-n7-lig{
+-moz-font-feature-settings: "calt=1", "liga" on, "dlig" on, "cv01=7", "cv02=7", "cv04=7", "cv12=7", "cv14=7", "cv30=7", "cv33=7", "cv38=7";
+-moz-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 7, "cv02" 7, "cv04" 7, "cv12" 7, "cv14" 7, "cv30" 7, "cv33" 7, "cv38" 7;
+-webkit-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 7, "cv02" 7, "cv04" 7, "cv12" 7, "cv14" 7, "cv30" 7, "cv33" 7, "cv38" 7;
+-ms-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 7, "cv02" 7, "cv04" 7, "cv12" 7, "cv14" 7, "cv30" 7, "cv33" 7, "cv38" 7;
+-o-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 7, "cv02" 7, "cv04" 7, "cv12" 7, "cv14" 7, "cv30" 7, "cv33" 7, "cv38" 7;
+font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 7, "cv02" 7, "cv04" 7, "cv12" 7, "cv14" 7, "cv30" 7, "cv33" 7, "cv38" 7;
+}
+.ar-cv-n8-lig{
+-moz-font-feature-settings: "calt=1", "liga" on, "dlig" on, "cv01=8", "cv02=8", "cv04=8", "cv14=8", "cv30=8", "cv33=8";
+-moz-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 8, "cv02" 8, "cv04" 8, "cv14" 8, "cv30" 8, "cv33" 8;
+-webkit-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 8, "cv02" 8, "cv04" 8, "cv14" 8, "cv30" 8, "cv33" 8;
+-ms-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 8, "cv02" 8, "cv04" 8, "cv14" 8, "cv30" 8, "cv33" 8;
+-o-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 8, "cv02" 8, "cv04" 8, "cv14" 8, "cv30" 8, "cv33" 8;
+font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 8, "cv02" 8, "cv04" 8, "cv14" 8, "cv30" 8, "cv33" 8;
+}
+.ar-cv-n9-lig{
+-moz-font-feature-settings: "calt=1", "liga" on, "dlig" on, "cv01=9", "cv02=9", "cv04=9", "cv14=9", "cv30=9", "cv33=9";
+-moz-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 9, "cv02" 9, "cv04" 9, "cv14" 9, "cv30" 9, "cv33" 9;
+-webkit-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 9, "cv02" 9, "cv04" 9, "cv14" 9, "cv30" 9, "cv33" 9;
+-ms-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 9, "cv02" 9, "cv04" 9, "cv14" 9, "cv30" 9, "cv33" 9;
+-o-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 9, "cv02" 9, "cv04" 9, "cv14" 9, "cv30" 9, "cv33" 9;
+font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 9, "cv02" 9, "cv04" 9, "cv14" 9, "cv30" 9, "cv33" 9;
+}
+.ar-cv-n10-lig{
+-moz-font-feature-settings: "calt=1", "liga" on, "dlig" on, "cv01=10", "cv02=10", "cv04=10", "cv14=10";
+-moz-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 10, "cv02" 10, "cv04" 10, "cv14" 10;
+-webkit-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 10, "cv02" 10, "cv04" 10, "cv14" 10;
+-ms-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 10, "cv02" 10, "cv04" 10, "cv14" 10;
+-o-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 10, "cv02" 10, "cv04" 10, "cv14" 10;
+font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 10, "cv02" 10, "cv04" 10, "cv14" 10;
+}
+.ar-cv-n11-lig{
+-moz-font-feature-settings: "calt=1", "liga" on, "dlig" on, "cv01=11", "cv04=11", "cv14=11";
+-moz-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 11, "cv04" 11, "cv14" 11;
+-webkit-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 11, "cv04" 11, "cv14" 11;
+-ms-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 11, "cv04" 11, "cv14" 11;
+-o-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 11, "cv04" 11, "cv14" 11;
+font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 11, "cv04" 11, "cv14" 11;
+}
+.ar-cv-n12-lig{
+-moz-font-feature-settings: "calt=1", "liga" on, "dlig" on, "cv01=12", "cv04=12";
+-moz-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 12, "cv04" 12;
+-webkit-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 12, "cv04" 12;
+-ms-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 12, "cv04" 12;
+-o-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 12, "cv04" 12;
+font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 12, "cv04" 12;
+}
+.ar-cv-n13-lig{
+-moz-font-feature-settings: "calt=1", "liga" on, "dlig" on, "cv01=13", "cv04=13";
+-moz-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 13, "cv04" 13;
+-webkit-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 13, "cv04" 13;
+-ms-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 13, "cv04" 13;
+-o-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 13, "cv04" 13;
+font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 13, "cv04" 13;
+}
+.ar-cv-n14-lig{
+-moz-font-feature-settings: "calt=1", "liga" on, "dlig" on, "cv01=14";
+-moz-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 14;
+-webkit-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 14;
+-ms-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 14;
+-o-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 14;
+font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 14;
+}
+.ar-cv-n15-lig{
+-moz-font-feature-settings: "calt=1", "liga" on, "dlig" on, "cv01=15";
+-moz-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 15;
+-webkit-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 15;
+-ms-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 15;
+-o-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 15;
+font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 15;
+}
+.ar-cv-n16-lig{
+-moz-font-feature-settings: "calt=1", "liga" on, "dlig" on, "cv01=16";
+-moz-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 16;
+-webkit-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 16;
+-ms-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 16;
+-o-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 16;
+font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 16;
+}
+.ar-cv-n17-lig{
+-moz-font-feature-settings: "calt=1", "liga" on, "dlig" on, "cv01=17";
+-moz-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 17;
+-webkit-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 17;
+-ms-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 17;
+-o-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 17;
+font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 17;
+}
+.ar-cv-n18-lig{
+-moz-font-feature-settings: "calt=1", "liga" on, "dlig" on, "cv01=18";
+-moz-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 18;
+-webkit-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 18;
+-ms-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 18;
+-o-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 18;
+font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 18;
+}
+.ar-cv-n19-lig{
+-moz-font-feature-settings: "calt=1", "liga" on, "dlig" on, "cv01=19";
+-moz-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 19;
+-webkit-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 19;
+-ms-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 19;
+-o-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 19;
+font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 19;
+}
+.ar-cv-n20-lig{
+-moz-font-feature-settings: "calt=1", "liga" on, "dlig" on, "cv01=20";
+-moz-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 20;
+-webkit-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 20;
+-ms-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 20;
+-o-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 20;
+font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 20;
+}
+.ar-cv-n21-lig{
+-moz-font-feature-settings: "calt=1", "liga" on, "dlig" on, "cv01=21";
+-moz-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 21;
+-webkit-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 21;
+-ms-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 21;
+-o-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 21;
+font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 21;
+}
+.ar-cv-n22-lig{
+-moz-font-feature-settings: "calt=1", "liga" on, "dlig" on, "cv01=22";
+-moz-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 22;
+-webkit-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 22;
+-ms-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 22;
+-o-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 22;
+font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 22;
+}
+.ar-cv-n23-lig{
+-moz-font-feature-settings: "calt=1", "liga" on, "dlig" on, "cv01=23";
+-moz-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 23;
+-webkit-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 23;
+-ms-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 23;
+-o-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 23;
+font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 23;
+}
+.ar-cv-n24-lig{
+-moz-font-feature-settings: "calt=1", "liga" on, "dlig" on, "cv01=24";
+-moz-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 24;
+-webkit-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 24;
+-ms-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 24;
+-o-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 24;
+font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 24;
+}
+.ar-cv-n25-lig{
+-moz-font-feature-settings: "calt=1", "liga" on, "dlig" on, "cv01=25";
+-moz-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 25;
+-webkit-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 25;
+-ms-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 25;
+-o-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 25;
+font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 25;
+}
+.ar-cv-n26-lig{
+-moz-font-feature-settings: "calt=1", "liga" on, "dlig" on, "cv01=26";
+-moz-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 26;
+-webkit-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 26;
+-ms-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 26;
+-o-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 26;
+font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 26;
+}
+.ar-cv-n27-lig{
+-moz-font-feature-settings: "calt=1", "liga" on, "dlig" on, "cv01=27";
+-moz-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 27;
+-webkit-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 27;
+-ms-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 27;
+-o-font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 27;
+font-feature-settings: "calt" 1, "liga" on, "dlig" on, "cv01" 27;
+}
 .ar-cv-n0{
 font-variant-alternates: character-variant(cv01-0, cv02-0, cv03-0, cv04-0, cv05-0, cv06-0, cv07-0, cv08-0, cv09-0, cv10-0, cv11-0, cv12-0, cv13-0, cv14-0, cv15-0, cv16-0, cv17-0, cv18-0, cv19-0, cv20-0, cv21-0, cv22-0, cv23-0, cv24-0, cv25-0, cv26-0, cv27-0, cv28-0, cv29-0, cv30-0, cv31-0, cv32-0, cv33-0, cv34-0, cv35-0, cv36-0, cv37-0, cv38-0, cv39-0, cv40-0, cv41-0, cv42-0, cv43-0, cv44-0, cv45-0, cv46-0, cv47-0, cv48-0, cv49-0, cv50-0, cv51-0, cv52-0, cv53-0, cv54-0, cv55-0, cv56-0, cv57-0, cv58-0, cv59-0, cv60-0, cv61-0, cv62-0, cv63-0, cv64-0, cv65-0, cv66-0, cv67-0, cv68-0, cv69-0, cv70-0, cv71-0, cv72-0, cv73-0, cv74-0, cv75-0, cv76-0, cv77-0, cv78-0, cv79-0, cv80-0, cv81-0, cv82-0, cv83-0, cv84-0)
 }
@@ -354,17 +553,6 @@ font-variant-alternates: character-variant(cv01-3, cv02-3, cv03-3, cv04-3, cv05-
 .ar-cv-n4{
 font-variant-alternates: character-variant(cv01-4, cv02-4, cv04-4, cv05-4, cv08-4, cv11-4, cv12-4, cv13-4, cv14-4, cv17-4, cv19-4, cv21-4, cv27-4, cv29-4, cv30-4, cv31-4, cv33-4, cv38-4, cv39-4, cv42-4, cv44-4, cv45-4, cv56-4, cv65-4, cv66-4, cv78-4)
 }
-/* PATCHES -- SHOULDN'T BE NECESSARY BUT IT IS */
-.ar-cv-n2-patch{
-font-variant-alternates: character-variant(cv19-2, cv21-2, cv22-2, cv23-2, cv24-2, cv25-2, cv27-2, cv29-2, cv30-2, cv31-2, cv32-2, cv33-2, cv34-2, cv37-2, cv38-2, cv39-2, cv42-2, cv43-2, cv44-2, cv45-2, cv46-2, cv52-2, cv56-2, cv60-2, cv65-2, cv66-2, cv68-2, cv72-2, cv74-2, cv75-2, cv78-2, cv82-2)
-}
-.ar-cv-n3-patch{
-font-variant-alternates: character-variant(cv19-3, cv21-3, cv25-3, cv27-3, cv29-3, cv30-3, cv31-3, cv32-3, cv33-3, cv37-3, cv38-3, cv39-3, cv42-3, cv43-3, cv44-3, cv45-3, cv56-3, cv65-3, cv66-3, cv68-3, cv74-3, cv78-3)
-}
-.ar-cv-n4-patch{
-font-variant-alternates: character-variant(cv19-4, cv21-4, cv27-4, cv29-4, cv30-4, cv31-4, cv33-4, cv38-4, cv39-4, cv42-4, cv44-4, cv45-4, cv56-4, cv65-4, cv66-4, cv78-4)
-}
-
 .ar-cv-n5{
 font-variant-alternates: character-variant(cv01-5, cv02-5, cv04-5, cv05-5, cv11-5, cv12-5, cv13-5, cv14-5, cv21-5, cv27-5, cv30-5, cv33-5, cv38-5, cv42-5, cv56-5, cv65-5, cv66-5)
 }

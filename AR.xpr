@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project version="18.0">
+<project version="20.0">
     <meta>
         <filters directoryPatterns="" filePatterns="" positiveFilePatterns="" showHiddenFiles="false"/>
         <options>
-            <serialized version="18.0" xml:space="preserve">
+            <serialized version="20.0" xml:space="preserve">
                 <serializableOrderedMap>
                     <entry>
                         <String>enable.project.master.files.support</String>
@@ -18,11 +18,13 @@
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>AR database in HTML</String>
+                                        <String>AR css</String>
+                                        <String>AR variants in HTML</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
                                     <list>
+                                        <String>XSL</String>
                                         <String>XSL</String>
                                     </list>
                                 </field>
