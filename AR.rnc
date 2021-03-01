@@ -5,215 +5,210 @@ namespace xsi = "http://www.w3.org/2001/XMLSchema-instance"
 datatypes d = "http://relaxng.org/ns/compatibility/datatypes/1.0"
 
 start =
-    
-    ## Database of glyphs in Athena Ruby
-    element athenaruby { ver, build, glyphs, variants, authorities }
+   
+   ## Database of glyphs in Athena Ruby
+   element athenaruby { ver, build, glyphs, variants, authorities }
 ver =
-    
-    ## States the date when the database was last updated
-    attribute ver { xsd:date }
+   
+   ## States the date when the database was last updated
+   attribute ver { xsd:date }
 build =
-    
-    ## States which build number of Athena Ruby to which this data set corresponds 
-    attribute build { xsd:string }
+   
+   ## States which build number of Athena Ruby to which this data set corresponds 
+   attribute build { xsd:string }
 glyphs =
-    
-    ## Contains information about a glyph in Athena Ruby
-    element glyph { glyph.content }+
+   
+   ## Contains information about a glyph in Athena Ruby
+   element glyph { glyph.content }+
 glyph.content =
-    
-    ## Indicates what kind of use is attested in coins 
-    attribute use-coins { use.type },
-    
-    ## Indicates what kind of use is attested in seals
-    attribute use-seals { use.type },
-    id,
-    (comment*
-     & ((ligature | unicode*),
-        
-        ## Indicates what points of the Private Use Area are bound to the glyph
-        element pua { codepoint, cat.gen? }?,
-        
-        ## Notes the variant number of the glyph. Used in CSS and advanced OpenType functions to access a variant of a standard Unicode character 
-        element variant {
-            attribute cv { xsd:integer },
-            xsd:integer
-        }*,
-        
-        ## Marks the production name assigned by the type designer during font development
-        element prodname { xsd:NMTOKEN },
-        postname?,
-        legacy?,
-        element symbolclass { text }?,
-        
-        ## Provides a human-readable description of the shape of the glyph.
-        element description { (text | postname)+ }?,
-        example))
+   
+   ## Indicates what kind of use is attested in coins 
+   attribute use-coins { use.type },
+   
+   ## Indicates what kind of use is attested in seals
+   attribute use-seals { use.type },
+   id,
+   (comment*
+    & ((ligature | unicode*),
+       
+       ## Indicates what points of the Private Use Area are bound to the glyph
+       element pua { codepoint, cat.gen? }?,
+       
+       ## Notes the variant number of the glyph. Used in CSS and advanced OpenType functions to access a variant of a standard Unicode character 
+       element variant {
+          attribute cv { xsd:integer },
+          xsd:integer
+       }*,
+       
+       ## Marks the production name assigned by the type designer during font development
+       element prodname { xsd:NMTOKEN },
+       postname?,
+       legacy?,
+       element symbolclass { text }?,
+       
+       ## Provides a human-readable description of the shape of the glyph.
+       element description { (text | postname)+ }?,
+       example))
 example =
-    
-    ## Provides a published example of the glyph.
-    element example {
-        ex.type?,
-        status?,
-        (yearrange*
-         & comment*
-         & 
-           ## Names by ID the <auth> responsible for the assertion
-           element resp-auth { which }
-         & 
-           ## References a specific part of an <auth> such as a catalog number, volume number, page number. 
-           element ref { text }*)?
-    }*
+   
+   ## Provides a published example of the glyph.
+   element example {
+      ex.type?,
+      status?,
+      (yearrange*
+       & comment*
+       & 
+         ## Names by ID the <auth> responsible for the assertion
+         element resp-auth { which }
+       & 
+         ## References a specific part of an <auth> such as a catalog number, volume number, page number. 
+         element ref { text }*)?
+   }*
 yearrange =
-    
-    ## Indicates a span of Julian years, defined as Jan. 1 through Dec. 31
-    element year-range {
-        
-        ## Marks a year that begins a span of time
-        attribute from { xsd:integer }?,
-        
-        ## Marks a year that ends a span of time
-        attribute through { xsd:integer }?
-    }
+   
+   ## Indicates a span of Julian years, defined as Jan. 1 through Dec. 31
+   element year-range {
+      
+      ## Marks a year that begins a span of time
+      attribute from { xsd:integer }?,
+      
+      ## Marks a year that ends a span of time
+      attribute through { xsd:integer }?
+   }
 comment = element comment { text }
 id =
-    
-    ## Indicates what index number is assigned to the glyph within Athena Ruby
-    attribute xml:id { d:ID }
-use.type = xsd:string { pattern = "unclassified|basic|extended|unused" }
+   
+   ## Indicates what index number is assigned to the glyph within Athena Ruby
+   attribute xml:id { d:ID }
+use.type = "unclassified" | "basic" | "extended" | "unused"
 ligature =
-    
-    ## Indicates that the glyph is a ligature, and contains elements that describe the ligature more fully 
-    element ligature {
-        
-        ## Marks possible values for one element within a ligature.
-        element ligatureelement { unicode+ }+
-    }
+   
+   ## Indicates that the glyph is a ligature, and contains elements that describe the ligature more fully 
+   element ligature {
+      
+      ## Marks possible values for one element within a ligature.
+      element ligatureelement { unicode+ }+
+   }
 unicode =
-    
-    ## Asserts a Unicode codepoint that is not in the Private Use Area 
-    element unicode { codepoint }
+   
+   ## Asserts a Unicode codepoint that is not in the Private Use Area 
+   element unicode { codepoint }
 postname =
-    
-    ## States the name that is written to the post table of the font. 
-    
-    ## Postnames are parsed by Acrobat in PDFs that have been distilled from print streams. Such PDFs do not contain the Unicode character strings of the original document, so Acrobat relies on parseable glyph names in order to try to reconstruct the character strings to make the PDF searchable. 
-    
-    ## This function dictates the syntax: the portion of the postname before the dot needs to either be included in the official Adobe GLyph List, or to be of the format 'uniXXXX' (or 'uXXXXX' for Unicode Plane 1 and above characters). The syntax is not perfect, especially not when, as in the case of Athena Ruby, the same glyph is mapped to multiple Unicode values. 
-    
-    ## Postnames reflect the preferred encoding of the font. For example, a document that originally contained lowercase Greek letters would be parsed to produce uppercase mappings in the Acrobat name, since this is the preferred Athena Ruby encoding.
-    element postname { text }
+   
+   ## States the name that is written to the post table of the font. 
+   
+   ## Postnames are parsed by Acrobat in PDFs that have been distilled from print streams. Such PDFs do not contain the Unicode character strings of the original document, so Acrobat relies on parseable glyph names in order to try to reconstruct the character strings to make the PDF searchable. 
+   
+   ## This function dictates the syntax: the portion of the postname before the dot needs to either be included in the official Adobe GLyph List, or to be of the format 'uniXXXX' (or 'uXXXXX' for Unicode Plane 1 and above characters). The syntax is not perfect, especially not when, as in the case of Athena Ruby, the same glyph is mapped to multiple Unicode values. 
+   
+   ## Postnames reflect the preferred encoding of the font. For example, a document that originally contained lowercase Greek letters would be parsed to produce uppercase mappings in the Acrobat name, since this is the preferred Athena Ruby encoding.
+   element postname { text }
 codepoint =
-    
-    ## Contains one or more space-delimited hexadecimal numbers marking the value of a Unicode codepoint.
-    attribute cp {
-        xsd:string { pattern = "[0-9A-Fa-f]{1,6}( [0-9A-Fa-f]{1,6})*" }
-    },
-    ## Contains one or more space-delimited integers marking the value of a Unicode codepoint.
-    attribute cp-dec {
-        xsd:string { pattern = "\d+( \d+)*" }
-    }
+   
+   ## Contains one or more space-delimited hexadecimal numbers marking the value of a Unicode codepoint.
+   attribute cp {
+      xsd:string { pattern = "[0-9A-Fa-f]{1,6}( [0-9A-Fa-f]{1,6})*" }
+   },
+   
+   ## Contains one or more space-delimited integers marking the value of a Unicode codepoint.
+   attribute cp-dec {
+      xsd:string { pattern = "\d+( \d+)*" }
+   }
 cat.gen =
-    
-    ## Indicates the Unicode category for the character. Used esp. for PUA-assigned characters whose properties are not clear.
-    attribute gc { text }
+   
+   ## Indicates the Unicode category for the character. Used esp. for PUA-assigned characters whose properties are not clear.
+   attribute gc { text }
 legacy =
-    
-    ## Collection of elements that mark how the glyph was rendered in older Dumbarton Oaks fonts.
-    
-    ## If missing, then the glyph has been newly introduced.
-    element legacyfonts {
-        status?,
-        (
-         ## Notes a codepoint in the legacy font Athena.
-         element athena { codepoint, text }
-         | 
-           ## Notes a codepoint in the legacy font Athena8.
-           element athena8 { codepoint, text }
-         | 
-           ## Notes a codepoint in the legacy font Coinart.
-           element coinart { codepoint, text }
-         | 
-           ## Notes a codepoint in the legacy font CoinGreek.
-           element coingreek { codepoint, text }
-         | 
-           ## Notes a codepoint in the legacy font CoinInscr.
-           element coininscr { codepoint, text }
-         | 
-           ## Notes a codepoint in the legacy font Grierson.
-           element grierson { codepoint, text })*
-    }?
+   
+   ## Collection of elements that mark how the glyph was rendered in older Dumbarton Oaks fonts.
+   
+   ## If missing, then the glyph has been newly introduced.
+   element legacyfonts {
+      status?,
+      (
+       ## Notes a codepoint in the legacy font Athena.
+       element athena { codepoint, text }
+       | 
+         ## Notes a codepoint in the legacy font Athena8.
+         element athena8 { codepoint, text }
+       | 
+         ## Notes a codepoint in the legacy font Coinart.
+         element coinart { codepoint, text }
+       | 
+         ## Notes a codepoint in the legacy font CoinGreek.
+         element coingreek { codepoint, text }
+       | 
+         ## Notes a codepoint in the legacy font CoinInscr.
+         element coininscr { codepoint, text }
+       | 
+         ## Notes a codepoint in the legacy font Grierson.
+         element grierson { codepoint, text })*
+   }?
 status =
-    
-    ## Marks the status of the example, e.g., pending.
-    attribute status {
-        xsd:string { pattern = "pending" }
-    }
+   
+   ## Marks the status of the example, e.g., pending.
+   attribute status { "pending" }
 # EXAMPLES
 ex.type =
-    
-    ## Indicates the type of object illustrated by the example. 
-    attribute type {
-        xsd:string { pattern = "seal|coin|weight|silver|stone inscription" }
-    }
+   
+   ## Indicates the type of object illustrated by the example. 
+   attribute type { "seal" | "coin" | "weight" | "silver" | "stone inscription" | "ivory" }
 # VARIANTS
 variants =
-    
-    ## Every OpenType font is allowed up to 99 sets of glyphs that may be treated as variants of each other. This element itemizes the glyph variants, which are mapped one-to-one with IDs  
-    element variants { set.variant+ }
+   
+   ## Every OpenType font is allowed up to 99 sets of glyphs that may be treated as variants of each other. This element itemizes the glyph variants, which are mapped one-to-one with IDs  
+   element variants { set.variant+ }
 set.variant =
-    
-    ## Names a set of variants in the font
-    element set { n, refs.glyphs }
+   
+   ## Names a set of variants in the font
+   element set { n, refs.glyphs }
 n =
-    
-    ## Provides the set number
-    attribute n { text }
+   
+   ## Provides the set number
+   attribute n { text }
 refs.glyphs =
-    
-    ## Contains a glyph that is a member of the variant set
-    element variant-glyph { which }+
+   
+   ## Contains a glyph that is a member of the variant set
+   element variant-glyph { which }+
 # AUTHORITIES
 authorities =
-    
-    ## Collects authorities responsible for assertions in the database
-    element authorities { authority+ }
+   
+   ## Collects authorities responsible for assertions in the database
+   element authorities { authority+ }
 authority =
-    
-    ## Identifies a publication or person responsible for an assertion
-    element auth { id, class, name+, IRI+ }
+   
+   ## Identifies a publication or person responsible for an assertion
+   element auth { id, class, name+, IRI+ }
 ref.auth =
-    
-    ## Provides a cross-reference to a cited <authority>.
-    element xref { cit }
+   
+   ## Provides a cross-reference to a cited <authority>.
+   element xref { cit }
 cit =
-    
-    ## Supplies ID of <authority> being cited.
-    attribute cit { d:IDREFS }
+   
+   ## Supplies ID of <authority> being cited.
+   attribute cit { d:IDREFS }
 class =
-    
-    ## States whether the authority is a publication or a person
-    attribute class {
-        xsd:string { pattern = "publication|person" }
-    }
+   
+   ## States whether the authority is a publication or a person
+   attribute class { "publication" | "person" | "organization" }
 name =
-    
-    ## Identifies a name of the authority
-    element name { opt.short?, mixedtext }
+   
+   ## Identifies a name of the authority
+   element name { opt.short?, mixedtext }
 opt.short =
-    
-    ## Indicates whether the name is a short version
-    attribute short { xsd:boolean }
+   
+   ## Indicates whether the name is a short version
+   attribute short { xsd:boolean }
 mixedtext = text & italics* & ref.auth*
 italics =
-    
-    ## Marks text that should be rendered in italics
-    element h:i { text }
+   
+   ## Marks text that should be rendered in italics
+   element h:i { text }
 IRI =
-    
-    ## Contains an IRI identifying the authority
-    element IRI { xsd:anyURI }
+   
+   ## Contains an IRI identifying the authority
+   element IRI { xsd:anyURI }
 which =
-    
-    ## Provides the ID value of a <glyph> or <auth>
-    attribute which { d:IDREF }
+   
+   ## Provides the ID value of a <glyph> or <auth>
+   attribute which { d:IDREF }

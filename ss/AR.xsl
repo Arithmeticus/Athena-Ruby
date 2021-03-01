@@ -317,9 +317,11 @@
     </xsl:template>
     <xsl:template match="ar:auth">
         <div id="{@xml:id}">
-            <xsl:copy-of select="ar:name[@short]/*"/>
-            <xsl:text> = </xsl:text>
-            <xsl:copy-of select="ar:name[not(@short)]/*"/>
+            <xsl:if test="exists(ar:name[@short])">
+                <xsl:copy-of select="ar:name[@short]/node()"/>
+                <xsl:text> = </xsl:text>
+            </xsl:if>
+            <xsl:copy-of select="ar:name[not(@short)]/node()"/>
             <xsl:apply-templates select="ar:IRI"/>
         </div>
     </xsl:template>

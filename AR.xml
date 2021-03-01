@@ -16,8 +16,8 @@
 -->
 <athenaruby xmlns="tag:doaks.org,2015:ns/ar"
             xmlns:h="http://www.w3.org/1999/xhtml"
-            ver="2015-11-09"
-            build="17">
+            ver="2021-03-01"
+            build="20">
     <glyph use-seals="unclassified" use-coins="unclassified" xml:id="i0">
         <prodname>.notdef</prodname>
     </glyph>
@@ -7740,7 +7740,9 @@
          <postname>Gamma</postname> with internal pellet</description>
     </glyph>
     <glyph use-seals="unclassified" use-coins="unclassified" xml:id="i448">
+        <unicode cp="03CF" cp-dec="975"/>
         <unicode cp="03D7" cp-dec="983"/>
+        <variant cv="85">0</variant>
         <prodname>kai</prodname>
         <postname>uni03D7</postname>
     </glyph>
@@ -9311,10 +9313,11 @@
         </example>
     </glyph>
     <glyph use-seals="basic" use-coins="unclassified" xml:id="i559">
+        <unicode cp="1018D" cp-dec="65933"/>
         <pua cp="E51A" cp-dec="58650"/>
         <variant cv="77">0</variant>
         <prodname>indiction</prodname>
-        <postname>uniE51A</postname>
+        <postname>uni1018D</postname>
         <legacyfonts>
             <athena cp="0029" cp-dec="41"/>
         </legacyfonts>
@@ -9524,9 +9527,10 @@
             Curved</comment>
     </glyph>
     <glyph use-seals="basic" use-coins="unclassified" xml:id="i573">
+        <unicode cp="2E44" cp-dec="11844"/>
         <pua cp="E600" cp-dec="58880"/>
         <prodname>abbreviation7</prodname>
-        <postname>uniE600</postname>
+        <postname>uni2E44</postname>
         <description>Combination of <postname>comma</postname> and <postname>uni02CA</postname>. </description>
         <example type="seal">
             <resp-auth which="CBS"/>
@@ -11277,6 +11281,366 @@
         <description>Hollow medium diamond</description>
         <example status="pending"/>
     </glyph>
+    
+    <!-- Items below added in build 20 -->
+    <glyph use-seals="unclassified" use-coins="unclassified" xml:id="i731">
+        <unicode cp="0391" cp-dec="913"/>
+        <unicode cp="03B1" cp-dec="945"/>
+        <pua cp="E20F" cp-dec="57871"/>
+        <variant cv="01">28</variant>
+        <prodname>Alpha.28</prodname>
+        <postname>Alpha.28</postname>
+        <description>See the three forms listed at the end of the entry for alpha. The middle one is already in AR. Add the first.</description>
+        <example type="coin">
+            <resp-auth which="DOC"/>
+            <ref>3.1:186</ref>
+            <!--year range needs to be checked-->
+            <!--<year-range from="" through=""/>-->
+        </example>
+        <example type="coin">
+            <resp-auth which="DOC"/>
+            <ref>3.2:660</ref>
+            <!--year range needs to be checked-->
+            <!--<year-range from="" through=""/>-->
+        </example>
+    </glyph>
+    <glyph use-seals="unclassified" use-coins="unclassified" xml:id="i732">
+        <unicode cp="0391" cp-dec="913"/>
+        <unicode cp="03B1" cp-dec="945"/>
+        <pua cp="E210" cp-dec="57872"/>
+        <variant cv="01">29</variant>
+        <prodname>Alpha.29</prodname>
+        <postname>Alpha.29</postname>
+        <description>See the three forms listed at the end of the entry for alpha. The middle one is already in AR. Add the last.</description>
+        <example type="coin">
+            <resp-auth which="DOC"/>
+            <ref>3.1:186</ref>
+            <!--year range needs to be checked-->
+            <!--<year-range from="" through=""/>-->
+        </example>
+    </glyph>
+    <glyph use-seals="unclassified" use-coins="unclassified" xml:id="i733">
+        <unicode cp="0394" cp-dec="916"/>
+        <unicode cp="03B4" cp-dec="948"/>
+        <pua cp="E211" cp-dec="57873"/>
+        <variant cv="04">14</variant>
+        <prodname>Delta.14</prodname>
+        <postname>Delta.14</postname>
+        <example type="coin">
+            <resp-auth which="DO"/>
+            <ref>1958.106.1182</ref>
+            <!--year range needs to be checked-->
+            <!--<year-range from="" through=""/>-->
+        </example>
+    </glyph>
+    <glyph use-seals="unclassified" use-coins="unclassified" xml:id="i734">
+        <unicode cp="0396" cp-dec="918"/>
+        <unicode cp="03B6" cp-dec="950"/>
+        <pua cp="E212" cp-dec="57874"/>
+        <variant cv="06">04</variant>
+        <prodname>Zeta.4</prodname>
+        <postname>Zeta.4</postname>
+        <description>bind AR Latin T.1 to a zeta</description>
+        <example type="coin">
+            <resp-auth which="DOC"/>
+            <ref>2.1:105</ref>
+            <!--year range needs to be checked-->
+            <!--<year-range from="" through=""/>-->
+        </example>
+    </glyph>
+    <glyph use-seals="unclassified" use-coins="unclassified" xml:id="i735">
+        <unicode cp="039E" cp-dec="926"/>
+        <unicode cp="03BE" cp-dec="958"/>
+        <pua cp="E213" cp-dec="57875"/>
+        <variant cv="14">12</variant>
+        <prodname>Xi.12</prodname>
+        <postname>Xi.12</postname>
+        <description>%-looking xi. Same function as DOC 5.2:1104–8.</description>
+        <example type="coin">
+            <resp-auth which="DOC"/>
+            <ref>4.1:235</ref>
+            <!--year range needs to be checked-->
+            <!--<year-range from="" through=""/>-->
+        </example>
+    </glyph>
+    <glyph use-seals="unclassified" use-coins="unclassified" xml:id="i736">
+        <ligature>
+            <ligatureelement>
+                <unicode cp="039F" cp-dec="927"/>
+                <unicode cp="03BF" cp-dec="959"/>
+            </ligatureelement>
+            <ligatureelement>
+                <unicode cp="0391" cp-dec="913"/>
+                <unicode cp="03B1" cp-dec="945"/>
+            </ligatureelement>
+        </ligature>
+        <pua cp="E214" cp-dec="57876"/>
+        <variant cv="65">7</variant>
+        <prodname>Omicron_Alpha.7</prodname>
+        <postname>Omicron_Alpha.7</postname>
+        <description>As U+E1D5 but alpha with broken crossbar</description>
+        <example type="coin">
+            <resp-auth which="DOP"/>
+            <ref>69 Eastmond ivory 5</ref>
+            <!--year range needs to be checked-->
+            <!--<year-range from="" through=""/>-->
+        </example>
+    </glyph>
+    <glyph use-seals="unclassified" use-coins="unclassified" xml:id="i737">
+        <ligature>
+            <ligatureelement>
+                <unicode cp="0394" cp-dec="916"/>
+                <unicode cp="03B4" cp-dec="948"/>
+            </ligatureelement>
+            <ligatureelement>
+                <unicode cp="0391" cp-dec="913"/>
+                <unicode cp="03B1" cp-dec="945"/>
+            </ligatureelement>
+            <ligatureelement>
+                <unicode cp="0394" cp-dec="916"/>
+                <unicode cp="03B4" cp-dec="948"/>
+            </ligatureelement>
+        </ligature>
+        <pua cp="E215" cp-dec="57877"/>
+        <prodname>Delta_Alpha_Delta</prodname>
+        <postname>Delta_Alpha_Delta</postname>
+        <example type="coin">
+            <resp-auth which="DO"/>
+            <ref>1951.31.5.1706</ref>
+            <!--year range needs to be checked-->
+            <!--<year-range from="" through=""/>-->
+        </example>
+    </glyph>
+    <glyph use-seals="unclassified" use-coins="unclassified" xml:id="i738">
+        <ligature>
+            <ligatureelement>
+                <unicode cp="03A0" cp-dec="928"/>
+                <unicode cp="03C0" cp-dec="960"/>
+            </ligatureelement>
+            <ligatureelement>
+                <unicode cp="03A1" cp-dec="929"/>
+                <unicode cp="03C1" cp-dec="961"/>
+            </ligatureelement>
+        </ligature>
+        <pua cp="E216" cp-dec="57878"/>
+        <variant cv="67">2</variant>
+        <prodname>Pi_Rho.2</prodname>
+        <postname>Pi_Rho.2</postname>
+        <example type="coin">
+            <resp-auth which="DO"/>
+            <ref>1947.2.1893</ref>
+            <!--year range needs to be checked-->
+            <!--<year-range from="" through=""/>-->
+        </example>
+    </glyph>
+    <glyph use-seals="unclassified" use-coins="unclassified" xml:id="i739">
+        <ligature>
+            <ligatureelement>
+                <unicode cp="03A0" cp-dec="928"/>
+                <unicode cp="03C0" cp-dec="960"/>
+            </ligatureelement>
+            <ligatureelement>
+                <unicode cp="03A4" cp-dec="932"/>
+                <unicode cp="03C4" cp-dec="964"/>
+            </ligatureelement>
+        </ligature>
+        <pua cp="E217" cp-dec="57879"/>
+        <prodname>Pi_Tau</prodname>
+        <postname>Pi_Tau</postname>
+        <example type="coin">
+            <resp-auth which="DO"/>
+            <ref>1958.106.5477</ref>
+            <!--year range needs to be checked-->
+            <!--<year-range from="" through=""/>-->
+        </example>
+    </glyph>
+    <glyph use-seals="unclassified" use-coins="unclassified" xml:id="i740">
+        <ligature>
+            <ligatureelement>
+                <unicode cp="03A4" cp-dec="932"/>
+                <unicode cp="03C4" cp-dec="964"/>
+            </ligatureelement>
+            <ligatureelement>
+                <unicode cp="0397" cp-dec="919"/>
+                <unicode cp="03B7" cp-dec="951"/>
+            </ligatureelement>
+            <ligatureelement>
+                <unicode cp="039D" cp-dec="925"/>
+                <unicode cp="03BD" cp-dec="957"/>
+            </ligatureelement>
+        </ligature>
+        <pua cp="E218" cp-dec="57880"/>
+        <prodname>Tau_Eta_Nu</prodname>
+        <postname>Tau_Eta_Nu</postname>
+        <example type="coin">
+            <resp-auth which="DO"/>
+            <ref>1955.1.4913</ref>
+            <!--year range needs to be checked-->
+            <!--<year-range from="" through=""/>-->
+        </example>
+    </glyph>
+    <glyph use-seals="unclassified" use-coins="unclassified" xml:id="i741">
+        <ligature>
+            <ligatureelement>
+                <unicode cp="03A7" cp-dec="935"/>
+                <unicode cp="03C7" cp-dec="967"/>
+            </ligatureelement>
+            <ligatureelement>
+                <unicode cp="03A4" cp-dec="932"/>
+                <unicode cp="03C4" cp-dec="964"/>
+            </ligatureelement>
+        </ligature>
+        <pua cp="E219" cp-dec="57881"/>
+        <prodname>Chi_Tau</prodname>
+        <postname>Chi_Tau</postname>
+        <example type="coin">
+            <resp-auth which="DO"/>
+            <ref>1958.106.1436</ref>
+            <!--year range needs to be checked-->
+            <!--<year-range from="" through=""/>-->
+        </example>
+    </glyph>
+    <glyph use-seals="unclassified" use-coins="unclassified" xml:id="i742">
+        <unicode cp="03CF" cp-dec="975"/>
+        <unicode cp="03D7" cp-dec="983"/>
+        <pua cp="E21A" cp-dec="57882"/>
+        <variant cv="85">1</variant>
+        <prodname>kai.1</prodname>
+        <postname>uni03D7.1</postname>
+        <description>In addition, all AR glyphs tethered to one of these points U+03CF, U+03D7 needs to be tether with the other as well</description>
+        <example type="coin">
+            <resp-auth which="DOP"/>
+            <ref>69 Eastmond ivory 1, center panel line 4</ref>
+            <!--year range needs to be checked-->
+            <!--<year-range from="" through=""/>-->
+        </example>
+    </glyph>
+    <glyph use-seals="unclassified" use-coins="unclassified" xml:id="i743">
+        <unicode cp="0041" cp-dec="65"/>
+        <unicode cp="0061" cp-dec="97"/>
+        <pua cp="E353" cp-dec="58195"/>
+        <variant cv="27">7</variant>
+        <prodname>A.7</prodname>
+        <postname>A.7</postname>
+        <description>encode AR lambda as Latin A</description>
+        <example type="coin">
+            <resp-auth which="DOC"/>
+            <ref>1:180 #334</ref>
+            <!--year range needs to be checked-->
+            <!--<year-range from="" through=""/>-->
+        </example>
+    </glyph>
+    <glyph use-seals="unclassified" use-coins="unclassified" xml:id="i744">
+        <unicode cp="0044" cp-dec="68"/>
+        <unicode cp="0064" cp-dec="100"/>
+        <pua cp="E354" cp-dec="58196"/>
+        <variant cv="30">10</variant>
+        <prodname>D.10</prodname>
+        <postname>D.10</postname>
+        <description>add form 1</description>
+        <example type="coin">
+            <resp-auth which="DOC"/>
+            <ref>2.1:104, “D”, line2</ref>
+            <!--year range needs to be checked-->
+            <!--<year-range from="" through=""/>-->
+        </example>
+    </glyph>
+    <glyph use-seals="unclassified" use-coins="unclassified" xml:id="i745">
+        <unicode cp="0044" cp-dec="68"/>
+        <unicode cp="0064" cp-dec="100"/>
+        <pua cp="E355" cp-dec="58197"/>
+        <variant cv="30">11</variant>
+        <prodname>D.11</prodname>
+        <postname>D.11</postname>
+        <description>add form 2</description>
+        <example type="coin">
+            <resp-auth which="DOC"/>
+            <ref>2.1:104, “D”, line2</ref>
+            <!--year range needs to be checked-->
+            <!--<year-range from="" through=""/>-->
+        </example>
+    </glyph>
+    <glyph use-seals="unclassified" use-coins="unclassified" xml:id="i746">
+        <unicode cp="0046" cp-dec="70"/>
+        <unicode cp="0066" cp-dec="102"/>
+        <pua cp="E356" cp-dec="58198"/>
+        <variant cv="32">4</variant>
+        <prodname>F.4</prodname>
+        <postname>F.4</postname>
+        <description>design as in AR Gk sigma 3–looking F, but mapped to Latin letter F</description>
+        <example type="coin">
+            <resp-auth which="DOC"/>
+            <ref>3.1:419</ref>
+            <!--year range needs to be checked-->
+            <!--<year-range from="" through=""/>-->
+        </example>
+    </glyph>
+    <glyph use-seals="unclassified" use-coins="unclassified" xml:id="i747">
+        <unicode cp="005C" cp-dec="92"/>
+        <prodname>backslash</prodname>
+        <postname>backslash</postname>
+        <description>As / (U+002f), but raised and going from top left to bottom right</description>
+        <example type="ivory">
+            <resp-auth which="DOP"/>
+            <ref>DOP 69 Eastmond ivory 5, bottom left of left panel</ref>
+            <!--year range needs to be checked-->
+            <!--<year-range from="" through=""/>-->
+        </example>
+    </glyph>
+    <glyph use-seals="unclassified" use-coins="unclassified" xml:id="i748">
+        <unicode cp="035E" cp-dec="862"/>
+        <prodname>dotteddbloverline</prodname>
+        <postname>uni035E</postname>
+        <example type="coin">
+            <resp-auth which="DOC"/>
+            <ref>3.2:711, 716–18</ref>
+            <!--year range needs to be checked-->
+            <!--<year-range from="" through=""/>-->
+        </example>
+    </glyph>
+    <glyph use-seals="unclassified" use-coins="basic" xml:id="i749">
+        <unicode cp="1018E" cp-dec="65934"/>
+        <variant cv="86">0</variant>
+        <prodname>nomisma</prodname>
+        <postname>u1018E</postname>
+    </glyph>
+    <glyph use-seals="unclassified" use-coins="basic" xml:id="i750">
+        <unicode cp="1018E" cp-dec="65934"/>
+        <pua cp="E357" cp-dec="58199"/>
+        <variant cv="86">1</variant>
+        <prodname>nomisma.1</prodname>
+        <postname>u1018E.1</postname>
+    </glyph>
+    <glyph use-seals="unclassified" use-coins="basic" xml:id="i751">
+        <unicode cp="1018E" cp-dec="65934"/>
+        <pua cp="E358" cp-dec="58200"/>
+        <variant cv="86">2</variant>
+        <prodname>nomisma.2</prodname>
+        <postname>u1018E.2</postname>
+    </glyph>
+    <glyph use-seals="unclassified" use-coins="basic" xml:id="i752">
+        <unicode cp="1018E" cp-dec="65934"/>
+        <pua cp="E359" cp-dec="58201"/>
+        <variant cv="86">3</variant>
+        <prodname>nomisma.3</prodname>
+        <postname>u1018E.3</postname>
+    </glyph>
+    <glyph use-seals="unclassified" use-coins="basic" xml:id="i753">
+        <unicode cp="1018E" cp-dec="65934"/>
+        <pua cp="E35A" cp-dec="58202"/>
+        <variant cv="86">4</variant>
+        <prodname>nomisma.4</prodname>
+        <postname>u1018E.4</postname>
+    </glyph>
+    <glyph use-seals="unclassified" use-coins="basic" xml:id="i754">
+        <unicode cp="1018E" cp-dec="65934"/>
+        <pua cp="E35B" cp-dec="58203"/>
+        <variant cv="86">5</variant>
+        <prodname>nomisma.5</prodname>
+        <postname>u1018E.5</postname>
+    </glyph>
+    
+    
     <variants>
         <set n="01">
             <variant-glyph which="i4"/>
@@ -11307,6 +11671,8 @@
             <variant-glyph which="i29"/>
             <variant-glyph which="i30"/>
             <variant-glyph which="i31"/>
+            <variant-glyph which="i731"/>
+            <variant-glyph which="i732"/>
         </set>
         <set n="02">
             <variant-glyph which="i32"/>
@@ -11342,6 +11708,7 @@
             <variant-glyph which="i58"/>
             <variant-glyph which="i59"/>
             <variant-glyph which="i60"/>
+            <variant-glyph which="i733"/>
         </set>
         <set n="05">
             <variant-glyph which="i61"/>
@@ -11357,6 +11724,7 @@
             <variant-glyph which="i69"/>
             <variant-glyph which="i70"/>
             <variant-glyph which="i71"/>
+            <variant-glyph which="i734"/>
         </set>
         <set n="07">
             <variant-glyph which="i72"/>
@@ -11419,6 +11787,7 @@
             <variant-glyph which="i115"/>
             <variant-glyph which="i116"/>
             <variant-glyph which="i117"/>
+            <variant-glyph which="i735"/>
         </set>
         <set n="15">
             <variant-glyph which="i119"/>
@@ -11496,6 +11865,7 @@
             <variant-glyph which="i453"/>
             <variant-glyph which="i454"/>
             <variant-glyph which="i455"/>
+            <variant-glyph which="i743"/>
         </set>
         <set n="28">
             <variant-glyph which="i456"/>
@@ -11519,6 +11889,8 @@
             <variant-glyph which="i470"/>
             <variant-glyph which="i471"/>
             <variant-glyph which="i472"/>
+            <variant-glyph which="i744"/>
+            <variant-glyph which="i745"/>
         </set>
         <set n="31">
             <variant-glyph which="i473"/>
@@ -11532,6 +11904,7 @@
             <variant-glyph which="i479"/>
             <variant-glyph which="i480"/>
             <variant-glyph which="i481"/>
+            <variant-glyph which="i746"/>
         </set>
         <set n="33">
             <variant-glyph which="i482"/>
@@ -11709,6 +12082,7 @@
             <variant-glyph which="i249"/>
             <variant-glyph which="i250"/>
             <variant-glyph which="i251"/>
+            <variant-glyph which="i736"/>
         </set>
         <set n="66">
             <variant-glyph which="i252"/>
@@ -11721,6 +12095,7 @@
         <set n="67">
             <variant-glyph which="i262"/>
             <variant-glyph which="i263"/>
+            <variant-glyph which="i738"/>
         </set>
         <set n="68">
             <variant-glyph which="i265"/>
@@ -11799,6 +12174,18 @@
         <set n="84">
             <variant-glyph which="i596"/>
             <variant-glyph which="i597"/>
+        </set>
+        <set n="85">
+            <variant-glyph which="i448"/>
+            <variant-glyph which="i742"/>
+        </set>
+        <set n="86">
+            <variant-glyph which="i749"/>
+            <variant-glyph which="i750"/>
+            <variant-glyph which="i751"/>
+            <variant-glyph which="i752"/>
+            <variant-glyph which="i753"/>
+            <variant-glyph which="i754"/>
         </set>
     </variants>
     <authorities>
@@ -11936,6 +12323,11 @@
             <name short="true">Cheynet</name>
             <name>Jean-Claude Cheynet</name>
             <IRI>http://viaf.org/viaf/113293740</IRI>
+        </auth>
+        <auth xml:id="DO" class="organization">
+            <name short="true">DO</name>
+            <name>Dumbarton Oaks</name>
+            <IRI>http://doaks.org</IRI>
         </auth>
     </authorities>
 </athenaruby>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project version="20.0">
+<project>
     <meta>
         <filters directoryPatterns="" filePatterns="" positiveFilePatterns="" showHiddenFiles="false"/>
         <options>
-            <serialized version="20.0" xml:space="preserve">
+            <serialized xml:space="preserve">
                 <serializableOrderedMap>
                     <entry>
                         <String>enable.project.master.files.support</String>
@@ -18,14 +18,23 @@
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>AR css</String>
                                         <String>AR variants in HTML</String>
+                                        <String>AR database in HTML 2</String>
+                                        <String>AR css</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
                                     <list>
                                         <String>XSL</String>
+                                        <String>XML</String>
                                         <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                        <Byte>2</Byte>
+                                        <Byte>2</Byte>
                                     </list>
                                 </field>
                             </scenarioAssociation>
@@ -41,6 +50,11 @@
                                 <field name="scenarioTypes">
                                     <list>
                                         <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
                                     </list>
                                 </field>
                             </scenarioAssociation>
@@ -91,9 +105,6 @@
                                 </field>
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
-                                </field>
-                                <field name="outputFile">
-                                    <File>${pd}/ss/ar-otf-test.css</File>
                                 </field>
                                 <field name="outputResource">
                                     <String>${pd}/ss/ar-otf-test.css</String>
@@ -178,9 +189,6 @@
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
                                 </field>
-                                <field name="outputFile">
-                                    <File>${pd}/ARdatabase.html</File>
-                                </field>
                                 <field name="outputResource">
                                     <String>${pd}/ARdatabase.html</String>
                                 </field>
@@ -264,11 +272,8 @@
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
                                 </field>
-                                <field name="outputFile">
-                                    <File>${pd}/ARvariants.html</File>
-                                </field>
                                 <field name="outputResource">
-                                    <String>${pd}/ARvariants.html</String>
+                                    <String>${pdu}/ARvariants.html</String>
                                 </field>
                                 <field name="openOtherLocationInBrowser">
                                     <Boolean>false</Boolean>
@@ -330,10 +335,10 @@
                                     <String></String>
                                 </field>
                                 <field name="inputXSLURL">
-                                    <String>file:/Users/JoelK/Dropbox/website/athenaruby/ss/AR.xsl</String>
+                                    <String>${pdu}/ss/AR.xsl</String>
                                 </field>
                                 <field name="inputXMLURL">
-                                    <String>file:/Users/JoelK/Dropbox/website/athenaruby/AR.xml</String>
+                                    <String>${pdu}/AR.xml</String>
                                 </field>
                                 <field name="defaultScenario">
                                     <Boolean>false</Boolean>
@@ -350,11 +355,8 @@
                                 <field name="openInBrowser">
                                     <Boolean>true</Boolean>
                                 </field>
-                                <field name="outputFile">
-                                    <File>/Users/JoelK/Dropbox/website/athenaruby/ARdatabase.html</File>
-                                </field>
                                 <field name="outputResource">
-                                    <String>/Users/JoelK/Dropbox/website/athenaruby/ARdatabase.html</String>
+                                    <String>${pdu}/ARdatabase.html</String>
                                 </field>
                                 <field name="openOtherLocationInBrowser">
                                     <Boolean>false</Boolean>

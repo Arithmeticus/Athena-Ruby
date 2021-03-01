@@ -30,8 +30,8 @@
     font-family:athenaruby;
     src:/*url('../fonts/athenaruby_b018-webfont.eot?#iefix') format('embedded-opentype'), 
 url('../fonts/athenaruby_b018-webfont.woff') format('woff'),*/ 
-url('../fonts/AthenaRuby_b018.ttf') format('truetype'), 
-url('../fonts/athenaruby_b018-webfont.svg#athenaruby') format('svg');
+url('../fonts/AthenaRuby_b020.ttf') format('truetype'), 
+url('../fonts/athenaruby_b020.woff2') format('woff2');
 }
 
 .athenaruby{
