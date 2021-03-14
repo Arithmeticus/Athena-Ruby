@@ -15,11 +15,11 @@
                 <p class="athenaruby">
                     <xsl:for-each select="/*/glyph[index &gt; 2]">
                         <xsl:choose>
-                            <xsl:when test="exists(pua)"><span class="ar-p">#x<xsl:value-of
+                            <xsl:when test="exists(pua)"><span class="ar-pal-p">#x<xsl:value-of
                                         select="pua/@cp"/>;</span>
                             </xsl:when>
                             <xsl:otherwise>
-                                <span class="ar-u">#x<xsl:value-of select="unicode[1]/@cp"/>;</span>
+                                <span class="ar-pal-u">#x<xsl:value-of select="unicode[1]/@cp"/>;</span>
                             </xsl:otherwise>
                         </xsl:choose>
                     </xsl:for-each>
